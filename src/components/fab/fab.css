@@ -1,0 +1,101 @@
+/************************************ FAB ************************************/
+.fab-wrapper .fabb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fab-wrapper .fabb .bi-telephone-outbound {
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+}
+
+  .fab-wrapper {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 999;
+  }
+  .fab-checkbox {
+    display: none;
+  }
+  .fabb {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 4px;
+    color: #fff;
+    background: #ff5300;
+    transition: all 0.3s ease;
+    z-index: 1;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  
+  .fab-wheel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #;
+    width: 10rem;
+    height: 10rem;
+    transition: all 0.3s ease;
+    transform-origin: bottom right;
+    transform: scale(0);
+  }
+  
+  .fab-checkbox:checked ~ .fab-wheel {
+    transform: scale(1);
+  }
+  .fab-action {
+    position: absolute;
+    background: #ff5300;
+    width: 50%;
+    height: 3rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: White;
+    box-shadow: 0 0.1rem 1rem rgba(24, 66, 154, 0.82);
+    transition: all 2s ease;
+  
+    opacity: 0;
+  }
+  
+  .fab-checkbox:checked ~ .fab-wheel .fab-action {
+    opacity: 1;
+  }
+  
+  .fab-action:hover {
+    background-color: #fff;
+    color: green;
+  }
+  
+  .fab-wheel .fab-action-1 {
+    right: 0;
+    bottom: 11rem;
+  }
+  
+  .fab-wheel .fab-action-2 {
+    right: 0;
+    bottom: 7.7rem;
+  }
+  .fab-wheel .fab-action-3 {
+    right: 0;
+    bottom: 4.4rem;
+  }
+  .fab-wheel .fab-action-4 {
+    right: 0;
+    bottom: 1rem;
+  }
+  
+
+  .fab-price {
+    font-size: 1.2rem;
+    color: #fff;
+    background: #ff5300;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-right: 20px;
+  }

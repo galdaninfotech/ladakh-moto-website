@@ -1,0 +1,147 @@
+#overview h2 {
+    font-family: 'Six Caps', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+}
+#overview h3 {
+    font-family: 'Six Caps', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+}
+.overview-tour-highlights {
+    line-height: 28px;
+}
+
+
+/* sticky-buttons */
+.sticky-buttons {
+    position: sticky; 
+    top: 0px; 
+    background-color: #dee2e6; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 2px 4px #000;
+    z-index: 999;
+}
+.sticky-buttons a {
+    text-decoration: none; 
+    padding: 5px; 
+    color: #000; 
+    flex-grow: 1; 
+    text-align: center; 
+    border-right: 1px dotted #000;
+    font-family: 'Six Caps', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+.sticky-buttons a:last-child {
+    border-right: none;
+}
+.sticky-buttons a:hover {
+    background-color: #ff5300; 
+    color: #fff;
+}
+#overview, #itinerary, #dates, #cost {
+    padding-top: 50px;
+}
+
+/* Tour Accordian */
+.accordion-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #d5d8dc;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+.accordion-item {
+    background-color: #fff;
+    border: 0;
+}
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    border-bottom: 1px solid #d5d8dc;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+  transition: all 0.5s;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
+.accordion-button::after {
+  transition: all 0.5s;
+}
+.accordion-body {
+    padding: 0.7rem 1rem;
+    background: #F2F2F2;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #d5d8dc;
+    outline: 0;
+    box-shadow: 0 0 0 #000;
+}
+
+
+/* Cost Table */
+
+.table__head {
+    color: #FFF;
+    font-weight: 700;
+    background: #9b4085;
+    background: -moz-linear-gradient(-45deg, #9b4085 0%, #608590 100%);
+    background: -webkit-linear-gradient(-45deg, #9b4085 0%,#608590 100%);
+    background: linear-gradient(135deg, #9b4085 0%,#608590 100%);
+    white-space: nowrap;
+}
+    .table-bordered td, .table-bordered th{
+    border: 0px solid #FFF;
+}
+    .coin {
+    width:8%;
+    margin-left: 5px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    
+    .winner__table{
+        white-space: nowrap;
+}
+    
+@media screen and (max-width: 567px) {
+
+    .winner__table{
+    font-size: 12px;
+    }
+    .coin {
+    width:15%;
+    margin-left:2px;
+    }
+}
+
+/* Inclusions & Exclusions */
+ul.inclusions, ul.exclusions {
+    list-style: none;
+}
+ul.inclusions li, ul.exclusions li {
+    font-size: 14px;
+    margin: -12px;
+}
+ul.inclusions i {
+    margin-right: 5px;
+    color: green;
+}
+ul.exclusions i {
+    margin-right: 5px;
+    color: #ff5300;
+}

@@ -1,0 +1,30 @@
+.intro h1 {
+    font-family: "Six Caps", cursive;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .intro h1 {
+        margin-top: 50px;
+    }
+}
+
+/* Intro Read More */
+.readmore-button {
+    float: right;
+    color: #ff5300;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+p.more-intro {
+    transition: height .5s ease;
+    overflow  : hidden;
+}
+
+p.more-intro:not(.active) {
+    display: none;
+}
+   

@@ -1,0 +1,54 @@
+/**************************************** Packages *************************************/
+.intro h1 {
+  font-family: "Six Caps", cursive;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro h1 {
+      margin-top: 50px;
+  }
+}
+.package-card {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: 1em;
+    text-align: center;
+    margin-inline: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    /* margin-bottom: 140px; */
+  }
+  .package-card img {
+    max-width: 100%;
+    clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0%);
+  }
+  .description {
+    padding: 0 1em 1em 1em;
+  }
+  .package-card button {
+    font-size: 1em;
+    padding: 0.1em 1em;
+    color: #836953;
+    background-color: #fff;
+    border: 1px solid #836953;
+  }
+  
+  .package-card {
+    background-color: #23282e;
+    color: #fff;
+  }
+  
+  .package-card h2 {
+    font-size: 22px;
+    color: #ff5300;
+    font-family: "Six Caps", cursive;
+    letter-spacing: 2px;
+      text-transform: lowercase;
+  }
+  .package-card p {
+    line-height: 20px;
+  }
