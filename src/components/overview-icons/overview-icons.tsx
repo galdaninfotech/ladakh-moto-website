@@ -28,7 +28,7 @@ export default component$<ItemProps>((props) => {
                 <span class="flex-grow-1">{props.highestAltitude}</span>
                 <span class="flex-grow-1">{props.distance}</span>
                 <span class="flex-grow-1 text-left">{props.lodging}</span>
-                <span class="flex-grow-1 text-right">{props.meal}mm</span>
+                <span class="flex-grow-1 text-right">{props.meal}</span>
             </div>
 
             {/* Desktop Screen */}
@@ -37,7 +37,7 @@ export default component$<ItemProps>((props) => {
                 <span class="flex-grow-1">{props.highestAltitude}</span>
                 <span class="flex-grow-1 text-right">{props.distance}</span>
                 <span class="flex-grow-1 text-right">{props.lodging}</span>
-                <span class="flex-grow-1 text-right align-self-start">{props.meal}dd</span>
+                <span class="flex-grow-1 text-right align-self-start">{props.meal}</span>
             </div>
         </>
     );

@@ -10,7 +10,6 @@ export default component$(() => {
         <div id="overview">
             <div class="sub-headings d-flex justify-content-between align-items-center">
                 <h2>Overview</h2>
-                <button class="btnOpenForm">Enquiry</button>
             </div>
 
             <div class="row d-block d-lg-none">

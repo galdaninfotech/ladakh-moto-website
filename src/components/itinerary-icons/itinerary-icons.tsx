@@ -25,9 +25,9 @@ export default component$<ItemProps>((props) => {
             <div class="itinerary-icons-description d-flex align-item-center justify-content-between">
                 <span class="flex-grow-1">{props.highestAltitude}</span>
                 <span class="flex-grow-1">{props.distance}</span>
-                <span class="flex-grow-1">{props.duration}</span>
-                <span class="flex-grow-1 text-center">{props.lodging}</span>
-                <span class="flex-grow-1 text-center">{props.meal}</span>
+                <span class="flex-grow-1" style="text-align: center;">{props.duration}</span>
+                <span class="flex-grow-1" style="text-align: right;">{props.lodging}</span>
+                <span class="flex-grow-1" style="text-align: right;">{props.meal}</span>
             </div>
         </>
     );

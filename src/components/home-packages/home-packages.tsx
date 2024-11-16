@@ -51,8 +51,8 @@ export default component$(() => {
                         <div class="package-card">
                             <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
                             <div class="description">
-                                <h2>Ladakh Zangskar Valley Tour</h2>
-                                <p>A tour of Hemis, Diskit and Thiksey monasteries will acquaint you with...</p>
+                                <h2>Ladakh Zanskar Valley Tour</h2>
+                                <p>A tour of Hemis, Diskit and Thiksey monasteries will...</p>
                                 <a href="/packages/ladakh-zangskar-valley-tour"><button>Know More</button></a>
                             </div>
                         </div>

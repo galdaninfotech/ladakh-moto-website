@@ -10,7 +10,6 @@ export default component$(() => {
         <div id="itinerary">
             <div class="sub-headings d-flex justify-content-between align-items-center">
                 <h2>Itinerary</h2>
-                <button class="btnOpenForm">Enquiry</button>
             </div>
             <div class="itinerary-accordian">
                 <div class="accordion" id="itineraryAccordion">
