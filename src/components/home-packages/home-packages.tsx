@@ -16,44 +16,44 @@ export default component$(() => {
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img src="https://codingyaar.com/wp-content/uploads/card-image-boat-scaled.jpg" alt="" />
+                            <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
                             <div class="description">
-                                <h2>Leh Manali Tour</h2>
-                                <p>A tour of Hemis, Diskit and Thiksey monasteries will acquaint you with...</p>
-                                <button>Know More</button>
+                                <h2>All Ladakh Tour</h2>
+                                <p>This 10-day Ladakh holiday package combines acclimatization, adventure, and ...</p>
+                                <a href="/packages/all-ladakh-tour"><button>Know More</button></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img src="https://codingyaar.com/wp-content/uploads/card-image-boat-scaled.jpg" alt="" />
-                            <div class="description">
-                                <h2>Tsomoriri Tour</h2>
-                                <p>A tour of Hemis, Diskit and Thiksey monasteries will acquaint you with...</p>
-                                <button>Know More</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-lg-3">
-                        <div class="package-card">
-                            <img src="https://codingyaar.com/wp-content/uploads/card-image-boat-scaled.jpg" alt="" />
+                            <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
                             <div class="description">
                                 <h2>Amazing Ladakh</h2>
-                                <p>A tour of Hemis, Diskit and Thiksey monasteries will acquaint you with...</p>
-                                <button>Know More</button>
+                                <p>6-day Ladakh holiday package designed for travelers seeking an immersive...</p>
+                                <a href="/packages/amazing-ladakh"><button>Know More</button></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img src="https://codingyaar.com/wp-content/uploads/card-image-boat-scaled.jpg" alt="" />
+                            <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
                             <div class="description">
-                                <h2>Zanskar Valley Tour</h2>
+                                <h2>Ladakh Tour With Hanle</h2>
+                                <p>8-day Ladakh holiday package offers a balanced blend of...</p>
+                                <a href="/packages/ladakh-tour-with-hanle"><button>Know More</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="package-card">
+                            <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
+                            <div class="description">
+                                <h2>Ladakh Zangskar Valley Tour</h2>
                                 <p>A tour of Hemis, Diskit and Thiksey monasteries will acquaint you with...</p>
-                                <button>Know More</button>
+                                <a href="/packages/ladakh-zangskar-valley-tour"><button>Know More</button></a>
                             </div>
                         </div>
                     </div>

@@ -1,8 +1,9 @@
 /**************************************** Packages *************************************/
 .intro h1 {
-  font-family: "Six Caps", cursive;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
-  text-transform: lowercase;
+  text-transform: uppercase;
   text-align: center;
   margin-top: 100px;
 }
@@ -43,11 +44,11 @@
   }
   
   .package-card h2 {
-    font-size: 22px;
+    font-size: 16px;
     color: #ff5300;
-    font-family: "Six Caps", cursive;
+    font-family: "Oswald", sans-serif;
     letter-spacing: 2px;
-      text-transform: lowercase;
+      text-transform: uppercase;
   }
   .package-card p {
     line-height: 20px;

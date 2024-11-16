@@ -20,7 +20,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="./img/tours/img5.jpg" alt="" />
+                                    <img src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -49,7 +49,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="./img/tours/img6.jpg" alt="" />
+                                    <img src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-overview.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -74,11 +74,11 @@ export default component$(() => {
                             </div>
                         </div>
                         <div class="col-lg-4 col-6">
-                            <h3 class="d-block d-sm-none"><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></h3>
+                            <h3 class="d-block d-sm-none"><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar Umling La</a></h3>
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="./img/tours/img7.jpg" alt="" />
+                                    <img src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-overview.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -94,7 +94,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-none d-md-block">
-                                    <h3><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></h3>
+                                    <h3><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar Umling La</a></h3>
 
                                     <p>A tour of Hemis, Diskit and Thiksey monasteries will acquaint you with Buddhist ideals, whereas Shanti Stupa will treat you to breathtaking views.</p>
 
@@ -107,7 +107,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="./img/tours/img7.jpg" alt="" />
+                                    <img src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-overview.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -132,11 +132,11 @@ export default component$(() => {
                             </div>
                         </div>
                         <div class="col-lg-4 col-6">
-                            <h3 class="d-block d-sm-none"><a href="/manali-to-leh-via-umling-la">Manali To Leh Via Umling La</a></h3>
+                            <h3 class="d-block d-sm-none"><a href="/manali-to-leh-via-umling-la">Manali Leh Via Umling La</a></h3>
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="./img/tours/img7.jpg" alt="" />
+                                    <img src="/img/tours/manali-to-leh-via-umling-la/manali-to-leh-via-umling-la-overview.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -152,7 +152,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-none d-md-block">
-                                    <h3><a href="/manali-to-leh-via-umling-la">Manali To Leh Via Umling La</a></h3>
+                                    <h3><a href="/manali-to-leh-via-umling-la">Manali Leh Via Umling La</a></h3>
 
                                     <p>A tour of Hemis, Diskit and Thiksey monasteries will acquaint you with Buddhist ideals, whereas Shanti Stupa will treat you to breathtaking views.</p>
 
@@ -161,11 +161,11 @@ export default component$(() => {
                             </div>
                         </div>
                         <div class="col-lg-4 col-6">
-                            <h3 class="d-block d-sm-none"><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></h3>
+                            <h3 class="d-block d-sm-none"><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar Umling La</a></h3>
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="./img/tours/img7.jpg" alt="" />
+                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-overview.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -182,7 +182,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-none d-md-block">
-                                    <h3><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></h3>
+                                    <h3><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar Umling La</a></h3>
 
                                     <p>A tour of Hemis, Diskit and Thiksey monasteries will acquaint you with Buddhist ideals, whereas Shanti Stupa will treat you to breathtaking views.</p>
 
