@@ -38,11 +38,11 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/ladakh-with-umling-la">Ladakh With Umling La</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons duration="7D/8N" highestAltitude="19024 ft" distance="1050 km" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <OverviewIcons duration="7D/8N" highestAltitude="19024ft" distance="1050km" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
-                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,999/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -75,11 +75,11 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/leh-ladakh-adventure">Leh Ladakh Adventure</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="18300 ft" distance="550 km" duration="5N/6D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <OverviewIcons highestAltitude="18300ft" distance="550km" duration="5N/6D" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
-                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,999/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -112,11 +112,11 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar Umling La</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="19024 ft" distance="1576 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <OverviewIcons highestAltitude="19024ft" distance="1576km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
-                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,999/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -149,11 +149,11 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/leh-zangskar-leh">Leh Zangskar Leh</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="14070 ft" distance="1485 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <OverviewIcons highestAltitude="14070ft" distance="1485km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
-                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,999/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -185,11 +185,11 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/manali-to-leh-via-umling-la">Manali Leh Via Umling La</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="19024 ft" distance="1525 km" duration="10N/11D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <OverviewIcons highestAltitude="19024ft" distance="1525km" duration="10N/11D" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
-                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,999/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -222,11 +222,11 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar Umling La</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="19024 ft" distance="1576 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <OverviewIcons highestAltitude="19024ft" distance="1576km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
-                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,999/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
