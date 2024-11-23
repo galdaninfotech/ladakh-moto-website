@@ -33,11 +33,11 @@ export default component$<ItemProps>((props) => {
 
             {/* Desktop Screen */}
             <div class="itinerary-icons-description d-none d-lg-flex align-item-center justify-content-between">
-                <span class="flex-grow-1 text-left">{props.duration}</span>
-                <span class="flex-grow-1">{props.highestAltitude}</span>
-                <span class="flex-grow-1 text-right">{props.distance}</span>
-                <span class="flex-grow-1 text-right">{props.lodging}</span>
-                <span class="flex-grow-1 text-right align-self-start">{props.meal}</span>
+                <span class="flex-grow-1 text-left" style="font-size: 12px;">{props.duration}</span>
+                <span class="flex-grow-1" style="font-size: 12px;">{props.highestAltitude}</span>
+                <span class="flex-grow-1 text-right" style="font-size: 12px;">{props.distance}</span>
+                <span class="flex-grow-1 text-right" style="font-size: 12px;">{props.lodging}</span>
+                <span class="flex-grow-1 text-right align-self-start" style="font-size: 12px;">{props.meal}</span>
             </div>
         </>
     );

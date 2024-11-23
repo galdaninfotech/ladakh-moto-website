@@ -1,8 +1,8 @@
 
 
 #tour-name {
-  font-size: 38px;
-  font-family: 'Six Caps', cursive;
+  font-size: 28px;
+  font-family: 'Oswald', serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
@@ -28,12 +28,12 @@
 
 /*  */
 .sub-headings h2 {
-    font-size: 30px;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5em;
     padding-bottom: 15px;
     position: relative;
-    font-family: 'Six Caps', cursive;
+    font-family: 'Oswald', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -58,7 +58,7 @@
   }
   
   .sub-headings h3 {
-    font-family: 'Six Caps', cursive;
+    font-family: 'Oswald', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -87,10 +87,10 @@
     flex-grow: 1; 
     text-align: center; 
     border-right: 1px dotted #000;
-    font-family: 'Six Caps', cursive;
+    font-family: "Oswald", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .sticky-buttons a:last-child {
     border-right: none;
@@ -255,7 +255,7 @@ ul.exclusions i {
   }
   .package-wrap .package-content {
     padding: 0 30px 0;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   .package-wrap .package-content .btn-wrap {
     display: -webkit-box;

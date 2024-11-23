@@ -9,7 +9,6 @@ export default component$(() => {
         <div id="cost">
             <div class="sub-headings d-flex justify-content-between align-items-center">
                 <h2>Tour Cost</h2>
-                <button class="btnOpenForm">Enquiry</button>
             </div>
             <div class="table-responsive py-1">
                 <table class="table table-bordered table-hover">

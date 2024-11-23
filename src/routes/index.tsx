@@ -2,14 +2,14 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Intro from "~/components/intro/intro";
 import Testimonials from "~/components/testimonials/testimonials";
-import HomeTours from "~/components/home-tours/home-tours";
 import HomePackages from "~/components/home-packages/home-packages";
+import AdventureRides from "~/components/adventure-rides/adventure-rides";
 
 export default component$(() => {
     return (
         <>
             <Intro />
-            <HomeTours />
+            <AdventureRides />
             <HomePackages />
             <Testimonials />
         </>

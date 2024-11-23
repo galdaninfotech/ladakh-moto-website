@@ -167,6 +167,7 @@ header.header-area.style-2 .login-cart ul li.cart-mega {
 }
 header.header-area.style-2 .gene-nav ul.menu > li > a {
     padding: 5px 25px 22px 15px;
+    font-family: 'Oswald', serif;
 }
 header.header-area.style-2 .gene-nav .menu li.has-dropdown > a::after {
     margin-top: -25px;
@@ -294,6 +295,7 @@ header.header-area.style-2 nav.gene-nav ul li:last-child a {
 }
  .gene-nav .menu > li > ul li a {
      padding: 2px 12px;
+     font-family: 'Oswald', serif;
 }
  .gene-nav .menu > li > ul li a:hover {
      border-radius: 2px;
@@ -1491,7 +1493,7 @@ footer.footer-area .widget h3 {
     line-height: 34px;
     color: #ffffff;
     margin-bottom: 42px;
-    font-family: 'Six Caps', cursive;
+    font-family: 'Oswald', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -2927,7 +2929,7 @@ form.blog-select-form select.form-select {
     line-height: 30px;
 }
 .single-blog-post-wrap.grid .entry-header h2.entry-title a {
-    font-family: 'Six Caps';
+    font-family: 'Oswald';
 }
 /*=== Blog Single ===*/
 .post-date {

@@ -1,0 +1,244 @@
+import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import styles from './adventure-rides.css?inline';
+import OverviewIcons from '../overview-icons/overview-icons';
+
+export default component$(() => {
+    useStylesScoped$(styles);
+
+    return (
+        <div class="package-section">
+            <div class="container">
+                <div class="package-inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="intro">
+                                <h1>Adventure Rides 2025</h1>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4"> 
+                            <div class="package-wrap">
+                            <figure class="feature-image">
+                                <a href="/ladakh-with-umling-la">
+                                    <img src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="" />
+                                </a>
+                            </figure>
+                            <div class="package-price">
+                                <h6>
+                                    <span>₹ 19,999 </span> / pp
+                                </h6>
+                            </div>
+                            <div class="package-content-wrap">
+                                <div class="package-meta text-center">
+                                    <ul>
+                                        <li> <i class="far fa-clock"></i> 7D/8N </li>
+                                        <li> <i class="fas fa-user-friends"></i> People: 5 </li>
+                                    </ul>
+                                </div>
+                                <div class="package-content d-md-block">
+                                    <h3><a href="/ladakh-with-umling-la">Ladakh With Umling La</a></h3>
+                                    <div class="col-12">
+                                        <OverviewIcons duration="7D/8N" highestAltitude="19024 ft" distance="1050 km" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                    </div>
+                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
+                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
+                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+
+                                    <div class="btn-wrap">
+                                        <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="#" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="package-wrap">
+                            <figure class="feature-image">
+                                <a href="/leh-ladakh-adventure">
+                                    <img src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-overview.jpg" alt="" />
+                                </a>
+                            </figure>
+                            <div class="package-price">
+                                <h6>
+                                    <span>₹ 23,000 </span> / pp
+                                </h6>
+                            </div>
+                            <div class="package-content-wrap">
+                                <div class="package-meta text-center">
+                                    <ul>
+                                        <li> <i class="far fa-clock"></i> 5D/4N </li>
+                                        <li> <i class="fas fa-user-friends"></i> People: 8 </li>
+                                    </ul>
+                                </div>
+                                <div class="package-content d-md-block">
+                                    <h3><a href="/leh-ladakh-adventure">Leh Ladakh Adventure</a></h3>
+                                    <div class="col-12">
+                                        <OverviewIcons highestAltitude="18300 ft" distance="550 km" duration="5N/6D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                    </div>
+                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
+                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
+                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+
+                                    <div class="btn-wrap">
+                                        <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="#" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="package-wrap">
+                            <figure class="feature-image">
+                                <a href="/ladakh-srinagar-with-umling-la">
+                                    <img src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-overview.jpg" alt="" />
+                                </a>
+                            </figure>
+                            <div class="package-price">
+                                <h6>
+                                    <span>₹ 27,000 </span> / pp
+                                </h6>
+                            </div>
+                            <div class="package-content-wrap">
+                                <div class="package-meta text-center">
+                                    <ul>
+                                        <li> <i class="far fa-clock"></i> 6D/5N </li>
+                                        <li> <i class="fas fa-user-friends"></i> People: 6 </li>
+                                    </ul>
+                                </div>
+                                <div class="package-content d-md-block">
+                                    <h3><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar Umling La</a></h3>
+                                    <div class="col-12">
+                                        <OverviewIcons highestAltitude="19024 ft" distance="1576 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                    </div>
+                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
+                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
+                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+
+                                    <div class="btn-wrap">
+                                        <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="#" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="package-wrap">
+                            <figure class="feature-image">
+                                <a href="/leh-zangskar-leh">
+                                    <img src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-overview.jpg" alt="" />
+                                </a>
+                            </figure>
+                            <div class="package-price">
+                                <h6>
+                                    <span>₹ 54,000 </span> / pp
+                                </h6>
+                            </div>
+                            <div class="package-content-wrap">
+                                <div class="package-meta text-center">
+                                    <ul>
+                                        <li> <i class="far fa-clock"></i> 6D/5N </li>
+                                        <li> <i class="fas fa-user-friends"></i> People: 6 </li>
+                                    </ul>
+                                </div>
+                                <div class="package-content d-md-block">
+                                    <h3><a href="/leh-zangskar-leh">Leh Zangskar Leh</a></h3>
+                                    <div class="col-12">
+                                        <OverviewIcons highestAltitude="14070 ft" distance="1485 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                    </div>
+                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
+                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
+                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+
+                                    <div class="btn-wrap">
+                                        <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="#" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="package-wrap">
+                            <figure class="feature-image">
+                                <a href="/manali-to-leh-via-umling-la">
+                                    <img src="/img/tours/manali-to-leh-via-umling-la/manali-to-leh-via-umling-la-overview.jpg" alt="" />
+                                </a>
+                            </figure>
+                            <div class="package-price">
+                                <h6>
+                                    <span>₹ 29,000 </span> / pp
+                                </h6>
+                            </div>
+                            <div class="package-content-wrap">
+                                <div class="package-meta text-center">
+                                    <ul>
+                                        <li> <i class="far fa-clock"></i> 6D/5N </li>
+                                        <li> <i class="fas fa-user-friends"></i> People: 6 </li>
+                                    </ul>
+                                </div>
+                                <div class="package-content d-md-block">
+                                    <h3><a href="/manali-to-leh-via-umling-la">Manali Leh Via Umling La</a></h3>
+                                    <div class="col-12">
+                                        <OverviewIcons highestAltitude="19024 ft" distance="1525 km" duration="10N/11D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                    </div>
+                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
+                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
+                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+
+                                    <div class="btn-wrap">
+                                        <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="#" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="package-wrap">
+                            <figure class="feature-image">
+                                <a href="/ladakh-srinagar-with-umling-la">
+                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-overview.jpg" alt="" />
+                                </a>
+                            </figure>
+                            <div class="package-price">
+                                <h6>
+                                    <span>₹ 27,000 </span> / pp
+                                </h6>
+                            </div>
+                            <div class="package-content-wrap">
+                                <div class="package-meta text-center">
+                                    <ul>
+                                        <li> <i class="far fa-clock"></i> 6D/5N </li>
+                                        <li>
+                                        <i class="fas fa-user-friends"></i> People: 6 </li>
+                                    </ul>
+                                </div>
+                                <div class="package-content d-md-block">
+                                    <h3><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar Umling La</a></h3>
+                                    <div class="col-12">
+                                        <OverviewIcons highestAltitude="19024 ft" distance="1576 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                    </div>
+                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
+                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 27,999</del></span>
+                                    <span style="color: green; text-align: center; font-size: 16px; font-weight: 700;">₹ 19,999/- </span>per person
+
+                                    <div class="btn-wrap">
+                                        <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="#" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+});

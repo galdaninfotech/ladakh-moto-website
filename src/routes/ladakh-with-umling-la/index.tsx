@@ -74,7 +74,6 @@ export default component$(() => {
                         <Essentials />
                         <Faqs />
                         <EnquiryPopup />
-                        <Contact />
                         <Fab tourPrice={tourPrice.value} />
                     </div>
                     <div class="col-lg-3">

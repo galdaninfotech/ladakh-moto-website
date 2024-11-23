@@ -22,18 +22,11 @@ export const RouterHead = component$(() => {
       <link rel="shortcut icon" href="img/favicon.png" />
 
       {/* Google Fonts */}
-      <link rel="preconnect" href="https://fonts.googleapis.com/" />
-      <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="anonymous" />
-      <link href="https://fonts.googleapis.com/css2?
-        family=Six+Caps&amp;
-        Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&amp;
-        family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;
-        Roboto+Condensed:ital,wght@0,100..900;1,100..900&amp;
-        family=PT+Sans+Narrow:wght@400;700&amp;
-        display=swap" rel="stylesheet" 
-      />
-
       
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
 
       {/* CSS */}
       <link rel="stylesheet" href="/css/bootstrap.min.css" />

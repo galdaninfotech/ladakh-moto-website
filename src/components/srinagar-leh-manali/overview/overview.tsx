@@ -1,7 +1,7 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './overview.css?inline';
-import ItineraryIcons from '~/components/itinerary-icons/itinerary-icons';
 import ItineraryImage from '~/components/itinerary-image';
+import OverviewIcons from '~/components/overview-icons/overview-icons';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -10,12 +10,11 @@ export default component$(() => {
         <div id="overview">
             <div class="sub-headings d-flex justify-content-between align-items-center">
                 <h2>Overview</h2>
-                <button class="btnOpenForm">Enquiry</button>
             </div>
 
             <div class="row d-block d-lg-none">
                 <div class="col-12 col-lg-6">
-                    <ItineraryIcons highestAltitude="18300 ft" distance="1350 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                    <OverviewIcons highestAltitude="18300 ft" distance="1350 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -26,7 +25,7 @@ export default component$(() => {
             {/* Desktop Screen */}
             <div class="row d-none d-lg-block">
                 <div class="col-12 col-lg-12">
-                    <ItineraryIcons highestAltitude="18300 ft" distance="1350 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                    <OverviewIcons highestAltitude="18300 ft" distance="1350 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">

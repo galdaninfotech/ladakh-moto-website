@@ -19,7 +19,7 @@ export default component$(() => {
                             <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
                             <div class="description">
                                 <h2>All Ladakh Tour</h2>
-                                <p>This 10-day Ladakh holiday package combines acclimatization, adventure, and ...</p>
+                                <p>This 10-day Ladakh holiday package combines adventure, and ...</p>
                                 <a href="/packages/all-ladakh-tour"><button>Know More</button></a>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ export default component$(() => {
                         <div class="package-card">
                             <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
                             <div class="description">
-                                <h2>Ladakh Zanskar Valley Tour</h2>
+                                <h2>Ladakh Zanskar Tour</h2>
                                 <p>A tour of Hemis, Diskit and Thiksey monasteries will...</p>
                                 <a href="/packages/ladakh-zangskar-valley-tour"><button>Know More</button></a>
                             </div>
