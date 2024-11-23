@@ -155,6 +155,7 @@
 }
     .table-bordered td, .table-bordered th{
     border: 0px solid #FFF;
+    font-size: 12px;
 }
     .coin {
     width:8%;
