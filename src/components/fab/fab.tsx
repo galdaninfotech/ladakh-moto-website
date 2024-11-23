@@ -15,7 +15,7 @@ export default component$<ItemProps>((props) => {
             {
                 props.tourPrice ? 
                 <div class="fab-price" onClick$={(event) => event.stopPropagation()}>
-                    <span>Starting: {props.tourPrice}</span>
+                    <span>Starts: {props.tourPrice}</span>
                 </div>
                 : 
                     null
