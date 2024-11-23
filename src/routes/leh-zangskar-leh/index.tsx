@@ -12,7 +12,6 @@ import Faqs from "~/components/faqs/faqs";
 import Essentials from "~/components/essentials/essentials";
 import Sidebar from "~/components/sidebar/sidebar";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
-import { Contact } from "~/components/contact/contact";
 import Fab from "~/components/fab/fab";
 
 export default component$(() => {
