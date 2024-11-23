@@ -10,7 +10,7 @@ export default component$(() => {
                 <div class="col">
                     {/* Mobile */}
                     <div class="intro d-block d-lg-none">
-                        <h1>About LadakhMoto</h1>
+                        <h1>Why Choose LadakhMoto?</h1>
                         <span><strong><i>Authentic Adventures Guided By Locals</i></strong></span>
                         <p>
                             Welcome to Ladakh Moto, your trusted travel companion in the breathtaking landscapes of Leh Ladakh. As a proud, locally-owned travel agency based in the heart of this stunning region, we specialize in curating unforgettable journeys for travelers from all over India. <span class="readmore-button">Read More... <i class="fa fa-angle-down" aria-hidden="true"></i></span> 
@@ -23,7 +23,7 @@ export default component$(() => {
 
                     {/* Desktop */}
                     <div class="intro d-none d-lg-block">
-                        <h1>About LadakhMoto</h1>
+                        <h1>Why Choose LadakhMoto?</h1>
                         <span><strong><i>Authentic Adventures Guided By Locals</i></strong></span>
                         <p>
                             Welcome to Ladakh Moto, your trusted travel companion in the breathtaking landscapes of Leh Ladakh. As a proud, locally-owned travel agency based in the heart of this stunning region, we specialize in curating unforgettable journeys for travelers from all over India.

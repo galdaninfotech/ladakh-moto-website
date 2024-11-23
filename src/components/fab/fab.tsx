@@ -38,12 +38,12 @@ export default component$<ItemProps>((props) => {
                     <span class="sr-only">Phone</span>
                 </a>
 
-                <a class="fab-action fab-action-3" href="mailto:ladakhmoto@gmail" aria-label="Email us">
+                <a class="fab-action fab-action-3" href="mailto:info@ladakhmoto.com" aria-label="Email us">
                     <i class="bi bi-envelope" aria-hidden="true"></i>
                     <span class="sr-only">Email</span>
                 </a>
 
-                <a class="fab-action fab-action-4" href="https://www.instagram.com/ladakhmoto/" target="_blank" aria-label="Follow us on Instagram">
+                <a class="fab-action fab-action-4" href="https://www.instagram.com/ladakhmototour/" target="_blank" aria-label="Follow us on Instagram">
                     <i class="bi bi-instagram" aria-hidden="true"></i>
                     <span class="sr-only">Instagram</span>
                 </a>

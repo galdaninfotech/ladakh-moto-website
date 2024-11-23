@@ -19,7 +19,7 @@ export default component$(() => {
                             <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
                             <div class="description">
                                 <h2>All Ladakh Tour</h2>
-                                <p>This 10-day Ladakh holiday package combines adventure, and ...</p>
+                                <p>This 10-day Ladakh holiday package combines adventure...</p>
                                 <a href="/packages/all-ladakh-tour"><button>Know More</button></a>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ export default component$(() => {
                             <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
                             <div class="description">
                                 <h2>Amazing Ladakh</h2>
-                                <p>6-day Ladakh holiday package designed for travelers seeking an immersive...</p>
+                                <p>6-day Ladakh holiday package designed for travelers seeking an...</p>
                                 <a href="/packages/amazing-ladakh"><button>Know More</button></a>
                             </div>
                         </div>

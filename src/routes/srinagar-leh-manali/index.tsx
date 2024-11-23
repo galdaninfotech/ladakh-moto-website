@@ -8,8 +8,6 @@ import Overview from "~/components/srinagar-leh-manali/overview/overview";
 import Cost from "~/components/srinagar-leh-manali/cost/cost";
 import RidingGears from "~/components/riding-gears/riding-gears";
 import TourPolicy from "~/components/tour-policy/tour-policy";
-import Faqs from "~/components/faqs/faqs";
-import Essentials from "~/components/essentials/essentials";
 import Sidebar from "~/components/sidebar/sidebar";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
 import { Contact } from "~/components/contact/contact";
@@ -71,8 +69,6 @@ export default component$(() => {
 
                         <RidingGears />
                         <TourPolicy />
-                        <Essentials />
-                        <Faqs />
                         <EnquiryPopup />
                         <Contact />
                         <Fab tourPrice={tourPrice.value} />
