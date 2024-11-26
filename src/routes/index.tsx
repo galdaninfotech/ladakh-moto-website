@@ -4,6 +4,7 @@ import Intro from "~/components/intro/intro";
 import Testimonials from "~/components/testimonials/testimonials";
 import HomePackages from "~/components/home-packages/home-packages";
 import AdventureRides from "~/components/adventure-rides/adventure-rides";
+import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
 
 export default component$(() => {
     return (
@@ -12,6 +13,7 @@ export default component$(() => {
             <AdventureRides />
             <HomePackages />
             <Testimonials />
+            <EnquiryPopup />
         </>
     );
 });

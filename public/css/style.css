@@ -170,7 +170,7 @@ header.header-area.style-2 .gene-nav ul.menu > li > a {
     font-family: 'Oswald', serif;
 }
 header.header-area.style-2 .gene-nav .menu li.has-dropdown > a::after {
-    margin-top: -25px;
+    margin-top: -22px;
 }
 header.header-area.style-2 .gene-nav ul.menu {
     margin-top: 18px;

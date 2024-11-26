@@ -11,6 +11,7 @@ import TourPolicy from "~/components/tour-policy/tour-policy";
 import Sidebar from "~/components/sidebar/sidebar";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
 import Fab from "~/components/fab/fab";
+import ImportantInstructions from "~/components/important-instructions/important-instructions";
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -68,6 +69,7 @@ export default component$(() => {
 
                         <RidingGears />
                         <TourPolicy />
+                        <ImportantInstructions />
                         <EnquiryPopup />
                         <Fab tourPrice={tourPrice.value} />
                     </div>

@@ -36,7 +36,7 @@
 .wrapper-confidence h2 {
     font-size: 28px;
     font-family: Oswald;
-    text-transform: lowercase;
+    text-transform: capitalize;
     letter-spacing: 2px;
     text-align: center;
     margin-bottom: 8px;
@@ -65,7 +65,7 @@
 #wrapper-need-help h2 {
     font-size: 28px;
     font-family: Oswald;
-    text-transform: lowercase;
+    text-transform: capitalize;
     letter-spacing: 2px;
     text-align: center;
     margin-bottom: 8px;

@@ -34,8 +34,8 @@ export default component$(() => {
                                     alt=""
                                 />
                             </div>
-                            <h2>Lorem P. Ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <h2>Rajesh, Gujurat</h2>
+                            <p>"Ladakhmoto made our 10-day biking tour in Ladakh an unforgettable experience! The professional team, well-planned itinerary, and stunning routes exceeded our expectations. From the road captain to the mechanics, everything was top-notch. Highly recommended!"</p>
                         </div>
             
                         <div>
@@ -45,8 +45,8 @@ export default component$(() => {
                                     alt=""
                                 />
                             </div>
-                            <h2>Mr. Lorem Ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <h2>Suraj, Maharashtra</h2>
+                            <p>"My 10-day Zanskar biking tour with Ladakhmoto was absolutely incredible! The breathtaking landscapes, expert guidance, and seamless support from their team made it an adventure of a lifetime. I highly recommend Ladakhmoto for unforgettable journeys!"</p>
                         </div>
             
                         <div>
@@ -56,8 +56,9 @@ export default component$(() => {
                                     alt=""
                                 />
                             </div>
-                            <h2>Lorem Ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <h2>Aditya, Karnataka</h2>
+                            <p>"Ladakhmoto made our 7-day Leh-Ladakh biking tour an extraordinary adventure! The well-organized itinerary, skilled road captain, and stunning routes left us in awe. Exceptional support throughout the journey made it truly unforgettable. Highly recommended!"
+                            </p>
                         </div>
             
                         <div>
@@ -67,8 +68,8 @@ export default component$(() => {
                                     alt=""
                                 />
                             </div>
-                            <h2>Lorem De Ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <h2>Ankit, Kerela</h2>
+                            <p>"My biking tour with Ladakhmoto through Leh-Ladakh was absolutely amazing! The scenic routes, expert guidance, and exceptional support made it an unforgettable adventure. Everything was perfectly organized, and the experience was beyond expectations. Highly recommended!"</p>
                         </div>
             
                         <div>
@@ -78,8 +79,9 @@ export default component$(() => {
                                     alt=""
                                 />
                             </div>
-                            <h2>Ms. Lorem R. Ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <h2>Sunny, Mumbai</h2>
+                            <p>"Ladakhmoto made our 7-day Leh-Ladakh biking tour an extraordinary adventure! The well-organized itinerary, skilled road captain, and stunning routes left us in awe. Exceptional support throughout the journey made it truly unforgettable. Highly recommended!"
+                            </p>
                         </div>
                     </div>
                 </div>

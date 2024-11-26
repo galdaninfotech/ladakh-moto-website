@@ -19,7 +19,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage src="/img/tours\ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh With Umling La Bike Tour" />
+                    <ItineraryImage src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh With Umling La Bike Tour" />
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage size="desktop" src="/img/tours/ladakh-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh With Umling La Bike Tour" />
+                    <ItineraryImage size="desktop" src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh With Umling La Bike Tour" />
                 </div>
             </div>
 

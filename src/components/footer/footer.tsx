@@ -17,7 +17,6 @@ export default component$(() => {
 									<li><a href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a></li>
 									<li><a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a></li>
 									<li><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></li>
-									<li><a href="#" aria-label="Connect with us on LinkedIn"><i class="fab fa-linkedin-in"></i><span class="sr-only">LinkedIn</span></a></li>
 									<li><a href="https://www.youtube.com/ladakhmototour/" aria-label="Subscribe to our YouTube channel"><i class="fab fa-youtube"></i><span class="sr-only">YouTube</span></a></li>
 								</ul>
 							</div>
@@ -26,12 +25,12 @@ export default component$(() => {
 							<div class="widget quick-link-widget">
 								<h3>Quick Links</h3>
 								<ul>
-									<li><a href="#"><i class="fal fa-angle-right"></i>About Us</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Why Travel With Us?</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Guides & Staff</a></li>
+									<li><a href="/about"><i class="fal fa-angle-right"></i>About Us</a></li>
+									<li><a href="/why-travel-with-ladakhmoto"><i class="fal fa-angle-right"></i>Why Travel With Us?</a></li>
+									<li><a href="/guides-and-staffs"><i class="fal fa-angle-right"></i>Guides & Staff</a></li>
 									<li><a href="#"><i class="fal fa-angle-right"></i>Contact Us</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>How To Reach</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Our Core Values</a></li>
+									<li><a href="/how-to-reach"><i class="fal fa-angle-right"></i>How To Reach</a></li>
+									<li><a href="/our-core-values"><i class="fal fa-angle-right"></i>Our Core Values</a></li>
 								</ul>
 							</div>
 						</div>

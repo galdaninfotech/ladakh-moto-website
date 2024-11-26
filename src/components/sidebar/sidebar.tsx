@@ -30,13 +30,7 @@ export default component$(() => {
             </div>
 
             <div style="background-color: #dee2e6; border-radius: 4px;"></div>
-            <p>
-                <span style="color: #ff0000;">
-                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                    <span style="color: #999999; margin-right: 5px;"><del>Rs. 27,999</del></span>
-                </span>
-                <span style="color: #000; text-align: center;">Rs. 22,999</span>
-            </p>
+
             <div id="download-pdf">
                 <a class="" href="https://aahvan.com/wp-content/uploads/2024/04/Ladakh-Travel-Guide-PDF.pdf" target="_blank">
                 <i class="bi bi-download"></i>

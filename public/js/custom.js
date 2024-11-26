@@ -2,41 +2,43 @@
 var container = document.querySelector('p.more-intro')
 var button    = document.querySelector('.readmore-button')
 
-button.addEventListener('click', () => {
-	/** Slide down. */
-    if(!container.classList.contains('active')) {
-		/** Show the container. */
-    	container.classList.add('active')
-        container.style.height = "auto"
-        
-		/** Get the computed height of the container. */
-    	var height = container.clientHeight + "px"
-
-		/** Set the height of the content as 0px, */
-        /** so we can trigger the slide down animation. */
-        container.style.height = "0px"
-
-		/** Do this after the 0px has applied. */
-        /** It's like a delay or something. MAGIC! */
-        setTimeout(() => {
-            container.style.height = height
-        }, 0) 
-
-        button.innerHTML = 'Read Less <i class="fa fa-angle-up" aria-hidden="true"></i>'
+if(button) {
+    button.addEventListener('click', () => {
+        /** Slide down. */
+        if(!container.classList.contains('active')) {
+            /** Show the container. */
+            container.classList.add('active')
+            container.style.height = "auto"
+            
+            /** Get the computed height of the container. */
+            var height = container.clientHeight + "px"
     
-	/** Slide up. */
-    } else {
-    	/** Set the height as 0px to trigger the slide up animation. */
-    	container.style.height = "0px"
+            /** Set the height of the content as 0px, */
+            /** so we can trigger the slide down animation. */
+            container.style.height = "0px"
+    
+            /** Do this after the 0px has applied. */
+            /** It's like a delay or something. MAGIC! */
+            setTimeout(() => {
+                container.style.height = height
+            }, 0) 
+    
+            button.innerHTML = 'Read Less <i class="fa fa-angle-up" aria-hidden="true"></i>'
         
-        /** Remove the `active` class when the animation ends. */
-    	container.addEventListener('transitionend', () => {
-        	container.classList.remove('active')
-        }, {once: true})
-
-        button.innerHTML = 'Read More <i class="fa fa-angle-down" aria-hidden="true"></i>'
-    }
-})
+        /** Slide up. */
+        } else {
+            /** Set the height as 0px to trigger the slide up animation. */
+            container.style.height = "0px"
+            
+            /** Remove the `active` class when the animation ends. */
+            container.addEventListener('transitionend', () => {
+                container.classList.remove('active')
+            }, {once: true})
+    
+            button.innerHTML = 'Read More <i class="fa fa-angle-down" aria-hidden="true"></i>'
+        }
+    })
+}
 
 // ************************************ Popup Enquiry
 function closeForm() {
@@ -63,7 +65,7 @@ $(document).ready(function($) {
     });        
 });
 
-// ****************************************** Sidebar marging fix 
+// ****************************************** Sidebar margin fix 
 window.addEventListener("scroll", (event) => {
     let scroll = this.scrollY;
     // console.log(scroll);
