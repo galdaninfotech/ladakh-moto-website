@@ -14,30 +14,30 @@ export default component$(() => {
             <div class="row">
                 <div class="col-lg-9">
                     <div class="intro">
-                        <h1 class="main-heading">Thiksey Monstery</h1>
+                        <h1 class="main-heading">Zanskar Valley</h1>
                     </div>
 
                     {/* Mobile Screen */}
                     <div class="row d-block d-lg-none">
                         <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                            <DestinationImage src="/img/destinations/leh-city.jpg" alt="Thiksey Monstery" />
+                            <DestinationImage src="/img/destinations/zanskar-valley.jpg" alt="Zanskar Valley" />
                         </div>
                     </div>
 
                     {/* Desktop Screen */}
                     <div class="row d-none d-lg-block">
                         <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                            <DestinationImage size="desktop" src="/img/destinations/leh-city.jpg" alt="Thiksey Monstery" />
+                            <DestinationImage size="desktop" src="/img/destinations/zanskar-valley.jpg" alt="Zanskar Valley" />
                         </div>
                     </div>
 
 
                     <p>
-                        Thiksey Monastery, located about 19 kilometers from Leh, is one of Ladakh's largest and most architecturally impressive monasteries. Built on a hilltop, this 12-story complex resembles the Potala Palace in Lhasa, offering spectacular views of the Indus Valley below.
+                        Zanskar Valley, nestled in the remote reaches of Ladakh, is a hidden gem renowned for its dramatic landscapes, Buddhist monasteries, and traditional villages. Located at altitudes often exceeding 13,000 feet, the valley is surrounded by snow-clad peaks and bisected by the Zanskar River, which freezes in winter to form the famous Chadar Trek. This rugged terrain offers a stunning contrast between jagged mountains and green patches of cultivated land.
                     </p>
 
                     <p>
-                        Thiksey is home to numerous shrines, statues, and a remarkable 15-meter-high Maitreya Buddha statue, which is the monastery's centerpiece. Dating back to the 15th century, it houses around 120 monks and is a vibrant center of Buddhist learning and meditation. Visitors are captivated by its peaceful ambiance, intricate murals, and the daily prayer ceremonies, making Thiksey Monastery a must-visit for those seeking Ladakh's spiritual and cultural essence.
+                        Rich in cultural heritage, Zanskar is home to ancient monasteries like Karsha and Phuktal, where Buddhist traditions continue to thrive in seclusion. Its pristine beauty, combined with a sense of timeless serenity, makes Zanskar Valley a paradise for trekkers, adventure seekers, and those in search of Ladakh’s unspoiled wilderness.
                     </p>
                     
                     <Fab tourPrice={""} />
@@ -52,11 +52,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Thiksey Monstery",
+  title: "Zanskar Valley",
   meta: [
     {
       name: "description",
-      content: "Thiksey Monstery",
+      content: "Zanskar Valley",
     },
   ],
 };

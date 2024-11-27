@@ -16,7 +16,7 @@ export default component$(() => {
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
+                            <img src="/img/packages/all-ladakh-tour/all-ladakh-tour-overview.jpg" alt="" />
                             <div class="description">
                                 <h2>All Ladakh Tour</h2>
                                 <p>This 10-day Ladakh holiday package combines adventure...</p>
@@ -38,7 +38,7 @@ export default component$(() => {
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
+                            <img src="/img/packages/ladakh-tour-with-hanle/ladakh-tour-with-hanle-overview.jpg" alt="" />
                             <div class="description">
                                 <h2>Ladakh Tour With Hanle</h2>
                                 <p>8-day Ladakh holiday package offers a balanced blend of...</p>
@@ -49,7 +49,7 @@ export default component$(() => {
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
+                            <img src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-overview.jpg" alt="" />
                             <div class="description">
                                 <h2>Ladakh Zanskar Tour</h2>
                                 <p>A tour of Hemis, Diskit and Thiksey monasteries will...</p>

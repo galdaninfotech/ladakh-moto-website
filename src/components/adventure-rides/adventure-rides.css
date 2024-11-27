@@ -37,10 +37,12 @@
 
 .package-wrap .package-content .btn-wrap a.width-6 {
   width: 49%;
-  font-size: 16px;
+  font-size: 13px;
   color: #fff;
   background: #f35500;
   text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  border-radius: 4px;
 }
 .package-wrap .package-content .btn-wrap a.width-6:first-child {
   margin-right: 9px;

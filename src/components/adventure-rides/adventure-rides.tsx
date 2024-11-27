@@ -205,7 +205,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/srinagar-leh-manali">
-                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-overview.jpg" alt="" />
+                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-day9.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -232,7 +232,7 @@ export default component$(() => {
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/ladakh-srinagar-with-umling-la" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                        <a href="/srinagar-leh-manali" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>

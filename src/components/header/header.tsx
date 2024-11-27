@@ -92,10 +92,10 @@ export default component$(() => {
                                             <li><a href="/destinations\nubra-valley">Nubra Valley</a></li>
                                             <li><a href="/destinations\pangong-lake">Pangong Lake</a></li>
                                             <li><a href="/destinations\tsomoriri-lake">Tsomoriri Lake</a></li>
-                                            <li><a href="/destinations\zangskar-valley">Zangskar Valley</a></li>
+                                            <li><a href="/destinations\zanskar-valley">Zanskar Valley</a></li>
                                             <li><a href="/destinations\hanle-village">Hanle Village</a></li>
                                             <li><a href="/destinations\shanti-stupa">Shanti Stupa</a></li>
-                                            <li><a href="/destinations\thiksey-monstery">Thiksey Monstery</a></li>
+                                            <li><a href="/destinations\thiksey-monastery">Thiksey Monastery</a></li>
                                             <li><a href="/destinations\lamayuru-monastery">Lamayuru Monastery</a></li>
                                         </ul>
                                     </li>
