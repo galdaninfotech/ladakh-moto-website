@@ -45,7 +45,7 @@ export default component$(() => {
                     <div class="col-lg-2 col-sm-6 col-6">
                         {/* <!-- Start site logo --> */}
                         <div class="site-logo">
-                            <a href="/"><img src="img/logo4zzz.png" alt="LadakhMoto" /></a>
+                            <a href="/"><img src="/img/logo6.png" alt="LadakhMoto" /></a>
                         </div>
                         {/* <!-- End site logo --> */}
                     </div>

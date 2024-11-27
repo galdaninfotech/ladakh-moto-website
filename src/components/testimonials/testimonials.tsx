@@ -31,7 +31,7 @@ export default component$(() => {
                             <div class="img">
                                 <img
                                     src="/img/testimonials/rajesh.jpg"
-                                    alt=""
+                                    alt="Rajesh, Gujurat"
                                 />
                             </div>
                             <h2>Rajesh, Gujurat</h2>
@@ -42,7 +42,7 @@ export default component$(() => {
                             <div class="img">
                                 <img
                                     src="/img/testimonials/suraj.jpg"
-                                    alt=""
+                                    alt="Suraj, Maharashtra"
                                 />
                             </div>
                             <h2>Suraj, Maharashtra</h2>
@@ -53,7 +53,7 @@ export default component$(() => {
                             <div class="img">
                                 <img
                                     src="/img/testimonials/aditya.jpg"
-                                    alt=""
+                                    alt="Aditya, Karnataka"
                                 />
                             </div>
                             <h2>Aditya, Karnataka</h2>
@@ -65,7 +65,7 @@ export default component$(() => {
                             <div class="img">
                                 <img
                                     src="/img/testimonials/ankit.jpg"
-                                    alt=""
+                                    alt="Ankit, Kerela"
                                 />
                             </div>
                             <h2>Ankit, Kerela</h2>
@@ -76,7 +76,7 @@ export default component$(() => {
                             <div class="img">
                                 <img
                                     src="/img/testimonials/sunny.jpg"
-                                    alt=""
+                                    alt="Sunny, Mumbai"
                                 />
                             </div>
                             <h2>Sunny, Mumbai</h2>

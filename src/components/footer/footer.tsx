@@ -40,9 +40,9 @@ export default component$(() => {
 								<ul>
 									<li><a href="/ladakh-with-umling-la"><i class="fal fa-angle-right"></i>Ladakh With Umling La</a></li>
 									<li><a href="/leh-ladakh-adventure"><i class="fal fa-angle-right"></i>Leh Ladakh Adventure</a></li>
-									<li><a href="/ladakh-srinagar-with-umling-la"><i class="fal fa-angle-right"></i>Ladakh Srinagar With Umling La</a></li>
+									<li><a href="/ladakh-srinagar-with-umling-la"><i class="fal fa-angle-right"></i>Ladakh Srinagar Umling La</a></li>
 									<li><a href="/leh-zangskar-leh"><i class="fal fa-angle-right"></i>Leh Zangskar Leh</a></li>
-									<li><a href="/manali-to-leh-via-umling-la"><i class="fal fa-angle-right"></i>Manali To Leh Via Umling La</a></li>
+									<li><a href="/manali-to-leh-via-umling-la"><i class="fal fa-angle-right"></i>Manali Leh Via Umling La</a></li>
 									<li><a href="/srinagar-leh-manali"><i class="fal fa-angle-right"></i>Srinagar Leh Manali</a></li>
 								</ul>
 							</div>
