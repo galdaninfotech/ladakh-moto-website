@@ -23,11 +23,11 @@ export default component$<ItemProps>((props) => {
             </div>
 
             <div class="itinerary-icons-description d-flex align-item-center justify-content-between">
-                <span class="flex-grow-1" style="font-size: 9px;">{props.highestAltitude}</span>
-                <span class="flex-grow-1" style="font-size: 9px;">{props.distance}</span>
-                <span class="flex-grow-1" style="font-size: 9px; text-align: center;">{props.duration}</span>
-                <span class="flex-grow-1" style="font-size: 9px; text-align: right;">{props.lodging}</span>
-                <span class="flex-grow-1" style="font-size: 9px; text-align: right;">{props.meal}</span>
+                <span class="flex-grow-1" style="font-size: 12px;">{props.highestAltitude}</span>
+                <span class="flex-grow-1" style="font-size: 12px;">{props.distance}</span>
+                <span class="flex-grow-1" style="font-size: 12px; text-align: center;">{props.duration}</span>
+                <span class="flex-grow-1" style="font-size: 12px; text-align: right;">{props.lodging}</span>
+                <span class="flex-grow-1" style="font-size: 12px; text-align: right;">{props.meal}</span>
             </div>
         </>
     );

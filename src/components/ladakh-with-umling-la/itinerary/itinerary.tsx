@@ -45,7 +45,7 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Activity</span>: Acclimatization and Rest</li>
+                                    <li><span>Activity</span>: Bike Checkup, acclimatization and rest</li>
                                     <li><span>Highlights</span>: Explore Leh Market, Leh Palace (optional)</li>
                                     <li>For your convenience, we recommend that clients arrange their own taxi to reach Leh hotel. Once you arrive at Leh, please make your way to the designated hotel, where our team will be ready to welcome you. We can provide guidance on trusted taxi services if needed, ensuring a smooth and hassle-free journey to the hotel. Spend the day acclimatizing to Leh's high altitude. Take a light walk around Leh Market, or, if you feel comfortable, visit Leh Palace for panoramic views of the town.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
@@ -166,7 +166,7 @@ export default component$(() => {
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Shyok River, Pangong Lake</li>
                                     <li>Today, ride along the scenic and adventurous Shyok River route to reach the magnificent Pangong Lake. The journey will take you through rugged mountain terrain and small Ladakhi villages. Upon reaching Pangong Lake, witness its mesmerizing blue waters changing colors under the sunlight. The lake extends from India into Tibet and is one of the highest saltwater lakes in the world.</li>
-                                    <li><span>Overnight</span>: Camps/Guesthouse in Hunder, Nubra Valley</li>
+                                    <li><span>Overnight</span>: Cottages in Hunder, Nubra Valley</li>
                                 </ul>
 
                             </div>

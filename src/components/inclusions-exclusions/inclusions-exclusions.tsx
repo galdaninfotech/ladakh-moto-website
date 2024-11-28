@@ -16,10 +16,10 @@ export default component$(() => {
                     <div id="costCollapse1" class="accordion-collapse collapse" data-bs-parent="#costAccordion">
                         <div class="accordion-body">
                             <ul class="inclusions">
-                                <li><i class="bi bi-check2-all"></i>Royal Enfield Himalayan 411CC Bike (For Rented Bike Option)</li>
+                                <li><i class="bi bi-check2-all"></i>Royal Enfield Himalayan 411CC Bike BSVI</li>
+                                <li><i class="bi bi-check2-all"></i>Fuel for tour</li>
                                 <li><i class="bi bi-check2-all"></i>Riding Jacket, Gloves and Knee Guard for Bikers</li>
-                                <li><i class="bi bi-check2-all"></i>Tempo/Innova Vehicle (For Tempo Traveller Option)</li>
-                                <li><i class="bi bi-check2-all"></i>Transportation from Delhi to Manali & Manali to Delhi</li>
+                                <li><i class="bi bi-check2-all"></i>Tempo/Innova Vehicle (For seat in vehicle Option)</li>
                                 <li><i class="bi bi-check2-all"></i>Sharing-based accommodation in Hotels/Camps/Guest houses (Double Sharing for Couples)</li>
                                 <li><i class="bi bi-check2-all"></i>Breakfast + Dinner as per the Itinerary</li>
                                 <li><i class="bi bi-check2-all"></i>Experienced Motorbike Mechanic during the trip</li>

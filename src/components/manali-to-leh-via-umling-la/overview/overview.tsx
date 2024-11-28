@@ -11,9 +11,6 @@ export default component$(() => {
             <div class="sub-headings d-flex justify-content-between align-items-center">
                 <h2>Overview</h2>
             </div>
-            <p>
-                This thrilling motor biking tour takes you on a journey of a lifetime through the breathtaking landscapes of the Himalayas. Starting from the lush green valleys of Manali, you’ll traverse the highest motorable passes, visit pristine lakes, explore remote villages, and experience the raw beauty of Ladakh's rugged terrain. Designed for adventurers, this tour offers a mix of exhilarating rides, cultural encounters, and some of the most stunning vistas on Earth. It’s not just a ride, but an exploration of the extreme and serene, from high-altitude passes to serene lakes, ancient monasteries, and the starry skies of Hanle.
-            </p>
 
             <div class="row d-block d-lg-none">
                 <div class="col-12 col-lg-6">
@@ -35,6 +32,10 @@ export default component$(() => {
                     <ItineraryImage size="desktop" src="/img/tours/manali-to-leh-via-umling-la/manali-to-leh-via-umling-la-overview.jpg" alt="Day One Itinerary Image Of The Manali  To Leh Vai Umling La Bike Tour" />
                 </div>
             </div>
+
+            <p>
+                This thrilling motor biking tour takes you on a journey of a lifetime through the breathtaking landscapes of the Himalayas. Starting from the lush green valleys of Manali, you’ll traverse the highest motorable passes, visit pristine lakes, explore remote villages, and experience the raw beauty of Ladakh's rugged terrain. Designed for adventurers, this tour offers a mix of exhilarating rides, cultural encounters, and some of the most stunning vistas on Earth. It’s not just a ride, but an exploration of the extreme and serene, from high-altitude passes to serene lakes, ancient monasteries, and the starry skies of Hanle.
+            </p>
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">

@@ -22,6 +22,7 @@ export default component$(() => {
         if (priceElement) {
             tourPrice.value = priceElement.innerHTML;
         }
+        console.log(tourPrice.value);
 
         const sections = document.querySelectorAll('div[id]');
         const stickyButtons = document.querySelector('.sticky-buttons') as HTMLElement;

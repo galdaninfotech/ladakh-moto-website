@@ -28,7 +28,7 @@ export default component$(() => {
 									<li><a href="/about"><i class="fal fa-angle-right"></i>About Us</a></li>
 									<li><a href="/why-travel-with-ladakhmoto"><i class="fal fa-angle-right"></i>Why Travel With Us?</a></li>
 									<li><a href="/guides-and-staffs"><i class="fal fa-angle-right"></i>Guides & Staff</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Contact Us</a></li>
+									<li><a href="/contact"><i class="fal fa-angle-right"></i>Contact Us</a></li>
 									<li><a href="/how-to-reach"><i class="fal fa-angle-right"></i>How To Reach</a></li>
 									<li><a href="/our-core-values"><i class="fal fa-angle-right"></i>Our Core Values</a></li>
 								</ul>
@@ -36,7 +36,7 @@ export default component$(() => {
 						</div>
 						<div class="col-lg-2 col-sm-3">
 							<div class="widget quick-link-categories">
-								<h3>Packages</h3>
+								<h3>Adventure Rides</h3>
 								<ul>
 									<li><a href="/ladakh-with-umling-la"><i class="fal fa-angle-right"></i>Ladakh With Umling La</a></li>
 									<li><a href="/leh-ladakh-adventure"><i class="fal fa-angle-right"></i>Leh Ladakh Adventure</a></li>

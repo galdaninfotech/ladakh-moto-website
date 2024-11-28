@@ -44,7 +44,7 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Activity</span>: Acclimatization and Rest</li>
+                                    <li><span>Activity</span>: Bike Checkup, acclimatization and rest</li>
                                     <li><span>Highlights</span>: Arrival and acclimatization in Leh.</li>
                                     <li>Arrival in Leh: Transfer from Leh Airport to your hotel.</li>
                                     <li>Rest and Acclimatization: Spend the day resting to adjust to Leh’s high altitude.</li>

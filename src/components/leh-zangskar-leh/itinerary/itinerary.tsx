@@ -44,7 +44,7 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Activity</span>: Acclimatization and Rest</li>
+                                    <li><span>Activity</span>: Bike Checkup, acclimatization and rest</li>
                                     <li><span>Highlights</span>: Explore Leh Market, Leh Palace (optional)</li>
                                     <li>For your convenience, we recommend that clients arrange their own taxi to reach Leh hotel. Once you arrive at Leh, please make your way to the designated hotel, where our team will be ready to welcome you. We can provide guidance on trusted taxi services if needed, ensuring a smooth and hassle-free journey to the hotel. Spend the day acclimatizing to Leh's high altitude. Take a light walk around Leh Market, or, if you feel comfortable, visit Leh Palace for panoramic views of the town.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
@@ -85,7 +85,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Magnetic Hill, Basgo Fort, Lamayuru Monastery</li>
-                                    <li>•	Begin your motorbiking journey by heading west towards Lamayuru, one of the most ancient and iconic monasteries in Ladakh. En route, stop at Magnetic Hill, a spot where vehicles appear to roll uphill against gravity. Visit the ruins of Basgo Fort, a former seat of Ladakhi kings. Reach Lamayuru Monastery, known for its unique lunar-like landscape called "Moonland."</li>
+                                    <li>Begin your motorbiking journey by heading west towards Lamayuru, one of the most ancient and iconic monasteries in Ladakh. En route, stop at Magnetic Hill, a spot where vehicles appear to roll uphill against gravity. Visit the ruins of Basgo Fort, a former seat of Ladakhi kings. Reach Lamayuru Monastery, known for its unique lunar-like landscape called "Moonland."</li>
                                     <li><span>Overnight</span>: Hotel/guest house in Lamayuru</li>
                                 </ul>
 
@@ -123,8 +123,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Fotu La Pass (13,478 ft), Namika La Pass (12,139 ft), Rangdum Monastery, Suru Valley</li>
-                                    <li>•	Today’s ride takes you deeper into the remote and stunning Zanskar Valley. Ride over the scenic Fotu La and Namika La passes before entering the Suru Valley, a lush green oasis with breathtaking views of the Nun-Kun peaks. Visit the ancient Rangdum Monastery, which is dramatically perched on a hilltop, and then continue towards Padum, the capital of Zanskar.</li>
+                                    <li><span>Highlights</span>: Ride through breathtaking landscapes, cross the high-altitude Singay La (4,920 m) and Hanuma La (4,700 m) passes, and explore the remote Lingshed village.</li>
+                                    <li>Begin early from Lamayuru, pass Wanla and Photoksar, and traverse challenging roads with stunning vistas. Cross Singey la pass (5091mts). Reach Padum by evening, completing a thrilling yet demanding ride.
+                                    Overnight - Hotel/guest house at Padum</li>
                                     <li><span>Overnight</span>: Hotel/Guesthouse in Padum, Zangskar Valley</li>
                                 </ul>
 
@@ -163,7 +164,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Zanskar River, Bardan Monastery, Remote Villages</li>
-                                    <li>•	After breakfast, ride to Purne, a remote village that serves as the base for the Phuktal Monastery trek. The road follows the scenic Zanskar River, and en route, visit the Bardan Monastery, known for its giant prayer wheels. The ride offers a mix of dirt trails and challenging terrain, leading to the peaceful village of Purne.</li>
+                                    <li>After breakfast, ride to Purne, a remote village that serves as the base for the Phuktal Monastery trek. The road follows the scenic Zanskar River, and en route, visit the Bardan Monastery, known for its giant prayer wheels. The ride offers a mix of dirt trails and challenging terrain, leading to the peaceful village of Purne.</li>
                                     <li><span>Overnight</span>: Camps/Guesthouse in Purne</li>
                                 </ul>
 
@@ -202,7 +203,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Phuktal Monastery, Hanging Monastery, Zanskar Gorge</li>
-                                    <li>•	Today is a day of exploration on foot. Hike to the spectacular Phuktal Monastery, which is built into the cliffs of a gorge and overlooks the Tsarap River. This 12th-century monastery is one of the most remote in the world and offers stunning views of the surrounding valley. After spending time at the monastery, hike back to Purne.</li>
+                                    <li>Today is a day of exploration on foot. Hike to the spectacular Phuktal Monastery, which is built into the cliffs of a gorge and overlooks the Tsarap River. This 12th-century monastery is one of the most remote in the world and offers stunning views of the surrounding valley. After spending time at the monastery, hike back to Purne.</li>
                                     <li><span>Overnight</span>: Homestay in Purne</li>
                                 </ul>
                             </div>
@@ -240,7 +241,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Shingo La Pass (16,700 ft), Lahaul Valley</li>
-                                    <li>•	Today’s ride is challenging as you cross the high-altitude Shingo La Pass, which connects Zanskar to Lahaul Valley. The pass offers panoramic views of the Himalayas, with glaciers and snow-capped peaks surrounding you. Descend into the beautiful Lahaul Valley and continue to Sarchu, a popular stopover for travelers on the Manali-Leh highway.</li>
+                                    <li>Today’s ride is challenging as you cross the high-altitude Shingo La Pass, which connects Zanskar to Lahaul Valley. The pass offers panoramic views of the Himalayas, with glaciers and snow-capped peaks surrounding you. Descend into the beautiful Lahaul Valley and continue to Sarchu, a popular stopover for travelers on the Manali-Leh highway.</li>
                                     <li><span>Overnight</span>: Camp in Serchu</li>
                                 </ul>
 

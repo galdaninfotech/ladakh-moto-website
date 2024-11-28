@@ -241,7 +241,7 @@ ul.exclusions i {
   }
   
   .package-wrap {
-    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.6);
     /* margin-bottom: 24px; */
     position: relative;
   }

@@ -49,9 +49,9 @@ $(document).ready(function($) {
     /* Contact Form Interactions */
     $('.btnOpenForm').on('click', function(event) {
         event.preventDefault();
-        const el = document.getElementById("tour-name");
+        const el = document.querySelector(".tour-name");
         const tourName = el.getAttribute("data-tour-name");
-        alert(tourName);
+        // alert(tourName);
 
         $('.form-popup-bg').addClass('is-visible');
     });
