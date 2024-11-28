@@ -20,6 +20,7 @@ export default component$(() => {
                                 <li><i class="bi bi-check2-all"></i>Meals: Daily breakfast and dinner.</li>
                                 <li><i class="bi bi-check2-all"></i>Transportation: Private SUV or Tempo Traveler (for groups) with an experienced driver.</li>
                                 <li><i class="bi bi-check2-all"></i>Permits: Inner Line Permits for Nubra, Pangong, and Hanle.</li>
+                                <li><i class="bi bi-check2-all"></i>Oxygen Cylinder, Oximeter & Basic First Aid Kit</li>
                                 <li><i class="bi bi-check2-all"></i>Guides: Knowledgeable local guides for cultural sites and monastery visits.</li>
                             </ul>
                             

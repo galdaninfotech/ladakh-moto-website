@@ -102,7 +102,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="false" aria-controls="itineraryCollapse3">
-                            Day 03 : Leh to Nubra Valley via Khardung La (140 km, 5-6 hours)
+                            Day 03 : Leh to Nubra Valley via Khardung La
                             </button>
                         </h3>
                         <div id="itineraryCollapse3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -145,7 +145,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="false" aria-controls="itineraryCollapse4">
-                            Day 04 : Nubra Valley to Pangong Lake via Shyok Route (180 km, 5-6 hours)
+                            Day 04 : Nubra Valley to Pangong Lake via Shyok Route
                             </button>
                         </h3>
                         <div id="itineraryCollapse4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -187,7 +187,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse5" aria-expanded="false" aria-controls="itineraryCollapse5">
-                            Day 05 : Pangong Lake to Hanle via Chushul (250 km, 6-7 hours)
+                            Day 05 : Pangong Lake to Hanle via Chushul
                             </button>
                         </h3>
                         <div id="itineraryCollapse5" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -229,7 +229,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse6" aria-expanded="false" aria-controls="itineraryCollapse6">
-                            Day 06 : Hanle to Leh via Nyoma and Mahe Bridge (250 km, 6-7 hours)
+                            Day 06 : Hanle to Leh via Nyoma and Mahe Bridge
                             </button>
                         </h3>
                         <div id="itineraryCollapse6" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">

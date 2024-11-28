@@ -77,7 +77,7 @@ export default component$(() => {
                                         </ul>
                                     </li>
                                     <li class="has-dropdown">
-                                        <a href="#">Packages</a>
+                                        <a href="#">Holiday Packages</a>
                                         <ul>
                                             <li><a href="/packages/all-ladakh-tour">All Ladakh Tour</a></li>
                                             <li><a href="/packages/amazing-ladakh">Amazing Ladakh Tour</a></li>

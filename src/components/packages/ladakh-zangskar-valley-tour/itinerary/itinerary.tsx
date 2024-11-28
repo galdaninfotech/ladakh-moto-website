@@ -55,6 +55,7 @@ export default component$(() => {
                             </div>
                         </div>
                     </div>
+
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="false" aria-controls="itineraryCollapse2">
@@ -99,10 +100,11 @@ export default component$(() => {
                             </div>
                         </div>
                     </div>
+
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="false" aria-controls="itineraryCollapse3">
-                            Day 03 : Leh to Kargil (210 km, 6-7 hours)
+                            Day 03 : Leh to Kargil
                             </button>
                         </h3>
                         <div id="itineraryCollapse3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -145,7 +147,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="false" aria-controls="itineraryCollapse4">
-                            Day 04 : Kargil to Padum (240 km, 8-9 hours)
+                            Day 04 : Kargil to Padum
                             </button>
                         </h3>
                         <div id="itineraryCollapse4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -231,7 +233,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse6" aria-expanded="false" aria-controls="itineraryCollapse6">
-                            Day 06 : Padum to Rangdum (110 km, 4-5 hours)
+                            Day 06 : Padum to Rangdum
                             </button>
                         </h3>
                         <div id="itineraryCollapse6" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -273,7 +275,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse7" aria-expanded="false" aria-controls="itineraryCollapse7">
-                            Day 07 : Rangdum to Leh via Kargil (320 km, 8-9 hours)
+                            Day 07 : Rangdum to Leh via Kargil
                             </button>
                         </h3>
                         <div id="itineraryCollapse7" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -311,6 +313,7 @@ export default component$(() => {
                             </div>
                         </div>
                     </div>
+
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse8" aria-expanded="false" aria-controls="itineraryCollapse8">
@@ -354,10 +357,11 @@ export default component$(() => {
                             </div>
                         </div>
                     </div>
+
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse9" aria-expanded="false" aria-controls="itineraryCollapse9">
-                            Day 09 : Leh to Pangong Lake (160 km, 5-6 hours)
+                            Day 09 : Leh to Pangong Lake
                             </button>
                         </h3>
                         <div id="itineraryCollapse9" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -394,7 +398,10 @@ export default component$(() => {
                                 </ul>
 
                             </div>
-                            <div class="accordion-item">
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse10" aria-expanded="false" aria-controls="itineraryCollapse10">
                             Day 10 : Pangong Lake to Leh (160 km, 5-6 hours)
@@ -403,7 +410,7 @@ export default component$(() => {
                         <div id="itineraryCollapse10" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
                                 {/* Mobile Screen */}
-                               <div class="row d-block d-lg-none">
+                                <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
                                         <ItineraryIcons duration="5-6 Hr" highestAltitude="17688 ft" distance="160 km" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
@@ -433,8 +440,6 @@ export default component$(() => {
                                 </ul>
 
                             </div>
-                        </div>
-                    </div>
                         </div>
                     </div>
 

@@ -65,12 +65,9 @@ export default component$(() => {
 
                         <Overview />
                         <Itinerary />
-                        <Dates />
                         <Cost />
 
-                        <RidingGears />
                         <TourPolicy />
-                        <ImportantInstructions />
                         <EnquiryPopup />
                         <Contact />
                         <Fab tourPrice={tourPrice.value} />

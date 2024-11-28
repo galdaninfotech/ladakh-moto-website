@@ -181,6 +181,8 @@ ul.inclusions, ul.exclusions {
 ul.inclusions li, ul.exclusions li {
     font-size: 14px;
     margin: -12px;
+    line-height: 18px;
+    margin-bottom: 24px;
 }
 ul.inclusions i {
     margin-right: 5px;
