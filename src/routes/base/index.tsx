@@ -14,7 +14,7 @@ import { Contact } from "~/components/contact/contact";
 
 export default component$(() => {
     return (
-        <div class="adventure-grid-area style-2 pt-50 pb-85">
+        <div class="adventure-grid-area style-2 pt-50 pb-20">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">

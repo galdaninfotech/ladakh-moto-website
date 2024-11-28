@@ -47,12 +47,12 @@ export default component$(() => {
     });
 
     return (
-        <div class="adventure-grid-area style-2 pt-50 pb-85">
+        <div class="adventure-grid-area style-2 pt-50 pb-20">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="intro">
-                            <h1 id="tour-name" data-tour-name="Ladakh-Srinagar-With-Umling-La">Ladakh-Srinagar-With-Umling-La</h1>
+                            <h1 id="tour-name" data-tour-name="Ladakh-Srinagar-With-Umling-La">Ladakh Srinagar With Umling La</h1>
                         </div>
 
                         <div class="sticky-buttons">
@@ -83,11 +83,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Ladakh-Srinagar-With-Umling-La",
+  title: "Ladakh Srinagar With Umling La",
   meta: [
     {
       name: "description",
-      content: "Ladakh-Srinagar-With-Umling-La",
+      content: "Ladakh Srinagar With Umling La",
     },
   ],
 };
