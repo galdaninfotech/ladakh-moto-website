@@ -2,11 +2,9 @@ import { component$, useStylesScoped$, useVisibleTask$, useSignal } from "@build
 import styles from './index.css?inline';
 
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Dates from "~/components/packages/all-ladakh-tour/dates/dates";
 import Itinerary from "~/components/packages/all-ladakh-tour/itinerary/itinerary";
 import Overview from "~/components/packages/all-ladakh-tour/overview/overview";
 import Cost from "~/components/packages/all-ladakh-tour/cost/cost";
-import RidingGears from "~/components/riding-gears/riding-gears";
 import TourPolicy from "~/components/tour-policy/tour-policy";
 import Sidebar from "~/components/sidebar/sidebar";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";

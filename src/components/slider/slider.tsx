@@ -11,6 +11,10 @@ export default component$(() => {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col">
+                        <div class="contact-info d-md-none">
+                            <a href="tel:+91-9622958013"><i class="fal fa-phone-alt"></i>+91-9622958013</a>
+                            <a href="mailto:info@ladakhmoto.com"><i class="fal fa-envelope"></i>info@ladakhmoto.com</a>
+                        </div>
                         <div class="bradcumb text-center">
                             <h1>Ladakh Moto</h1>
                             <ul>

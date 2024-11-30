@@ -10,7 +10,7 @@ export default component$(() => {
             {/* <!-- Start header top --> */}
             <div class="row">
                 <div class="col-lg-6 col-sm-3">
-                    <div class="header-top-left">
+                    <div class="header-top-left d-none">
                         <ul>
                             <li class="has-dropdown"><a href="#">USD</a>
                                 <ul>
@@ -44,8 +44,12 @@ export default component$(() => {
                 <div class="row">
                     <div class="col-lg-2 col-sm-6 col-6">
                         {/* <!-- Start site logo --> */}
-                        <div class="site-logo">
-                            <a href="/"><img src="/img/logo6.png" alt="LadakhMoto" /></a>
+                        <div class="site-logo d-md-none">
+                            <a href="/"><img src="/img/logo9.png" alt="LadakhMoto" /></a>
+                        </div>
+
+                        <div class="site-logo d-none d-md-block" style="top: -8px;">
+                            <a href="/"><img src="/img/logo-lg1.png" alt="LadakhMoto" /></a>
                         </div>
                         {/* <!-- End site logo --> */}
                     </div>
