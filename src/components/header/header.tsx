@@ -65,8 +65,8 @@ export default component$(() => {
                                         <a href="#">About</a>
                                         <ul>
                                             <li><a href="/about">About Us</a></li>
-                                            <li><a href="#">Our Services</a></li>
-                                            <li><a href="#">About Ladakh</a></li>
+                                            <li><a href="/our-services">Our Services</a></li>
+                                            <li><a href="/about-ladakh">About Ladakh</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-dropdown">

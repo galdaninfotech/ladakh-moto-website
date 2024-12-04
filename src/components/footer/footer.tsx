@@ -66,7 +66,7 @@ export default component$(() => {
 								<h3>Contact Us</h3>
 								<ul>
 									<li><a href="#"><i class="fal fa-paper-plane"></i>DB2 Zangsti, Nr. MCL Vehicle Parking, Leh, 194101 Ladakh, India</a></li>
-									<li><a href="#"><i class="fal fa-envelope"></i>info@ladakhmoto.com</a></li>
+									<li><a href="mailto:info@ladakhmoto.com"><i class="fal fa-envelope"></i>info@ladakhmoto.com</a></li>
 									<li><a href="#"><i class="fal fa-phone-alt"></i>+91 9622958013</a></li>
 								</ul>
 							</div>
@@ -79,11 +79,13 @@ export default component$(() => {
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">
-							
-						</div>
-						<div class="col-sm-6">
 							<div class="copyright-text">
 								<p>© 2024 LadakhMoto.com All rights reserved.</p>
+							</div>							
+						</div>
+						<div class="col-sm-6">
+							<div class="developedby-text">
+								<a href="tel:+91-9596690135"><i class="fal fa-phone-alt"></i>Galdan Infotech</a>
 							</div>
 						</div>
 					</div>

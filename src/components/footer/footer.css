@@ -1,3 +1,8 @@
+.copy-right-area {
+    background: rgb(35 39 48);
+    color: #fff;
+    padding: 12px;
+}
 .payment-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -26,4 +31,12 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+
+.developedby-text {
+    text-align: right;
+}
+.developedby-text i {
+    margin-right: 6px;
 }
