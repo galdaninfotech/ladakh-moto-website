@@ -205,7 +205,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/srinagar-leh-manali">
-                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-day9.jpg" alt="" />
+                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-overview.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
