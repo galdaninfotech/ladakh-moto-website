@@ -1,0 +1,21 @@
+.accordion-body .itinerary strong {
+    margin-right: 16px;
+}
+
+.accordion-body .itinerary {
+    max-width: 450px;
+}
+.accordion-body .itinerary div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+.accordion-body .itinerary span:last-child {
+    background: green;
+    color: #fff;
+    padding: 2px 18px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}

@@ -31,10 +31,10 @@ export default component$(() => {
 
             <div style="background-color: #dee2e6; border-radius: 4px;"></div>
 
-            <div id="download-pdf">
+            <div id="download-pdf d-none">
                 <a class="" href="https://aahvan.com/wp-content/uploads/2024/04/Ladakh-Travel-Guide-PDF.pdf" target="_blank">
-                <i class="bi bi-download"></i>
-                <span class="elementor-button-text ml-3" style="margin-left: 10px;">Ladakh Travel Guide</span>
+                <i class="bi bi-download d-none"></i>
+                <span class="elementor-button-text ml-3 d-none" style="margin-left: 10px;">Ladakh Travel Guide</span>
                 </a>
             </div>
             <p id="earnest-money">Book your dream trip with a deposit of 30% of the tour cost</p>
