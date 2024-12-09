@@ -22,8 +22,8 @@ export default component$(() => {
                     <tbody>
                         <tr>
                             <td>Own Bike</td>
-                            <td id="tour-price">₹ 54,000/- PP</td>
-                            <td>₹ 48,800/- PP</td>
+                            <td>₹ 54,000/- PP</td>
+                            <td id="tour-price">₹ 48,800/- PP</td>
                         </tr>
                         <tr>
                             <td>Solo Rider</td>

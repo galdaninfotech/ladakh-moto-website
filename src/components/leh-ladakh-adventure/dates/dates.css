@@ -1,3 +1,14 @@
+
+.accordion-item .accordion-header button.accordion-button {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.itineraryCollapse1 .accordion-body .itinerary strong {
+    font-size: 14px;
+}
+
 .accordion-body .itinerary strong {
     margin-right: 16px;
 }

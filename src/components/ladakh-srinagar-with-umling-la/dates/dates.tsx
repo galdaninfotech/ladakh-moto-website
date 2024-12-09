@@ -45,7 +45,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="true" aria-controls="itineraryCollapse2">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="false" aria-controls="itineraryCollapse2">
                             June 2025
                             </button>
                         </h3>
@@ -55,17 +55,17 @@ export default component$(() => {
                                 <div class="itinerary">
                                     <div>
                                         <strong>LS20254</strong>
-                                        <span>05th June - 15th June</span>
+                                        <span>05th Jun - 15th Jun</span>
                                         <span>Open</span>
                                     </div>
                                     <div>
                                         <strong>LS20255</strong>
-                                        <span>12th June - 22nd June</span>
+                                        <span>12th Jun - 22nd Jun</span>
                                         <span>Open</span>
                                     </div>
                                     <div>
                                         <strong>LS20256</strong>
-                                        <span>19th June - 29th June</span>
+                                        <span>19th Jun - 29th Jun</span>
                                         <span>Open</span>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="true" aria-controls="itineraryCollapse3">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="false" aria-controls="itineraryCollapse3">
                             July 2025
                             </button>
                         </h3>
@@ -86,17 +86,17 @@ export default component$(() => {
                                 <div class="itinerary">
                                     <div>
                                         <strong>LS20257</strong>
-                                        <span>3rd July - 13th July</span>
+                                        <span>3rd Jul - 13th Jul</span>
                                         <span>Open</span>
                                     </div>
                                     <div>
                                         <strong>LS20258</strong>
-                                        <span>10th July - 20th July</span>
+                                        <span>10th Jul - 20th Jul</span>
                                         <span>Open</span>
                                     </div>
                                     <div>
                                         <strong>LS20259</strong>
-                                        <span>17th July - 28th July</span>
+                                        <span>17th Jul - 28th Jul</span>
                                         <span>Open</span>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="true" aria-controls="itineraryCollapse4">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="false" aria-controls="itineraryCollapse4">
                             August 2025
                             </button>
                         </h3>
@@ -138,7 +138,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse5" aria-expanded="true" aria-controls="itineraryCollapse5">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse5" aria-expanded="false" aria-controls="itineraryCollapse5">
                             September 2025
                             </button>
                         </h3>
@@ -148,17 +148,17 @@ export default component$(() => {
                                 <div class="itinerary">
                                     <div>
                                         <strong>LS202513</strong>
-                                        <span>04th Sept - 14th Sept</span>
+                                        <span>04th Sep - 14th Sep</span>
                                         <span>Open</span>
                                     </div>
                                     <div>
                                         <strong>LS202514</strong>
-                                        <span>11th Sept - 21st Sept</span>
+                                        <span>11th Sep - 21st Sep</span>
                                         <span>Open</span>
                                     </div>
                                     <div>
                                         <strong>LS202515</strong>
-                                        <span>18th Sept - 28th Sept</span>
+                                        <span>18th Sep - 28th Sep</span>
                                         <span>Open</span>
                                     </div>
                                 </div>

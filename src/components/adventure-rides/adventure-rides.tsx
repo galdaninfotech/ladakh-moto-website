@@ -1,6 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './adventure-rides.css?inline';
-import OverviewIcons from '../overview-icons/overview-icons';
+import OverviewIcons from '~/components/overview-icons/overview-icons';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -20,7 +20,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/ladakh-with-umling-la">
-                                    <img src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="" />
+                                    <img src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -32,7 +32,7 @@ export default component$(() => {
                                 <div class="package-meta text-center">
                                     <ul>
                                         <li> <i class="fas fa-calendar-alt"></i> 8 Days </li>
-                                        <li> <i class="fas fa-user-friends"></i> People: 5 </li>
+                                        <li> <i class="fas fa-map-marked-alt"></i> Leh - Leh </li>
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
@@ -57,7 +57,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/leh-ladakh-adventure">
-                                    <img src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-overview.jpg" alt="" />
+                                    <img src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -69,7 +69,7 @@ export default component$(() => {
                                 <div class="package-meta text-center">
                                     <ul>
                                         <li> <i class="fas fa-calendar-alt"></i> 6 Days </li>
-                                        <li> <i class="fas fa-user-friends"></i> People: 8 </li>
+                                        <li> <i class="fas fa-map-marked-alt"></i> Leh - Leh </li>
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
@@ -94,7 +94,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/ladakh-srinagar-with-umling-la">
-                                    <img src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-overview.jpg" alt="" />
+                                    <img src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -106,7 +106,7 @@ export default component$(() => {
                                 <div class="package-meta text-center">
                                     <ul>
                                         <li> <i class="fas fa-calendar-alt"></i> 10 Days </li>
-                                        <li> <i class="fas fa-user-friends"></i> People: 6 </li>
+                                        <li> <i class="fas fa-map-marked-alt"></i> Leh - Srinagar </li>
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
@@ -131,7 +131,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/leh-zangskar-leh">
-                                    <img src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-overview.jpg" alt="" />
+                                    <img src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -143,7 +143,7 @@ export default component$(() => {
                                 <div class="package-meta text-center">
                                     <ul>
                                         <li> <i class="fas fa-calendar-alt"></i> 10 Days </li>
-                                        <li> <i class="fas fa-user-friends"></i> People: 6 </li>
+                                        <li> <i class="fas fa-map-marked-alt"></i> Leh - Leh </li>
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
@@ -168,7 +168,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/manali-to-leh-via-umling-la">
-                                    <img src="/img/tours/manali-to-leh-via-umling-la/manali-to-leh-via-umling-la-overview.jpg" alt="" />
+                                    <img src="/img/tours/manali-to-leh-via-umling-la/manali-to-leh-via-umling-la-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -180,7 +180,7 @@ export default component$(() => {
                                 <div class="package-meta text-center">
                                     <ul>
                                         <li> <i class="fas fa-calendar-alt"></i> 11 Days </li>
-                                        <li> <i class="fas fa-user-friends"></i> People: 6 </li>
+                                        <li> <i class="fas fa-map-marked-alt"></i> Manali - Leh </li>
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
@@ -205,7 +205,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/srinagar-leh-manali">
-                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-overview.jpg" alt="" />
+                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -217,8 +217,7 @@ export default component$(() => {
                                 <div class="package-meta text-center">
                                     <ul>
                                         <li> <i class="fas fa-calendar-alt"></i> 10 Days </li>
-                                        <li>
-                                        <i class="fas fa-user-friends"></i> People: 6 </li>
+                                        <li> <i class="fas fa-map-marked-alt"></i> Srinagar - Manali </li>
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
