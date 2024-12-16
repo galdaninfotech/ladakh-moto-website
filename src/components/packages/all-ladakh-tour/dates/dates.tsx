@@ -10,6 +10,8 @@ export default component$(() => {
                 <h2>Tour Dates</h2>
             </div>
             <p>No tours dates available for the current year!</p>
+
+            
         </div>
     );
 });

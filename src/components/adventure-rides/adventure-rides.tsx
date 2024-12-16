@@ -167,8 +167,8 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/manali-to-leh-via-umling-la">
-                                    <img src="/img/tours/manali-to-leh-via-umling-la/manali-to-leh-via-umling-la-home.jpg" alt="" />
+                                <a href="/manali-leh-srinagar">
+                                    <img src="/img/tours/manali-leh-srinagar/manali-leh-srinagar-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -184,7 +184,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
-                                    <h3><a href="/manali-to-leh-via-umling-la">Manali Leh Via Umling La</a></h3>
+                                    <h3><a href="/manali-leh-srinagar">Manali Leh Srinagar</a></h3>
                                     <div class="col-12">
                                         <OverviewIcons highestAltitude="19024ft" distance="1525km" duration="11D/10N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
@@ -194,7 +194,7 @@ export default component$(() => {
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/manali-to-leh-via-umling-la" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                        <a href="/manali-leh-srinagar" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>

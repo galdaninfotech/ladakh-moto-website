@@ -11,34 +11,37 @@ export default component$(() => {
                 <h2>Tour Cost</h2>
             </div>
             <div class="table-responsive py-1">
-                <table class="table table-bordered table-hover">
-                    <thead class="thead-dark table__head">
+                <table id="package-cost-table" class="table table-bordered table-hover">
+                    <thead>
                         <tr>
-                            <th scope="col">Travel Mode </th>
-                            <th scope="col">Selling Cost</th>
-                            <th scope="col">Early Discount</th>
+                            <td>Package Type</td>
+                            <td>Price 2 Pax Per person</td>
+                            <td>Price 2-5 pax Per person</td>
+                            <td>Price 5-12 Pax Per Person</td>
+                            <td>Above 12 Pax Per person</td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Own Bike</td>
-                            <td>₹ 23,000/- PP</td>
-                            <td id="tour-price">₹ 19,999/- PP</td>
+                            <td>Best Stay</td>
+                            <td>20,000</td>
+                            <td>20,000</td>
+                            <td>20,000</td>
+                            <td>20,000</td>
                         </tr>
                         <tr>
-                            <td>Solo Rider</td>
-                            <td>₹ 36,000/- PP</td>
-                            <td>₹ 29,999/- PP</td>
+                            <td>Super Deluxe</td>
+                            <td>20,000</td>
+                            <td>20,000</td>
+                            <td>20,000</td>
+                            <td>20,000</td>
                         </tr>
                         <tr>
-                            <td>Dual Ride</td>
-                            <td>₹ 28,000/- PP</td>
-                            <td>₹ 24,999/- PP</td>
-                        </tr>
-                        <tr>
-                            <td>Seat in Backup Vehicle</td>
-                            <td>₹ 28,000/- PP</td>
-                            <td>₹ 23,999/- PP</td>
+                            <td>Deluxe</td>
+                            <td>20,000</td>
+                            <td>20,000</td>
+                            <td>20,000</td>
+                            <td>20,000</td>
                         </tr>
                     </tbody>
                 </table>
@@ -49,3 +52,4 @@ export default component$(() => {
         </div>
     );
 });
+

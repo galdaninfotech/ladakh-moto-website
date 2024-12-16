@@ -76,7 +76,7 @@ export default component$(() => {
                                             <li><a href="/leh-ladakh-adventure">Leh Ladakh Adventure</a></li>
                                             <li><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></li>
                                             <li><a href="/leh-zangskar-leh">Leh Zangskar Leh</a></li>
-                                            <li><a href="/manali-to-leh-via-umling-la">Manali To Leh Via Umling La</a></li>
+                                            <li><a href="/manali-leh-srinagar">Manali Leh Srinagar</a></li>
                                             <li><a href="/srinagar-leh-manali">Srinagar Leh Manali</a></li>
                                         </ul>
                                     </li>

@@ -59,7 +59,6 @@ export default component$(() => {
                         <div class="sticky-buttons">
                             <a href="#overview" class={{ active: activeSection.value === 'overview' }}>Overview</a>
                             <a href="#itinerary" class={{ active: activeSection.value === 'itinerary' }}>Itinerary</a>
-                            <a href="#dates" class={{ active: activeSection.value === 'dates' }}>Dates</a>
                             <a href="#cost" class={{ active: activeSection.value === 'cost' }}>Cost</a>
                         </div>
 

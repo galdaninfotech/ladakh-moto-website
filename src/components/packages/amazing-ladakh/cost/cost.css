@@ -1,0 +1,9 @@
+thead tr td {
+    font-weight: 600;
+    
+}
+
+table#package-cost-table > thead {
+    vertical-align: bottom;
+    background: #dee2e6;
+}

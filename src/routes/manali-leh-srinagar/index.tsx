@@ -2,10 +2,10 @@ import { component$, useStylesScoped$, useVisibleTask$, useSignal } from "@build
 import styles from './index.css?inline';
 
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Dates from "~/components/manali-to-leh-via-umling-la/dates/dates";
-import Itinerary from "~/components/manali-to-leh-via-umling-la/itinerary/itinerary";
-import Overview from "~/components/manali-to-leh-via-umling-la/overview/overview";
-import Cost from "~/components/manali-to-leh-via-umling-la/cost/cost";
+import Dates from "~/components/manali-leh-srinagar/dates/dates";
+import Itinerary from "~/components/manali-leh-srinagar/itinerary/itinerary";
+import Overview from "~/components/manali-leh-srinagar/overview/overview";
+import Cost from "~/components/manali-leh-srinagar/cost/cost";
 import RidingGears from "~/components/riding-gears/riding-gears";
 import TourPolicy from "~/components/tour-policy/tour-policy";
 import Sidebar from "~/components/sidebar/sidebar";
@@ -52,7 +52,7 @@ export default component$(() => {
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="intro">
-                            <h1 id="tour-name" data-tour-name="Manali To Leh Via Umling La">Manali To Leh Via Umling La</h1>
+                            <h1 id="tour-name" data-tour-name="Manali Leh Srinagar">Manali Leh Srinagar</h1>
                         </div>
 
                         <div class="sticky-buttons">
@@ -83,11 +83,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Manali To Leh Via Umling La",
+  title: "Manali Leh Srinagar",
   meta: [
     {
       name: "description",
-      content: "Manali To Leh Via Umling La",
+      content: "Manali Leh Srinagar",
     },
   ],
 };
