@@ -18,6 +18,11 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 export default component$(() => {
   return (
     <>
+        {/* <!-- Google Tag Manager (noscript) --> */}
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFMMQ5LD"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        {/* <!-- End Google Tag Manager (noscript) --> */}
+        
         {/* Start Preloader */}
 		<div class="preloader-wrap">
 			<div class="cube-wrapper">

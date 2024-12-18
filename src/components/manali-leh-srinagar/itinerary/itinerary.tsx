@@ -369,7 +369,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse10" aria-expanded="false" aria-controls="itineraryCollapse10">
-                            Day 11 : Departure from Srinagar
+                            Day 10 : Departure from Srinagar
                             </button>
                         </h3>
                         <div id="itineraryCollapse10" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">

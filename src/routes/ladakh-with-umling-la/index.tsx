@@ -12,7 +12,7 @@ import TourPolicy from "~/components/tour-policy/tour-policy";
 import Sidebar from "~/components/sidebar/sidebar";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
 import Fab from "~/components/fab/fab";
-import ImportantInstructions from "~/components/important-instructions/important-instructions";
+import ImportantInstructions from "~/components/things-to-keep-in-mind/things-to-keep-in-mind";
 
 export default component$(() => {
     useStylesScoped$(styles);

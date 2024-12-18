@@ -6,7 +6,7 @@ import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
 export const RouterHead = component$(() => {
   const head = useDocumentHead();
   const loc = useLocation();
-
+ 
   return (
     <>
       <title>{head.title}</title>
@@ -19,14 +19,24 @@ export const RouterHead = component$(() => {
         <meta key={m.key} {...m} />
       ))}
 
-      <link rel="shortcut icon" href="img/favicon.png" />
+      <link rel="shortcut icon" href="/img/favicon.png" />
 
-      {/* Google Fonts */}
-      
+        {/* <!-- Google Tag Manager --> */}
+          <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=GTM-NFMMQ5LD"></script>
+          <script type="text/partytown">
+              {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'GTM-NFMMQ5LD');
+              `}
+          </script>
+        {/* <!-- End Google Tag Manager --> */}
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
+    {/* Google Fonts */}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
 
       {/* CSS */}
       <link rel="stylesheet" href="/css/bootstrap.min.css" />
@@ -68,4 +78,5 @@ export const RouterHead = component$(() => {
       ))}
     </>
   );
+
 });

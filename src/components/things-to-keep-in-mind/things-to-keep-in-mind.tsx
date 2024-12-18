@@ -5,7 +5,7 @@ export default component$(() => {
     return (
         <div id="essentials" class="mt-5">
             <div class="sub-headings">
-                <h2>Important Instructions</h2>
+                <h2>Things To Keep In Mind</h2>
             </div>
             <p>
                 Here are the important instructions for bikers participating in a group motorbiking tour organized by Ladakhmoto in the Himalayas. Following these guidelines ensures safety, smooth execution of the tour, and an enjoyable experience for everyone:
