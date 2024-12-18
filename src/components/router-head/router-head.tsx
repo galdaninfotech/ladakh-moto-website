@@ -33,6 +33,20 @@ export const RouterHead = component$(() => {
           </script>
         {/* <!-- End Google Tag Manager --> */}
 
+
+
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-22PCETMJ71"></script>
+        <script>
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-22PCETMJ71');
+        `}
+        </script>
+
+
+
     {/* Google Fonts */}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -78,5 +92,4 @@ export const RouterHead = component$(() => {
       ))}
     </>
   );
-
 });
