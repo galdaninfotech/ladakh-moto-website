@@ -103,7 +103,7 @@ export default component$(() => {
                                             <li><a href="/destinations\lamayuru-monastery">Lamayuru Monastery</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="c#">Gallery</a></li>
+                                    <li><a href="/gallery">Gallery</a></li>
                                     <li class="icon">
                                         <a href="/contact"><i class="far fa-user"></i>Contact</a>
                                     </li>
