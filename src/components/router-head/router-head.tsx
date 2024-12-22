@@ -9,6 +9,19 @@ export const RouterHead = component$(() => {
  
   return (
     <>
+        {/* <!-- Google Tag Manager --> */}
+            <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=GTM-NFMMQ5LD"></script>
+            <script type="text/partytown">
+                {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'GTM-NFMMQ5LD');
+                `}
+            </script>
+          {/* <!-- End Google Tag Manager --> */}
+
+          
       <title>{head.title}</title>
 
       <link rel="canonical" href={loc.url.href} />
@@ -21,17 +34,6 @@ export const RouterHead = component$(() => {
 
       <link rel="shortcut icon" href="/img/favicon.png" />
 
-        {/* <!-- Google Tag Manager --> */}
-          <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=GTM-NFMMQ5LD"></script>
-          <script type="text/partytown">
-              {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'GTM-NFMMQ5LD');
-              `}
-          </script>
-        {/* <!-- End Google Tag Manager --> */}
 
 
 
