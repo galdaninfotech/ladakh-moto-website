@@ -87,8 +87,12 @@ export const head: DocumentHead = {
   title: "Ladakh With Umling La",
   meta: [
     {
+        name: "keyword",
+        content: "Ladakh With Umling La, leh ladakh trip package, leh ladakh travel package, Leh Ladakh With Umling La, Leh to Umling La Pass distance by road, Ladakh Srinagar With Umling La, Leh Ladakh With Umling La Package, Leh Ladakh With Umling La Pass"
+    },
+    {
       name: "description",
-      content: "Ladakh With Umling La",
+      content: "Ladakh With Umling La is an unforgettable journey with Ladakh Moto to Umling La, the world’s highest motorable road. Explore breathtaking landscapes, rugged terrains, and authentic Ladakhi culture with our expertly curated bike tours. Experience adventure motor biking like never before!",
     },
   ],
 };

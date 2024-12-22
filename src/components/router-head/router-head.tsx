@@ -36,14 +36,7 @@ export const RouterHead = component$(() => {
 
 
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-22PCETMJ71"></script>
-        <script>
-        {`window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-22PCETMJ71');
-        `}
-        </script>
+
 
 
 
