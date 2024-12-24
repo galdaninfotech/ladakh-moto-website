@@ -10,15 +10,7 @@ export const RouterHead = component$(() => {
   return (
     <>
         {/* <!-- Google Tag Manager --> */}
-            <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=GTM-NFMMQ5LD"></script>
-            <script type="text/partytown">
-                {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'GTM-NFMMQ5LD');
-                `}
-            </script>
+            <script src="/js/google-tag-manager.js"></script>
           {/* <!-- End Google Tag Manager --> */}
 
           
