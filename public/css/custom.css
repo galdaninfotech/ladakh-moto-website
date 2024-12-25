@@ -2,7 +2,7 @@
 .intro i {
   font-size: 18px;
 }
-.intro h1::after {
+.intro h2::after {
   content: '';
   display: block;
   background: url(../img/bg/bg-title-1.png) no-repeat center;

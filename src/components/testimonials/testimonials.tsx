@@ -10,7 +10,7 @@ export default component$(() => {
                 <div class="row">
                     <div class="col-12">
                         <div class="intro">
-                            <h1>Testimonials</h1>
+                            <h2>Testimonials</h2>
                         </div>
                     </div>
                 </div>

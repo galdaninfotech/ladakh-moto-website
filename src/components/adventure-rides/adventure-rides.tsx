@@ -12,21 +12,19 @@ export default component$(() => {
                     <div class="row">
                         <div class="col-12">
                             <div class="intro">
-                                <h1>Adventure Rides 2025</h1>
+                                <h2>Adventure Rides 2025</h2>
                             </div>
                         </div>
                         
                         <div class="col-md-6 col-lg-4"> 
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/ladakh-with-umling-la">
+                                <a href="/ladakh-with-umling-la" aria-label="Ladakh with Umling La">
                                     <img src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <h6>
-                                    <span>₹ 23,000 </span> / pp
-                                </h6>
+                                <span class="price-badge">₹ 23,000 / pp</span> 
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
@@ -56,14 +54,12 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/leh-ladakh-adventure">
+                                <a href="/leh-ladakh-adventure" aria-label="Leh Ladakh Adventure">
                                     <img src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <h6>
-                                    <span>₹ 19,500 </span> / pp
-                                </h6>
+                                <span class="price-badge">₹ 19,500 / pp</span>
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
@@ -93,14 +89,13 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/ladakh-srinagar-with-umling-la">
+                                <a href="/ladakh-srinagar-with-umling-la" aria-label="Ladakh Srinagar With Umling La">
                                     <img src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <h6>
-                                    <span>₹ 22,000 </span> / pp
-                                </h6>
+                                <span class="price-badge">₹ 22,000 / pp</span>
+
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
@@ -130,14 +125,12 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/leh-zangskar-leh">
+                                <a href="/leh-zangskar-leh" aria-label="Leh Zangskar Leh">
                                     <img src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <h6>
-                                    <span>₹ 29,500 </span> / pp
-                                </h6>
+                                <span class="price-badge">₹ 29,500 / pp</span>
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
@@ -167,14 +160,12 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/manali-leh-srinagar">
+                                <a href="/manali-leh-srinagar" aria-label="Manali Leh Srinagar">
                                     <img src="/img/tours/manali-leh-srinagar/manali-leh-srinagar-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <h6>
-                                    <span>₹ 25,000 </span> / pp
-                                </h6>
+                                <span class="price-badge">₹ 25,000 / pp</span>
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
@@ -204,14 +195,12 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/srinagar-leh-manali">
+                                <a href="/srinagar-leh-manali" aria-label="Srinagar Leh Manali">
                                     <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <h6>
-                                    <span>₹ 22,000 </span> / pp
-                                </h6>
+                                <span class="price-badge">₹ 22,000 / pp</span>
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">

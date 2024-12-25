@@ -1,4 +1,4 @@
-.intro h1 {
+.intro h2 {
   font-size: 25px;
   font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
@@ -8,7 +8,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .intro h1 {
+  .intro h2 {
       margin-top: 50px;
   }
 }
@@ -64,4 +64,13 @@
 }
 .package-wrap .package-content {
   margin-bottom: 60px;
+}
+
+.package-wrap .package-price .price-badge {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.1;
+    margin-bottom: 0;
+    padding: 4px 6px;
 }
