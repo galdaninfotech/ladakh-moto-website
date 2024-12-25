@@ -50,7 +50,7 @@ export const Contact = component$(() => {
     <div>
         <form preventdefault:submit onSubmit$={handleSubmit} class="mb-30">
             <div class="form-group">
-                <label for="">Name</label>
+                <label for="name">Name</label>
                 <input name="name" type="text" class="form-control" 
                     value={formState.name}
                     onInput$={(e) =>
@@ -60,7 +60,7 @@ export const Contact = component$(() => {
             </div>
 
             <div class="form-group">
-                <label for="">E-Mail Address <span>*</span></label>
+                <label for="email">E-Mail Address <span>*</span></label>
                 <input name="email" class="form-control" type="text" required
                     value={formState.email}
                     onInput$={(e) =>
@@ -70,7 +70,7 @@ export const Contact = component$(() => {
             </div>
 
             <div class="form-group">
-                <label for="">Phone Number</label>
+                <label for="phone">Phone Number</label>
                 <input name="phone" class="form-control" type="text" 
                     value={formState.email}
                     onInput$={(e) =>
@@ -80,7 +80,7 @@ export const Contact = component$(() => {
             </div>
 
             <div class="form-group">
-                <label for="">Message</label>
+                <label for="message">Message</label>
                 <textarea name="message" class="form-control" rows={7}
                     value={formState.message}
                     onInput$={(e) =>
