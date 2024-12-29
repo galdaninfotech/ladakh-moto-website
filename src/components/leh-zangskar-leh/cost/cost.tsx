@@ -15,30 +15,35 @@ export default component$(() => {
                     <thead class="thead-dark table__head">
                         <tr>
                             <th scope="col">Travel Mode </th>
-                            <th scope="col">Selling Cost</th>
-                            <th scope="col">Early Discount</th>
+                            <th scope="col">Vehicle Provided</th>
+                            <th scope="col">Cost Per Person</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>Own Bike</td>
                             <td>₹ 54,000/- PP</td>
-                            <td id="tour-price">₹ 24,500/- PP</td>
+                            <td id="tour-price">₹ 28,500/- PP</td>
                         </tr>
                         <tr>
                             <td>Solo Rider</td>
-                            <td>₹ 45,000/- PP</td>
-                            <td>₹ 40,500/- PP</td>
+                            <td>Himalayan 411cc BSVI</td>
+                            <td>₹ 46,500/- PP</td>
                         </tr>
                         <tr>
                             <td>Dual Ride</td>
-                            <td>₹ 34,000/- PP</td>
-                            <td>₹ 29,500/- PP</td>
+                            <td>Himalayan 411cc BSVI</td>
+                            <td>₹ 38,500/- PP</td>
                         </tr>
                         <tr>
                             <td>Seat in Backup Vehicle</td>
-                            <td>₹ 34,000/- PP</td>
-                            <td>₹ 29,500/- PP</td>
+                            <td>Isuzu/Camper</td>
+                            <td>₹ 36,000/- PP</td>
+                        </tr>
+                        <tr>
+                            <td>SUV (min 5 seats)</td>
+                            <td>Innova/Xylo</td>
+                            <td>₹ 36,000/- PP</td>
                         </tr>
                     </tbody>
                 </table>

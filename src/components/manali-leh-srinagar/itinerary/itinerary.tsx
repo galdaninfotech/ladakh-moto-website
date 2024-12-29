@@ -114,7 +114,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="16600 ft" distance="137 km" duration="6 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="16600 ft" distance="252 km" duration="6 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -143,7 +143,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="18,380 ft" distance="97 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="18,380 ft" distance="124 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -154,7 +154,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="18,380 ft" distance="97 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="18,380 ft" distance="124 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -259,7 +259,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="13940 ft" distance="230 km" duration="7 hrs" lodging="Cottges" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="13940 ft" distance="210 km" duration="7 hrs" lodging="Cottges" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -270,7 +270,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="13940 ft" distance="230 km" duration="7 hrs" lodging="Cottges" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="13940 ft" distance="210 km" duration="7 hrs" lodging="Cottges" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -298,7 +298,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="10000 ft" distance="160 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="13400 ft" distance="160 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -309,7 +309,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="10000 ft" distance="160 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="13400 ft" distance="160 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -337,7 +337,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="10000 ft" distance="170 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11650 ft" distance="201 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -348,7 +348,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="10000 ft" distance="170 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11650 ft" distance="201 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">

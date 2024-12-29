@@ -10,7 +10,6 @@ import RidingGears from "~/components/riding-gears/riding-gears";
 import TourPolicy from "~/components/tour-policy/tour-policy";
 import Sidebar from "~/components/sidebar/sidebar";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
-import { Contact } from "~/components/contact/contact";
 import Fab from "~/components/fab/fab";
 import ImportantInstructions from "~/components/things-to-keep-in-mind/things-to-keep-in-mind";
 
@@ -72,7 +71,6 @@ export default component$(() => {
                         <TourPolicy />
                         <ImportantInstructions />
                         <EnquiryPopup />
-                        <Contact />
                         <Fab tourPrice={tourPrice.value} />
                     </div>
                     <div class="col-lg-3">

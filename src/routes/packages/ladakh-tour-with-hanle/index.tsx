@@ -2,17 +2,14 @@ import { component$, useStylesScoped$, useVisibleTask$, useSignal } from "@build
 import styles from './index.css?inline';
 
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Dates from "~/components/packages/ladakh-tour-with-hanle/dates/dates";
 import Itinerary from "~/components/packages/ladakh-tour-with-hanle/itinerary/itinerary";
 import Overview from "~/components/packages/ladakh-tour-with-hanle/overview/overview";
 import Cost from "~/components/packages/ladakh-tour-with-hanle/cost/cost";
-import RidingGears from "~/components/riding-gears/riding-gears";
 import TourPolicy from "~/components/tour-policy/tour-policy";
 import Sidebar from "~/components/sidebar/sidebar";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
 import { Contact } from "~/components/contact/contact";
 import Fab from "~/components/fab/fab";
-import ImportantInstructions from "~/components/things-to-keep-in-mind/things-to-keep-in-mind";
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -64,12 +61,9 @@ export default component$(() => {
 
                         <Overview />
                         <Itinerary />
-                        <Dates />
                         <Cost />
 
-                        <RidingGears />
                         <TourPolicy />
-                        <ImportantInstructions />
                         <EnquiryPopup />
                         <Contact />
                         <Fab tourPrice={tourPrice.value} />

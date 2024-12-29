@@ -67,7 +67,10 @@ export default component$(() => {
 								<ul>
 									<li><a href="#"><i class="fal fa-paper-plane"></i>DB2 Zangsti, Nr. MCL Vehicle Parking, Leh, 194101 Ladakh, India</a></li>
 									<li><a href="mailto:info@ladakhmoto.com"><i class="fal fa-envelope"></i>info@ladakhmoto.com</a></li>
-									<li><a href="#"><i class="fal fa-phone-alt"></i>+91 9622958013</a></li>
+									<li><a href="tel:9622958013"><i class="fal fa-phone-alt"></i>+91 9622958013</a></li>
+									<li><a href="tel:9906989962"><i class="fal fa-phone-alt"></i>+91 9906989962</a></li>
+									<li><a href="tel:9419393330"><i class="fal fa-phone-alt"></i>+91 9419393330</a></li>
+									<li><a href="tel:8899537311"><i class="fal fa-phone-alt"></i>+91 8899537311</a></li>
 								</ul>
 							</div>
 						</div>

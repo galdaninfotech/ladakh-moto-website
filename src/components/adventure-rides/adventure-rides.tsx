@@ -39,8 +39,8 @@ export default component$(() => {
                                         <OverviewIcons duration="8D/7N" highestAltitude="19024ft" distance="1050km" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 27,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
+                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 24,000</del></span>
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -74,8 +74,8 @@ export default component$(() => {
                                         <OverviewIcons highestAltitude="18300ft" distance="550km" duration="6D/5N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 23,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
+                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 21,000</del></span>
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 15,500/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -110,8 +110,8 @@ export default component$(() => {
                                         <OverviewIcons highestAltitude="19024ft" distance="1576km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 27,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 22,000/- </span>per person
+                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 29,000</del></span>
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 25,000/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -146,7 +146,7 @@ export default component$(() => {
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 34,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 29,500/- </span>per person
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 28,500/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -170,18 +170,18 @@ export default component$(() => {
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
                                     <ul>
-                                        <li> <i class="fas fa-calendar-alt"></i> 11 Days </li>
+                                        <li> <i class="fas fa-calendar-alt"></i> 10 Days </li>
                                         <li> <i class="fas fa-map-marked-alt"></i> Manali - Leh </li>
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
                                     <h3><a href="/manali-leh-srinagar">Manali Leh Srinagar</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="19024ft" distance="1525km" duration="11D/10N" lodging="Hotel/Camp" meal="BF/Din" />
+                                        <OverviewIcons highestAltitude="18380ft" distance="1456km" duration="10D/09N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 29,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 25,000/- </span>per person
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -216,7 +216,7 @@ export default component$(() => {
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 27,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 22,000/- </span>per person
+                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>

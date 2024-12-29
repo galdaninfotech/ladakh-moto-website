@@ -33,6 +33,7 @@ export default component$(() => {
                         <ul>
                             <li><a href="mailto:info@ladakhmoto.com"><i class="fal fa-envelope"></i>info@ladakhmoto.com</a></li>
                             <li><a href="tel:+91-9622958013"><i class="fal fa-phone-alt"></i>+91-9622958013</a></li>
+                            <li><a href="tel:+91-9906989962"><i class="fal fa-phone-alt"></i>+91-9906989962</a></li>
                         </ul>
                     </div>
                 </div>

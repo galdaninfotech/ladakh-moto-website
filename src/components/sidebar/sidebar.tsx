@@ -24,7 +24,8 @@ export default component$(() => {
                     Do not hesitage to give us a call. We are a team of local experts and we are happy to talk to you.
                 </p>
                 <div class="items">
-                    <div class="item"><span><i class="fas fa-phone-volume"></i></span><span>+91-9622958013</span></div>
+                    <div class="item"><span><i class="fas fa-phone-volume"></i></span><span><a href="tel:9622958013">9622958013</a></span></div>
+                    <div class="item"><span><i class="fas fa-phone-volume"></i></span><span><a href="tel:9906989962">9906989962</a></span></div>
                     <div class="item"><span><i class="fas fa-envelope-open-text"></i></span><span>info@ladakhmoto.com</span></div>
                 </div>
             </div>

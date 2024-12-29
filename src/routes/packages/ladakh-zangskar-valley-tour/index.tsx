@@ -2,16 +2,13 @@ import { component$, useStylesScoped$, useVisibleTask$, useSignal } from "@build
 import styles from './index.css?inline';
 
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Dates from "~/components/packages/ladakh-zangskar-valley-tour/dates/dates";
 import Itinerary from "~/components/packages/ladakh-zangskar-valley-tour/itinerary/itinerary";
 import Overview from "~/components/packages/ladakh-zangskar-valley-tour/overview/overview";
 import Cost from "~/components/packages/ladakh-zangskar-valley-tour/cost/cost";
-import RidingGears from "~/components/riding-gears/riding-gears";
 import TourPolicy from "~/components/tour-policy/tour-policy";
 import Sidebar from "~/components/sidebar/sidebar";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
 import Fab from "~/components/fab/fab";
-import ImportantInstructions from "~/components/things-to-keep-in-mind/things-to-keep-in-mind";
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -63,12 +60,9 @@ export default component$(() => {
 
                         <Overview />
                         <Itinerary />
-                        <Dates />
                         <Cost />
 
-                        <RidingGears />
                         <TourPolicy />
-                        <ImportantInstructions />
                         <EnquiryPopup />
                         <Fab tourPrice={tourPrice.value} />
                     </div>
