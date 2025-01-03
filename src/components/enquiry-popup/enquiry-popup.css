@@ -47,7 +47,7 @@
     color: #fff;
   }
   .btnOpenForm {
-    background-color: #ff5300;
+    background-color: teal;
     border: none;
     border-radius: 3px;
     color: #000;
@@ -76,7 +76,7 @@
     bottom: 0;
   }
   .form-popup-bg h4 {
-    color: #ff5300;
+    color: teal;
     text-align: center;
     font-size: 26px;
   }
@@ -84,10 +84,10 @@
     width: 100%;
   }
   div.form-popup-bg form label > span {
-    color: #ff5300;
+    color: teal;
   }
   div.form-popup-bg.is-visible > div > form > button {
-    background-color: #ff5300;
+    background-color: teal;
     border: none;
     border-radius: 3px;
     color: #fff;

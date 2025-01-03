@@ -9,6 +9,8 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1rem;
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 .overview-tour-highlights {
     line-height: 28px;
@@ -43,7 +45,7 @@
     border-right: none;
 }
 .sticky-buttons a:hover {
-    background-color: #ff5300; 
+    background-color: teal; 
     color: #fff;
 }
 #overview, #itinerary, #dates, #cost {
@@ -94,10 +96,10 @@
 .table__head {
     color: #FFF;
     font-weight: 700;
-    background: #9b4085;
-    background: -moz-linear-gradient(-45deg, #9b4085 0%, #608590 100%);
+    background: teal;
+    /* background: -moz-linear-gradient(-45deg, #9b4085 0%, #608590 100%);
     background: -webkit-linear-gradient(-45deg, #9b4085 0%,#608590 100%);
-    background: linear-gradient(135deg, #9b4085 0%,#608590 100%);
+    background: linear-gradient(135deg, #9b4085 0%,#608590 100%); */
     white-space: nowrap;
 }
     .table-bordered td, .table-bordered th{
@@ -143,5 +145,5 @@ ul.inclusions i {
 }
 ul.exclusions i {
     margin-right: 5px;
-    color: #ff5300;
+    color: teal;
 }

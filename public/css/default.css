@@ -293,7 +293,7 @@ select:focus {
      height: auto;
 }
 .form-select:focus {
-    border-color: #ff5300;
+    border-color: teal;
     outline: 0;
     box-shadow: 0 0 0 .15rem rgba(255, 83, 0, 0.25);
 }

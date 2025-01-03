@@ -95,7 +95,7 @@ header.header-area.style-2 .header-top-left, header.header-area.style-2 .header-
     background-color: #ffffff;
     box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.1);
     width: 80px;
-    border-top: 2px solid #ff5300;
+    border-top: 2px solid teal;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease 0s;
@@ -109,7 +109,7 @@ header.header-area.style-2 .header-top-left, header.header-area.style-2 .header-
 }
 .header-top-left > ul > li ul li a:hover, .header-top-left > ul > li a:hover,
 .header-top-contact ul li a:hover {
-    color: #ff5300;
+    color: teal;
 }
 .header-top-left > ul > li:hover ul {
     opacity: 1;
@@ -253,7 +253,7 @@ header.header-area.style-2 nav.gene-nav ul li:last-child a {
      padding: 0;
 }
  .gene-nav .menu > li:hover>a {
-     color: #ff5300;
+     color: teal;
 }
 .gene-nav ul.menu > li > a {
     color: #ffffff;
@@ -267,7 +267,7 @@ header.header-area.style-2 nav.gene-nav ul li:last-child a {
 }
  .navigation-area.dark .gene-nav .menu > li:hover>a, .absolute-header .navigation-area .gene-nav ul.menu > li:hover > a {
      background: transparent;
-     color: #ff5300;
+     color: teal;
 }
  .gene-nav .menu > li:last-child > ul ul {
      left: auto;
@@ -275,7 +275,7 @@ header.header-area.style-2 nav.gene-nav ul li:last-child a {
 }
  .gene-nav .menu > li ul {
      background-color: #ffffff;
-     border-top: 2px solid #ff5300;
+     border-top: 2px solid teal;
      opacity: 0;
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
      padding: 15px 0;
@@ -299,7 +299,7 @@ header.header-area.style-2 nav.gene-nav ul li:last-child a {
 }
  .gene-nav .menu > li > ul li a:hover {
      border-radius: 2px;
-     color: #ff5300;
+     color: teal;
 }
  .gene-nav .menu > li > ul > li > ul {
      left: 100%;
@@ -323,7 +323,7 @@ header.header-area.style-2 nav.gene-nav ul li:last-child a {
      visibility: visible;
 }
 nav.gene-nav li.active > a {
-    color: #ff5300;
+    color: teal;
 }
 li.icon a i {
     padding-right: 6px;
@@ -475,7 +475,7 @@ header.header-area.style-2 .mobile-menu-area .mean-nav {
     padding-right: 30px;
 }
 .login-cart ul li a:hover, a.more:hover {
-    color: #ff5300;
+    color: teal;
 }
 /*Sticky*/
 header.header-area.style-2.header-border.sticky .navigation-area {
@@ -503,7 +503,7 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
 }
 .sticky .gene-nav .menu > li:hover>a {
     background: transparent;
-    color: #ff5300;
+    color: teal;
 }
 .sticky .navigation-area {
     border-bottom: none;
@@ -653,19 +653,19 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
      right: 10px;
 }
  .slide-controls .owl-nav button i {
-     border: 2px solid #ff5300;
+     border: 2px solid teal;
      border-radius: 50%;
      display: block;
      height: 50px;
      line-height: 48px;
      margin: 5px;
      width: 50px;
-     color: #ff5300;
+     color: teal;
      background-color: #f6f6f6;
      transition: 0.3s;
 }
  .slide-controls .owl-nav button i:hover {
-     background-color: #ff5300;
+     background-color: teal;
      color:#ffffff;
 }
  .slide-controls:hover .owl-nav button {
@@ -721,7 +721,7 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
      width: 12px;
 }
  .slide-controls .owl-dots .owl-dot span, .owl-dots .owl-dot span {
-     background-color: #ff5300;
+     background-color: teal;
      height: 10px;
      left: -5px;
      position: absolute;
@@ -799,7 +799,7 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
     border-bottom-left-radius: 13px;
 }
 .single-quick-icon:before {
-    background-color: #ff5300;
+    background-color: teal;
 }
 .single-quick-icon:hover:before {
     width: 100%;
@@ -910,7 +910,7 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
     box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.1);
 }
 .adventure-content a:hover h5, .adventure-content a:hover h6 {
-    color: #ff5300;
+    color: teal;
 }
 .adventure-content p.tour {
     font-size: 12px;
@@ -960,7 +960,7 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
 }
 .selling-tips-wrap .owl-nav button:hover {
     color: #fff;
-    background-color: #ff5300;
+    background-color: teal;
 }
 /*=== Camping and Highking ===*/
 .single-camp-hi {
@@ -1066,7 +1066,7 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
 }
 .single-fact:hover {
     box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.1);
-    background-color: #ff5300;
+    background-color: teal;
     border: 1px solid transparent;
 }
 .single-fact:hover img {
@@ -1284,7 +1284,7 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
     line-height: 31px;
 }
 .single-post-blog .post-blog-content a:hover h4 {
-    color: #ff5300;
+    color: teal;
 }
 .single-post-blog:hover {
     box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.1);
@@ -1391,7 +1391,7 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
     padding: 0px 20px 0px;
 }
 .single-guide .guide-content a:hover h4 , .guide-content ul li a:hover{
-    color: #ff5300;
+    color: teal;
 }
 .single-guide:hover .guide-content {
     height: 240px;
@@ -1525,7 +1525,7 @@ footer.footer-area .widget p {
     margin-bottom: 5px;
 }
 .widget.contact-widget ul li a:hover {
-    background-color: #ff5300;
+    background-color: teal;
     border: 1px solid transparent;
 }
 .style-3 .widget.contact-widget ul li a:hover {
@@ -1549,7 +1549,7 @@ footer.footer-area .widget p {
 }
 .widget.quick-link-widget ul li a:hover, .widget.quick-link-categories ul li a:hover,
 .widget.quick-destinations ul li a:hover, .widget.contact-us ul li a:hover {
-    color: #ff5300;
+    color: teal;
 }
 .widget.contact-us ul {
     margin: 0;
@@ -1646,7 +1646,7 @@ footer.footer-area .widget p {
 }
 
 .bradcumb ul li a:hover {
-    color: #ff5300;
+    color: teal;
 }
 /*=== About Page Advanture ===*/
 .about-adventure-area {
@@ -1697,7 +1697,7 @@ footer.footer-area .widget p {
     content: "";
     width: 100%;
     height: 100%;
-    background-color: #ff5300;
+    background-color: teal;
     top: 0;
     left: 0;
     border-radius: 10px;
@@ -1747,7 +1747,7 @@ footer.footer-area .widget p {
     padding-top: 40px;
 }
 .about-fre-bottom h2 {
-    color: #ff5300;
+    color: teal;
     font-size: 50px;
     line-height: 56px;
 }
@@ -1784,7 +1784,7 @@ footer.footer-area .widget p {
     left: 0;
     top: 0;
     height: 100%;
-    background-color: #ff5300;
+    background-color: teal;
     transition: 0.3s;
     opacity: 0;
     visibility: hidden;
@@ -1852,7 +1852,7 @@ footer.footer-area .widget p {
     font-size: 25px;
 }
 .view-grid ul li a:hover, .view-grid ul li.active a {
-    color: #ff5300;
+    color: teal;
 }
 .gane-pagination ul {
     margin: 0;
@@ -1876,7 +1876,7 @@ footer.footer-area .widget p {
     margin-bottom: 10px;
 }
 .gane-pagination ul li a:hover, .gane-pagination ul li.active a {
-    background-color: #ff5300;
+    background-color: teal;
     color: #ffffff;
 }
 /*Advanture 2*/
@@ -1887,7 +1887,7 @@ footer.footer-area .widget p {
     font-size: 20px;
 }
 .sigle-adv-sidebar h4 span {
-    color: #ff5300;
+    color: teal;
 }
 ul.widget-destination {
     margin: 0;
@@ -2034,14 +2034,14 @@ form.adventure-select-form button.search {
     width: 170px;
     margin-left: 30px;
     border: none;
-    background-color: #ff5300;
+    background-color: teal;
     color: #ffffff;
     font-size: 15px;
     transition: 0.3s;
 }
 
 form.adventure-select-form button.search:hover {
-    background-color: #ff5300;
+    background-color: teal;
 }
 .single-alpine h4 {
     font-size: 20px;
@@ -2049,7 +2049,7 @@ form.adventure-select-form button.search:hover {
 }
 .single-alpine h3 {
     font-size: 30px;
-    color: #ff5300;
+    color: teal;
     margin-bottom: 0;
 }
 .single-alpine ul {
@@ -2202,10 +2202,10 @@ form.adventure-select-form button.search:hover {
     text-align: center;
 }
 .trip-table td.button a.btn-bor {
-    border: 1px solid #ff5300;
+    border: 1px solid teal;
 }
 .trip-table td.button a.btn-bor:hover {
-    background-color: #ff5300;
+    background-color: teal;
     color: #ffffff;
 }
 .trip-table td.button a.btn-theme {
@@ -2294,7 +2294,7 @@ form.adventure-select-form button.search:hover {
     text-decoration: underline;
 }
 .product-cart-tbl-content a:hover, .product-cart-tbl-content a:hover h6 {
-    color: #ff5300;
+    color: teal;
 }
 .product-cart-close a:hover {
     color: #ffffff;
@@ -2411,12 +2411,12 @@ form.adventure-select-form button.search:hover {
 }
 /*=== Button ===*/
 a.btn.border-theme {
-    border: 1px solid #ff5300;
+    border: 1px solid teal;
     padding: 19px 50px;
     border-radius: 10px;
 }
 a.btn.border-theme:hover {
-    background-color: #ff5300;
+    background-color: teal;
     color: #ffffff;
 }
 .right-cart-btn {
@@ -2430,10 +2430,10 @@ a.btn.btn-theme-dark, button.btn.btn-theme-dark {
     margin-right: 8px;
 }
 a.btn.btn-theme-dark:hover, button.btn.btn-theme-dark:hover {
-    background-color: #ff5300;
+    background-color: teal;
 }
 a.btn.btn-theme, button.btn.btn-theme, input.btn.btn-theme {
-    background: #ff5300;
+    background: teal;
     color: #ffffff;
     border-radius: 10px;
     padding: 19px 50px;
@@ -2508,31 +2508,31 @@ a.btn.btn-theme.float-right {
   color: #656565;
 }
 .single-field input::-webkit-focus {
-  color: #ff5300;
+  color: teal;
 }
 .single-field input:-ms-focus {
-  color: #ff5300;
+  color: teal;
 }
 .single-field input::-ms-focus {
-  color: #ff5300;
+  color: teal;
 }
 .single-field input[focus] {
-  color: #ff5300;
+  color: teal;
 }
 .single-field textarea::placeholder {
   color: #656565;
 }
 .single-field textarea::-webkit-focus {
-  color: #ff5300;
+  color: teal;
 }
 .single-field textarea:-ms-focus {
-  color: #ff5300;
+  color: teal;
 }
 .single-field textarea::-ms-focus {
-  color: #ff5300;
+  color: teal;
 }
 .single-field textarea[focus] {
-  color: #ff5300;
+  color: teal;
 }
 .half-field {
   float: left;
@@ -2695,7 +2695,7 @@ a.btn.btn-theme.float-right {
 }
 .password p a {
     text-transform: uppercase;
-    color: #ff5300;
+    color: teal;
     margin-right: 15px;
 }
 .login-form button.btn.btn-theme {
@@ -2767,7 +2767,7 @@ form.blog-shearch-form button.submit {
     line-height: 20px;
 }
 .popular-post-content a:hover h6 {
-    color: #ff5300;
+    color: teal;
 }
 form.blog-sidebar-select select.form-select {
     border-top: 1px solid transparent;
@@ -2810,7 +2810,7 @@ form.blog-select-form select.form-select {
     margin: 0;
 }
 .grid-blog ul li a:hover {
-    color: #ff5300;
+    color: teal;
 }
 .single-blog-post {
     border-style: solid;
@@ -2865,7 +2865,7 @@ form.blog-select-form select.form-select {
     line-height: 35px;
 }
 .entry-header a:hover h2.entry-title {
-    color: #ff5300;
+    color: teal;
 }
 
 .entry-content {
@@ -3015,7 +3015,7 @@ form.blog-select-form select.form-select {
     margin-right: 8px;
 }
 .single-post-content-thumb .entry-content ul li a:hover {
-    color: #ff5300;
+    color: teal;
 }
 .quote-single {
     position: relative;
@@ -3069,7 +3069,7 @@ form.blog-select-form select.form-select {
     font-size: 18px;
 }
 .next-prev-post-wrap .post-np a:hover h5 {
-    color: #ff5300;
+    color: teal;
 }
 .next-prev-post-wrap .post-np.prev-post {
     left: 0;
@@ -3129,7 +3129,7 @@ form.blog-select-form select.form-select {
     margin-left: 7px;
 }
 .user-comments-wrap a.reply:hover {
-    color: #ff5300;
+    color: teal;
 }
 .user-content p.comments {
     margin-bottom: 0;
@@ -3219,7 +3219,7 @@ form.user-reply .single-field textarea {
     right: -4px;
 }
 .contact-content a:hover {
-    color: #ff5300;
+    color: teal;
 }
 /*=== 404 ===*/
 .error-area {
@@ -3246,13 +3246,13 @@ form.user-reply .single-field textarea {
   margin: 0 0px 25px 0;
 }
 .widget-product-sorting .slider-product-sorting .ui-slider-range {
-  background-color: #ff5300;
+  background-color: teal;
   height: 1px;
 }
 .widget-product-sorting .slider-product-sorting .ui-slider-handle {
   height: 11px;
   width: 8px;
-  background-color: #ff5300;
+  background-color: teal;
   border: 0 !important;
   top: -5px;
   cursor: pointer;
@@ -3262,7 +3262,7 @@ form.user-reply .single-field textarea {
 .widget-product-sorting label {
   font-size: 15px;
   letter-spacing: 0.15px;
-  color: #ff5300;
+  color: teal;
   border: 0;
   background: transparent;
   margin-bottom: 0;

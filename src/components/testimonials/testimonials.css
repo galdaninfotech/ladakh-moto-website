@@ -101,8 +101,8 @@ transition: all .5s ease-in-out;
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-background: #ff5300;
-border-color: #ff5300;
+background: teal;
+border-color: teal;
 }
 
 .testim .dots .dot.active {
@@ -147,7 +147,7 @@ border-radius: 50%;
 }
 
 .testim .cont div h2 {
-color: #ff5300;
+color: teal;
 font-size: 1em;
 margin: 15px 0;
 }

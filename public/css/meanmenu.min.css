@@ -11,8 +11,8 @@ a.meanmenu-reveal{
     z-index:999999
 }
 .mean-container a.meanmenu-reveal{
-    /* background-color: #ff5300; */
-    /* border: 1px solid #ff5300; */
+    /* background-color: teal; */
+    /* border: 1px solid teal; */
     /* border-radius:3px; */
     color:#fff;
     cursor:pointer;
@@ -31,7 +31,7 @@ a.meanmenu-reveal{
     width:22px;
 }
 .mean-container a.meanmenu-reveal span{
-    background:#ff5300;
+    background:teal;
     display:block;
     height:3px;
     margin-top:3px

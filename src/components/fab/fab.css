@@ -24,7 +24,7 @@
     height: 2.8rem;
     border-radius: 4px;
     color: #fff;
-    background: #ff5300;
+    background: teal;
     transition: all 0.3s ease;
     z-index: 1;
     padding: 0.5rem 0.9rem;
@@ -48,7 +48,7 @@
   }
   .fab-action {
     position: absolute;
-    background: #ff5300;
+    background: teal;
     width: 50%;
     height: 3rem;
     border-radius: 4px;
@@ -93,7 +93,7 @@
   .fab-price {
     font-size: 0.8rem;
     color: #fff;
-    background: #ff5300;
+    background: teal;
     padding: 0.5rem 0.9rem;
     border-radius: 5px;
     margin-right: 20px;

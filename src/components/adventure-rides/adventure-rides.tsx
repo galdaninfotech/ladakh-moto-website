@@ -40,7 +40,7 @@ export default component$(() => {
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 24,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
+                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -75,7 +75,7 @@ export default component$(() => {
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 21,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 15,500/- </span>per person
+                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 15,500/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -111,7 +111,7 @@ export default component$(() => {
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 29,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 25,000/- </span>per person
+                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 25,000/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -146,7 +146,7 @@ export default component$(() => {
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 34,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 28,500/- </span>per person
+                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 28,500/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -181,7 +181,7 @@ export default component$(() => {
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 29,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
+                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
@@ -216,7 +216,7 @@ export default component$(() => {
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #999999; margin-right: 5px;"><del>₹ 27,000</del></span>
-                                    <span style="color: green; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
+                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>

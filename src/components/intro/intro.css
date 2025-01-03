@@ -16,7 +16,7 @@
 /* Intro Read More */
 .readmore-button {
     float: right;
-    color: #ff5300;
+    color: teal;
     text-transform: uppercase;
     font-weight: 600;
 }

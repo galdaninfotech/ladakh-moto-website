@@ -23,7 +23,7 @@
     margin-bottom: 8px;
 }
 .accordion-body .itinerary span:last-child {
-    background: green;
+    background: teal;
     color: #fff;
     padding: 2px 18px;
     border-radius: 4px;

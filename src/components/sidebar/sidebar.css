@@ -14,7 +14,7 @@
     border-radius: 4px; 
     display: flex; 
     justify-content: center; 
-    background-color: #ff5300;
+    background-color: teal;
 }
 #download-pdf a {
     padding: 2px 10px; 
@@ -71,7 +71,7 @@
     margin-bottom: 8px;
 }
 .items span i {
-    color: #ff5300;
+    color: teal;
 }
 #wrapper-need-help p {
     font-size: 13px;
