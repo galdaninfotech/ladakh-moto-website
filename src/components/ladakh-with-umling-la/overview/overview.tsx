@@ -1,7 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './overview.css?inline';
 import OverviewIcons from '~/components/overview-icons/overview-icons';
-import ItineraryImage from '~/components/itinerary-image';
 
 export default component$(() => {
     useStylesScoped$(styles);
