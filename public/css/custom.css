@@ -97,10 +97,12 @@
 /* Tour Accordian */
 .accordion-button {
     padding: 0.4rem 0.8rem;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans serif;
     border-bottom: 1px solid #d5d8dc;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
 }
+
 .accordion-item {
     background-color: #fff;
     border: 0;
@@ -144,7 +146,11 @@
     background: linear-gradient(135deg, #9b4085 0%,#608590 100%);
     white-space: nowrap;
 }
-    .table-bordered td, .table-bordered th{
+.table-bordered th{
+    border: 0px solid #FFF;
+    font-size: 14px;
+}
+.table-bordered td {
     border: 0px solid #FFF;
     font-size: 12px;
 }

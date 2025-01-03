@@ -19,7 +19,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh With Umling La Bike Tour" />
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d398754.0544797353!2d77.80004321432321!3d33.962668269854355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x38fdeb034ac7f00d%3A0x92d64b5b0ccebba5!2sladakhmoto%20Zangsti%20Rd%20Leh%2C%20Ladakh%20194101!3m2!1d34.1655667!2d77.58419289999999!4m5!1s0x39002d69b6082a97%3A0xb7ba17e3c8c016a9!2sPangong%20Lake!3m2!1d33.7595131!2d78.66744039999999!5e1!3m2!1sen!2sin!4v1735901876326!5m2!1sen!2sin" width="600" height="450" style="border:0;" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage size="desktop" src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh With Umling La Bike Tour" />
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d398754.0544797353!2d77.80004321432321!3d33.962668269854355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x38fdeb034ac7f00d%3A0x92d64b5b0ccebba5!2sladakhmoto%20Zangsti%20Rd%20Leh%2C%20Ladakh%20194101!3m2!1d34.1655667!2d77.58419289999999!4m5!1s0x39002d69b6082a97%3A0xb7ba17e3c8c016a9!2sPangong%20Lake!3m2!1d33.7595131!2d78.66744039999999!5e1!3m2!1sen!2sin!4v1735901876326!5m2!1sen!2sin" width="850" height="350" style="border:0;" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 

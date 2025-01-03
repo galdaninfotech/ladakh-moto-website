@@ -48,7 +48,7 @@ export default component$(() => {
                                             <li>Less than 15 days before departure: No refund will be issued.</li>
                                         </ul>
                                     </li>
-                                    <li>Refund Process: Refunds will be processed within 10 working days after the cancellation date.</li>
+                                    <li><strong>Refund Process:</strong> Refunds will be processed within 10 working days after the cancellation date.</li>
                                 </ul>
 
                                 <h6><strong>Note:</strong></h6>
