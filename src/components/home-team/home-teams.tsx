@@ -32,12 +32,13 @@ export default component$(() => {
                     <figure class="snip1477"><img src="/img/teams/skalzang-gyatso.jpg" alt="sample91" />
                         <div class="title">
                             <div>
-                                <h2>Ingredia</h2>
-                                <h4>Nutrisha</h4>
+                                <h2>Skalzang Gyatso</h2>
+                                <h4>Marshal</h4>
                             </div>
                         </div>
                         <figcaption>
-                            <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
+                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
                         <a href="#"></a>
                     </figure>
@@ -47,12 +48,13 @@ export default component$(() => {
                     <figure class="snip1477"><img src="/img/teams/stanzin-namgyal.jpg" alt="sample35" />
                         <div class="title">
                             <div>
-                            <h2>Hans</h2>
-                            <h4>Down</h4>
+                            <h2>Stanzin Namgyal</h2>
+                            <h4>Operation</h4>
                             </div>
                         </div>
                         <figcaption>
-                            <p>The only skills I have the patience to learn are those that have no real application in life. </p>
+                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
+                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
                         <a href="#"></a>
                     </figure>
@@ -63,12 +65,13 @@ export default component$(() => {
                         <img src="/img/teams/stanzin-namgyal1.jpg" alt="sample38" />
                         <div class="title">
                             <div>
-                                <h2>Penny</h2>
-                                <h4>Tool</h4>
+                                <h2>Stanzin Namgial</h2>
+                                <h4>Operation</h4>
                             </div>
                         </div>
                         <figcaption>
-                            <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
+                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
                         <a href="#"></a>
                     </figure>

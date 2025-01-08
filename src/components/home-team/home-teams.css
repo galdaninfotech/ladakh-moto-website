@@ -14,8 +14,7 @@
   }
 
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
 figure.snip1477 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
@@ -135,6 +134,9 @@ figure.snip1477 a {
   bottom: 0;
   left: 0;
   right: 0; */
+}
+figure.snip1477 figcaption span a {
+    font-size: 40px;
 }
 figure.snip1477:hover img,
 figure.snip1477.hover img {
