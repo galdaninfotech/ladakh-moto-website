@@ -1,10 +1,12 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { routeLoader$ } from "@builder.io/qwik-city";
 import Intro from "~/components/intro/intro";
 import Testimonials from "~/components/testimonials/testimonials";
 import HomePackages from "~/components/home-packages/home-packages";
 import AdventureRides from "~/components/adventure-rides/adventure-rides";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
+import HomeTeams from "~/components/home-team/home-teams";
 
 export default component$(() => {
     return (
@@ -12,8 +14,11 @@ export default component$(() => {
             <Intro />
             <AdventureRides />
             <HomePackages />
+            <HomeTeams />
             <Testimonials />
             <EnquiryPopup />
+
+            
         </>
     );
 });

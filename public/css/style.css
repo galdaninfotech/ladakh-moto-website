@@ -1457,7 +1457,7 @@ footer.footer-area:before {
     content: "";
     width: 100%;
     height: 40px;
-    background-image: url(../img/bg/footer-shape2.png);
+    background-image: url(../img/bg/footer-shape1.png);
     top: 0px;
     left: 0;
     z-index: 1;
@@ -1582,7 +1582,7 @@ footer.footer-area .widget p {
     content: "";
     bottom: -21px;
     left: 0;
-    background-image: url(../img/bg/g2.png);
+    background-image: url(../img/bg/g1.png);
     position: absolute;
     z-index: 1;
     height: 60px;

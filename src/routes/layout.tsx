@@ -50,12 +50,18 @@ export default component$(() => {
         </div>
 
         <script src="/js/vendor/jquery-3.3.1.min.js"></script>
+        
         <script src="/js/bootstrap.min.js"></script>	
         <script src="/js/popper.min.js"></script>
         <script src="/js/meanmenu.min.js"></script>
 
         <script src="/js/main.js"></script>
+        <script src="/js/slider.js"></script>
         <script src="/js/custom.js"></script>
+
+        {/* Gallery */}
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 
         
     </>

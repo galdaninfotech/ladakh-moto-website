@@ -42,6 +42,7 @@ export const RouterHead = component$(() => {
 
         {/* CSS */}
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></link>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
         <link rel="stylesheet" href="/css/animate.min.css" />
         <link rel="stylesheet" href="/fonts/fontawesome/css/fontawesome.all.min.css" />
@@ -53,6 +54,9 @@ export const RouterHead = component$(() => {
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/custom.css" />
         <link rel="stylesheet" href="/css/responsive.css" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
 
         {head.links.map((l) => (

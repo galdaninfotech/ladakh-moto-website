@@ -101,6 +101,7 @@
     font-family: 'Oswald', sans serif;
     border-bottom: 1px solid #d5d8dc;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    background-color: #eae9e9;
 }
 
 .accordion-item {

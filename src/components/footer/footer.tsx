@@ -15,7 +15,7 @@ export default component$(() => {
 								<p>Ladakh Moto is a locally based Ladakhi company with dedicated local employees working under the supervision of Local managers who are acquainted with the years of experience in handling and organizing such motorbiking expeditions.</p>
 								<ul>
 									<li><a href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a></li>
-									<li><a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a></li>
+									<li><a href="#" aria-label="Follow us on Twitter"><i class="bi bi-twitter-x"></i><span class="sr-only">Twitter</span></a></li>
 									<li><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></li>
 									<li><a href="https://www.youtube.com/ladakhmototour/" aria-label="Subscribe to our YouTube channel"><i class="fab fa-youtube"></i><span class="sr-only">YouTube</span></a></li>
 								</ul>

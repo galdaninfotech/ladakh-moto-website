@@ -18,7 +18,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d398754.0544797353!2d77.80004321432321!3d33.962668269854355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x38fdeb034ac7f00d%3A0x92d64b5b0ccebba5!2sladakhmoto%20Zangsti%20Rd%20Leh%2C%20Ladakh%20194101!3m2!1d34.1655667!2d77.58419289999999!4m5!1s0x39002d69b6082a97%3A0xb7ba17e3c8c016a9!2sPangong%20Lake!3m2!1d33.7595131!2d78.66744039999999!5e1!3m2!1sen!2sin!4v1735901876326!5m2!1sen!2sin" width="600" height="450" style="border:0;" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d794878.3151970134!2d77.23674265448821!3d34.242156987288716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e9!4m5!1s0x38fdebcd12c62837%3A0x4cf8ccb43b913de8!2sLeh%20City%20Market%20%2C%20Ladakh%2C%20Leh!3m2!1d34.1622742!2d77.58558839999999!4m5!1s0x38fd99d503a96917%3A0x966547e17b6bdda4!2sSangam%20point%2C%20Srinagar%20-%20Leh%20Highway%2C%20Leh!3m2!1d34.1653744!2d77.332813!4m5!1s0x38fc4c4e89860449%3A0xb2a592c28540d7ff!2sHunder!3m2!1d34.5752836!2d77.4988753!4m5!1s0x3901d9b11695972d%3A0x86a63221606d7af3!2sSpangmik!3m2!1d33.9078735!2d78.45956439999999!4m5!1s0x38fdebcd12c62837%3A0x4cf8ccb43b913de8!2sLeh%20City%20Market%20%2C%20Ladakh%2C%20Leh!3m2!1d34.1622742!2d77.58558839999999!5e1!3m2!1sen!2sin!4v1736254066396!5m2!1sen!2sin" width="600" height="450" style="border:0;" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d398754.0544797353!2d77.80004321432321!3d33.962668269854355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x38fdeb034ac7f00d%3A0x92d64b5b0ccebba5!2sladakhmoto%20Zangsti%20Rd%20Leh%2C%20Ladakh%20194101!3m2!1d34.1655667!2d77.58419289999999!4m5!1s0x39002d69b6082a97%3A0xb7ba17e3c8c016a9!2sPangong%20Lake!3m2!1d33.7595131!2d78.66744039999999!5e1!3m2!1sen!2sin!4v1735901876326!5m2!1sen!2sin" width="850" height="350" style="border:0;" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d794878.3151970134!2d77.23674265448821!3d34.242156987288716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e9!4m5!1s0x38fdebcd12c62837%3A0x4cf8ccb43b913de8!2sLeh%20City%20Market%20%2C%20Ladakh%2C%20Leh!3m2!1d34.1622742!2d77.58558839999999!4m5!1s0x38fd99d503a96917%3A0x966547e17b6bdda4!2sSangam%20point%2C%20Srinagar%20-%20Leh%20Highway%2C%20Leh!3m2!1d34.1653744!2d77.332813!4m5!1s0x38fc4c4e89860449%3A0xb2a592c28540d7ff!2sHunder!3m2!1d34.5752836!2d77.4988753!4m5!1s0x3901d9b11695972d%3A0x86a63221606d7af3!2sSpangmik!3m2!1d33.9078735!2d78.45956439999999!4m5!1s0x38fdebcd12c62837%3A0x4cf8ccb43b913de8!2sLeh%20City%20Market%20%2C%20Ladakh%2C%20Leh!3m2!1d34.1622742!2d77.58558839999999!5e1!3m2!1sen!2sin!4v1736254066396!5m2!1sen!2sin" width="600" height="450" style="border:0;" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 

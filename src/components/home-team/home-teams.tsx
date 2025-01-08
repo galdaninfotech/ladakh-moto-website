@@ -1,0 +1,79 @@
+import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import styles from './home-teams.css?inline';
+
+export default component$(() => {
+    useStylesScoped$(styles);
+
+    return (
+        <div class="container">
+            <div class="row">
+                <div class="intro">
+                    <h2>Our Teams</h2>
+                    <p>The team of local tour coordinators, bike marshals, mechanics, and support staff at Ladakhmoto has never let us down with their exceptional skill and knowledge of the region during all of our motorbiking tours. Because they are from Ladakh, these professionals place a high importance on providing you with a secure and genuine experience in the breathtaking and rugged terrain of the region.</p>
+                </div>
+                <div class="col-md-3">
+                    <figure class="snip1477">
+                        <img src="/img/teams/phuntsog-rigzin.jpg" alt="sample38" />
+                        <div class="title">
+                            <div>
+                                <h2>Phunchok Rigzin</h2>
+                                <h4>Tour Leader</h4>
+                            </div>
+                        </div>
+                        <figcaption>
+                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
+                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="snip1477"><img src="/img/teams/skalzang-gyatso.jpg" alt="sample91" />
+                        <div class="title">
+                            <div>
+                                <h2>Ingredia</h2>
+                                <h4>Nutrisha</h4>
+                            </div>
+                        </div>
+                        <figcaption>
+                            <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="snip1477"><img src="/img/teams/stanzin-namgyal.jpg" alt="sample35" />
+                        <div class="title">
+                            <div>
+                            <h2>Hans</h2>
+                            <h4>Down</h4>
+                            </div>
+                        </div>
+                        <figcaption>
+                            <p>The only skills I have the patience to learn are those that have no real application in life. </p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+
+                <div class="col-md-3">
+                    <figure class="snip1477">
+                        <img src="/img/teams/stanzin-namgyal1.jpg" alt="sample38" />
+                        <div class="title">
+                            <div>
+                                <h2>Penny</h2>
+                                <h4>Tool</h4>
+                            </div>
+                        </div>
+                        <figcaption>
+                            <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    );
+});
