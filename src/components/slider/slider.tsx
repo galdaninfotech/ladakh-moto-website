@@ -1,10 +1,10 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './slider.css?inline';
-import { useDocumentHead } from "@builder.io/qwik-city";
+// import { useDocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
     useStylesScoped$(styles);
-    const head = useDocumentHead();
+    // const head = useDocumentHead();
 
     return (
         <section id="main-carousel">

@@ -1,6 +1,5 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { routeLoader$ } from "@builder.io/qwik-city";
 import Intro from "~/components/intro/intro";
 import Testimonials from "~/components/testimonials/testimonials";
 import HomePackages from "~/components/home-packages/home-packages";
