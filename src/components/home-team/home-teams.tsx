@@ -8,12 +8,13 @@ export default component$(() => {
         <div class="container">
             <div class="row">
                 <div class="intro">
-                    <h2>Our Teams</h2>
+                    <h2>Our Team</h2>
+                    <span class="d-flex justify-content-center"><strong><i>Our team of local experts</i></strong></span>
                     <p>The team of local tour coordinators, bike marshals, mechanics, and support staff at Ladakhmoto has never let us down with their exceptional skill and knowledge of the region during all of our motorbiking tours. Because they are from Ladakh, these professionals place a high importance on providing you with a secure and genuine experience in the breathtaking and rugged terrain of the region.</p>
                 </div>
                 <div class="col-md-3">
                     <figure class="snip1477">
-                        <img src="/img/teams/phuntsog-rigzin.jpg" alt="sample38" />
+                        <img width={440} height={320} src="/img/teams/phuntsog-rigzin.jpg" alt="sample38" />
                         <div class="title">
                             <div>
                                 <h2>Phunchok Rigzin</h2>
@@ -29,7 +30,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-md-3">
-                    <figure class="snip1477"><img src="/img/teams/skalzang-gyatso.jpg" alt="sample91" />
+                    <figure class="snip1477"><img width={440} height={320} src="/img/teams/skalzang-gyatso.jpg" alt="sample91" />
                         <div class="title">
                             <div>
                                 <h2>Skalzang Gyatso</h2>
@@ -45,7 +46,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-md-3">
-                    <figure class="snip1477"><img src="/img/teams/stanzin-namgyal.jpg" alt="sample35" />
+                    <figure class="snip1477"><img width={440} height={320} src="/img/teams/stanzin-namgyal.jpg" alt="sample35" />
                         <div class="title">
                             <div>
                             <h2>Stanzin Namgyal</h2>
@@ -62,7 +63,7 @@ export default component$(() => {
 
                 <div class="col-md-3">
                     <figure class="snip1477">
-                        <img src="/img/teams/stanzin-namgyal1.jpg" alt="sample38" />
+                        <img width={440} height={320} src="/img/teams/stanzin-namgyal1.jpg" alt="sample38" />
                         <div class="title">
                             <div>
                                 <h2>Stanzin Namgial</h2>

@@ -50,7 +50,7 @@ export default component$(() => {
                         </div>
 
                         <div class="site-logo d-none d-md-block" style="top: -8px;">
-                            <a href="/"><img src="/img/logo-lg2.png" alt="LadakhMoto" /></a>
+                            <a href="/"><img width={150} height={80} src="/img/logo-lg2.png" alt="LadakhMoto" /></a>
                         </div>
                         {/* <!-- End site logo --> */}
                     </div>

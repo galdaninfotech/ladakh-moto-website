@@ -40,6 +40,14 @@ export default component$(() => {
         <div class="wrapper">
             <main>
                 <Header />
+                <div style="background: #222; color: #fff">
+                    <div class="container">
+                        <div class="d-md-none d-flex justify-content-between">
+                            <a href="tel:9622958013"><i class="fal fa-phone-alt" style="margin-right: 8px;"></i>9622958013</a>
+                            <a href="tel:9906979962"><i class="fal fa-phone-alt" style="margin-right: 8px;"></i>9906979962</a>
+                        </div>
+                    </div>
+                </div>
                 <Slider />
                 <section>
                     <Slot />

@@ -20,11 +20,11 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/ladakh-with-umling-la" aria-label="Ladakh with Umling La">
-                                    <img src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-home.jpg" alt="" />
+                                    <img width={1500} height={800} src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <span class="price-badge">₹ 23,000 / pp</span> 
+                                <span class="price-badge">₹ 19,500 / pp</span> 
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
@@ -55,11 +55,11 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/leh-ladakh-adventure" aria-label="Leh Ladakh Adventure">
-                                    <img src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-home.jpg" alt="" />
+                                    <img width={1500} height={800} src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <span class="price-badge">₹ 19,500 / pp</span>
+                                <span class="price-badge">₹ 15,500 / pp</span>
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
@@ -90,11 +90,11 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/ladakh-srinagar-with-umling-la" aria-label="Ladakh Srinagar With Umling La">
-                                    <img src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-home.jpg" alt="" />
+                                    <img width={1500} height={800} src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <span class="price-badge">₹ 22,000 / pp</span>
+                                <span class="price-badge">₹ 25,000 / pp</span>
 
                             </div>
                             <div class="package-content-wrap">
@@ -126,11 +126,11 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/leh-zangskar-leh" aria-label="Leh Zangskar Leh">
-                                    <img src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-home.jpg" alt="" />
+                                    <img width={1500} height={800} src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <span class="price-badge">₹ 29,500 / pp</span>
+                                <span class="price-badge">₹ 28,500 / pp</span>
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
@@ -161,11 +161,11 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/manali-leh-srinagar" aria-label="Manali Leh Srinagar">
-                                    <img src="/img/tours/manali-leh-srinagar/manali-leh-srinagar-home.jpg" alt="" />
+                                    <img width={1500} height={800} src="/img/tours/manali-leh-srinagar/manali-leh-srinagar-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <span class="price-badge">₹ 25,000 / pp</span>
+                                <span class="price-badge">₹ 23,000 / pp</span>
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
@@ -196,11 +196,11 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/srinagar-leh-manali" aria-label="Srinagar Leh Manali">
-                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-home.jpg" alt="" />
+                                    <img width={1500} height={800} src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-home.jpg" alt="" />
                                 </a>
                             </figure>
                             <div class="package-price">
-                                <span class="price-badge">₹ 22,000 / pp</span>
+                                <span class="price-badge">₹ 23,000 / pp</span>
                             </div>
                             <div class="package-content-wrap">
                                 <div class="package-meta text-center">
