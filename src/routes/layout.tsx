@@ -40,11 +40,11 @@ export default component$(() => {
         <div class="wrapper">
             <main>
                 <Header />
-                <div style="background: #222; color: #fff">
+                <div class="d-md-none" style="background: #222; color: #fff; padding: 6px 0px;">
                     <div class="container">
-                        <div class="d-md-none d-flex justify-content-between">
+                        <div class="d-flex justify-content-between">
                             <a href="tel:9622958013"><i class="fal fa-phone-alt" style="margin-right: 8px;"></i>9622958013</a>
-                            <a href="tel:9906979962"><i class="fal fa-phone-alt" style="margin-right: 8px;"></i>9906979962</a>
+                            <a href="tel:9906989962"><i class="fal fa-phone-alt" style="margin-right: 8px;"></i>9906989962</a>
                         </div>
                     </div>
                 </div>
