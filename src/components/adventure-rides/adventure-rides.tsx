@@ -39,7 +39,7 @@ export default component$(() => {
                                         <OverviewIcons duration="8D/7N" highestAltitude="19024ft" distance="1050km" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 24,000</del></span>
+                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 24,000</del></span>
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
 
                                     <div class="btn-wrap">
@@ -74,7 +74,7 @@ export default component$(() => {
                                         <OverviewIcons highestAltitude="18300ft" distance="550km" duration="6D/5N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 21,000</del></span>
+                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 21,000</del></span>
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 15,500/- </span>per person
 
                                     <div class="btn-wrap">
@@ -110,7 +110,7 @@ export default component$(() => {
                                         <OverviewIcons highestAltitude="19024ft" distance="1576km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 29,000</del></span>
+                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 29,000</del></span>
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 25,000/- </span>per person
 
                                     <div class="btn-wrap">
@@ -145,7 +145,7 @@ export default component$(() => {
                                         <OverviewIcons highestAltitude="14070ft" distance="1485km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 34,000</del></span>
+                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 34,000</del></span>
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 28,500/- </span>per person
 
                                     <div class="btn-wrap">
@@ -180,7 +180,7 @@ export default component$(() => {
                                         <OverviewIcons highestAltitude="18380ft" distance="1456km" duration="10D/09N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 29,000</del></span>
+                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 29,000</del></span>
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
@@ -215,7 +215,7 @@ export default component$(() => {
                                         <OverviewIcons highestAltitude="19024ft" distance="1576km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #999999; margin-right: 5px;"><del>₹ 27,000</del></span>
+                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 27,000</del></span>
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
