@@ -12,16 +12,16 @@ export default component$(() => {
                 <div class="col-lg-6 col-sm-3">
                     <div class="header-top-left d-none">
                         <ul>
-                            <li class="has-dropdown"><a href="#">USD</a>
+                            <li class="has-dropdown"><a href="#" aria-label="USD">USD</a>
                                 <ul>
-                                    <li><a href="#">INR</a></li>
-                                    <li><a href="#">USD</a></li>
-                                    <li><a href="#">EUR</a></li>
+                                    <li><a href="#" aria-label="INR">INR</a></li>
+                                    <li><a href="#" aria-label="USD">USD</a></li>
+                                    <li><a href="#" aria-label="EUR">EUR</a></li>
                                 </ul>
                             </li>
-                            <li class="has-dropdown"><a href="#">English</a>
+                            <li class="has-dropdown"><a href="#" aria-label="English">English</a>
                                 <ul>
-                                    <li><a href="#">English</a></li>
+                                    <li><a href="#" aria-label="English">English</a></li>
                                 </ul>
                             </li>
                         </ul>

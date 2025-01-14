@@ -92,7 +92,7 @@ figure.snip1477 .title div:after {
   transform: translateY(-100%);
 }
 figure.snip1477 h2,
-figure.snip1477 h4 {
+figure.snip1477 h3 {
   margin: 0;
   text-transform: uppercase;
 }
@@ -102,7 +102,7 @@ figure.snip1477 h2 {
   color: #fff;
   text-align: left;
 }
-figure.snip1477 h4 {
+figure.snip1477 h3 {
   display: block;
   font-size: 12px;
   font-weight: 600;

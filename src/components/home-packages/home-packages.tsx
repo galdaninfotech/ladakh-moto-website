@@ -29,7 +29,7 @@ export default component$(() => {
                         <div class="package-card">
                             <img width={1500} height={800} src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
                             <div class="description">
-                                <h2>Amazing Ladakh</h2>
+                                <h2>Amazing Ladakh Tour</h2>
                                 <p>6-day Ladakh holiday package designed for travelers seeking an...</p>
                                 <a href="/packages/amazing-ladakh"><button>Know More</button></a>
                             </div>

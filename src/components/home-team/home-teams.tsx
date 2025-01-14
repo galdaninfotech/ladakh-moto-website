@@ -18,14 +18,14 @@ export default component$(() => {
                         <div class="title">
                             <div>
                                 <h2>Phunchok Rigzin</h2>
-                                <h4>Tour Leader</h4>
+                                <h3>Tour Leader</h3>
                             </div>
                         </div>
                         <figcaption>
                             <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
                             <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
-                        <a href="#"></a>
+                        <a href="/team/phunchok-rigzin" aria-label="Phunchok Rigzin"></a>
                     </figure>
                 </div>
 
@@ -34,14 +34,14 @@ export default component$(() => {
                         <div class="title">
                             <div>
                                 <h2>Skalzang Gyatso</h2>
-                                <h4>Marshal</h4>
+                                <h3>Marshal</h3>
                             </div>
                         </div>
                         <figcaption>
                             <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
                             <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
-                        <a href="#"></a>
+                        <a href="/team/skalzang-gyatso" aria-label="Skalzang Gyatso"></a>
                     </figure>
                 </div>
 
@@ -50,14 +50,14 @@ export default component$(() => {
                         <div class="title">
                             <div>
                             <h2>Stanzin Namgyal</h2>
-                            <h4>Operation</h4>
+                            <h3>Operation</h3>
                             </div>
                         </div>
                         <figcaption>
                             <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
                             <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
-                        <a href="#"></a>
+                        <a href="/team/stanzin-namgyal" aria-label="Stanzin Namgyal"></a>
                     </figure>
                 </div>
 
@@ -67,14 +67,14 @@ export default component$(() => {
                         <div class="title">
                             <div>
                                 <h2>Stanzin Namgial</h2>
-                                <h4>Operation</h4>
+                                <h3>Operation</h3>
                             </div>
                         </div>
                         <figcaption>
                             <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
                             <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
-                        <a href="#"></a>
+                        <a href="/team/stanzin-namgial" aria-label="Stanzin Namgial"></a>
                     </figure>
                 </div>
             </div>
