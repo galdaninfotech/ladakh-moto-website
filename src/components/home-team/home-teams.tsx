@@ -1,5 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './home-teams.css?inline';
+import ImgPhuntsogRigzin from '../../media/team/phuntsog-rigzin.jpg?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -14,7 +15,8 @@ export default component$(() => {
                 </div>
                 <div class="col-md-3">
                     <figure class="snip1477">
-                        <img width={440} height={320} src="/img/teams/phuntsog-rigzin.jpg" alt="sample38" />
+                        {/* <img width={440} height={320} src="/img/teams/phuntsog-rigzin.jpg" alt="sample38" /> */}
+                        <ImgPhuntsogRigzin />
                         <div class="title">
                             <div>
                                 <h2>Phunchok Rigzin</h2>
