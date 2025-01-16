@@ -15,7 +15,6 @@ export default component$(() => {
                 </div>
                 <div class="col-md-3">
                     <figure class="snip1477">
-                        {/* <img width={440} height={320} src="/img/teams/phuntsog-rigzin.jpg" alt="sample38" /> */}
                         <ImgPhuntsogRigzin />
                         <div class="title">
                             <div>
@@ -32,7 +31,8 @@ export default component$(() => {
                 </div>
 
                 <div class="col-md-3">
-                    <figure class="snip1477"><img width={440} height={320} src="/img/teams/skalzang-gyatso.jpg" alt="sample91" />
+                    <figure class="snip1477">
+                        <img width={440} height={320} src="/img/teams/skalzang-gyatso.jpg" alt="sample91" />
                         <div class="title">
                             <div>
                                 <h2>Skalzang Gyatso</h2>
