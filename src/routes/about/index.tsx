@@ -16,14 +16,11 @@ export default component$(() => {
                         <h1 class="main-heading">About Us</h1>
                     </div>
                     <span><strong><i>Authentic Adventures Guided By Locals</i></strong></span>
-                    <p>
-                        Welcome to Ladakh Moto, your trusted travel companion in the breathtaking landscapes of Leh Ladakh. As a proud, locally-owned travel agency based in the heart of this stunning region, we specialize in curating unforgettable journeys for travelers from all over India. 
-                    </p>
 
-                    <p>
-                        With our intimate knowledge of the local terrain, the vibrant local culture, and our deep-rooted expertise based on our experience and past performance since 2014, we pride ourselves on providing authentic and personalized travel experiences to adventurers and travellers across India and beyond. At Ladakh Moto, we don’t just plan trips, we craft adventures that capture the true spirit of this extraordinary land. Come explore the Himalayas with Ladakh Moto where adventure meets authenticity.
-                    </p>
-                    
+                    <p>Welcome to the Ladakh Moto, where we accompany you through the great views of Leh Ladakh. As a locally owned travel agency operating from the region, we are capable of organizing tours for any traveler in India as we başra of the people and so return all the support that it get from this scenic location.</p>
+
+                    <p>We take pride in the fact that we live here, the local culture and the people are our own, and our experience and past performance in the field since 2014 has made us experts in doing so. We don't just plan trips, we create adventures that encompass the true essence of this incredible land, at Ladakh Moto. Discover the Himalayas with Ladakh Moto where adventure meets authenticity</p>
+
                     <Fab tourPrice={""} />
                 </div>
 

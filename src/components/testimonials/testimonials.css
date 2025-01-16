@@ -4,31 +4,27 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   
   @media only screen and (max-width: 768px) {
     .intro h2 {
         margin-top: 50px;
+        margin-bottom: 35px;
     }
   }
 .testim {
     width: 100%;
     position: relative;
-    top: 90px;
     background: #23282e;
-    -webkit-transform: translatey(-50%);
-    -moz-transform: translatey(-50%);
-    -ms-transform: translatey(-50%);
-    -o-transform: translatey(-50%);
-    transform: translatey(-50%);
-    margin-top: 140px;
+    margin-bottom: 28px;
 }
 
 .testim .wrap {
 position: relative;
 width: 100%;
 max-width: 1020px;
+/* ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg */
 padding: 40px 20px;
 margin: auto;
 }

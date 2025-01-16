@@ -5,12 +5,12 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
   .intro h2 {
-      margin-top: 50px;
+      margin-top: 10px;
   }
 }
 .package-card {

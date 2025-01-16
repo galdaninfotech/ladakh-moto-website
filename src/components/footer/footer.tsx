@@ -38,8 +38,8 @@ export default component$(() => {
 							<div class="widget quick-link-categories">
 								<h3>Adventure Rides</h3>
 								<ul>
-									<li><a href="/ladakh-with-umling-la"><i class="fal fa-angle-right"></i>Ladakh With Umling La</a></li>
 									<li><a href="/leh-ladakh-adventure"><i class="fal fa-angle-right"></i>Leh Ladakh Adventure</a></li>
+									<li><a href="/ladakh-with-umling-la"><i class="fal fa-angle-right"></i>Ladakh With Umling La</a></li>
 									<li><a href="/ladakh-srinagar-with-umling-la"><i class="fal fa-angle-right"></i>Ladakh Srinagar Umling La</a></li>
 									<li><a href="/leh-zangskar-leh"><i class="fal fa-angle-right"></i>Leh Zangskar Leh</a></li>
 									<li><a href="/manali-leh-srinagar"><i class="fal fa-angle-right"></i>Manali Leh Srinagar</a></li>
@@ -51,13 +51,13 @@ export default component$(() => {
 							<div class="widget quick-destinations">
 								<h3>Destinations</h3>
 								<ul>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Nubra Valley</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Pangong Lake</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Tsomoriri Lake</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Suru Valley</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Zanskar Valley</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Tsokar Lake</a></li>
-									<li><a href="#"><i class="fal fa-angle-right"></i>Turtuk Valley</a></li>
+									<li><a href="/destinations/nubra-valley"><i class="fal fa-angle-right"></i>Nubra Valley</a></li>
+									<li><a href="/destinations/pangong-lake"><i class="fal fa-angle-right"></i>Pangong Lake</a></li>
+									<li><a href="/destinations/tsomoriri-lake"><i class="fal fa-angle-right"></i>Tsomoriri Lake</a></li>
+									<li><a href="/destinations/leh-city"><i class="fal fa-angle-right"></i>Leh City</a></li>
+									<li><a href="/destinations/zanskar-valley"><i class="fal fa-angle-right"></i>Zanskar Valley</a></li>
+									<li><a href="/destinations/shanti-stupa"><i class="fal fa-angle-right"></i>Shanti Stupa</a></li>
+									<li><a href="/destinations/lamayuru-monastery"><i class="fal fa-angle-right"></i>Lamayuru Monastery</a></li>
 								</ul>
 							</div>
 						</div>

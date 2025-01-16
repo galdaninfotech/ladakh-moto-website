@@ -15,41 +15,6 @@ export default component$(() => {
                                 <h2>Adventure Rides 2025</h2>
                             </div>
                         </div>
-                        
-                        <div class="col-md-6 col-lg-4"> 
-                            <div class="package-wrap">
-                            <figure class="feature-image">
-                                <a href="/ladakh-with-umling-la" aria-label="Ladakh with Umling La">
-                                    <img width={1500} height={800} src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-home.jpg" alt="" />
-                                </a>
-                            </figure>
-                            <div class="package-price">
-                                <span class="price-badge">₹ 19,500 / pp</span> 
-                            </div>
-                            <div class="package-content-wrap">
-                                <div class="package-meta text-center">
-                                    <ul>
-                                        <li> <i class="fas fa-calendar-alt"></i> 8 Days </li>
-                                        <li> <i class="fas fa-map-marked-alt"></i> Leh - Leh </li>
-                                    </ul>
-                                </div>
-                                <div class="package-content d-md-block">
-                                    <h3 class="tour-name" data-tour-name="Ladakh With Umling La"><a href="/ladakh-with-umling-la">Ladakh With Umling La</a></h3>
-                                    <div class="col-12">
-                                        <OverviewIcons duration="8D/7N" highestAltitude="19024ft" distance="1050km" lodging="Hotel/Camp" meal="BF/Din" />
-                                    </div>
-                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 24,000</del></span>
-                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
-
-                                    <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/ladakh-with-umling-la" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
 
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
@@ -80,6 +45,41 @@ export default component$(() => {
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
                                         <a href="/leh-ladakh-adventure" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4"> 
+                            <div class="package-wrap">
+                            <figure class="feature-image">
+                                <a href="/ladakh-with-umling-la" aria-label="Ladakh with Umling La">
+                                    <img width={1500} height={800} src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-home.jpg" alt="" />
+                                </a>
+                            </figure>
+                            <div class="package-price">
+                                <span class="price-badge">₹ 19,500 / pp</span> 
+                            </div>
+                            <div class="package-content-wrap">
+                                <div class="package-meta text-center">
+                                    <ul>
+                                        <li> <i class="fas fa-calendar-alt"></i> 8 Days </li>
+                                        <li> <i class="fas fa-map-marked-alt"></i> Leh - Leh </li>
+                                    </ul>
+                                </div>
+                                <div class="package-content d-md-block">
+                                    <h3 class="tour-name" data-tour-name="Ladakh With Umling La"><a href="/ladakh-with-umling-la">Ladakh With Umling La</a></h3>
+                                    <div class="col-12">
+                                        <OverviewIcons duration="8D/7N" highestAltitude="19024ft" distance="1050km" lodging="Hotel/Camp" meal="BF/Din" />
+                                    </div>
+                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
+                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 24,000</del></span>
+                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
+
+                                    <div class="btn-wrap">
+                                        <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="/ladakh-with-umling-la" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>

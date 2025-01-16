@@ -253,6 +253,7 @@ ul.exclusions i {
     box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.6);
     /* margin-bottom: 24px; */
     position: relative;
+    border-radius: 4px;
   }
   .package-wrap .package-content {
     padding: 0 30px 0;

@@ -192,14 +192,14 @@ header.header-area.style-2 .login-cart ul {
 header.header-area.style-2 .navigation-bg {
     background-color: transparent;
 }
-header.header-area.style-2 .navigation-area {
-    border-top: 1px solid #4d93cf;
-    border-bottom: 1px solid #4d93cf;
+
+@media only screen and (max-width: 768px) {
+    header.header-area.style-2.header-border .navigation-area {
+        border-top: 1px solid #393a3b;
+        border-bottom: 1px solid #393a3b;
+    }
 }
-header.header-area.style-2.header-border .navigation-area {
-    border-top: 1px solid #393a3b;
-    border-bottom: 1px solid #393a3b;
-}
+
 /*=== Naviagaion ===*/
 .navigation-area {
     position: relative;

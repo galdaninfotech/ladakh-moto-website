@@ -4,7 +4,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -61,6 +61,7 @@
   border-top: 1px solid rgba(175, 175, 175, 0.1);
   text-align: center;
   margin-top: 12px;
+  padding: 12px 12px;
 }
 .package-wrap .package-content {
   margin-bottom: 60px;

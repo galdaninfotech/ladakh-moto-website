@@ -121,3 +121,160 @@ lamayuru monastery
 ==================================================================
 ==================================================================
 ==================================================================
+
+
+
+
+SEO Checklist:
+--------------
+
+Are you tracking SEO performance?
+
+00:01:57 - Are you tracking the right SEO KPIs?
+
+00:05:21 - Is the website crawlable and indexable?
+
+00:05:43 - Is your website mobile-friendly?
+
+00:06:13 - Does your website load fast?
+
+00:06:48 - Do you have an SSL certificate, and is it working properly?
+
+00:07:19 - Is the website design modern and updated?
+
+00:08:00 - Is your website using aggressive interstitial popups?
+
+00:10:32 - Does your website use aggressive ad placements?
+
+00:11:11 - Does your website have trust pages?
+
+00:13:38 - Does your website have detailed author bios?
+
+00:14:35 - Do you have pages deindexed that shouldn’t be?
+
+00:15:37 - Is your website bloated?
+
+00:18:47 - Does your website have bloated pages?
+
+00:23:17 - Does your website have thin content?
+
+00:24:01 - Does your website have outdated content?
+
+00:25:10 - Does your website have pages with an engagement rate of 20?
+
+00:26:21 - Does every page on your website have one title tag and one H1 
+tag?
+
+00:27:30 - Does your website have a significant amount of spelling and grammar errors?
+
+00:28:44 - Do you have pages with backlinks but no traffic?
+
+00:30:23 - Do you have 404 pages with backlinks?
+
+00:30:51 - Are all of your pages less than three clicks deep into your architecture?
+
+00:35:48 - Do your pages have enough internal link coverage?
+
+00:37:39 - Are you leveraging your most powerful pages for internal linking?
+
+00:38:21 - Does your website have redirect chains?
+
+00:39:04 - Does your website have duplicate content?
+
+00:40:29 - Does your website have a significant number of broken links?
+
+00:41:12 - Does your website have a significant amount of AI content?
+
+00:42:19 - Is the H1 tag above the fold?
+
+00:43:58 - Are heading tags structured correctly?
+
+00:45:08 - Is your primary keyword in the URL?
+
+00:46:57 - Is the keyword in the Title Tag?
+
+00:47:07 - Is the keyword in the Meta Description?
+
+00:47:27 - Is the keyword in the H1?
+
+00:47:41 - Is the keyword in the First Sentence?
+
+00:47:57 - Is the keyword in the first H2?
+
+00:48:18 - Is the content 50% original?
+
+00:52:10 - Is the content 100% unique outside of the domain?
+
+00:52:50 - Is the content 100% unique relative to other pages on the website?
+
+00:53:19 - Is the word count sufficient?
+
+00:54:49 - Does the content have a 95 + Grammarly score
+
+00:55:20 - Is the page optimized well for NLP?
+
+00:57:14 - Does the page/content satisfy the intent?
+
+00:59:31 - Does content strategy/angle add unique value relative to the competitors?
+
+01:05:06 - Is the content up-to-date?
+
+01:07:28 - Is the page readable, scannable, and easy to digest?
+
+01:09:33 - Does the content have 100% unique, high-quality images and videos to break it up?
+
+01:12:55 - Is the content helpful?
+
+01:14:52 - Is the content original?
+
+01:16:28 - Is the content accurate?
+
+01:19:14 - Is the content safe?
+
+01:20:38 - Does the content demonstrate a high degree of effort?
+
+01:23:18 - Is the content written and/or fact-checked by an SME?
+
+01:24:44 - Is the SME prominently displayed?
+
+01:25:37 - Does each author have a dedicated and detailed author page?
+
+01:26:35 - Are all sources of information cited?
+
+01:27:38 - Does the content demonstrate first-hand experience?
+
+01:29:52 - Does the content demonstrate the in-the-field experience?
+
+01:31:15 - How well does the content share a personal experience, perspective, or feelings on a topic?
+
+01:32:20 - How well does the content speak from a first-person perspective?
+
+01:32:51 - Does content demonstrate that it was produced with some degree of experience, such as actual product use, visiting a place, or communicating what a person experienced?
+
+01:34:13 - Is the page built for goal completions?
+
+01:35:32 - Do you have user-tracking software installed?
+
+01:37:42 - Is the page using correct schema markup?
+
+01:40:03 - Are there any other pages on our website targeting this keyword (keyword cannibalization)?
+
+01:42:26 - Does the page have 5 + unique internal links (excluding the navigation)?
+
+01:43:38 - Is the internal anchor text optimized well?
+
+01:44:48 - Does the page have as many internal links as the top competitor?
+
+01:46:01 - Is the page no more 3 clicks deep into the architecture?
+
+01:47:10 - Does the page have at least 5 supporting assets?
+
+============================================================================================
+
+
+https://sitechecker.pro
+
+
+https://www.youtube.com/watch?v=FqD9YPjHw7Q&ab_channel=MeasureSchool
+
+https://www.youtube.com/watch?v=FSJOAuS-bKA&ab_channel=EquinetAcademy
