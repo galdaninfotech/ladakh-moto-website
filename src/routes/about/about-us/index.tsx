@@ -17,9 +17,9 @@ export default component$(() => {
                     </div>
                     <span><strong><i>Authentic Adventures Guided By Locals</i></strong></span>
 
-                    <p>Welcome to the Ladakh Moto, where we accompany you through the great views of Leh Ladakh. As a locally owned travel agency operating from the region, we are capable of organizing tours for any traveler in India as we başra of the people and so return all the support that it get from this scenic location.</p>
+                    <p>Ladakhmoto is a local company located right in the center of Leh, Ladakh. We provide authentic and seamless travel experiences with full accountability and a deep-rooted knowledge of the region.</p>
 
-                    <p>We take pride in the fact that we live here, the local culture and the people are our own, and our experience and past performance in the field since 2014 has made us experts in doing so. We don't just plan trips, we create adventures that encompass the true essence of this incredible land, at Ladakh Moto. Discover the Himalayas with Ladakh Moto where adventure meets authenticity</p>
+                    <p>Being a direct provider is the key, as it ensures you receive personalized service, immediate support and the emphasis on detail is there to make your whole journey a seamless one. Whether you're looking to put together a greater route, need a road captain or mechanic, we're here for you! With Ladakhmoto you not only receive a piece of memoirs by participating in a memorable adventure, you also support a local enterprise dedicated to responsible, sustainable tourism in Ladakh.</p>
 
                     <Fab tourPrice={""} />
                 </div>

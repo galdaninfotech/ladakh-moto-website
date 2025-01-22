@@ -15,9 +15,9 @@ export default component$(() => {
 								<p>Ladakh Moto is a locally based Ladakhi company with dedicated local employees working under the supervision of Local managers who are acquainted with the years of experience in handling and organizing such motorbiking expeditions.</p>
 								<ul>
 									<li><a href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a></li>
-									<li><a href="#" aria-label="Follow us on Twitter"><i class="bi bi-twitter-x"></i><span class="sr-only">Twitter</span></a></li>
+									<li><a href="https://x.com/LadakhMoto/status/1868987553472561199" aria-label="Follow us on Twitter"><i class="bi bi-twitter-x"></i><span class="sr-only">Twitter</span></a></li>
 									<li><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></li>
-									<li><a href="https://www.youtube.com/ladakhmototour/" aria-label="Subscribe to our YouTube channel"><i class="fab fa-youtube"></i><span class="sr-only">YouTube</span></a></li>
+									<li><a href="https://www.youtube.com/@LadakhMotoTour" aria-label="Subscribe to our YouTube channel"><i class="fab fa-youtube"></i><span class="sr-only">YouTube</span></a></li>
 								</ul>
 							</div>
 						</div>
@@ -25,7 +25,7 @@ export default component$(() => {
 							<div class="widget quick-link-widget">
 								<h3>Quick Links</h3>
 								<ul>
-									<li><a href="/about"><i class="fal fa-angle-right"></i>About Us</a></li>
+									<li><a href="/about/about-us"><i class="fal fa-angle-right"></i>About Us</a></li>
 									<li><a href="/why-travel-with-ladakhmoto"><i class="fal fa-angle-right"></i>Why Travel With Us?</a></li>
 									<li><a href="/guides-and-staffs"><i class="fal fa-angle-right"></i>Guides & Staff</a></li>
 									<li><a href="/contact"><i class="fal fa-angle-right"></i>Contact Us</a></li>

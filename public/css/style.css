@@ -1438,11 +1438,20 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
   }
 /*=== Footer ===*/
 footer.footer-area {
-    background-image: url(../img/bg/footer.webp);
+    background-image: url(../img/bg/footer-bg.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
 }
+@media only screen and (max-width: 768px) {
+    footer.footer-area {
+        background-image: url(../img/bg/footer-bg.jpg);
+        background-size: cover;
+        background-position: -640px 0px;
+        position: relative;
+    }
+}
+
 /*Style 2*/
 footer.footer-area.style-2 {
     background-image: url(../img/bg/footer2-bg.jpg);

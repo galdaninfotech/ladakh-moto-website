@@ -1,4 +1,7 @@
 
+#main-carousel {
+    position: relative;
+}
 @keyframes kenburns {
     0% {
         transform: scale(1);
@@ -13,36 +16,45 @@
 
     /* Carousel Wrapper */
     .kb-carousel {
-    overflow: hidden;
-    max-height: 650px;
+        overflow: hidden;
+        max-height: 450px;
     }
 
     /* Carousel Items */
-    .kb-carousel .carousel-item {
-    transition: transform .6s ease-in-out 0s, opacity ease-in-out .6s;
+        .kb-carousel .carousel-item {
+        transition: transform .6s ease-in-out 0s, opacity ease-in-out .6s;
     }
 
     .kb-carousel .carousel-item.active {
-    transition: transform .6s ease-in-out 0s, opacity ease-in-out .6s;
+        transition: transform .6s ease-in-out 0s, opacity ease-in-out .6s;
     }
 
     .kb-carousel > .carousel-inner > .carousel-item > img,
     .kb-carousel > .carousel-inner > .carousel-item > a > img {
-    opacity: 0.8;
-    animation: kenburns 20000ms linear 0s infinite alternate;
+        animation: kenburns 20000ms linear 0s infinite alternate;
     }
 
     .kb-carousel .carousel-item-next.carousel-item-start .carousel-caption,
     .kb-carousel .carousel-item-prev.carousel-item-end .carousel-caption {
-    z-index: 0;
-    opacity: 0;
+        z-index: 0;
+        opacity: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        .carousel-item img {
+            position: relative;
+            left: -42%;
+            height: 500px;
+            width: auto;
+            
+        }
     }
 
     /* Carousel Captions */
     .kb-caption {
     right: 7%;
     left: 7%;
-    bottom: 25%;
+    bottom: 16%;
     padding: 0;
     width: 80%;
     }
@@ -65,15 +77,16 @@
     margin-bottom: 0;
     }
 
-    .kb-caption h1 {
+    .kb-caption span.slider-title {
         animation-delay: 1s;
         color: teal;
         font-family: 'Oswald', sans-serif;
         font-size: 30px;
         text-transform: uppercase;
-        margin-bottom: -8px;
+        margin-bottom: 0px;
         text-shadow: 1px 1px 1px #fff;
-        text-align: left;
+        float: left;
+        margin-bottom: 15px;
 
     }
 
@@ -85,58 +98,58 @@
         text-align: justify;
         font-size: 16px;
         font-family: 'Oswald', sans-serif;
+        clear: left;
     }
-
 
     @media (min-width: 768px) {
-    .kb-caption {
-        bottom: 37%;
-        width: 40%;
-    }
+        .kb-caption {
+            bottom: 20%;
+            width: 40%;
+        }
     }
 
     @media (min-width: 1200px) {
-    .kb-caption {
-        bottom: 45%;
-    }
+        .kb-caption {
+            bottom: 20%;
+        }
     }
 
     /* Controls */
     .kb-control-prev,
     .kb-control-next {
-    width: 3.5rem;
-    height: 3.5rem;
-    margin: auto 0;
-    opacity: 0;
-    color: #fff;
-    background: rgba(0 0 0 / 0.7);
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: auto 0;
+        opacity: 0;
+        color: #fff;
+        background: rgba(0 0 0 / 0.7);
     }
 
     .kb-carousel:hover .kb-control-prev,
     .kb-carousel:hover .kb-control-next {
-    opacity: 1;
+        opacity: 1;
     }
 
     .kb-control-prev {
-    left: 1%;
+        left: 1%;
     }
 
     .kb-control-next {
-    right: 1%;
+        right: 1%;
     }
 
     .kb-control-prev:hover,
     .kb-control-prev:focus,
     .kb-control-next:hover,
     .kb-control-next:focus {
-    color: #fff;
-    background: rgba(0 0 0 / 1);
+        color: #fff;
+        background: rgba(0 0 0 / 1);
     }
 
     /* Support for dark mode */
     [data-bs-theme = "dark"] .carousel .carousel-control-next-icon,
     [data-bs-theme = "dark"] .carousel .carousel-control-prev-icon {
-    filter: none;
+        filter: none;
     }
 
     @media screen and (max-width: 768px) {
@@ -175,3 +188,36 @@
     margin-right: 8px;
 }
 
+
+
+
+
+#slider-bottom-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-image: url('/img/bg/g1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.carousel-caption span {
+    animation-delay: 2s;
+}
+a.width-6 {
+    animation-delay: 2s;
+    width: 32%;
+    font-size: 13px;
+    color: #fff;
+    background: teal;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    border-radius: 4px;
+    padding: 10px 6px;
+    float:  right;
+    text-align: center;
+    margin-top: 15px;
+}

@@ -15,33 +15,38 @@ export default component$(() => {
                   {/* <!-- Carousel Items --> */}
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="/img/slider/slider5.jpg" class="d-block" alt="Slide 1" />
+                      <img id="slide1" src="/img/slider/slide1.jpg" class="d-block" alt="Slide 1" />
                       <div class="carousel-caption kb-caption kb-caption-left">
-                        <h1 data-animation="animated">Ladakh Srinagar With Umling La</h1>
+                        <span class="slider-title" data-animation="animated">Leh Ladakh Adventure</span>
                         <p data-animation="animated">This 11-day journey takes you through the most captivating landscapes of Ladakh and Kashmir...</p>
+                        <span data-animation="animated"><a href="/leh-ladakh-adventure" class="button-text width-6">More Details</a></span>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="/img/slider/slider2.jpg" class="d-block" alt="Slide 2" />
+                      <img src="/img/slider/slide2.jpg" class="d-block" alt="Slide 2" />
                       <div class="carousel-caption kb-caption kb-caption-right">
-                        <h1 data-animation="animated">Catch Your Eye</h1>
-                        <p data-animation="animated">It attracts the attention of customers</p>
+                        <span class="slider-title" data-animation="animated">Catch Your Eye</span>
+                        <p data-animation="animated">It attracts the attention of customer</p>
+                        <span data-animation="animated"><a href="/leh-ladakh-adventure" class="button-text width-6">More Details</a></span>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="/img/slider/slider3.jpg" class="d-block" alt="Slide 3" />
+                      <img src="/img/slider/slide3.jpg" class="d-block" alt="Slide 3" />
                       <div class="carousel-caption kb-caption kb-caption-center">
-                        <h1 data-animation="animated">Super Effects</h1>
+                        <span class="slider-title" data-animation="animated">Super Effects</span>
                         <p data-animation="animated">Demonstrate your benefits</p>
+                        <span data-animation="animated"><a href="/leh-ladakh-adventure" class="button-text width-6">More Details</a></span>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="/img/slider/slider4.jpg" class="d-block" alt="Slide 4" />
-                      <div class="carousel-caption kb-caption kb-caption-center">
-                        <h1 data-animation="animated">Super Effects</h1>
+                      <img src="/img/slider/slide4.jpg" class="d-block" alt="Slide 4" />
+                      <div class="carousel-caption kb-caption kb-caption-left">
+                        <span class="slider-title" data-animation="animated">Super Effects</span>
                         <p data-animation="animated">Captivating landscapes of Ladakh and Kashmir</p>
+                        <span data-animation="animated"><a href="/leh-ladakh-adventure" class="button-text width-6">More Details</a></span>
                       </div>
                     </div>
+                  <div id="slider-bottom-image"></div>
                   </div>
   
                   {/* <!-- Carousel Arrows --> */}
@@ -53,6 +58,7 @@ export default component$(() => {
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                   </button>
+
                 </div>
               </div>
             </div>

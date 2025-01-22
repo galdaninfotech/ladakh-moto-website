@@ -37,7 +37,7 @@ export default component$(() => {
         <div class="wrapper">
             <main>
                 <Header />
-                <div class="d-md-none" style="background: #222; color: #fff; padding: 6px 0px;">
+                <div class="d-md-none" style="background: #1c1c1c; color: #fff; padding: 6px 5px;">
                     <div class="container">
                         <div class="d-flex justify-content-between">
                             <a href="tel:9622958013"><i class="fal fa-phone-alt" style="margin-right: 8px;"></i>9622958013</a>

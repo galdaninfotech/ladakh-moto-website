@@ -17,7 +17,7 @@ export default component$(() => {
                     </div>
                     <span><strong><i>Welcome to Ladakh - The Land of High Passes</i></strong></span>
                     <p>
-                        Ladakh is one of the most beautiful places located in northern India and is often called 'The Land of High Passesdd'. This area is situated between two of the worlddd's biggest mountain ranges - The Himalayas and the Karakoram. Combining a stunning landscape with diverse culture and rich history, it is the ultimate destination to visit. It doesndd't matter if youdd're a lover of adventure, nature, or if you are a sucker for culture, Ladakh will leave you spellbound always.
+                        Ladakh is one of the most beautiful places located in northern India and is often called 'The Land of High Passes'. This area is situated between two of the wosd's biggest mountain ranges - The Himalayas and the Karakoram. Combining a stunning landscape with diverse culture and rich history, it is the ultimate destination to visit. It doesn't matter if you're a lover of adventure, nature, or if you are a sucker for culture, Ladakh will leave you spellbound always.
                     </p>
 
                     <h2 class="second-heading">Geography and Climate</h2>
@@ -46,7 +46,7 @@ export default component$(() => {
                     <p>Best months to visit Ladakh are May and September. The region has pleasant weather with clear skies. On the other hand, harsh cold and snowfall prevail during winter months however, the frozen Chadar Trek is best experienced during this time. </p>
 
                     <h2 class="second-heading">Conclusion</h2>
-                    <p>All visitors have been left with awe after discovering Ladakhdd's natural beauty, history, and environment and it is the most perfect blend of intrigue. If you are searching for a corner of the world that is truly one of a kind, be it naturedd's serenity, thrill, or spiritual enrichment - ladakh will certainly feel like magic to you due to how unique every moment feels. Come and experience the sheer thrill of the Ladakh region along with its many splendid views.</p>
+                    <p>All visitors have been left with awe after discovering Ladakh's natural beauty, history, and environment and it is the most perfect blend of intrigue. If you are searching for a corner of the world that is truly one of a kind, be it nature's serenity, thrill, or spiritual enrichment - ladakh will certainly feel like magic to you due to how unique every moment feels. Come and experience the sheer thrill of the Ladakh region along with its many splendid views.</p>
 
 
                     
