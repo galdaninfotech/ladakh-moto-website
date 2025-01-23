@@ -1,5 +1,9 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './home-packages.css?inline';
+import ImgAllLadakhTour from '../../media/packages/all-ladakh-tour/all-ladakh-tour-overview.jpg?jsx';
+import ImgAmazingLadakhTour from '../../media/packages/amazing-ladakh/amazing-ladakh-overview.jpg?jsx';
+import ImgLadakhWithHanle from '../../media/packages/ladakh-tour-with-hanle/ladakh-tour-with-hanle-overview.jpg?jsx';
+import ImgLadakhZanskarTour from '../../media/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-overview.jpg?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -16,7 +20,8 @@ export default component$(() => {
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img width={1500} height={800} src="/img/packages/all-ladakh-tour/all-ladakh-tour-overview.jpg" alt="" />
+                            <ImgAllLadakhTour alt="All Ladakh Tour" />
+                            {/* <img width={1500} height={800} src="/img/packages/all-ladakh-tour/all-ladakh-tour-overview.jpg" alt="ddddccdd" /> */}
                             <div class="description">
                                 <h2>All Ladakh Tour</h2>
                                 <p>This 10-day Ladakh holiday package combines adventure...</p>
@@ -27,7 +32,8 @@ export default component$(() => {
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img width={1500} height={800} src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" />
+                            <ImgAmazingLadakhTour alt="Amazing Ladakh Tour" />
+                            {/* <img width={1500} height={800} src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" /> */}
                             <div class="description">
                                 <h2>Amazing Ladakh Tour</h2>
                                 <p>6-day Ladakh holiday package designed for travelers seeking an...</p>
@@ -38,9 +44,10 @@ export default component$(() => {
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img width={1500} height={800} src="/img/packages/ladakh-tour-with-hanle/ladakh-tour-with-hanle-overview.jpg" alt="" />
+                            <ImgLadakhWithHanle alt="Ladakh With Hanle" />
+                            {/* <img width={1500} height={800} src="/img/packages/ladakh-tour-with-hanle/ladakh-tour-with-hanle-overview.jpg" alt="cccc" /> */}
                             <div class="description">
-                                <h2>Ladakh Tour With Hanle</h2>
+                                <h2>Ladakh With Hanle</h2>
                                 <p>8-day Ladakh holiday package offers a balanced blend of...</p>
                                 <a href="/packages/ladakh-tour-with-hanle"><button>Know More</button></a>
                             </div>
@@ -49,7 +56,8 @@ export default component$(() => {
 
                     <div class="col-6 col-lg-3">
                         <div class="package-card">
-                            <img width={1500} height={800} src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-overview.jpg" alt="" />
+                            <ImgLadakhZanskarTour alt="Ladakh Zanskar Tour" />
+                            {/* <img width={1500} height={800} src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-overview.jpg" alt="" /> */}
                             <div class="description">
                                 <h2>Ladakh Zanskar Tour</h2>
                                 <p>A tour of Hemis, Diskit and Thiksey monasteries will...</p>

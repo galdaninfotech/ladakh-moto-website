@@ -1,6 +1,9 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './slider.css?inline';
-// import { useDocumentHead } from "@builder.io/qwik-city";
+import ImgSlide1 from '../../media/slider/slide1.jpg?w=1920&h=720&jsx';
+import ImgSlide2 from '../../media/slider/slide2.jpg?w=1920&h=720&jsx';
+import ImgSlide3 from '../../media/slider/slide3.jpg?w=1920&h=720&jsx';
+import ImgSlide4 from '../../media/slider/slide4.jpg?w=1920&h=720&jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -15,7 +18,7 @@ export default component$(() => {
                   {/* <!-- Carousel Items --> */}
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img id="slide1" src="/img/slider/slide1.jpg" class="d-block" alt="Slide 1" />
+                        <ImgSlide1 id="slide1" class="d-block" alt="Slide One" />
                       <div class="carousel-caption kb-caption kb-caption-left">
                         <span class="slider-title" data-animation="animated">Leh Ladakh Adventure</span>
                         <p data-animation="animated">This 11-day journey takes you through the most captivating landscapes of Ladakh and Kashmir...</p>
@@ -23,7 +26,7 @@ export default component$(() => {
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="/img/slider/slide2.jpg" class="d-block" alt="Slide 2" />
+                        <ImgSlide2 id="slide2" class="d-block" alt="Slide Two" />
                       <div class="carousel-caption kb-caption kb-caption-right">
                         <span class="slider-title" data-animation="animated">Catch Your Eye</span>
                         <p data-animation="animated">It attracts the attention of customer</p>
@@ -31,7 +34,7 @@ export default component$(() => {
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="/img/slider/slide3.jpg" class="d-block" alt="Slide 3" />
+                        <ImgSlide3 id="slide3" class="d-block" alt="Slide Three" />
                       <div class="carousel-caption kb-caption kb-caption-center">
                         <span class="slider-title" data-animation="animated">Super Effects</span>
                         <p data-animation="animated">Demonstrate your benefits</p>
@@ -39,7 +42,7 @@ export default component$(() => {
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="/img/slider/slide4.jpg" class="d-block" alt="Slide 4" />
+                        <ImgSlide4 id="slide4" class="d-block" alt="Slide Four" />
                       <div class="carousel-caption kb-caption kb-caption-left">
                         <span class="slider-title" data-animation="animated">Super Effects</span>
                         <p data-animation="animated">Captivating landscapes of Ladakh and Kashmir</p>

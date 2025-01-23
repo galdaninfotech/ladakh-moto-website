@@ -61,8 +61,7 @@ export default component$(() => {
         <script src="/js/meanmenu.min.js"></script>
 
         <script src="/js/main.js"></script>
-        <script src="/js/slider.js"></script>
-        <script src="/js/custom.js"></script>
+
 
         {/* Gallery */}
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>

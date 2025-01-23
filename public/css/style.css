@@ -2159,7 +2159,6 @@ form.adventure-select-form button.search:hover {
 }
 .trip-date-area {
     position: relative;
-    background-image: url(../img/bg/table-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -2170,7 +2169,6 @@ form.adventure-select-form button.search:hover {
     width: 100%;
     height: 112px;
     bottom: -2px;
-    background-image: url(../img/bg/table-shap.png);
     left: 0;
     background-repeat: no-repeat;
 }

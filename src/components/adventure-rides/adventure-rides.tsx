@@ -1,6 +1,12 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './adventure-rides.css?inline';
 import OverviewIcons from '~/components/overview-icons/overview-icons';
+import ImgLehLadakhAdventureHome from '../../media/tours/leh-ladakh-adventure/leh-ladakh-adventure-home.jpg?jsx';
+import ImgLadakhWithUmlingLaHome from '../../media/tours/ladakh-with-umling-la/ladakh-with-umling-la-home.jpg?jsx';
+import ImgLadakhSrinagarWithUmlingLaHome from '../../media/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-home.jpg?jsx';
+import ImgLehZangskarLeh from '../../media/tours/leh-zangskar-leh/leh-zangskar-leh-home.jpg?jsx';
+import ImgManaliLehSrinagar from '../../media/tours/manali-leh-srinagar/manali-leh-srinagar-home.jpg?jsx';
+import ImgSrinagarLehManali from '../../media/tours/srinagar-leh-manali/srinagar-leh-manali-home.jpg?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -20,7 +26,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/leh-ladakh-adventure" aria-label="Leh Ladakh Adventure">
-                                    <img width={1500} height={800} src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-home.jpg" alt="" />
+                                    <ImgLehLadakhAdventureHome alt="Leh Ladakh Adventure" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -55,7 +61,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/ladakh-with-umling-la" aria-label="Ladakh with Umling La">
-                                    <img width={1500} height={800} src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-home.jpg" alt="" />
+                                    <ImgLadakhWithUmlingLaHome alt="Ladakh with Umling La" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -90,7 +96,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/ladakh-srinagar-with-umling-la" aria-label="Ladakh Srinagar With Umling La">
-                                    <img width={1500} height={800} src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-home.jpg" alt="" />
+                                    <ImgLadakhSrinagarWithUmlingLaHome alt="Ladakh Srinagar With Umling La" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -126,7 +132,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/leh-zangskar-leh" aria-label="Leh Zangskar Leh">
-                                    <img width={1500} height={800} src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-home.jpg" alt="" />
+                                    <ImgLehZangskarLeh alt="Leh Zangskar Leh" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -161,7 +167,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/manali-leh-srinagar" aria-label="Manali Leh Srinagar">
-                                    <img width={1500} height={800} src="/img/tours/manali-leh-srinagar/manali-leh-srinagar-home.jpg" alt="" />
+                                    <ImgManaliLehSrinagar alt="Manali Leh Srinagar" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -196,7 +202,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="/srinagar-leh-manali" aria-label="Srinagar Leh Manali">
-                                    <img width={1500} height={800} src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-home.jpg" alt="" />
+                                    <ImgSrinagarLehManali alt="Srinagar Leh Manali" />
                                 </a>
                             </figure>
                             <div class="package-price">

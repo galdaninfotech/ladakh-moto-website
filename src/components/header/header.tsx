@@ -46,7 +46,7 @@ export default component$(() => {
                     <div class="col-lg-2 col-sm-6 col-6">
                         {/* <!-- Start site logo --> */}
                         <div class="site-logo d-md-none">
-                            <a href="/"><img src="/img/logo10.png" alt="LadakhMoto" /></a>
+                            <a href="/"><img width={104} height={70} src="/img/logo10.png" alt="LadakhMoto" /></a>
                         </div>
 
                         <div class="site-logo d-none d-md-block" style="top: -8px;">
