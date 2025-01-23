@@ -1,6 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './header.css?inline';
-import ImgLogoSM from '../../media/logo-sm.png?jsx';
+import ImgLogoSM from '../../media/logo-sm.png?w=104&h=70&jsx';
 import ImgLogoLG from '../../media/logo-lg.png?jsx';
 
 export default component$(() => {

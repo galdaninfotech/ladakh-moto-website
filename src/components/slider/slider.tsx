@@ -18,7 +18,7 @@ export default component$(() => {
                   {/* <!-- Carousel Items --> */}
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <ImgSlide1 id="slide1" class="d-block" alt="Slide One" />
+                        <ImgSlide1 id="slide1" class="d-block" decoding="sync" loading="eager" alt="Slide One" />
                       <div class="carousel-caption kb-caption kb-caption-left">
                         <span class="slider-title" data-animation="animated">Leh Ladakh Adventure</span>
                         <p data-animation="animated">This 11-day journey takes you through the most captivating landscapes of Ladakh and Kashmir...</p>
