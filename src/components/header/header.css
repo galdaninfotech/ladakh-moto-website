@@ -4,3 +4,8 @@ header.header-area.style-2 .site-logo {
     position: absolute;
     top: 0px;
 }
+
+#logo-sm {
+    width: 104px;
+    height: 70px;
+}

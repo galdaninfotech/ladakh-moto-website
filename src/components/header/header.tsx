@@ -1,6 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './header.css?inline';
-import ImgLogoSM from '../../media/logo-sm.png?w=104&h=70&jsx';
+import ImgLogoSM from '../../media/logo-sm.png?jsx';
 import ImgLogoLG from '../../media/logo-lg.png?jsx';
 
 export default component$(() => {
@@ -49,12 +49,12 @@ export default component$(() => {
                         {/* <!-- Start site logo --> */}
                         <div class="site-logo d-md-none">
                             <a href="/">
-                                <ImgLogoSM alt="LadakhMoto" />
+                                <ImgLogoSM id="logo-sm" decoding="sync" loading="eager" alt="LadakhMoto" />
                             </a>
                         </div>
 
                         <div class="site-logo d-none d-md-block" style="top: -8px;">
-                            <ImgLogoLG alt="LadakhMoto" />
+                            <ImgLogoLG decoding="sync" loading="eager" alt="LadakhMoto" />
                         </div>
                         {/* <!-- End site logo --> */}
                     </div>
