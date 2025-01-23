@@ -15,7 +15,7 @@ export default component$(() => {
                 </div>
                 <div class="col-md-3">
                     <figure class="snip1477">
-                        <ImgPhuntsogRigzin />
+                        <ImgPhuntsogRigzin alt="Phuntsog Rigzin" />
                         <div class="title">
                             <div>
                                 <h2>Phunchok Rigzin</h2>
