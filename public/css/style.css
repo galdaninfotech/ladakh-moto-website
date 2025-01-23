@@ -1438,14 +1438,14 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
   }
 /*=== Footer ===*/
 footer.footer-area {
-    background-image: url(../img/bg/footer-bg.jpg);
+    background-image: url(../img/bg/footer-bg.webp);
     background-size: cover;
     background-position: center;
     position: relative;
 }
 @media only screen and (max-width: 768px) {
     footer.footer-area {
-        background-image: url(../img/bg/footer-bg.jpg);
+        background-image: url(../img/bg/footer-bg.webp);
         background-size: cover;
         background-position: -640px 0px;
         position: relative;
@@ -1591,7 +1591,7 @@ footer.footer-area .widget p {
     content: "";
     bottom: -21px;
     left: 0;
-    background-image: url(../img/bg/g1.png);
+    background-image: url(../img/bg/g1.webp);
     position: absolute;
     z-index: 1;
     height: 60px;

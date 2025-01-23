@@ -1,5 +1,7 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './header.css?inline';
+import ImgLogoSM from '../../media/logo-sm.png?jsx';
+import ImgLogoLG from '../../media/logo-lg.png?jsx';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -46,11 +48,13 @@ export default component$(() => {
                     <div class="col-lg-2 col-sm-6 col-6">
                         {/* <!-- Start site logo --> */}
                         <div class="site-logo d-md-none">
-                            <a href="/"><img width={104} height={70} src="/img/logo10.png" alt="LadakhMoto" /></a>
+                            <a href="/">
+                                <ImgLogoSM alt="LadakhMoto" />
+                            </a>
                         </div>
 
                         <div class="site-logo d-none d-md-block" style="top: -8px;">
-                            <a href="/"><img width={150} height={80} src="/img/logo-lg2.png" alt="LadakhMoto" /></a>
+                            <ImgLogoLG alt="LadakhMoto" />
                         </div>
                         {/* <!-- End site logo --> */}
                     </div>
