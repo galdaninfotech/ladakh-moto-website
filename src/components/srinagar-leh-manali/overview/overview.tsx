@@ -34,20 +34,20 @@ export default component$(() => {
             </div>
             
             <p>
-                This 10-day motorbiking adventure takes you from the picturesque landscapes of Srinagar to the breathtaking mountains of Manali, passing through the stunning Nubra Valley and the iconic Pangong Lake. Get ready for an exhilarating journey filled with diverse landscapes, rich culture, and unforgettable experiences.
+                This 10-day motorbike trip passes through the spectacular Nubra Valley and the well-known Pangong Lake as it transports you from the charming surroundings of Srinagar to the magnificent mountains of Manali. Prepare yourself for a thrilling adventure full with varied scenery, a vibrant culture, and life-changing moments.
             </p>
 
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
-                <li>Ride through the stunning landscapes of Nubra Valley, Pangong Lake, and Kargil.</li>
-                <li>Conquer Khardung La and Baralacha La, some of the highest motorable passes in the world.</li>
-                <li>Experience the rich culture of Turtuk and the serene beauty of Pangong Lake.</li>
-                <li>Enjoy breathtaking mountain views, vibrant markets, and delicious local cuisine throughout the journey.</li>
+                <li>Cross some of the world's highest motorable crossings, Khardung La and Baralacha La</li>
+                <li>Travel through the breathtaking scenery of Nubra Valley, Pangong Lake, and Kargil</li>
+                <li>Discover the tranquil serenity of Pangong Lake and the rich culture of Turtuk</li>
+                <li>Throughout the trip, savor delectable local cuisine, lively marketplaces, and stunning mountain views</li>
             </ul>
 
             <p>
-                This motorbiking tour promises an unforgettable experience, filled with adventure, scenic beauty, and the opportunity to explore the rich culture of the Himalayas.
+                An amazing trip full of adventure, breathtaking scenery, and the chance to learn about the rich Himalayan culture is what this motorbike tour promises. 
             </p>
             
 

@@ -37,17 +37,16 @@ export default component$(() => {
 
             
             <p>
-            This 10-day Ladakh holiday package offers travelers a chance to immerse themselves in the unique culture and stunning landscapes of Ladakh and the Zanskar Valley. The tour begins with two days in Leh for acclimatization and sightseeing. You’ll then venture to the remote Zanskar Valley, known for its serene villages, ancient monasteries, and scenic vistas. Highlights include crossing high-altitude passes, experiencing traditional Ladakhi life, and exploring the dramatic landscapes of Zanskar, making this ideal for travelers seeking adventure and cultural immersion.
+                The culture and the beauty of Ladakh and the Zanskar Valley can be experienced during this 10-day Leh Ladakh holiday package. The entire excursion starts with two days of sightseeing and acclimatization in Leh. You will then travel to the isolated Zanskar Valley which comprises of ancient monasteries, splendid villages and picturesque views. Encounters with high passes, traditional Ladakhi cultures, expansive landscapes of Zanskar makes this one an excellent fit for thrill-seekers and those interested in deep-rooted cultures.
             </p>
 
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
-                <li>Scenic Drives: Cross high-altitude passes like Khardung La and Chang La, and travel through the lush Suru Valley.</li>
-                <li>Remote Landscapes: Explore the Zanskar Valley’s stunning scenery, from the lush Suru Valley to the rugged peaks of the Nun-Kun range.</li>
-                <li>Cultural Visits: Visit monasteries including Karsha, Stongdey, Lamayuru, and Alchi.</li>
-                <li>Lakeside Serenity: Witness the changing colors of Pangong Lake, one of Ladakh’s most scenic attractions.</li>
-                <li>Traditional Villages: Experience the unique cultures of Ladakh and Zanskar’s remote villages.</li>
+                <li>Landscapes: Drive through the sprawling Suru valley, amazing view of Nun-Kun range and Chang la passes along with other breathtaking views.</li>
+                <li>Cultural Shrines: Explore the wide varieties of monasteries across Ladakh and Zangskar, which include Alchi, Karsha, Stongdey, Lamayuru.</li>
+                <li>Lakesides: The picturesque Pangong lake can be enjoyed while witnessing its colorful transitions.</li>
+                <li>Villages: The remote villages of Zanskar provide a great opportunity to experience the local lifestyle.</li>
             </ul>
             
 

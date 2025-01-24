@@ -24,7 +24,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="5200 ft" distance="20 km" duration="4 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="5200 ft" distance="20 km" duration="3-4 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -35,7 +35,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="5200 ft" distance="20 km" duration="4 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="5200 ft" distance="20 km" duration="3-4 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -44,9 +44,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Activity</span>: Acclimatization and Local sightseeing</li>
+                                    <li><span>Activity</span>: Bike check-up, Acclimatization and Local Sightseeing</li>
                                     <li><span>Highlights</span>: Dal Lake, Mughal Gardens, Shankaracharya Temple</li>
-                                    <li>Arrive at Srinagar Airport, where you’ll be greeted and transferred to your hotel. Spend the day acclimatizing to the altitude and explore Dal Lake on a shikara (traditional wooden boat) ride. Visit the Mughal Gardens, including Shalimar Bagh and Nishat Bagh, known for their stunning terraced lawns and beautiful flowers. If time permits, visit the Shankaracharya Temple for panoramic views of the city.</li>
+                                    <li>Arrival Srinagar. For your convenience, we recommend that clients arrange their taxi to reach hotel. Once you arrive at Srinagar, please get to the designated hotel, where our team will be ready to welcome you. Take the day to adjust to the altitude while enjoying a shikara ride on Dal Lake. When time allows, visit the Shankaracharya Temple for beautiful sights of the complete city.</li>
                                     <li><span>Overnight</span>: Hotel in Srinagar</li>
                                 </ul>
 
@@ -64,7 +64,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="11575 ft" distance="204 km" duration="6 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11575 ft" distance="204 km" duration="5-6 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -75,7 +75,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="11575 ft" distance="204 km" duration="6 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11575 ft" distance="204 km" duration="5-6 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -84,8 +84,8 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Drass, Kargil War Memorial</li>
-                                    <li>After breakfast, begin your journey to Kargil, passing through the scenic Drass Valley. The route offers stunning views of the mountains and valleys. Stop at the Kargil War Memorial in Drass to pay tribute to the soldiers who fought during the Kargil War. Continue to Kargil, where you can explore the town in the evening.</li>
+                                    <li><span>Highlights</span>: Zojila pass, Sonmarg, Drass, Kargil War Memorial</li>
+                                    <li>Once you are done with breakfast, we begin the long drive towards Kargil through the lovely Sonmarg and Drass Valley.  Zojila Pass provides breathtaking views of the mountains and the valleys. After crossing the pass you can then proceed to the Kargil War Memorial located in Drass where the brave soldiers of the Kargil War are honoured. Later move towards Kargil where during the dusk you may take a brief tour of the town.</li>
                                     <li><span>Overnight</span>: Hotel in Kargil</li>
                                 </ul>
 
@@ -96,14 +96,14 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="false" aria-controls="itineraryCollapse3">
-                            Day 03 : Kargil to Leh
+                            Day 03 : Kargil to Leh Via Lamayuru
                             </button>
                         </h3>
                         <div id="itineraryCollapse3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="13478 ft" distance="210 km" duration="6 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="13478 ft" distance="210 km" duration="5-6 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -114,7 +114,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="13478 ft" distance="210 km" duration="6 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="13478 ft" distance="210 km" duration="5-6 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -123,8 +123,8 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>:Namika La, Fotu La, Indus Valley</li>
-                                    <li>After breakfast, ride towards Leh, crossing the Namika La and Fotu La passes. The stunning views of the Indus Valley will accompany you on this journey. Arrive in Leh by afternoon, where you can relax and prepare for the upcoming adventures. Spend the evening exploring the local market or visiting Leh Palace.</li>
+                                    <li><span>Highlights</span>: Namika La, Fotu La, Indus Valley and Lamayuru Monastery</li>
+                                    <li>After breakfast, we start riding towards Leh, passing through the Namkila La and Fotu La passes. Enroute vist Lamayuru monastery. During this journey, you are accompanied by lovely views of the Indus Valley. You are fully in Leh by the early afternoon where you are free to relaxation and getting ready for the other rides which are to occur. The evening can be enjoyed exploring the local markets or paying a visit to the Leh Palace </li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -142,7 +142,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="18300 ft" distance="120 km" duration="5 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="18380 ft" distance="120 km" duration="4-5 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -153,7 +153,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="18300 ft" distance="120 km" duration="5 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="18380 ft" distance="120 km" duration="4-5 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -162,9 +162,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Khardung La Pass (18,380 ft), Diskit Monastery, Hunder Sand Dunes</li>
-                                    <li>Start early and ride to Nubra Valley via Khardung La, one of the highest motorable roads in the world. Enjoy the breathtaking views from the pass and take some memorable photographs. Descend into Nubra Valley and visit the Diskit Monastery, where you can see the magnificent statue of Maitreya Buddha. Continue to Hunder, known for its unique sand dunes and double-humped Bactrian camels.</li>
-                                    <li><span>Overnight</span>: Camps/Guesthouse in Hunder, Nubra Valley</li>
+                                    <li><span>Highlights</span>: Khardung La Pass, 18380 feet height, Diskit Monastery, and Hunder Sand Dunes</li>
+                                    <li>This ride will take you to the highest point on the route, Khardung La. After crossing the pass, you will reach the beautiful valley of Nubra. You can visit the Diskit Monastery, which has a large Maitreya Buddha statue. After that, you can go to the Hunder Sand Dunes, where you could ride camels that have two humps, known as Bactrian camels. </li>
+                                    <li><span>Overnight</span>: Hotel/Guest house in Hunder</li>
                                 </ul>
 
                             </div>
@@ -181,7 +181,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="10000 ft" distance="130 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="10000 ft" distance="130 km" duration="5-6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -192,7 +192,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="10000 ft" distance="130 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="10000 ft" distance="130 km" duration="5-6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -201,9 +201,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Turtuk Village, Zero Point, Thang</li>
-                                    <li>After breakfast, ride towards Turtuk, one of the northernmost villages in India. The ride offers stunning views of the mountains and valleys. Explore the village, where you can experience the unique Balti culture. If time permits, ride to Zero Point Thang, located near the India-Pakistan border. After exploring Turtuk, return to Nubra Valley for the night.</li>
-                                    <li><span>Overnight</span>: Camps/Guesthouse in Nubra Valley</li>
+                                    <li><span>Highlights</span>: Turtuk Village, Indo-Pak Border, Balti Culture</li>
+                                    <li>Today, we will go on an excursion to Turtuk, a remote and isolated village located close to the protracted India Pakistan boundary, which is culturally diverse. Turtuk portrays the vividness of esteemed culture of balti, which is quite different from rest of Ladakh. This part of the ride lets you explore the village, interact with locals, and savor the views of the Apricot orchid's farms before heading back to Hunder for an overnight stay. </li>
+                                    <li><span>Overnight</span>: Camp/Guest house in Purne</li>
                                 </ul>
                             </div>
                         </div>
@@ -219,7 +219,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="6 hrs" lodging="Cottages" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="5-6 hrs" lodging="Cottages" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -230,7 +230,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="6 hrs" lodging="Cottages" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="5-6 hrs" lodging="Cottages" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -239,9 +239,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Scenic Ride, Pangong Lake</li>
-                                    <li>After breakfast, begin your ride to Pangong Lake. The journey will take you through beautiful landscapes, including valleys, rivers, and rugged mountains. Upon reaching Pangong Lake, marvel at its striking blue waters and picturesque surroundings. Enjoy a relaxing evening by the lake and take in the stunning sunset.</li>
-                                    <li><span>Overnight</span>: Cottages/Camp in Pangong Lake</li>
+                                    <li><span>Highlights</span>:: Shyok River, Pangong Lake</li>
+                                    <li>Prepare for a spectacular journey that will take you along the breathtaking and exciting route of the Shyok river to reach the exquisite Pangong Lake. The trip will take you across rough mountain landscapes and tiny Periodically rural settlements of the Ladakhi people. Before long, once you have reached the lake, you will see its numerous blue waters gets refracted and scattered by sunlight. The lake is spread across of India and tibet and ranks among the highest salt water lakes of the world.</li>
+                                    <li><span>Overnight</span>: Cottages in Pangong</li>
                                 </ul>
 
                             </div>
@@ -258,7 +258,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="17688 ft" distance="140 km" duration="5 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="17688 ft" distance="140 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -269,7 +269,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="17688 ft" distance="140 km" duration="5 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="17688 ft" distance="140 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -278,8 +278,8 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Thiksey Monastery (optional stop)</li>
-                                    <li>After breakfast, begin your return journey to Leh. You can stop at Thiksey Monastery on your way back, known for its impressive architecture and views. Arrive in Leh and spend the evening at leisure, perhaps visiting the local market or enjoying a farewell dinner.</li>
+                                    <li><span>Highlights</span>: Changla pass, Thiksey Monastery (optional stop)</li>
+                                    <li>The return trip to Leh may commence after breakfast, during which you will cross Chang la pass which is among ppone of the highest and  it is also possible to stop for some sightseeing including one of the best monasteries in Ladakh, Thiksey Monastery which is beautiful in its architecture style and its surrounding views. Proceed with riding back to leh and this time you could opt for some rest and sight seeing for all the places that you might have left earlier. </li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -290,14 +290,14 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse8" aria-expanded="false" aria-controls="itineraryCollapse8">
-                            Day 08 : Leh to Serchu
+                            Day 08 : Leh to Serchu Via Taglangla
                             </button>
                         </h3>
                         <div id="itineraryCollapse8" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="16040 ft" distance="220 km" duration="8 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="17582 ft" distance="245 km" duration="6-7 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -308,7 +308,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="16040 ft" distance="220 km" duration="8 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="17582 ft" distance="245 km" duration="6-7 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -317,8 +317,8 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Scenic Landscapes, Baralacha La</li>
-                                    <li>After breakfast, set off towards Serchu, riding through stunning landscapes and crossing Baralacha La (16,040 ft). The route offers breathtaking views of the mountains and valleys. Arrive in Serchu by evening and relax at the campsite after a long day of riding.</li>
+                                    <li><span>Highlights</span>: Gata loops, Tanglang la pass, Lachung la pass </li>
+                                    <li>After breakfast, start your journey towards Serchu while crossing Tanglang la pass. Pass through the famous Gata Loops, a series of 21 hairpin bends that lead to Nakee La and Lachulung La passes. The route itself is picturesque as it offers a breathtaking view of the mountains and the valleys. Reaching Serchu by evening strike the camp and rest for the day after riding for hours.</li>
                                     <li><span>Overnight</span>: Camp in Serchu</li>
                                 </ul>
 
@@ -329,14 +329,14 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse9" aria-expanded="false" aria-controls="itineraryCollapse9">
-                            Day 09 : Serchu to Manali
+                            Day 09 : Serchu to Manali Via Baralacha
                             </button>
                         </h3>
                         <div id="itineraryCollapse9" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="6398 ft" distance="150 km" duration="6 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="16040 ft" distance="150 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -347,7 +347,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="6398 ft" distance="150 km" duration="6 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="16040 ft" distance="150 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -356,8 +356,8 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Atal Tunnel, Scenic Views</li>
-                                    <li>After an early breakfast, begin your ride towards Manali, passing through Atal tunnel. Enjoy the stunning mountain scenery and the exhilarating ride down to Manali. Arrive in Manali by afternoon, where you can relax and explore the local area.</li>
+                                    <li><span>Highlights</span>: Baralacha pass, Atal tunnel, Keylong</li>
+                                    <li>After an early breakfast, begin your ride towards Manali, passing through Baralacha pass, Atal tunnel. Enjoy the stunning mountain scenery and the exhilarating ride towards Manali. Arrive in Manali by afternoon, where you can relax and explore the local area. Look forward to enjoying a farewell dinner whilst reminiscing all the good times you had on your tour.</li>
                                     <li><span>Overnight</span>: Hotel in Manali</li>
                                 </ul>
 

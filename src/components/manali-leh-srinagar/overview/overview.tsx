@@ -14,7 +14,7 @@ export default component$(() => {
 
             <div class="row d-block d-lg-none">
                 <div class="col-12 col-lg-6">
-                    <OverviewIcons highestAltitude="19024 ft" distance="1525 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                    <OverviewIcons highestAltitude="18380 ft" distance="1525 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -25,7 +25,7 @@ export default component$(() => {
             {/* Desktop Screen */}
             <div class="row d-none d-lg-block">
                 <div class="col-12 col-lg-12">
-                    <OverviewIcons highestAltitude="19024 ft" distance="1525 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                    <OverviewIcons highestAltitude="18380 ft" distance="1525 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -34,20 +34,20 @@ export default component$(() => {
             </div>
 
             <p>
-                This thrilling motorbiking tour takes you on a journey of a lifetime through the breathtaking landscapes of the Himalayas. Starting from the lush green valleys of Manali, you'll traverse the highest motorable passes, visit pristine lakes, explore remote villages, and experience the raw beauty of Ladakh's rugged terrain. Designed for adventurers, this tour offers a mix of exhilarating rides, cultural encounters, and some of the most stunning vistas on Earth. It's not just a ride, but an exploration of the extreme and serene, from high-altitude passes to serene lakes, ancient monasteries, and the starry skies of Pangong.
+                This exciting motorbiking journey takes us through the great Himalayan mountain ranges. Beginning with the lush green hills and valleys of Manali, one will conquer the highest motorable passes, the beautiful lakes and remote Ladakh villages. The trip is tailor-made for explorers and thrill-seekers as it combines exciting rides, unforgettable cultural experiences, and some of the finest sights in the world. This is not merely just a ride, but an adventure through the high pray, serene plains, silent lakes, old aged monasteries and the twinkling stars in the skies of Pangong.   
             </p>
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
-                <li>Cross multiple high-altitude passes, including Zojila and  Khardung La.</li>
-                <li>Visit pristine and remote lake Pangong.</li>
-                <li>Visit Turtuk, picturesque village near the Indo-Pak border, known for its unique Balti culture and stunning landscapes. </li>
-                <li>Explore the sand dunes of Nubra Valley and ride through the lush Shyok River valley.</li>
-                <li>Immerse yourself in Ladakh's unique culture and history in towns like Leh and Diskit.</li>
+                <li>Cross several important mountain passes including Zojila , Baralacha and Khardung La </li>
+                <li>Visit the beautiful and isolated lake Pangong </li>
+                <li>Explore Turtuk, a beautiful town located at the Indo-Pak remains with breathtaking views and rich Balti culture</li>
+                <li>Take a trip to the Nubra Valley where you get to ride through the Shyok river valleys and the surrounding sand dunes</li>
+                <li>Get to experience the wonderful culture and history in cities of Leh and Diskit.</li>
             </ul>
 
             <p>
-                This Manali-to-Leh motorbiking tour is a perfect blend of adventure, stunning scenery, and cultural exploration, designed for seasoned bikers looking for an unforgettable journey through one of the most remote and beautiful regions in the world.
+                This Manali-leh-srinagar motorbiking tour is a harmonious combination of thrill, picturesque landscapes and diverse cultures, crafted specifically for expert bikers who have the epic desire to travel in one of the most remote and breathtaking areas of the globe.
             </p>
             
 

@@ -24,7 +24,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="11000 ft" distance="20 km" duration="4 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11000 ft" distance="20 km" duration="3-4 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -35,7 +35,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="11000 ft" distance="20 km" duration="4 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11000 ft" distance="20 km" duration="3-4 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -45,8 +45,8 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Activity</span>: Bike Checkup, acclimatization and rest</li>
-                                    <li><span>Highlights</span>: Explore Leh Market, Leh Palace (optional)</li>
-                                    <li>For your convenience, we recommend that clients arrange their own taxi to reach Leh hotel. Once you arrive at Leh, please make your way to the designated hotel, where our team will be ready to welcome you. We can provide guidance on trusted taxi services if needed, ensuring a smooth and hassle-free journey to the hotel. Spend the day acclimatizing to Leh's high altitude. Take a light walk around Leh Market, or, if you feel comfortable, visit Leh Palace for panoramic views of the town.</li>
+                                    <li><span>Highlights</span>: Acclimatization and evening explore Leh Market</li>
+                                    <li>For your convenience, we recommend that clients arrange their taxi to reach Leh hotel. Once you arrive at Leh, please get to the designated hotel, where our team will be ready to welcome you. We can provide guidance on trusted taxi services if needed, ensuring a smooth and hassle-free journey to the hotel. Spend the day acclimatizing to Leh's high altitude. Take a light walk around Leh Market, or, if you feel comfortable, visit Leh Palace for panoramic town views.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -64,7 +64,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="11500 ft" distance="125 km" duration="5 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11500 ft" distance="125 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -75,7 +75,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="11500 ft" distance="125 km" duration="5 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11500 ft" distance="125 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -86,7 +86,7 @@ export default component$(() => {
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Magnetic Hill, Basgo Fort, Lamayuru Monastery</li>
                                     <li>Begin your motorbiking journey by heading west towards Lamayuru, one of the most ancient and iconic monasteries in Ladakh. En route, stop at Magnetic Hill, a spot where vehicles appear to roll uphill against gravity. Visit the ruins of Basgo Fort, a former seat of Ladakhi kings. Reach Lamayuru Monastery, known for its unique lunar-like landscape called "Moonland."</li>
-                                    <li><span>Overnight</span>: Hotel/guest house in Lamayuru</li>
+                                    <li><span>Overnight</span>: Hotel in Lamayuru</li>
                                 </ul>
 
                             </div>
@@ -103,7 +103,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="13478 ft" distance="200 km" duration="8 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="16703 ft" distance="200 km" duration="6-7 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -114,7 +114,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="13478 ft" distance="200 km" duration="8 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="16703 ft" distance="200 km" duration="6-7 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -123,10 +123,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Ride through breathtaking landscapes, cross the high-altitude Singay La (4,920 m) and Hanuma La (4,700 m) passes, and explore the remote Lingshed village.</li>
-                                    <li>Begin early from Lamayuru, pass Wanla and Photoksar, and traverse challenging roads with stunning vistas. Cross Singey la pass (5091mts). Reach Padum by evening, completing a thrilling yet demanding ride.
-                                    Overnight - Hotel/guest house at Padum</li>
-                                    <li><span>Overnight</span>: Hotel/Guesthouse in Padum, Zangskar Valley</li>
+                                    <li><span>Highlights</span>: Ride over stunning landscapes,  cross high-altitude pass of Singay La (16,703 ft) and visit the isolated Lingshed village.</li>
+                                    <li>Start early from Lamayuru via Wanla and Photoksar and get over bumpy roads with breathtaking views. Cross Singey La pass(16,703 ft). Arrive at Padum by evening after an exhilarating but arduous ride. </li>
+                                    <li><span>Overnight</span>: Hotel/Guesthouse in Padum</li>
                                 </ul>
 
                             </div>
@@ -143,7 +142,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="12000 ft" distance="65 km" duration="4 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="12000 ft" distance="65 km" duration="2-3 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -154,7 +153,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="12000 ft" distance="65 km" duration="4 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="12000 ft" distance="65 km" duration="2-3 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -164,8 +163,8 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Zanskar River, Bardan Monastery, Remote Villages</li>
-                                    <li>After breakfast, ride to Purne, a remote village that serves as the base for the Phuktal Monastery trek. The road follows the scenic Zanskar River, and en route, visit the Bardan Monastery, known for its giant prayer wheels. The ride offers a mix of dirt trails and challenging terrain, leading to the peaceful village of Purne.</li>
-                                    <li><span>Overnight</span>: Camps/Guesthouse in Purne</li>
+                                    <li>Head to Purne, a remote village that is the starting point for the Phuktal Monastery trek, after breakfast. Follow the beautiful Zanskar River road to visit the beautiful Bardan Monastery, home to largest of the region's prayer wheels. The ride is a combination of dirt, and tough terrain, which leads to the tranquil village of Purne. </li>
+                                    <li><span>Overnight</span>: Camp/Guest house in Purne</li>
                                 </ul>
 
                             </div>
@@ -182,7 +181,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="12000 ft" distance="14 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="12000 ft" distance="14 km" duration="4-5 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -193,7 +192,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="12000 ft" distance="14 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="12000 ft" distance="14 km" duration="4-5 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -202,9 +201,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Phuktal Monastery, Hanging Monastery, Zanskar Gorge</li>
+                                    <li><span>Highlights</span>: Hiking Day to Phuktal Monastery, Hanging Monastery</li>
                                     <li>Today is a day of exploration on foot. Hike to the spectacular Phuktal Monastery, which is built into the cliffs of a gorge and overlooks the Tsarap River. This 12th-century monastery is one of the most remote in the world and offers stunning views of the surrounding valley. After spending time at the monastery, hike back to Purne.</li>
-                                    <li><span>Overnight</span>: Homestay in Purne</li>
+                                    <li><span>Overnight</span>: Camp/Guest house in Purne</li>
                                 </ul>
                             </div>
                         </div>
@@ -220,7 +219,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="16700 ft" distance="250 km" duration="8 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="16703 ft" distance="250 km" duration="7-8 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -231,7 +230,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="16700 ft" distance="250 km" duration="8 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="16703 ft" distance="250 km" duration="7-8 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -240,9 +239,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Shingo La Pass (16,700 ft), Lahaul Valley</li>
-                                    <li>Today’s ride is challenging as you cross the high-altitude Shingo La Pass, which connects Zanskar to Lahaul Valley. The pass offers panoramic views of the Himalayas, with glaciers and snow-capped peaks surrounding you. Descend into the beautiful Lahaul Valley and continue to Sarchu, a popular stopover for travelers on the Manali-Leh highway.</li>
-                                    <li><span>Overnight</span>: Camp in Serchu</li>
+                                    <li><span>Highlights</span>:Shingo La Pass (16,703 ft), Lahaul Valley</li>
+                                    <li>Today's ride is challenging as you cross the high-altitude Shingo La Pass, which connects Zanskar to Lahaul Valley. The pass offers panoramic views of the Himalayas, with glaciers and snow-capped peaks surrounding you. Descend into the beautiful Lahaul Valley and continue to Sarchu, a popular stopover for travelers on the Manali-Leh highway.</li>
+                                    <li><span>Overnight</span>: Camp in serchu</li>
                                 </ul>
 
                             </div>
@@ -259,7 +258,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="16616 ft" distance="130 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="16616 ft" distance="130 km" duration="4-5 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -270,7 +269,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="16616 ft" distance="130 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="16616 ft" distance="130 km" duration="4-5 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -279,9 +278,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>:Gata Loops, Nakee La Pass (15,547 ft), Lachulung La Pass (16,616 ft), Tso Kar Lake</li>
-                                    <li>Ride through the famous Gata Loops, a series of 21 hairpin bends that take you up to Nakee La and Lachulung La passes. The journey offers stunning views of the barren high-altitude desert. After descending from the passes, reach the mesmerizing Tso Kar Lake, known for its saltwater shores and abundant wildlife, especially migratory birds.</li>
-                                    <li><span>Overnight</span>: Camp near Tsokar Lake</li>
+                                    <li><span>Highlights</span>: Gata Loops, Nakee La Pass (15,547 ft), Lachulung La Pass (16,616 ft), Tso Kar Lake</li>
+                                    <li>Pass through the famous Gata Loops, a series of 21 hairpin bends that lead to Nakee La and Lachulung La passes. This journe through spectacular barren high-altitude desert. Tso Kar, a saltwater lake with its shores, attracts diverse wildlife, particularly migratory birds, after descending from the passes. </li>
+                                    <li><span>Overnight</span>: Camp/Homestay in Tsokar</li>
                                 </ul>
 
                             </div>
@@ -291,14 +290,14 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse8" aria-expanded="false" aria-controls="itineraryCollapse8">
-                            Day 08 : Tso Kar to Tso Moriri Lake 
+                            Day 08 : Tso Kar to Tso Moriri Lake via Puga Valley
                             </button>
                         </h3>
                         <div id="itineraryCollapse8" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="14836 ft" distance="97 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14836 ft" distance="97 km" duration="3-4 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -309,7 +308,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="14836 ft" distance="97 km" duration="5 hrs" lodging="Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14836 ft" distance="97 km" duration="3-4 hrs" lodging="Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -318,9 +317,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>:Changthang Plateau, Korzok Village, Tso Moriri Lake</li>
-                                    <li>After breakfast, continue your journey across the desolate Changthang Plateau to reach the beautiful Tso Moriri Lake, one of the largest high-altitude lakes in India. Visit Korzok Village, located along the lake, where you can interact with local nomadic herders. Spend the afternoon exploring the shores of Tso Moriri, with its turquoise waters and surrounding snow-capped peaks.</li>
-                                    <li><span>Overnight</span>: Camp near Tsomoriri Lake</li>
+                                    <li><span>Highlights</span>: Puga Hotsprings, Changthang Plateau, Korzok Village, Tso Moriri Lake</li>
+                                    <li>After breakfast, continue your journey across the desolate Changthang Plateau to reach the beautiful Tso Moriri Lake, one of the largest high-altitude lakes in India. En route, visit the scenic Puga Valley, known for its geothermal springs and vast landscapes after reaching Tsomoriri visit Korzok Village, located along the lake, where you can interact with local nomadic herders. Spend the afternoon exploring the shores of Tso Moriri, with its turquoise waters and surrounding snow-capped peaks.</li>
+                                    <li><span>Overnight</span>: Guest House/Camp in Korzok Tsomoriri Lake</li>
                                 </ul>
 
                             </div>
@@ -330,14 +329,14 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse9" aria-expanded="false" aria-controls="itineraryCollapse9">
-                            Day 09 : Tso Moriri to Leh via Puga Valley 
+                            Day 09 : Tso Moriri to Leh
                             </button>
                         </h3>
                         <div id="itineraryCollapse9" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="14836 ft" distance="220 km" duration="7 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14836 ft" distance="220 km" duration="5-6 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -348,7 +347,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="14836 ft" distance="220 km" duration="7 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14836 ft" distance="220 km" duration="5-6 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -357,9 +356,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>:Puga Valley, Hot Springs, Thiksey Monastery</li>
-                                    <li>Ride back to Leh through the scenic Puga Valley, known for its geothermal springs and vast landscapes. En route, stop at Thiksey Monastery, one of Ladakh’s largest and most beautiful monasteries, built on a hill resembling the Potala Palace in Lhasa. Reach Leh by evening, where you can relax and explore the local markets.</li>
-                                    <li><span>Overnight</span>: Hotel in Leh</li>
+                                    <li><span>Highlights</span>: Amazing landscape view, Thiksey Monastery</li>
+                                    <li>Ride back to Leh through the scenic Puga Valley, known for its geothermal springs and vast landscapes. En route, stop at Thiksey Monastery, one of Ladakh's largest and most beautiful monasteries, built on a hill resembling the Potala Palace in Lhasa. Reach Leh by evening, where you can relax and explore the local markets. Look forward to enjoying a farewell dinner whilst reminiscing all the good times you had in your tour.</li>
+                                    <li><span>Overnight</span>: Hotel in Kargil</li>
                                 </ul>
 
                             </div>

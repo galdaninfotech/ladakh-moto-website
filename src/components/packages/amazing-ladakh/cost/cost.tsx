@@ -11,10 +11,10 @@ export default component$(() => {
                 <h2>Tour Cost</h2>
             </div>
             <div class="table-responsive py-1">
-            <table class="table table-bordered table-hover">
+                <table id="package-cost-table" class="table table-bordered table-hover">
                     <thead>
                         <tr>
-                            <td>Package Type</td>
+                            <td><strong>Package Type</strong></td>
                             <td>Price 2 Pax Per person</td>
                             <td>Price 2-5 pax Per person</td>
                             <td>Price 5-12 Pax Per Person</td>
@@ -23,25 +23,25 @@ export default component$(() => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Best Stay</td>
-                            <td>20,000</td>
-                            <td>20,000</td>
-                            <td>20,000</td>
-                            <td>20,000</td>
+                            <td><strong>Best Stay</strong></td>
+                            <td>₹ 53,500</td>
+                            <td>₹ 45,750</td>
+                            <td>₹ 43,200</td>
+                            <td>₹ 40,000</td>
                         </tr>
                         <tr>
-                            <td>Super Deluxe</td>
-                            <td>20,000</td>
-                            <td>20,000</td>
-                            <td>20,000</td>
-                            <td>20,000</td>
+                            <td><strong>Super Deluxe</strong></td>
+                            <td>₹ 36,000</td>
+                            <td>₹ 28,300</td>
+                            <td>₹ 25,700</td>
+                            <td>₹ 23,000</td>
                         </tr>
                         <tr>
-                            <td>Deluxe</td>
-                            <td>20,000</td>
-                            <td>20,000</td>
-                            <td>20,000</td>
-                            <td>20,000</td>
+                            <td><strong>Deluxe</strong></td>
+                            <td>₹ 24,800</td>
+                            <td>₹ 17,000</td>
+                            <td>₹ 14,500</td>
+                            <td>₹ 12,500</td>
                         </tr>
                     </tbody>
                 </table>

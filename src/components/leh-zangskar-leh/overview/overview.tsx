@@ -14,7 +14,7 @@ export default component$(() => {
 
             <div class="row d-block d-lg-none">
                 <div class="col-12 col-lg-6">
-                    <OverviewIcons highestAltitude="14070 ft" distance="1485 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                    <OverviewIcons highestAltitude="16703 ft" distance="1485 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -25,7 +25,7 @@ export default component$(() => {
             {/* Desktop Screen */}
             <div class="row d-none d-lg-block">
                 <div class="col-12 col-lg-12">
-                    <OverviewIcons highestAltitude="14070 ft" distance="1485 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                    <OverviewIcons highestAltitude="16703 ft" distance="1485 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -34,21 +34,21 @@ export default component$(() => {
             </div>
             
             <p>
-                This exciting 10-day motorbiking adventure takes you through the heart of Ladakh and the remote and breathtaking Zanskar Valley. You'll traverse rugged mountain passes, visit remote monasteries, and ride through some of the most challenging and scenic landscapes in the Himalayas. This journey offers a perfect blend of adventure, culture, and nature as you explore the hidden gems of Zanskar and Ladakh.
+                This heart-thumping motorbike ride lasts 10 days and takes you through the unspoiled Zanskar Valley and the UNESCO-listed Ladakh. You ride through treacherous mountain passes, travel to secluded monasteries, and navigate some of the roughest but breathtaking areas in the foothills of the Himalayas. As you will get to see some of the hidden beauty of Zanskar and Ladakh, this journey is the perfect combination of thrill, art, as well as the environment.
             </p>
 
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
-                <li>Ride through high-altitude mountain passes like Shingo La, Nakee La, and Lachulung La.</li>
-                <li>Explore the remote and culturally rich Zanskar Valley and its monasteries.</li>
-                <li>Hike to the stunning cliffside Phuktal Monastery.</li>
-                <li>Experience the breathtaking beauty of high-altitude lakes like Tso Kar and Tso Moriri.</li>
-                <li>Traverse the rugged terrain of the Changthang Plateau and the majestic Himalayan ranges.</li>
+                <li>Encounter thrilling altitude mountain passes such as Shinku La, Nakee La and Lachulung La.</li>
+                <li>Get an insight into the culturally rich and remote area of Zanskar Valley and its rare monasteries.</li>
+                <li>Trek to the cliffside Phuktal Monastery.</li>
+                <li>Appreciate high-alpine lakes, such as Tso Kar and Tso Moriri.</li>
+                <li>Go through the harsh landscape of Changthang Plateau and the splendid Himalayan range.</li>
             </ul>
 
             <p>
-                This tour offers an unforgettable adventure for motorbiking enthusiasts, combining the thrill of challenging mountain passes with the serene beauty of remote valleys and pristine lakes.
+                This tour is ideal for you if you are a biking fanatic as its a perfect mix of challenging mountain passes, and untouched valleys and lakes.
             </p>
             
 

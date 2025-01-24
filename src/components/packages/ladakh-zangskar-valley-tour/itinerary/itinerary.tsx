@@ -44,11 +44,11 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Activity</span>: Bike Checkup, acclimatization and rest</li>
-                                    <li><span>Highlights</span>: Arrival and relaxation in Leh.</li>
-                                    <li>Arrival in Leh: Meet at Leh Airport and transfer to the hotel.</li>
-                                    <li>Rest and Acclimatization: Spend the day relaxing to adjust to Leh’s high altitude.</li>
-                                    <li>Optional Evening Leisure: If feeling well-acclimated, visit Leh Market, Shanti Stupa, or Leh Palace for panoramic city views.</li>
+                                    <li><span>Activity</span>: Acclimatization and rest</li>
+                                    <li><span>Highlights</span>:Introduction to Leh and light local exploration (if acclimatized).</li>
+                                    <li> Arrival in Leh: Meet at Leh Airport and transfer to the hotel. </li>
+                                    <li>Rest and Acclimatization: The rest day is for adapting to the high altitude of Leh.</li>
+                                    <li>Optional Evening Leisure:  If sufficiently acclimatized, one can explore Leh market, shove off to Shanti Stupa or pay a visit to the magnificent Leh Palace. </li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -87,13 +87,12 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>:Continued acclimatization with visits to Leh’s cultural sites.</li>
-                                    <li>Local Exploration:</li>
-                                    <li>Hall of Fame: Learn about the Indian Army’s contributions in Ladakh.</li>
-                                    <li>Gurudwara Pathar Sahib: A sacred Sikh temple.</li>
-                                    <li>Magnetic Hill: Experience the famous optical illusion where vehicles seem to roll uphill.</li>
-                                    <li>Sangam Point: Visit the confluence of the Indus and Zanskar Rivers.</li>
-                                    <li>Return to Leh: Free evening to explore the local market.</li>
+                                    <li><span>Highlights</span>: Continued acclimatization with visits to Leh’s cultural sites. </li>
+                                    <li>Thiksey Monastery: A stunning hilltop monastery resembling the Potala Palace, known for its giant Maitreya Buddha statue and panoramic views of the Indus Valley.</li>
+                                    <li>Shey Palace: The former royal summer residence, featuring a massive copper and gold Buddha statue and picturesque surroundings.</li>
+                                    <li>Hemis Monastery: The largest and wealthiest monastery in Ladakh, famous for its vibrant annual festival and historic Buddhist relics. </li>
+                                    <li>Sangam Point: Come across the confluence of the Indus and Zanskar Rivers.</li>
+                                    <li>Return to Leh: No activities planned for the evening enabling sightseeing of local markets and some rest. </li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -132,12 +131,11 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>:Scenic drive with visits to Lamayuru and Alchi monasteries.</li>
-                                    <li>Breakfast and Departure: Start your drive to Kargil via Lamayuru Monastery and Alchi Monastery.</li>
-                                    <li>Lamayuru Monastery: Visit the ancient monastery and explore its “moonland” landscapes, known for their unique rock formations.</li>
-                                    <li>Alchi Monastery: Stop at Alchi, one of Ladakh’s oldest monasteries, known for its unique Indo-Tibetan art.</li>
-                                    <li>Arrival in Kargil: Evening at leisure in Kargil.</li>
-                                    <li><span>Overnight</span>: Hotel in Kargil</li>
+                                    <li><span>Highlights</span>: Picturesque ride with a tour of Lamayuru and Alchi monasteries. </li>
+                                    <li>Breakfast and Departure: Enjoy your drive to Kargil through Lamayuru and Alchi Monasteries. </li>
+                                    <li>Lamayuru Monastery: Visit the old age monastery and see the unique “moonland” that is quite famous for its peculiar shaped rocks.</li>
+                                    <li>Alchi Monastery: Proceed towards Alchi- one of the oldest monasteries in Ladakh famous for its unique Indo-Tibetan art.</li>
+                                    <li><span>Overnight</span>: Hotel/Resort in Kargil</li>
                                 </ul>
 
                             </div>
@@ -176,11 +174,10 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Scenic drive through Suru Valley, monastery visit, and arrival in Zanskar.</li>
-                                    <li>Early Breakfast and Departure: Begin the long and scenic drive to Padum, the heart of Zanskar Valley.</li>
+                                    <li>Breakfast and Departure: Begin the long and scenic drive to Padum, the heart of Zanskar Valley.</li>
                                     <li>Suru Valley: Drive through the lush Suru Valley, passing views of the Nun-Kun Peaks.</li>
                                     <li>Rangdum Monastery: Stop at Rangdum, a remote monastery with panoramic mountain views.</li>
-                                    <li>Arrival in Padum: Check into a guesthouse upon arrival in the Zanskar Valley.</li>
-                                    <li><span>Overnight</span>: Hotel/Guesthouse in Padum, Zangskar Valley</li>
+                                    <li><span>Overnight</span>: Hotel/resort in Padum</li>
                                 </ul>
 
                             </div>
@@ -209,7 +206,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons duration="7D/8N" highestAltitude="12040 ft" distance="80 km" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons duration="5-6 Hr" highestAltitude="12040 ft" distance="80 km" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -218,13 +215,11 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: : Exploration of Karsha and Stongdey Monasteries, and optional visit to Zangla.</li>
-                                    <li>Breakfast: Begin a day dedicated to exploring Zanskar’s cultural and natural sites.</li>
-                                    <li>Karsha Monastery: Visit Karsha Monastery, the largest monastery in Zanskar, offering beautiful valley views.</li>
-                                    <li>Stongdey Monastery: Head to Stongdey, another prominent monastery with vibrant artwork and a tranquil atmosphere.</li>
-                                    <li>Zangla Village (Optional): If time allows, visit Zangla Village, known for its ancient fort and traditional Zanskari homes.</li>
-                                    <li>Evening at Leisure: Relax in Padum, enjoying the serenity of the Zanskar Valley.</li>
-                                    <li><span>Overnight</span>: Hotel/Guest house in Padum</li>
+                                    <li><span>Highlights</span>: Scenic drive through Suru Valley, monastery visit, and arrival in Zanskar.</li>
+                                    <li>Breakfast and Departure: Begin the long and scenic drive to Padum, the heart of Zanskar Valley.</li>
+                                    <li>Suru Valley: Drive through the lush Suru Valley, passing views of the Nun-Kun Peaks.</li>
+                                    <li>Rangdum Monastery: Stop at Rangdum, a remote monastery with panoramic mountain views.</li>
+                                    <li><span>Overnight</span>: Hotel/resort in Padum</li>
                                 </ul>
                             </div>
                         </div>
@@ -233,7 +228,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse6" aria-expanded="false" aria-controls="itineraryCollapse6">
-                            Day 06 : Padum to Rangdum
+                            Day 06 : Padum to Lamayuru Via Lingshed Village
                             </button>
                         </h3>
                         <div id="itineraryCollapse6" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -261,11 +256,12 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>:Scenic drive through the heart of Zanskar, night in the isolated village of Rangdum.</li>
-                                    <li>Breakfast and Departure: Start the return journey toward Rangdum, a remote and scenic village.</li>
-                                    <li>Free Exploration: On arrival, explore the village and enjoy stunning views of the mountains surrounding Rangdum.</li>
-                                    <li>Evening at Leisure: Spend a quiet evening in the remote beauty of Rangdum.</li>
-                                    <li><span>Overnight</span>: Homestay/Guest house in Rangdum</li>
+                                    <li><span>Highlights</span>: Scenic drive through Zangskar valley, isolated Linshed Village, Singe - la pass</li>
+                                    <li>Breakfast and Departure: Depart from Padum early, enjoying the serene morning views of the Zanskar Valley.</li>
+                                    <li>Lingshed Village, a remote and tranquil hamlet known for its ancient monastery and traditional Ladakhi culture.</li>
+                                    <li>Cross Singe - La Pass, a very high remote pass</li>
+                                    <li>Reach Lamayuru, home to the iconic Lamayuru Monastery, often called the "Moonland" due to its unique lunar-like terrain.</li>
+                                    <li><span>Overnight</span>: Hotel/Guest house in Lamayuru</li>
                                 </ul>
 
                             </div>
@@ -275,7 +271,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse7" aria-expanded="false" aria-controls="itineraryCollapse7">
-                            Day 07 : Rangdum to Leh via Kargil
+                            Day 07 : Lamayuru to Leh
                             </button>
                         </h3>
                         <div id="itineraryCollapse7" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -303,9 +299,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Return journey with views of Ladakh’s landscapes and the Suru Valley.</li>
+                                    <li><span>Highlights</span>: Return journey with views of Ladakh’s landscapes and the indus Valley.</li>
                                     <li>Early Breakfast and Departure: Begin the scenic journey back to Leh, with stops for photos and relaxation.</li>
-                                    <li>Drive via Suru Valley: Enjoy one last look at Suru Valley’s lush greenery and mountain peaks.</li>
+                                    <li>Drive via Indus Valley: Enjoy one last look at Indus Valley’s lush greenery and mountain peaks..</li>
                                     <li>Arrival in Leh: Arrive in Leh in the evening with time to rest.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
@@ -345,12 +341,12 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Optional cultural exploration around Leh.</li>
-                                    <li>Optional Exploration: Spend the day resting or exploring additional sites around Leh:</li>
-                                    <li>Thiksey Monastery: Known for its impressive architecture and beautiful location.</li>
-                                    <li>Shey Palace: An ancient palace with statues and scenic views.</li>
-                                    <li>Stok Palace Museum: Learn about Ladakhi royal heritage.</li>
-                                    <li>Free Evening: Opportunity for shopping or relaxing in Leh Market.</li>
+                                    <li><span>Highlights</span>:Option for more cultural exploration around Leh.</li>
+                                    <li>Optional Exploration: Use this day to rest or explore more sites around Leh:</li>
+                                    <li>Thiksey Monastery: Known for its resemblance to the Potala Palace and beautiful valley views.</li>
+                                    <li>Shey Palace: Ancient royal residence with unique Buddha statues.</li>
+                                    <li>Stok Palace Museum: Insight into Ladakhi royal heritage and artifacts.</li>
+                                    <li>Leisure: Evening free for last-minute shopping or relaxation.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -389,12 +385,11 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Drive through Chang La, serene evening by Pangong Lake.</li>
-                                    <li>Breakfast and Departure: Begin the drive to Pangong Lake via Chang La Pass (17,590 feet).</li>
-                                    <li>Chang La Pass: Stop briefly at the pass for photos.</li>
-                                    <li>Arrival at Pangong Lake: Check into a lakeside camp, with time to explore the lake and enjoy its famous color changes.</li>
-                                    <li>Evening at Leisure: Relax by the lake, taking in the beauty of Pangong Tso.</li>
-                                    <li><span>Overnight</span>: Camp/Wooden cottages in Pangong Lake</li>
+                                    <li><span>Highlights</span>:Drive through Changla pass one of the highest in the world</li>
+                                    <li>Breakfast and Departure: Drive to Pangong Lake via Chang La Pass (17,688 ft) after enjoying breakfast.</li>
+                                    <li>Arrival at Pangong Lake: Check into a lakeside cottage, with time to explore the mesmerizing lake and its changing hues.</li>
+                                    <li>Evening at Leisure: Relax by the lake, take photos, and enjoy the peaceful surroundings.</li>
+                                    <li><span>Overnight</span>: Cottage in Pangong</li>
                                 </ul>
 
                             </div>
@@ -432,10 +427,10 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>:Enjoy one last look at Ladakh’s rugged landscape.</li>
-                                    <li>Breakfast and Departure: Begin the return journey to Leh.</li>
-                                    <li>Arrival in Leh: Late afternoon arrival with time for last-minute shopping or relaxation.</li>
-                                    <li>Tour Ends: Departure from Leh the following morning.</li>
+                                    <li><span>Highlights</span>: : A wonderful day start is created by the sunrise at the lake which looks mesmerizing. </li>
+                                    <li>Breakfast and Departure: Drive back to Leh via Chang La Pass (17,688 ft) after enjoying breakfast. </li>
+                                    <li>Thiksey Monastery (Optional): In addition, admire the great panoramas of the Indus Valley from the Thiksey Monastery located on a hilltop. </li>
+                                    <li>Arrive Leh by afternoon. Evening visit Leh market.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -452,7 +447,7 @@ export default component$(() => {
                         <div id="itineraryCollapse11" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
                                 <p>
-                                Transfer to Leh Airport for your onward journey. Final departure, carrying lasting memories of Ladakh’s breathtaking landscapes and culture.
+                                    Breakfast and Check-Out: Transfer to Leh Airport for departure.Departure with memories of Nubra Valley, Pangong Lake, Hanle, Tso Moriri, and the beautiful landscapes of Ladakh.
                                 </p>
 
                             </div>

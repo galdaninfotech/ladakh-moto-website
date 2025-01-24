@@ -16,7 +16,7 @@ export default component$(() => {
                     <div id="costCollapse1" class="accordion-collapse collapse" data-bs-parent="#costAccordion">
                         <div class="accordion-body">
                             <ul class="inclusions">
-                                <li><i class="bi bi-check2-all"></i>Royal Enfield Himalayan 411CC Bike BSVI</li>
+                                <li><i class="bi bi-check2-all"></i>Royal Enfield Himalayan 411 Bike BSVI</li>
                                 <li><i class="bi bi-check2-all"></i>Fuel for tour</li>
                                 <li><i class="bi bi-check2-all"></i>Riding Jacket, Gloves and Knee Guard for Bikers</li>
                                 <li><i class="bi bi-check2-all"></i>Tempo/Innova Vehicle (For seat in vehicle Option)</li>

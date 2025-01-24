@@ -35,8 +35,8 @@ export default component$(() => {
                             <ImgAmazingLadakhTour alt="Amazing Ladakh Tour" />
                             {/* <img width={1500} height={800} src="/img/packages/amazing-ladakh/amazing-ladakh-overview.jpg" alt="" /> */}
                             <div class="description">
-                                <h2>Amazing Ladakh Tour</h2>
-                                <p>6-day Ladakh holiday package designed for travelers seeking an...</p>
+                                <h2>Amazing Ladakh</h2>
+                                <p>6-day Ladakh holiday package designed for travelers seeking...</p>
                                 <a href="/packages/amazing-ladakh"><button>Know More</button></a>
                             </div>
                         </div>
@@ -59,8 +59,8 @@ export default component$(() => {
                             <ImgLadakhZanskarTour alt="Ladakh Zanskar Tour" />
                             {/* <img width={1500} height={800} src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-overview.jpg" alt="" /> */}
                             <div class="description">
-                                <h2>Ladakh Zanskar Tour</h2>
-                                <p>A tour of Hemis, Diskit and Thiksey monasteries will...</p>
+                                <h2>Ladakh Zanskar</h2>
+                                <p>A tour of Hemis, Diskit and Thiksey monasteries will take...</p>
                                 <a href="/packages/ladakh-zangskar-valley-tour"><button>Know More</button></a>
                             </div>
                         </div>

@@ -24,7 +24,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="11000 ft" distance="20 km" duration="4 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11000 ft" distance="20 km" duration="3-4 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -35,7 +35,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="11000 ft" distance="20 km" duration="4 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11000 ft" distance="20 km" duration="3-4 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -45,8 +45,8 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Activity</span>: Bike Checkup, acclimatization and rest</li>
-                                    <li><span>Highlights</span>: Explore Leh Market, Leh Palace (optional)</li>
-                                    <li>For your convenience, we recommend that clients arrange their own taxi to reach Leh hotel. Once you arrive at Leh, please make your way to the designated hotel, where our team will be ready to welcome you. We can provide guidance on trusted taxi services if needed, ensuring a smooth and hassle-free journey to the hotel. Spend the day acclimatizing to Leh's high altitude. Take a light walk around Leh Market, or, if you feel comfortable, visit Leh Palace for panoramic views of the town.</li>
+                                    <li><span>Highlights</span>: Acclimatization and evening explore Leh Market</li>
+                                    <li>For your convenience, we recommend that clients arrange their taxi to reach Leh hotel. Once you arrive at Leh, please get to the designated hotel, where our team will be ready to welcome you. We can provide guidance on trusted taxi services if needed, ensuring a smooth and hassle-free journey to the hotel. Spend the day acclimatizing to Leh's high altitude. Take a light walk around Leh Market, or, if you feel comfortable, visit Leh Palace for panoramic town views.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -64,7 +64,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="11000 ft" distance="60 km" duration="5 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11000 ft" distance="60 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -75,7 +75,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="11000 ft" distance="60 km" duration="5 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="11000 ft" distance="60 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -84,8 +84,8 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Shanti Stupa, Leh Palace, Magnetic Hill, Hall of Fame, Gurudwara Pathar Sahib</li>
-                                    <li>After breakfast, embark on a local sightseeing tour of Leh. Visit the Shanti Stupa, a white-domed structure offering breathtaking views of Leh town. Explore the Leh Palace, a former royal palace. Next, head towards the Magnetic Hill, where vehicles appear to defy gravity, and stop at Gurudwara Pathar Sahib, a peaceful Sikh temple. Conclude the day with a visit to the Hall of Fame, a museum honoring the Indian Army.</li>
+                                    <li><span>Highlights</span>: Shanti Stupa, Leh Palace, Magnet Hill, Hall of Fame, Gurudwara Pathar Sahib</li>
+                                    <li>After your breakfast today, drive to visit the Magnetic Hill which is also enthralling as it generates an optical illusion and on the way visit Gurudwara Pathar Sahib which is a serene Sikh shrine. Later, visit out the Shanti Stupa to take stunning views of the Leh town and then venture out to the UNESCO recognized Leh Palace. End your day with a trip to the Hall of Fame, a memorial for the Indian Army and recollects the history with its specific gallery.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -103,7 +103,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="18300 ft" distance="120 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="18380 ft" distance="120 km" duration="4-5 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -114,7 +114,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="18300 ft" distance="120 km" duration="6 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="18380 ft" distance="120 km" duration="4-5 hrs" lodging="Hotel/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -123,8 +123,8 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Khardung La Pass (18,380 ft), Diskit Monastery, Hunder Sand Dunes</li>
-                                    <li>Start your ride by ascending to Khardung La, one of the world’s highest motorable passes. After crossing the pass, descend into the beautiful Nubra Valley. Visit the Diskit Monastery, home to a gigantic Maitreya Buddha statue. Later, explore the Hunder Sand Dunes, where you can enjoy a camel ride on the unique double-humped Bactrian camels.</li>
+                                    <li><span>Highlights</span>: Khardung La Pass, 18380 feet height, Diskit Monastery, and Hunder Sand Dunes</li>
+                                    <li>This ride will take you to the highest point on the route, Khardung La. After crossing the pass, you will reach the beautiful valley of Nubra. You can visit the Diskit Monastery, which has a large Maitreya Buddha statue. After that, you can go to the Hunder Sand Dunes, where you could ride camels that have two humps, known as Bactrian camels.</li>
                                     <li><span>Overnight</span>: Camps/Guesthouse in Hunder, Nubra Valley</li>
                                 </ul>
 
@@ -142,7 +142,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="13940 ft" distance="160 km" duration="6 hrs" lodging="Cottages" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="5-6 hrs" lodging="Cottages" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -153,7 +153,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="13940 ft" distance="160 km" duration="6 hrs" lodging="Cottages" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="5-6 hrs" lodging="Cottages" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -163,8 +163,8 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Shyok River, Pangong Lake</li>
-                                    <li>Today, ride along the scenic and adventurous Shyok River route to reach the magnificent Pangong Lake. The journey will take you through rugged mountain terrain and small Ladakhi villages. Upon reaching Pangong Lake, witness its mesmerizing blue waters changing colors under the sunlight. The lake extends from India into Tibet and is one of the highest saltwater lakes in the world.</li>
-                                    <li><span>Overnight</span>: Camps/Cottage in Pangong lake</li>
+                                    <li>So, Prepare for a spectacular journey that will take you along the breathtaking and exciting route of the Shyok river to reach the exquisite Pangong Lake. The trip will take you across rough mountain landscapes and tiny Periodically rural settlements of the Ladakhi people. Before long, once you have reached the lake, you will see its numerous blue waters gets refracted and scattered by sunlight. The lake is spread across of India and tibet and ranks among the highest salt water lakes of the world.</li>
+                                    <li><span>Overnight</span>: Cottages at Pangong Lake</li>
                                 </ul>
 
                             </div>
@@ -181,7 +181,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="17688 ft" distance="140 km" duration="5 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="17688 ft" distance="140 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -192,7 +192,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="17688 ft" distance="140 km" duration="5 hrs" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="17688 ft" distance="140 km" duration="4-5 hrs" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -201,9 +201,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Return Journey, Thiksey Monastery (optional stop)</li>
-                                    <li>After breakfast, begin your return journey to Leh. En route, you can choose to stop at Thiksey Monastery, one of the most beautiful monasteries in Ladakh, known for its striking architecture and views. Continue your ride back to Leh, where you can relax and explore any sites you might have missed earlier. Enjoy a farewell dinner, reminiscing about the amazing experiences you’ve had during your tour.</li>
-                                    <li><span>Overnight</span>: Hotel in Leh</li>
+                                    <li><span>Highlights</span>: Changla Pass, Thiksey Monastery (optional stop)</li>
+                                    <li>The return trip to Leh may commence after breakfast, during which you will get to cross Changla Pass, one of the Highest passes and it is also possible to stop for some sightseeing including one of the best monasteries in Ladakh, Thiksey Monastery which is beautiful in its architecture style and its surrounding views. Proceed with riding back to Leh and this time you could opt for some rest and sightseeing for all the places that you might have left earlier. Look forward to enjoying a farewell dinner whilst reminiscing all the good times you had in your tour.</li>
+                                    <li><span>Overnight</span>: Homestay in Hanle</li>
                                 </ul>
                             </div>
                         </div>

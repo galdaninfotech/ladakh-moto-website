@@ -15,7 +15,7 @@ export default component$(() => {
             {/* Mobile Screen */}
             <div class="row d-block d-lg-none">
                 <div class="col-12 col-lg-6">
-                    <OverviewIcons duration="7N/8D" highestAltitude="18380 ft" distance="530 km" lodging="Hotel/Resort" meal="BF/Dinner" />
+                    <OverviewIcons duration="5N/6D" highestAltitude="18380 ft" distance="530 km" lodging="Hotel/Resort" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -26,7 +26,7 @@ export default component$(() => {
             {/* Desktop Screen */}
             <div class="row d-none d-lg-block">
                 <div class="col-12 col-lg-12">
-                    <OverviewIcons duration="7N/8D" highestAltitude="18380 ft" distance="530 km" lodging="Hotel/Resort" meal="BF/Dinner" />
+                    <OverviewIcons duration="5N/6D" highestAltitude="18380 ft" distance="530 km" lodging="Hotel/Resort" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -37,17 +37,17 @@ export default component$(() => {
 
             
             <p>
-            This 6-day Ladakh holiday package is designed for travelers seeking an immersive experience in Ladakh's stunning landscapes, culture, and serene beauty. Highlights include journeys through the Nubra Valley via Khardung La Pass, the magical Pangong Lake, and cultural treasures like ancient monasteries and high-altitude deserts. This tour provides a well-rounded adventure with comfortable accommodations, scenic drives, and ample time for exploration and relaxation.
+                The 6-day tour package in Ladakh is an ideal holiday package for individuals trying to explore the beauty of Ladakh’s regions and its culture. It includes travel tours through the Nubra Valley via Khardung La Pass, Pangong Lake, visit to monasteries and deserts. One can imagine such a vast region to have so much to offer, from tours to comfortable hotels.
             </p>
 
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
-                <li>Scenic Drives: Breathtaking drives through Khardung La and Chang La passes.</li>
-                <li>Lakes and Valleys: Pangong Lake’s changing colors, the Nubra Valley desert, and unique landscapes.</li>
-                <li>Cultural Experiences: Visits to prominent monasteries like Hemis, Thiksey, and Diskit.</li>
-                <li>Adventure: Camel safari at Hunder Sand Dunes and exploration of high-altitude deserts.</li>
-                <li>Leisure Time: Opportunities to relax and explore Leh’s local markets and scenic spots.</li>
+                <li>Scenic Drives: Drive through Khardung La and Chang La Pass.</li>
+                <li>Lakes and Valleys: The famous Pangong Lake, desert of Nubra valley, and other areas.</li>
+                <li>Cultural Experiences: visit Hemis Monastery, Thiksey Monastery, Diskit Monastery, and other places.</li>
+                <li>Adventure: At Hunder Sand Dunes, one can go on a camel safari as well as tour high altitude deserts.</li>
+                <li>Leisure Time: When in leh, you can also explore local markets and other places, and relax a bit too.</li>
             </ul>
             
 

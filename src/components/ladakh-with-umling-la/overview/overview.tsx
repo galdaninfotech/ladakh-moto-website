@@ -35,20 +35,20 @@ export default component$(() => {
             </div>
 
             <p>
-                This 8-day motorbiking adventure takes you through the iconic landscapes of Ladakh, including Nubra Valley, Pangong Lake, and the remote Hanle region. You'll also conquer Umling La Pass, the highest motorable road in the world. This journey combines cultural exploration, high-altitude mountain riding, and breathtaking natural beauty.
+                This motorbiking adventure tour will take you through Ladakh's most iconic landscapes like the Nubra Valley, Pangong Lake, and the remote Hanle region. You'll ride through the highest motorable road in the world, Umling La Pass. This journey combines cultural exploration, high-altitude mountain riding, and breathtaking natural beauty.
             </p>
 
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
-                <li>Conquer the Khardung La and Umling La passes, some of the highest motorable roads in the world.</li>
+                <li>Conquer the Khardung La and Umling La passes, the highest motorable roads in the world.</li>
                 <li>Experience the cultural and natural beauty of Nubra Valley, Pangong Lake, and Hanle.</li>
-                <li>Ride through remote, high-altitude landscapes like the Changthang Plateau and Puga Valley.</li>
                 <li>Witness stunning vistas and starry nights in some of the most untouched regions of Ladakh.</li>
+                <li>Ride through remote, high-altitude landscapes like the Changthang Plateau and Puga Valley</li>
             </ul>
 
             <p>
-                This tour offers the ultimate mix of high-altitude adventure and serene cultural exploration, making it perfect for motorbiking enthusiasts looking to challenge themselves while experiencing the beauty of Ladakh.
+                This tour combines high-altitude adventure with serene cultural exploration, making it perfect for motorbiking enthusiasts looking to challenge themselves while experiencing the beauty of Ladakh.
             </p>
             
 

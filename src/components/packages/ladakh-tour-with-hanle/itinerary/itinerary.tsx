@@ -16,7 +16,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse1" aria-expanded="true" aria-controls="itineraryCollapse1">
-                            Day 01 : Arrival in Leh – Acclimatization Day
+                            Day 01 : Arrival in Leh - Acclimatization Day
                             </button>
                         </h3>
                         <div id="itineraryCollapse1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">
@@ -44,11 +44,11 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Activity</span>: Bike Checkup, acclimatization and rest</li>
-                                    <li><span>Highlights</span>: Arrival and acclimatization in Leh.</li>
-                                    <li>Arrival in Leh: Transfer from Leh Airport to your hotel.</li>
-                                    <li>Rest and Acclimatization: Spend the day resting to adjust to Leh’s high altitude.</li>
-                                    <li>Evening Leisure (Optional): If feeling well-acclimated, explore Leh Market, Shanti Stupa, or Leh Palace for scenic views of the city and valley.</li>
+                                    <li><span>Activity</span>: Acclimatization and rest</li>
+                                    <li><span>Highlights</span>:Introduction to Leh and light local exploration (if acclimatized).</li>
+                                    <li> Arrival in Leh: Meet at Leh Airport and transfer to the hotel. </li>
+                                    <li>Rest and Acclimatization: The rest day is for adapting to the high altitude of Leh.</li>
+                                    <li>Optional Evening Leisure:  If sufficiently acclimatized, one can explore Leh market, shove off to Shanti Stupa or pay a visit to the magnificent Leh Palace. </li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -58,7 +58,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="false" aria-controls="itineraryCollapse2">
-                            Day 02 : Leh – Local Sightseeing and Acclimatization
+                            Day 02 : Leh - Local Sightseeing and Acclimatization
                             </button>
                         </h3>
                         <div id="itineraryCollapse2" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -86,13 +86,12 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Introduction to Ladakh’s cultural and natural sites, continued acclimatization.</li>
-                                    <li>Local Exploration:</li>
-                                    <li>Hall of Fame: Visit this museum dedicated to the Indian Army.</li>
-                                    <li>Gurudwara Pathar Sahib: A revered Sikh temple with beautiful mountain surroundings.</li>
-                                    <li>Magnetic Hill: Witness the unique optical illusion that makes vehicles appear to roll uphill.</li>
-                                    <li>Sangam: Stop at the confluence of the Indus and Zanskar Rivers for photos and sightseeing.</li>
-                                    <li>Return to Leh: Relax in the evening, with free time to explore the local market.</li>
+                                    <li><span>Highlights</span>: Today, we continue with our acclimatization with a visit to some of the splendid sights of Leh. </li>
+                                    <li>Hall of Fame: A place of honor praising the efforts of the Indian Army in this territory. </li>
+                                    <li>Gurudwara Pathar Sahib: Another holy site for Sikhs.</li>
+                                    <li>Magnetic Hill: A visual trick which is not normal as the as the hill has a magnetic pull. </li>
+                                    <li>Sangam Point: Come across the confluence of the Indus and Zanskar Rivers.</li>
+                                    <li>Return to Leh: No activities planned for the evening enabling sightseeing of local markets and some rest. </li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -130,12 +129,12 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Scenic drive through Khardung La, cultural visit to Diskit Monastery, and camel safari at Hunder.</li>
-                                    <li>Breakfast and Departure: Begin your journey to Nubra Valley via Khardung La Pass (18,380 feet).</li>
-                                    <li>Khardung La: Stop briefly at the pass to enjoy the breathtaking views and capture photos.</li>
-                                    <li>Diskit Monastery: Visit Diskit Monastery, home to the 32-meter tall Maitreya Buddha statue overlooking the Nubra Valley.</li>
-                                    <li>Hunder Sand Dunes: Take a camel safari on the unique double-humped Bactrian camels at the Hunder Sand Dunes.</li>
-                                    <li><span>Overnight</span>: Hotel/Guesthouse in Hunder, Nubra Valley</li>
+                                    <li><span>Highlights</span>: Gripping drive across Khardung La, cultural experience of Diskit Monastery and camel safari at Hunder. </li>
+                                    <li>Breakfast and Departure: Take off for Nubra Valley, the Khardung La Pass, one of the highest motor able roads - 18,380 feet. </li>
+                                    <li>Khardung La: A brief stop to take some photos and allow more time for acclimatizing.</li>
+                                    <li>Diskit Monastery: Proceed to Diskit Monastery, here stands an eye-catching 32 meter high statue of Maitreya Buddha overlooking the wide valley. </li>
+                                    <li>Hunder Sand Dunes: Go for a double humped Bactrian camel safari on the Sand dunes of Hunder.</li>
+                                    <li><span>Overnight</span>: Hotel/Resort in Hunder, Nubra Valley</li>
                                 </ul>
 
                             </div>
@@ -173,11 +172,11 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Scenic journey through the Shyok route and a mesmerizing evening by Pangong Lake.</li>
-                                    <li>Breakfast and Departure: Drive along the scenic Shyok River route toward Pangong Lake.</li>
-                                    <li>Arrival at Pangong Lake: Check into a lakeside camp and explore the vibrant blue waters of Pangong Tso.</li>
-                                    <li>Evening Leisure: Relax by the lakeside, take photos, or simply enjoy the tranquility of the area.</li>
-                                    <li><span>Overnight</span>: Camps/woooden cottages in Pangong lake</li>
+                                    <li><span>Highlights</span>: Panoramic view while driving through Shyok route and wonderful evening at the Pangong Lake.</li>
+                                    <li>Breakfast and Departure: Drive to Pangong Lake via Shyok valley.</li>
+                                    <li>Arrival at Pangong Lake: A time to check in the camp beside the stunning lake famous for its colors.</li>
+                                    <li>Evening at Leisure: Sit by the lake and click images relaxing in the calming environment.</li>
+                                    <li><span>Overnight</span>: Cottages at Pangong lake</li>
                                 </ul>
 
                             </div>
@@ -215,12 +214,12 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Offbeat drive through Chushul, remote beauty of Hanle, and opportunity for stargazing.</li>
-                                    <li>Breakfast and Departure: Begin your journey to Hanle, a remote village known for its night skies and observatory.</li>
-                                    <li>Drive via Chushul: Follow the scenic and less-traveled route, passing through Chushul village and Rezang La Memorial.</li>
-                                    <li>Arrival in Hanle: Check into a homestay or guesthouse and enjoy an evening of stargazing.</li>
-                                    <li>Hanle Observatory (Optional): Visit the Indian Astronomical Observatory for a closer look at the stars.</li>
-                                    <li><span>Overnight</span>: Homestay in Hanle</li>
+                                    <li><span>Highlights</span>: A rare chance to go through Chushul, Hanle village beauty and star gazing at Hanle. </li>
+                                    <li>Breakfast and Departure: From Chushul village head towards Hanle, all while enjoying the breathtaking views from top of the mountains. </li>
+                                    <li>Chushul Route: There are several pathways that are not as used but that have remote valleys and mountain passes.</li>
+                                    <li>Arrival in Hanle: The Hanle village has a guest house or homestay style accommodation. Hanle village is a great place for stargazing. </li>
+                                    <li>Hanle Observatory (Optional): The Indian Astronomical Observatory which is one of the highest observatories in the world. </li>
+                                    <li><span>Overnight</span>: Homestay/Guest house in Hanle</li>
                                 </ul>
                             </div>
                         </div>
@@ -257,11 +256,11 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Scenic return journey with views of high-altitude deserts.</li>
-                                    <li>Breakfast and Departure: After breakfast, drive back to Leh through Nyoma and Mahe Bridge.</li>
-                                    <li>Scenic Drive: Enjoy beautiful desert vistas, mountain ranges, and unique rock formations along the route.</li>
-                                    <li>Arrival in Leh: Arrive in the late afternoon, with free time in Leh for rest or last-minute shopping.</li>
-                                    <li><span>Overnight</span>: Homestay in Hanle</li>
+                                    <li><span>Highlights</span>: Picturesque scenery during the way back with the view of the amazing mountains.</li>
+                                    <li>Breakfast and Departure: Post breakfast, return to Leh through Nyoma and Mahey bridge with a short drive around.</li>
+                                    <li>Scenic Drive: Desert, mountains and some unique rock formations will accompany us during the trip. </li>
+                                    <li>Arrival in Leh: Reach during the late afternoon, followed by leisure time in Leh with rest and shopping at the end.</li>
+                                    <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
                             </div>
@@ -279,7 +278,7 @@ export default component$(() => {
                                 {/* Mobile Screen */}
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons duration="20" highestAltitude="11000 ft" distance="50 km" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons duration="3-4 hrs" highestAltitude="11000 ft" distance="50 km" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -290,7 +289,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons duration="7D/8N" highestAltitude="11000 ft" distance="50 km" lodging="Hotel" meal="BF/Dinner" />
+                                        <ItineraryIcons duration="3-4 hrs" highestAltitude="11000 ft" distance="50 km" lodging="Hotel" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -299,12 +298,9 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Optional visits to iconic Leh monasteries and cultural sites.</li>
-                                    <li>Optional Exploration: Use this day to rest or explore additional sites like:</li>
-                                    <li>Thiksey Monastery: Known for its resemblance to the Potala Palace and panoramic valley views.</li>
-                                    <li>Shey Palace: Visit this ancient Ladakhi palace with striking architecture and Buddha statues.</li>
-                                    <li>Stok Palace Museum: Learn about Ladakhi royal heritage and culture.</li>
-                                    <li>Leisure: Evening at leisure to stroll Leh’s markets and cafes.</li>
+                                    <li><span>Highlights</span>: Optional, visits to the most recognizable Leh monasteries and other cultural places.</li>
+                                    <li>Optional Exploration - You may choose this day to relax or visit these additional sites if you wish: Thiksey Monastery - It is popular for looking like the Potala Palace and offering fantastic views of the valley. </li>
+                                    <li>Stok Palace Museum - Gain insight into the Ladakhi royal history culture.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -321,7 +317,7 @@ export default component$(() => {
                         <div id="itineraryCollapse8" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
                                 <p>
-                                Transfer to Leh Airport for your onward journey. Final departure, carrying lasting memories of Ladakh’s breathtaking landscapes and culture.
+                                    Breakfast and Check-Out: Transfer to Leh Airport for departure.Departure with memories of Nubra Valley, Pangong Lake, Hanle, Tso Moriri, and the beautiful landscapes of Ladakh.
                                 </p>
 
                             </div>

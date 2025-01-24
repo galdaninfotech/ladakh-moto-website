@@ -1,5 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './riding-gears.css?inline';
+import ImgRidingGears from '../../media/tours/gears.jpg?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -9,7 +10,7 @@ export default component$(() => {
             <div class="sub-headings">
                 <h2>Riding Gears</h2>
             </div>
-            <img src="/img/tours/gears.jpg" alt="Riding Gears" />
+            <ImgRidingGears alt="Riding Gears" />
         </div>
     );
 });

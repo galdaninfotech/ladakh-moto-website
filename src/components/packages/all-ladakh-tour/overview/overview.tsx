@@ -37,18 +37,18 @@ export default component$(() => {
 
             
             <p>
-            This 10-day Ladakh holiday package combines acclimatization, adventure, and exploration across Ladakh's pristine natural and cultural sites. You’ll start with two days in Leh to adjust to the altitude before traveling through the rugged landscapes of Nubra Valley, the vibrant Pangong Lake, the serene Hanle village, and the remote beauty of Tso Moriri Lake. This itinerary is ideal for travelers looking for both Ladakh’s highlights and its secluded, lesser-known gems.
+                This 10-day Ladakh tour package includes acclimatization, tourism, and adventure in different parts of Ladakh. During the tour, you will spend two days in Leh and adapt to the high altitude while preparing to visit Nubra Valley, Pangong Lake, Hanle village, and Tso Moriri Lake. Such a trip will suit those who want to visit not only the must-see places of Ladakh but also explore places off the beaten path.
             </p>
 
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
-                <li>Scenic Drives: Cross Khardung La, Chang La, and Taglang La Passes for spectacular mountain views.</li>
-                <li>Iconic Landscapes: Experience Nubra Valley’s unique desert, Pangong Lake’s changing colors, Hanle’s serene skies, and Tso Moriri’s peaceful shores.</li>
-                <li>Cultural Immersion: Visit Diskit Monastery, ancient palaces, and significant sites around Leh.</li>
-                <li>Camel Safari: Ride double-humped camels at the Hunder Sand Dunes in Nubra Valley.</li>
-                <li>Stargazing in Hanle: Enjoy one of the clearest night skies in India at Hanle’s observatory.</li>
-                <li>Birdwatching: Spot migratory birds at Tso Moriri and Tso Kar lakes.</li>
+                <li>Breathtaking views await at Khardung La and Taglang La Passes.</li>
+                <li>Enjoy Nubra Valley's desert, the colors of the Pangong Lake, tranquil skies in Hanle, and the Tso Moriri Lake's shores.</li>
+                <li>Cultural exploration: Take a trip to - Diskit Monastery, old kingdoms’ palaces and other historical locations near Leh.</li>
+                <li>Camel Riding: Try riding double-humped camels at the sand dunes of Hunder in the Nubra Valley.</li>
+                <li>Stargazing in Hanle: One of the best night sky views in India can be found at the Hanle telescope site.</li>
+                <li>Birdwatching: Find migratory birds on the shores of Tso Moriri and Tso Kar lakes.</li>
             </ul>
             
 

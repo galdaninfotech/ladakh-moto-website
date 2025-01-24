@@ -37,17 +37,17 @@ export default component$(() => {
 
             
             <p>
-            This 8-day Ladakh holiday package offers a balanced blend of adventure, scenic landscapes, and cultural insights. Starting with two days of acclimatization in Leh, you’ll explore the Nubra Valley’s sand dunes and monasteries, Pangong Lake’s stunning waters, and the secluded Hanle village, renowned for its pristine night skies and astronomy center. Ideal for travelers seeking a comprehensive Ladakh experience, this itinerary provides ample time for sightseeing, relaxation, and stargazing in Hanle.
+                The package of Ladakh tour for 8 days is a mix of culture, exploration and adventure providing a thorough culture insight to its travelers. It will start with a duration of 2 full days acclimatization in Leh, extending to Nubra Valley sand dunes and Monasteries, Pangong Lake and its appealing water, and Hanle village for its top notch astronomy center and breathtaking night skies Hanle is famous off. Encompassing of all the beautiful locations, it is a perfect fit to people looking for a complete glimpse of Ladakh’s unique culture and natural beauty.
             </p>
 
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
-                <li>High-Altitude Passes: Drive through Khardung La and Chang La, two of the world’s highest motorable roads.</li>
-                <li>Breathtaking Landscapes: Experience the Nubra Valley’s unique desert, Pangong Lake’s vibrant waters, and Hanle’s remote beauty.</li>
-                <li>Cultural Immersion: Visit historic monasteries like Diskit, Thiksey, and optional Leh sites.</li>
-                <li>Camel Safari: Ride the rare Bactrian camels on Hunder’s white sand dunes.</li>
-                <li>Stargazing in Hanle: Experience one of the clearest night skies in India with optional observatory visits.</li>
+                <li>High Altitude Passes: Journey through Khardung La and Chang La, two of the highest motorable roads in the world </li>
+                <li>Stunning Landscapes: Witness desert beauty of Nubra valley, the vibrant blue waters of Pangong Lake and the remoteness of Hanle </li>
+                <li>Cultural Experiences: Explore Diskit and Thiksey monasteries and if time suitable some more in Leh </li>
+                <li>Camel Ride: Experience the rare Bactrian camels from Hunder sand dunes</li>
+                <li>Explore the Rambling Skies of Hanle: Have an option of going to the observatories that provide a glimpse of one of the clearest night skies of India </li>
             </ul>
             
 

@@ -21,27 +21,27 @@ export default component$(() => {
                     </thead>
                     <tbody>
                         <tr>
+                            <td><strong>Own Bike</strong></td>
                             <td>Own Bike</td>
-                            <td>₹ 29,000/- PP</td>
                             <td id="tour-price">₹ 23,000/- PP</td>
                         </tr>
                         <tr>
-                            <td>Solo Rider</td>
-                            <td>Himalayan 411cc BSVI</td>
+                            <td><strong>Solo Rider</strong></td>
+                            <td>Himalayan 411 BSVI</td>
                             <td>₹ 43,000/- PP</td>
                         </tr>
                         <tr>
-                            <td>Dual Ride</td>
-                            <td>Himalayan 411cc BSVI</td>
+                            <td><strong>Dual Ride</strong></td>
+                            <td>Himalayan 411 BSVI</td>
                             <td>₹ 33,000/- PP</td>
                         </tr>
                         <tr>
-                            <td>Seat in Backup Vehicle</td>
+                            <td><strong>Seat in Backup Vehicle</strong></td>
                             <td>Isuzu/Camper</td>
                             <td>₹ 35,500/- PP</td>
                         </tr>
                         <tr>
-                            <td>SUV (min 5 seats)</td>
+                            <td><strong>SUV (min 5 seats)</strong></td>
                             <td>Innova/Xylo</td>
                             <td>₹ 35,500/- PP</td>
                         </tr>

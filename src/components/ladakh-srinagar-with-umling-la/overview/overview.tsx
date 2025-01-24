@@ -34,21 +34,22 @@ export default component$(() => {
             </div>
             
             <p>
-                This 11-day journey takes you through the most captivating landscapes of Ladakh and Kashmir, offering a perfect mix of thrilling mountain passes, serene lakes, remote villages, and historical towns. Starting in Leh, this tour will take you to Nubra Valley, the stunning Pangong Lake, the remote Hanle, the world’s highest motorable road at Umling La, and finally, to the beautiful landscapes of Kargil and Srinagar.
+                This is a tour where you will be island hopping across the interesting places in Ladakh and Kashmir for its 11 exciting days. You will be enthralled by countless mountain passes, tranquil lakes, secluded villages as well as towns full of history. Before we start with Nubra Valley, this tour will take us to the impressive Pangong Lake, Hanle, the world’s highest motorable road Umling La and picturesque regions of Kargil and Srinagar, beginning from Leh.
             </p>
 
 
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
-                <li>Ride through some of the world’s highest motorable passes, including Khardung La and Umling La.</li>
-                <li>Explore the vibrant cultures of Nubra Valley and the remote village of Turtuk.</li>
-                <li>Witness the changing colors of Pangong Lake and the pristine beauty of Hanle.</li>
-                <li>Cross the famous Zoji La Pass and explore the historic town of Kargil.</li>
-                <li>End your journey with a serene experience in the lush valleys of Srinagar.</li>
+                <li>In this tour, you will have a chance to ride through Khardung La Pass & Umling La Pass the highest passes ever known to mankind.</li>
+                <li>Be familiarized by the Nubra Valley culture, history while visiting the distant village of Turtuk.</li>
+                <li>Get the chance to watch the sundown/sunrise at the mesmerizing Pangong Lake and enjoy the unadulterated beauty of Hanle.</li>
+                <li>Ride the renowned Zoji La Pass, and head to explore the rich historical town of Kargil.</li>
+                <li>Finally end your travel by the calm and serene Srinagar popular for its beautiful greenery and shapes.</li>
+                <li>Combining extreme adventure, culture and scenic beauty is something which this tour provides you on an unforgettable basis.</li>
             </ul>
 
             <p>
-            This tour offers an unforgettable experience, combining extreme adventure with cultural exploration and breathtaking natural beauty.
+                This tour combines high-altitude adventure with serene cultural exploration, making it perfect for motorbiking enthusiasts looking to challenge themselves while experiencing the beauty of Ladakh.
             </p>
             
 
