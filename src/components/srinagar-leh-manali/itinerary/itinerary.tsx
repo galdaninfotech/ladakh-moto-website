@@ -318,7 +318,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Gata loops, Tanglang la pass, Lachung la pass </li>
-                                    <li>After breakfast, start your journey towards Serchu while crossing Tanglang la pass. Pass through the famous Gata Loops, a series of 21 hairpin bends that lead to Nakee La and Lachulung La passes. The route itself is picturesque as it offers a breathtaking view of the mountains and the valleys. Reaching Serchu by evening strike the camp and rest for the day after riding for hours.</li>
+                                    <li>After breakfast, start your journey towards Serchu while crossing Tanglang la pass. Pass through the famous Gata Loops, a series of 21 hairpin bends that lead to Nakee La and Lachulung La passes. The route itself is picturesque as it offers a breathtaking view of the mountains and the valleys. Reaching Serchu by evening strike the camp and rest for the day after riding for hours.</li>
                                     <li><span>Overnight</span>: Camp in Serchu</li>
                                 </ul>
 
