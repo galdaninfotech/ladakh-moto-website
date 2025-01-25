@@ -1,5 +1,6 @@
 import { component$, Slot } from "@builder.io/qwik";
-import type { RequestHandler } from "@builder.io/qwik-city";
+import type { RequestHandler  } from "@builder.io/qwik-city";
+import { useLocation  } from "@builder.io/qwik-city";
 import Footer from "~/components/footer/footer";
 import Header from "~/components/header/header";
 import Slider from "~/components/slider/slider";
@@ -16,6 +17,7 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 };
 
 export default component$(() => {
+    const loc = useLocation();
   return (
     <>
         
@@ -62,10 +64,12 @@ export default component$(() => {
 
         <script src="/js/main.js"></script>
 
-
         {/* Gallery */}
-        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        {loc.url.pathname == '/gallery/' ? 
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+            // <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        : null }
+        
 
         
     </>

@@ -55,8 +55,9 @@ export const RouterHead = component$(() => {
         <link rel="stylesheet" href="/css/custom.css" />
         <link rel="stylesheet" href="/css/responsive.css" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+        {/* Gallery */}
+        {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> */}
+        {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" /> */}
 
 
         {head.links.map((l) => (
