@@ -58,5 +58,9 @@ export const head: DocumentHead = {
       name: "description",
       content: "Shanti Stupa",
     },
+    {
+        name: "robots",
+        content: "index, follow"
+    },
   ],
 };

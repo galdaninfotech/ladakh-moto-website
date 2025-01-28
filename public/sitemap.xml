@@ -7,33 +7,26 @@
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://ladakhmoto.com/about</loc>
+      <loc>https://ladakhmoto.com/about/about</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://ladakhmoto.com/our-services</loc>
+      <loc>https://ladakhmoto.com/about/our-services</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
    <url>
-      <loc>https://ladakhmoto.com/about-ladakh</loc>
-      <lastmod>2025-01-15</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-   </url>
-
-   <url>
-      <loc>https://ladakhmoto.com/biking-adventures</loc>
+      <loc>https://ladakhmoto.com/about/about-ladakh</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
    <url>
-      <loc>https://ladakhmoto.com/biking-packages</loc>
+      <loc>https://ladakhmoto.com/about/our-team</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -82,70 +75,70 @@
    </url>
 
    <url>
-      <loc>https://ladakhmoto.com/ladakh-with-umling-la</loc>
+      <loc>https://ladakhmoto.com/bike-tours/leh-ladakh-adventure</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
    <url>
-      <loc>https://ladakhmoto.com/leh-ladakh-adventure</loc>
+      <loc>https://ladakhmoto.com/bike-tours/ladakh-with-umling-la</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
    <url>
-      <loc>https://ladakhmoto.com/ladakh-srinagar-with-umling-la</loc>
+      <loc>https://ladakhmoto.com/bike-tours/ladakh-srinagar-with-umling-la</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
    <url>
-      <loc>https://ladakhmoto.com/manali-to-leh-via-umling-la</loc>
+      <loc>https://ladakhmoto.com/bike-tours/manali-to-leh-via-umling-la</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
    <url>
-      <loc>https://ladakhmoto.com/srinagar-leh-manali</loc>
+      <loc>https://ladakhmoto.com/bike-tours/srinagar-leh-manali</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
     <url>
-      <loc>https://ladakhmoto.com/leh-zangskar-leh</loc>
+      <loc>https://ladakhmoto.com/bike-tours/leh-zangskar-leh</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
    <url>
-      <loc>https://ladakhmoto.com/packages/all-ladakh-tour</loc>
+      <loc>https://ladakhmoto.com/bike-tour-packages/all-ladakh-tour</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
    <url>
-      <loc>https://ladakhmoto.com/packages/amazing-ladakh</loc>
+      <loc>https://ladakhmoto.com/bike-tour-packages/amazing-ladakh</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
     <url>
-      <loc>https://ladakhmoto.com/packages/ladakh-tour-with-hanle</loc>
+      <loc>https://ladakhmoto.com/bike-tour-packages/ladakh-tour-with-hanle</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
     <url>
-      <loc>https://ladakhmoto.com/packages/ladakh-zangskar-valley-tour</loc>
+      <loc>https://ladakhmoto.com/bike-tour-packages/ladakh-zangskar-valley-tour</loc>
       <lastmod>2025-01-15</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>

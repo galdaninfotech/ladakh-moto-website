@@ -58,5 +58,9 @@ export const head: DocumentHead = {
       name: "description",
       content: "Nubra Valley",
     },
+    {
+        name: "robots",
+        content: "index, follow"
+    },
   ],
 };

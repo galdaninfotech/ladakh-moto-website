@@ -20,7 +20,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="" />
+                                    <img src="/img/tours/ladakh-with-umling-la/ladakh-with-umling-la-overview.jpg" alt="Ladakh With Umling La" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -49,7 +49,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-overview.jpg" alt="" />
+                                    <img src="/img/tours/leh-ladakh-adventure/leh-ladakh-adventure-overview.jpg" alt="Leh Ladakh Adventure" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -78,7 +78,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-overview.jpg" alt="" />
+                                    <img src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-overview.jpg" alt="Ladakh Srinagar Umling La" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -107,7 +107,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-overview.jpg" alt="" />
+                                    <img src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-overview.jpg" alt="Ladakh Srinagar Umling La" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -136,7 +136,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="/img/tours/manali-to-leh-via-umling-la/manali-to-leh-via-umling-la-overview.jpg" alt="" />
+                                    <img src="/img/tours/manali-to-leh-via-umling-la/manali-to-leh-via-umling-la-overview.jpg" alt="Manali Leh Via Umling La" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -165,7 +165,7 @@ export default component$(() => {
                             <div class="package-wrap">
                             <figure class="feature-image">
                                 <a href="tour-packages.html#">
-                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-overview.jpg" alt="" />
+                                    <img src="/img/tours/srinagar-leh-manali/srinagar-leh-manali-overview.jpg" alt="Ladakh Srinagar Umling La" />
                                 </a>
                             </figure>
                             <div class="package-price">

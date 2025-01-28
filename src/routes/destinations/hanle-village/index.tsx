@@ -58,5 +58,9 @@ export const head: DocumentHead = {
       name: "description",
       content: "Hanle Village",
     },
+    {
+        name: "robots",
+        content: "index, follow"
+    },
   ],
 };

@@ -394,6 +394,8 @@ Visiting Card
 
 =======================================
 
+EMR Software:
+-------------
 https://swingbell.com/request-demo
 
 https://bel-india.in/software/software-products/health-management-information-system-product/
@@ -412,7 +414,116 @@ https://www.youtube.com/@gyanupgrade/videos
 
 
 
+==================================================================================
+
+Bidding
+    Conversion
+        Events
 
 
+Ad Rank
+    Bidding
+    Budget
+    Ad Copy (Imp)
+    Ladning Page (Imp) (UX)
+    Keyword
+    
+Bidding
+    Conversion
+    Conversion Value
+    Click
+    Impression
+
+
+Create Campaign
+    Bidding
+    Campaign Setting
+        Network
+        Location
+        Language
+        Audiences
+            Demographics
+            Affinity
+            In-Market
+        Broad Matched Keywords
+        Ad Rotation
+        Ad Schedule
+    Keyword & Asset Generation
+    Keywords & Ads
+    Budget
+    Review
+
+
+
+Keyword
+    Broad Keyword
+        Comprehensive Matching
+        Low CPC
+        Low Budget
+    Phrase Keyword
+        Moderate Matching
+        "" 
+        Meaning included
+        Balanced CPC
+    Exact Keyword
+        Tight Matching
+        [] 
+        Same Meaning
+        High CPC
+
+Keyword
+    Keyword Intend
+    Competitive Gap Strategy
+    Location Keyword
+    Customer Persona
+
+Bidding Strategies
+    Target CPA (max Comversion at targeted CPA)
+        With "Target CPA", Google Ads automatically sets bids to help get as many conversions as possible at the target cost-per-action (CPA) you set. Some conversions may cost more or less than your target.
+    
+    Target ROAS (max Comversion at targeted ROAS)
+        With "Target ROAS", Google Ads automatically sets bids to help get as much conversion value as possible at the target return on ad spend(ROAS) you set. Some conversions may have a higher or lower return than your target.
+    
+    Maximum Clicks (max Clicks within Budget)
+        With "Maximize clicks", Google Ads automatically sets your bids to help get as many clicks as possible within your budget. A maximum CPC bid limit caps each cost-per-click bid. This could limit the clicks on your ad.
+
+    Maximum Coversion (max Comversion within Budget)
+        Google Ads automatically sets your bids to help you get the most conversions within your budget.
+
+    Maximum Coversion Value (max Comversion Value within Budget)
+        Google Ads automatically sets your bids to help you get the most conversion value within your budget.
+
+    Target Impression Share (increase Chances of showing ads)
+        "Target impression share" automatically sets your bids to increase your ads' chances of appearing in the search page area you select.
+
+
+
+
+=====================================================
+
+Domain 1800/-
+Hosting (Digital Ocean Droplets) 12000/-
+Website Design: 11250/-
+Implementation & Testing 65000/-
+Training 25000/-
+Maintenance 35000/-
+Post-implementation support 0/-
+
+LAN Network 25000/-
+
+
+
+Completion Time:  2 Months
+
+Benefits:
+    Patient Portal (under development)
+    Patient & Docter Mobile App (under development)
+    Pharmacy Software Included
+    ABHA Integrated (Certified by NHA)
+    FHIR, HL7 v2
+    SNOMED CT, LOINC, WHO ATC
+
+https://bahmni.atlassian.net/wiki/spaces/BAH/pages/3124428825/Doctor+Mobile+Adoption
+https://www.slideshare.net/slideshow/hospital-management-system-project-104093887/104093887#11
 
 

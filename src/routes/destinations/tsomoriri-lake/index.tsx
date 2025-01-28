@@ -58,5 +58,9 @@ export const head: DocumentHead = {
       name: "description",
       content: "Tsomoriri Lake",
     },
+    {
+        name: "robots",
+        content: "index, follow"
+    },
   ],
 };

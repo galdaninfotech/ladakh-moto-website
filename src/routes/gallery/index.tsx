@@ -125,6 +125,10 @@ export const head: DocumentHead = {
       name: "description",
       content: "Photo Gallery - Ladakh Moto",
     },
+    {
+        name: "robots",
+        content: "index, follow"
+    },
   ],
   links: [
     {

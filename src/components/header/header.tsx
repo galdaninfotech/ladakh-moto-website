@@ -49,7 +49,7 @@ export default component$(() => {
                         {/* <!-- Start site logo --> */}
                         <div class="site-logo d-md-none">
                             <a href="/">
-                                <ImgLogoSM id="logo-sm" decoding="sync" loading="eager" alt="LadakhMoto" />
+                                <ImgLogoSM id="logo-sm" decoding="sync" loading="eager" alt="Ladakh Moto" />
                             </a>
                         </div>
 
@@ -78,21 +78,21 @@ export default component$(() => {
                                     <li class="has-dropdown">
                                         <a href="#">Biking Adventures</a>
                                         <ul>
-                                            <li><a href="/leh-ladakh-adventure">Leh Ladakh Adventure</a></li>
-                                            <li><a href="/ladakh-with-umling-la">Ladakh With Umling La</a></li>
-                                            <li><a href="/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></li>
-                                            <li><a href="/leh-zangskar-leh">Leh Zangskar Leh</a></li>
-                                            <li><a href="/manali-leh-srinagar">Manali Leh Srinagar</a></li>
-                                            <li><a href="/srinagar-leh-manali">Srinagar Leh Manali</a></li>
+                                            <li><a href="/bike-tours/leh-ladakh-adventure">Leh Ladakh Adventure</a></li>
+                                            <li><a href="/bike-tours/ladakh-with-umling-la">Ladakh With Umling La</a></li>
+                                            <li><a href="/bike-tours/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></li>
+                                            <li><a href="/bike-tours/leh-zangskar-leh">Leh Zangskar Leh</a></li>
+                                            <li><a href="/bike-tours/manali-leh-srinagar">Manali Leh Srinagar</a></li>
+                                            <li><a href="/bike-tours/srinagar-leh-manali">Srinagar Leh Manali</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-dropdown">
                                         <a href="#">Holiday Packages</a>
                                         <ul>
-                                            <li><a href="/packages/all-ladakh-tour">All Ladakh Tour</a></li>
-                                            <li><a href="/packages/amazing-ladakh">Amazing Ladakh Tour</a></li>
-                                            <li><a href="/packages/ladakh-tour-with-hanle">Ladakh Tour With Hanle</a></li>
-                                            <li><a href="/packages/ladakh-zangskar-valley-tour">Ladakh Zangskar Valley Tour</a></li>
+                                            <li><a href="/bike-tour-packages/all-ladakh-tour">All Ladakh Tour</a></li>
+                                            <li><a href="/bike-tour-packages/amazing-ladakh">Amazing Ladakh Tour</a></li>
+                                            <li><a href="/bike-tour-packages/ladakh-tour-with-hanle">Ladakh Tour With Hanle</a></li>
+                                            <li><a href="/bike-tour-packages/ladakh-zangskar-valley-tour">Ladakh Zangskar Valley Tour</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-dropdown">

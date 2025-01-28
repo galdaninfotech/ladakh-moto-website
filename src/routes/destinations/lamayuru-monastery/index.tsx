@@ -54,5 +54,9 @@ export const head: DocumentHead = {
       name: "description",
       content: "Lamayuru Monastery",
     },
+    {
+        name: "robots",
+        content: "index, follow"
+    },
   ],
 };
