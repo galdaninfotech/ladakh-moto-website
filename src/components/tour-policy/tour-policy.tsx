@@ -44,7 +44,7 @@ export default component$(() => {
                                     <li>Cancellation charges will apply from the date we receive the cancellation request by email. The charges are as follows:
                                         <ul>
                                             <li>30 days or more before departure: 90% of the total Land Package Cost will be refunded.</li>
-                                            <li>15–29 days before departure: 50% of the total Land Package Cost will be refunded.</li>
+                                            <li>15-29 days before departure: 50% of the total Land Package Cost will be refunded.</li>
                                             <li>Less than 15 days before departure: No refund will be issued.</li>
                                         </ul>
                                     </li>
@@ -81,6 +81,7 @@ export default component$(() => {
                                     <li>In the event that the group tour is canceled by us due to unavoidable circumstances, we will either transfer your booking to another fixed departure trip or provide a full refund, excluding any flight charges.</li>
                                     <li>Ladakhmoto ensures the highest level of safety during its adventure programs. However, in the case of any accidents or unforeseen incidents, we are not liable for injuries or loss of life. Any disputes will be subject to the jurisdiction of Leh only.</li>
                                     <li>All participants must sign an Indemnity Form before starting the program; failure to do so will result in the traveler being unable to join the adventure activities.</li>
+                                    <li>No refund will be given if the client get sick or injured during the trip but will be taken care of with full assistance and no added charges.</li>
                                     <li>The package price does not include personal expenses such as laundry, phone calls, room service, alcohol, minibar charges, tips, porterage/offloading charges, monument entrance fees, camera fees, etc.</li>
                                     <li>Package rates are subject to change without notice due to Force Majeure events, strikes, festivals, weather conditions, traffic delays, hotel or flight overbookings, cancellations or rerouting of flights, or entry restrictions at destinations. No refunds or compensation will be provided in such cases.</li>
                                     <li>All guests are required to carry valid photo identification (Passport, Driving License, or Voter ID). Note that a PAN card is not accepted as valid ID in many locations.</li>

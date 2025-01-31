@@ -4,6 +4,7 @@ import { useLocation  } from "@builder.io/qwik-city";
 import Footer from "~/components/footer/footer";
 import Header from "~/components/header/header";
 import Slider from "~/components/slider/slider";
+import SliderItinerary from "~/components/slider-itinerary/slider-itinerary";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
@@ -47,7 +48,10 @@ export default component$(() => {
                         </div>
                     </div>
                 </div>
-                <Slider />
+
+                {/* Slider */}
+                { loc.url.pathname == '/' ? <Slider /> : <SliderItinerary /> }
+
                 <section>
                     <Slot />
                 </section>

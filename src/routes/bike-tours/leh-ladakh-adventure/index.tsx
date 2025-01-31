@@ -51,7 +51,7 @@ export default component$(() => {
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="intro">
-                            <h1 id="tour-name" data-tour-name="Leh Ladakh Adventure">Leh Ladakh Adventure</h1>
+                            <h1 id="tour-name" class="tour-name" data-tour-name="Leh Ladakh Adventure">Leh Ladakh Adventure</h1>
                         </div>
 
                         <div class="sticky-buttons">
@@ -82,11 +82,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Leh Ladakh Adventure Bike Tour, 5N/6D - @ ₹15,500/-",
+  title: "Leh Ladakh Adventure - Bike Tour, 5N/6D - @ ₹15,500/-",
   meta: [
     {
       name: "description",
-      content: "550 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel and Mechanic included | Leh Ladakh Adventure Bike Tour - including Khardong la, Nubra Valley and Pangong Lake. 100% Travellers Satisfaction Guaranteed.",
+      content: "Leh to Leh | 550 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel and Mechanic included | Leh Ladakh Adventure Bike Tour - including Khardong la, Nubra Valley and Pangong Lake. 100% Travellers Satisfaction Guaranteed.",
     },
     {
         name: "robots",

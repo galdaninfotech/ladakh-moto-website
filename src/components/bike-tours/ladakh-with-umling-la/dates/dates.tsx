@@ -21,28 +21,41 @@ export default component$(() => {
                         <div id="itineraryCollapse1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LUL20251</strong>
-                                        <span>03rd May - 10th May</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL20252</strong>
-                                        <span>10th May -17th May</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL20253</strong>
-                                        <span>17th May - 24th May</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL20254</strong>
-                                        <span>24th May - 31st May</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LUL20251</td>
+                                            <td>03rd May - 10th May</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LUL20252</td>
+                                            <td>10th May -17th May</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL20253</td>
+                                            <td>17th May - 24th May</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL20254</td>
+                                            <td>24th May - 31st May</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>
@@ -57,28 +70,41 @@ export default component$(() => {
                         <div id="itineraryCollapse2" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LUL20255</strong>
-                                        <span>07th June - 14th June</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL20256</strong>
-                                        <span>14th June - 21st June</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL20257</strong>
-                                        <span>21st June - 28th June</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL20258</strong>
-                                        <span>28th June - 05th July</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LUL20255</td>
+                                            <td>07th June - 14th June</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LUL20256</td>
+                                            <td>14th June - 21st June</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL20257</td>
+                                            <td>21st June - 28th June</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL20258</td>
+                                            <td>28th June - 05th July</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>
@@ -93,28 +119,41 @@ export default component$(() => {
                         <div id="itineraryCollapse3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LUL20259</strong>
-                                        <span>05th July - 12th July</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL202510</strong>
-                                        <span>12th July - 19th July</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL202511</strong>
-                                        <span>19th July - 26th July</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL202512</strong>
-                                        <span>26th July - 2nd Aug</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LUL20259</td>
+                                            <td>05th July - 12th July</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LUL202510</td>
+                                            <td>12th July - 19th July</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL202511</td>
+                                            <td>19th July - 26th July</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL202512</td>
+                                            <td>26th July - 2nd Aug</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>
@@ -129,28 +168,41 @@ export default component$(() => {
                         <div id="itineraryCollapse4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LUL202513</strong>
-                                        <span>02nd Aug - 09th Aug</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL202514</strong>
-                                        <span>09th Aug - 16th Aug</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL202515</strong>
-                                        <span>16th Aug -23rd Aug</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL202516</strong>
-                                        <span>23rd Aug - 30th Aug</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LUL202513</td>
+                                            <td>02nd Aug - 09th Aug</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LUL202514</td>
+                                            <td>09th Aug - 16th Aug</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL202515</td>
+                                            <td>16th Aug -23rd Aug</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL202516</td>
+                                            <td>23rd Aug - 30th Aug</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>
@@ -165,28 +217,41 @@ export default component$(() => {
                         <div id="itineraryCollapse5" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LUL202517</strong>
-                                        <span>06th Sept - 13th Sept</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL202518</strong>
-                                        <span>13th Sept - 20th Sept</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL202519</strong>
-                                        <span>20th Sept - 27th Sept</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LUL202520</strong>
-                                        <span>27th Sept - 03rd Oct</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LUL202517</td>
+                                            <td>06th Sept - 13th Sept</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LUL202518</td>
+                                            <td>13th Sept - 20th Sept</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL202519</td>
+                                            <td>20th Sept - 27th Sept</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>LUL202520</td>
+                                            <td>27th Sept - 03rd Oct</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>

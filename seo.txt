@@ -497,7 +497,15 @@ Bidding Strategies
         "Target impression share" automatically sets your bids to increase your ads' chances of appearing in the search page area you select.
 
 
+====================================================
 
+DevOps:
+    Version Control => Git
+    CI/CD => Jenkins, Github Actions, CircleCi, GitlabCi
+    Configuration Management => Ansible, Puppet, Chef
+    Monitering & Logging => Grafana, Elastic Search, Logstash, Kibana
+    Collaboration & Communication => Slack, Jira, Trelllo
+    Leadership & Strategy => 
 
 =====================================================
 
@@ -509,9 +517,13 @@ Training 25000/-
 Maintenance 35000/-
 Post-implementation support 0/-
 
-LAN Network 25000/-
 
 
+Total Cost = 1,48,800/-
+Maintenance 30% = 44,640/-
+
+Total Cost = 1,62,800/-
+Maintenance 30% = 48,840/-
 
 Completion Time:  2 Months
 
@@ -525,5 +537,56 @@ Benefits:
 
 https://bahmni.atlassian.net/wiki/spaces/BAH/pages/3124428825/Doctor+Mobile+Adoption
 https://www.slideshare.net/slideshow/hospital-management-system-project-104093887/104093887#11
+
+Installation:
+https://bahmni.atlassian.net/wiki/spaces/BAH/pages/2901114904/Bahmni+as+Health+Information+Provider+ABDM+NDHM
+https://github.com/bahmniindiadistro/openmrs-module-hip/blob/master/omod/docs/dev-setup.md
+
+
+Write in paragraphs the features IPD given below:
+ 
+IPD Features:
+* Admit, Discharge & Transfer
+* Ward Management
+* Bed Layout & Availability Chart
+* In-Patient Dashboard
+* Medicine Scheduling and Chart
+
+The IPD module computerizes every aspect of In Patient management, including consultation and prescription of the docter, shift wise schedules the admintration of drugs and other nursing tasks. It tracks tthe status of Patient medication like Pending, Late, Completed, Administered Late, Missed / Skipped, and Stopped. Doctors can always moniter, precribe more drugs and oversee the overall progress of the patient.
+===================================================================================================================
+
+Leh Ladakh Adventure Bike Tour, 5N/6D ₹15,500/-
+
+550 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel and Mechanic included | Leh Ladakh Adventure Bike Tour - including Khardong la, Nubra Valley and Pangong Lake. 100% Travellers Satisfaction Guaranteed. Book Now!
+
+
+Book now for exclusive discounts in our hot summer sale!
+Book now for summer sale exclusive discounts!
+
+Book & Get UPTO 50% Off
+Upto 35% Off
+Starts from: Delhi · Ends at: Delhi.
+
+
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

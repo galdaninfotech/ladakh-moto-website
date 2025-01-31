@@ -49,7 +49,6 @@ export default component$(() => {
                                 <li><i class="bi bi-x"></i>Early check-in or late checkout rooms at any Guest House/ Camps</li>
                                 <li><i class="bi bi-x"></i>Any entry fees or Personal Expenses</li>
                                 <li><i class="bi bi-x"></i>Airport Transfers</li>
-                                <li><i class="bi bi-x"></i>Fuel for own Vehicle Option</li>
                                 <li><i class="bi bi-x"></i>Additional stays at any place except Itinerary will be chargeable.</li>
                                 <li><i class="bi bi-x"></i>Tips to driver, guide, hotel staff & representative.</li>
                                 <li><i class="bi bi-x"></i>Camera/video camera fee at monuments</li>

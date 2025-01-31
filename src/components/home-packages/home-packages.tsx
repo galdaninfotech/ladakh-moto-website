@@ -25,7 +25,7 @@ export default component$(() => {
                             <div class="description">
                                 <h2>All Ladakh Tour</h2>
                                 <p>This 10-day Ladakh holiday package combines adventure...</p>
-                                <a href="/packages/all-ladakh-tour"><button>Know More</button></a>
+                                <a href="/bike-tours-packages/all-ladakh-tour"><button>Know More</button></a>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ export default component$(() => {
                             <div class="description">
                                 <h2>Amazing Ladakh</h2>
                                 <p>6-day Ladakh holiday package designed for travelers seeking...</p>
-                                <a href="/packages/amazing-ladakh"><button>Know More</button></a>
+                                <a href="/bike-tours-packages/amazing-ladakh"><button>Know More</button></a>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export default component$(() => {
                             <div class="description">
                                 <h2>Ladakh With Hanle</h2>
                                 <p>8-day Ladakh holiday package offers a balanced blend of...</p>
-                                <a href="/packages/ladakh-tour-with-hanle"><button>Know More</button></a>
+                                <a href="/bike-tours-packages/ladakh-tour-with-hanle"><button>Know More</button></a>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ export default component$(() => {
                             <div class="description">
                                 <h2>Ladakh Zanskar</h2>
                                 <p>A tour of Hemis, Diskit and Thiksey monasteries will take...</p>
-                                <a href="/packages/ladakh-zangskar-valley-tour"><button>Know More</button></a>
+                                <a href="/bike-tours-packages/ladakh-zangskar-valley-tour"><button>Know More</button></a>
                             </div>
                         </div>
                     </div>

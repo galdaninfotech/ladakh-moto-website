@@ -21,23 +21,34 @@ export default component$(() => {
                         <div id="itineraryCollapse1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LS20251</strong>
-                                        <span>1st May - 11th May</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS20252</strong>
-                                        <span>13th May - 23rd May</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS20253</strong>
-                                        <span>15th May - 25th May</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LS20251</td>
+                                            <td>1st May - 11th May</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS20251</td>
+                                            <td>1st May - 11th May</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS20251</td>
+                                            <td>1st May - 11th May</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>
@@ -52,23 +63,34 @@ export default component$(() => {
                         <div id="itineraryCollapse2" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LS20254</strong>
-                                        <span>05th Jun - 15th Jun</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS20255</strong>
-                                        <span>12th Jun - 22nd Jun</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS20256</strong>
-                                        <span>19th Jun - 29th Jun</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LS20254</td>
+                                            <td>05th Jun - 15th Jun</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS20255</td>
+                                            <td>12th Jun - 22nd Jun</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS20256</td>
+                                            <td>19th Jun - 29th Jun</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>
@@ -83,23 +105,34 @@ export default component$(() => {
                         <div id="itineraryCollapse3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LS20257</strong>
-                                        <span>3rd Jul - 13th Jul</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS20258</strong>
-                                        <span>10th Jul - 20th Jul</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS20259</strong>
-                                        <span>17th Jul - 28th Jul</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table id="" class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LS20257</td>
+                                            <td>3rd Jul - 13th Jul</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS20258</td>
+                                            <td>10th Jul - 20th Jul</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS20259</td>
+                                            <td>17th Jul - 28th Jul</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>
@@ -114,23 +147,34 @@ export default component$(() => {
                         <div id="itineraryCollapse4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LS202510</strong>
-                                        <span>1st Aug - 11th Aug</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS202511</strong>
-                                        <span>07th Aug - 17th Aug</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS202512</strong>
-                                        <span>14th Aug - 24th Aug</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table id="" class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LS202510</td>
+                                            <td>1st Aug - 11th Aug</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS202511</td>
+                                            <td>07th Aug - 17th Aug</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS202512</td>
+                                            <td>14th Aug - 24th Aug</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>
@@ -145,23 +189,34 @@ export default component$(() => {
                         <div id="itineraryCollapse5" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <div class="itinerary">
-                                    <div>
-                                        <strong>LS202513</strong>
-                                        <span>04th Sep - 14th Sep</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS202514</strong>
-                                        <span>11th Sep - 21st Sep</span>
-                                        <span>Open</span>
-                                    </div>
-                                    <div>
-                                        <strong>LS202515</strong>
-                                        <span>18th Sep - 28th Sep</span>
-                                        <span>Open</span>
-                                    </div>
-                                </div>
+                                <table id="" class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Tour ID</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>LS202513</td>
+                                            <td>04th Sep - 14th Sep</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS202514</td>
+                                            <td>11th Sep - 21st Sep</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>LS202515</td>
+                                            <td>18th Sep - 28th Sep</td>
+                                            <td><span>Open</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
                             </div>
                         </div>

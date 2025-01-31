@@ -38,7 +38,7 @@ export default component$<ItemProps>((props) => {
                     <span class="sr-only">Phone</span>
                 </a>
 
-                <a class="fab-action fab-action-3" href="mailto:info@ladakhmoto.com" aria-label="Email us">
+                <a class="fab-action fab-action-3 btnOpenForm" href="/" aria-label="Email us">
                     <i class="bi bi-envelope" aria-hidden="true"></i>
                     <span class="sr-only">Email</span>
                 </a>

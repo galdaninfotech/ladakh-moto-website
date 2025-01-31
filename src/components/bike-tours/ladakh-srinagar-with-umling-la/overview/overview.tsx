@@ -14,7 +14,7 @@ export default component$(() => {
 
             <div class="row d-block d-lg-none">
                 <div class="col-12 col-lg-6">
-                    <OverviewIcons highestAltitude="19024 ft" distance="1576 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                    <OverviewIcons highestAltitude="19024 ft" distance="1576 km" duration="10N/11D" lodging="Hotel/Camp" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -25,7 +25,7 @@ export default component$(() => {
             {/* Desktop Screen */}
             <div class="row d-none d-lg-block">
                 <div class="col-12 col-lg-12">
-                    <OverviewIcons highestAltitude="19024 ft" distance="1576 km" duration="9N/10D" lodging="Hotel/Camp" meal="BF/Dinner" />
+                    <OverviewIcons highestAltitude="19024 ft" distance="1576 km" duration="10N/11D" lodging="Hotel/Camp" meal="BF/Dinner" />
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">

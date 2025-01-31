@@ -48,10 +48,6 @@
             width: auto;
             
         }
-        .carousel-item img#slide1 {
-            left: -80%;
-            
-        }
     }
 
     /* Carousel Captions */
@@ -75,7 +71,7 @@
     margin: auto;
     }
 
-    .kb-caption h1,
+    .kb-caption span,
     .kb-caption p {
     padding: 0.5rem 0;
     margin-bottom: 0;
@@ -164,18 +160,20 @@
           height: 450px;
           width: auto;
         }
-        .kb-caption h1 {
+        .kb-caption span {
             font-size: 20px;
         }
       }
 
       
 /*  */
-.bradcumb h1 {
+.bradcumb span {
     font-family: 'Oswald', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #fff;
+    color: #05a1a1;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px #000;
 }
 .contact-info {
     position: absolute;
