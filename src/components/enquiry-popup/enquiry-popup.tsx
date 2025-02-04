@@ -12,24 +12,24 @@ export default component$(() => {
                 <p>For more information. Please complete this form.</p>
                 <form action="">
                     <div class="form-group">
-                        <label for="">Name</label>
-                        <input name="name" type="text" class="form-control" />
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" class="form-control" autocomplete="name"/>
                     </div>
                     <div class="form-group">
-                        <label for="">E-Mail Address <span>*</span></label>
-                        <input name="email" class="form-control" type="text" required/>
+                        <label for="email">E-Mail Address <span>*</span></label>
+                        <input id="email" name="email" class="form-control" type="text" autocomplete="email" required/>
                     </div>
                     <div class="form-group">
-                        <label for="">Phone Number <span>*</span></label>
-                        <input name="phone" class="form-control" type="text" required/>
+                        <label for="phone">Phone Number <span>*</span></label>
+                        <input id="phone" name="phone" class="form-control" type="text" autocomplete="tel" required/>
                     </div>
                     <div class="form-group">
-                        <label for="">Number of Person</label>
-                        <input name="noOfPerson" class="form-control" type="text" />
+                        <label for="noOfPerson">Number of Person</label>
+                        <input id="noOfPerson" name="noOfPerson" class="form-control" autocomplete="off" type="text" />
                     </div>
                     <div class="form-group">
-                        <label for="">Message</label>
-                        <textarea name="message"></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"></textarea>
                     </div>
 
                     <button type="submit">Submit</button>

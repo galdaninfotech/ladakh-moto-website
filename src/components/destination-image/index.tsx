@@ -13,9 +13,9 @@ export default component$<Props>((props) => {
         <div class="responsive-image-container">
             {
                 props.size === 'mobile' ? 
-                    <img src={props.src} alt={props.alt} /> 
+                    <img width="872" height="305" src={props.src} alt={props.alt} /> 
                 : 
-                    <img height="305" style="height: 305px;" src={props.src} alt={props.alt} />
+                    <img width="872" height="305" style="height: 305px;" src={props.src} alt={props.alt} />
             }
         </div>
 

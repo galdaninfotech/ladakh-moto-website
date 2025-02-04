@@ -1,3 +1,4 @@
+// eslint-disable-next-line qwik/no-use-visible-task
 import { component$, useSignal, useStylesScoped$, useVisibleTask$ } from "@builder.io/qwik";
 import styles from './index.css?inline';
 import type { DocumentHead } from "@builder.io/qwik-city";
