@@ -25,6 +25,7 @@ export default component$(() => {
                         <span data-animation="animated"><a href="/leh-ladakh-adventure" class="button-text width-6">More Details</a></span>
                       </div>
                     </div>
+
                     <div class="carousel-item">
                         <ImgSlide2 id="slide2" class="d-block" alt="Slide Two" />
                       <div class="carousel-caption kb-caption kb-caption-right">
@@ -33,6 +34,7 @@ export default component$(() => {
                         <span data-animation="animated"><a href="/ladakh-with-umling-la" class="button-text width-6">More Details</a></span>
                       </div>
                     </div>
+
                     <div class="carousel-item">
                         <ImgSlide3 id="slide3" class="d-block" alt="Slide Three" />
                       <div class="carousel-caption kb-caption kb-caption-center">
@@ -41,6 +43,7 @@ export default component$(() => {
                         <span data-animation="animated"><a href="/manali-leh-srinagar" class="button-text width-6">More Details</a></span>
                       </div>
                     </div>
+                    
                     <div class="carousel-item">
                         <ImgSlide4 id="slide4" class="d-block" alt="Slide Four" />
                       <div class="carousel-caption kb-caption kb-caption-left">

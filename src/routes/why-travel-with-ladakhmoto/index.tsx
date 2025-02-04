@@ -38,9 +38,5 @@ export const head: DocumentHead = {
       name: "description",
       content: "Why Travel With LadakhMoto?",
     },
-    {
-        name: "robots",
-        content: "index, follow"
-    },
   ],
 };

@@ -89,9 +89,5 @@ export const head: DocumentHead = {
       name: "description",
       content: "Ladakh Srinagar With Umling La",
     },
-    {
-        name: "robots",
-        content: "index, follow"
-    },
   ],
 };

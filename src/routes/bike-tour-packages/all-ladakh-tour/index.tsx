@@ -78,15 +78,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "All-Ladakh-Tour",
+  title: "All Ladakh Tour",
   meta: [
     {
       name: "description",
-      content: "All-Ladakh-Tour",
-    },
-    {
-        name: "robots",
-        content: "index, follow"
+      content: "All Ladakh Tour.",
     },
   ],
 };

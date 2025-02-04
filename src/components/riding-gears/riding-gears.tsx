@@ -1,6 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './riding-gears.css?inline';
-import ImgRidingGears from '../../media/tours/gears.jpg?jsx';
+import ImgRidingGears from '../../media/bike-tours/gears.jpg?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);

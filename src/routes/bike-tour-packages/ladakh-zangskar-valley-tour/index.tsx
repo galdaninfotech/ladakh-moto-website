@@ -76,15 +76,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Ladakh-Zangskar-Valley-Tour",
+  title: "Ladakh Zangskar Valley Tour",
   meta: [
     {
       name: "description",
-      content: "Ladakh-Zangskar-Valley-Tour",
-    },
-    {
-        name: "robots",
-        content: "index, follow"
+      content: "Ladakh Zangskar Valley Tour.",
     },
   ],
 };

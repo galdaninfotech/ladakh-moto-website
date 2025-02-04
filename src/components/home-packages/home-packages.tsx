@@ -1,9 +1,9 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './home-packages.css?inline';
-import ImgAllLadakhTour from '../../media/packages/all-ladakh-tour/all-ladakh-tour-overview.jpg?jsx';
-import ImgAmazingLadakhTour from '../../media/packages/amazing-ladakh/amazing-ladakh-overview.jpg?jsx';
-import ImgLadakhWithHanle from '../../media/packages/ladakh-tour-with-hanle/ladakh-tour-with-hanle-overview.jpg?jsx';
-import ImgLadakhZanskarTour from '../../media/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-overview.jpg?jsx';
+import ImgAllLadakhTour from '../../media/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-overview.jpg?jsx';
+import ImgAmazingLadakhTour from '../../media/bike-tour-packages/amazing-ladakh/amazing-ladakh-overview.jpg?jsx';
+import ImgLadakhWithHanle from '../../media/bike-tour-packages/ladakh-tour-with-hanle/ladakh-tour-with-hanle-overview.jpg?jsx';
+import ImgLadakhZanskarTour from '../../media/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-overview.jpg?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);

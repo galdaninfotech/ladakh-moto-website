@@ -223,3 +223,15 @@ a.width-6 {
     text-align: center;
     margin-top: 15px;
 }
+
+.bradcumb-area.adventure-2 {
+    height: 350px;
+}
+.bradcumb ul li i {
+    margin-right: 10px;
+}
+@media screen and (min-width: 990px) {
+    div[data-title="leh-ladakh-adventure"] {
+        background-position: center -250px;
+    }
+}

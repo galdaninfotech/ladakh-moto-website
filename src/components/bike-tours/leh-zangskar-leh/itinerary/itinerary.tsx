@@ -28,7 +28,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day1.jpg" alt="Day One Itinerary Image Of The Leh Zanskar Leh Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day1.jpg" alt="Day One Itinerary Image Of The Leh Zanskar Leh Bike Tour" />
                                     </div>
                                 </div>
 
@@ -39,7 +39,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day1.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day1.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -68,7 +68,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -79,7 +79,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -107,7 +107,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -118,7 +118,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -146,7 +146,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -157,7 +157,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -185,7 +185,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -196,7 +196,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -223,7 +223,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -234,7 +234,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -262,7 +262,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -273,7 +273,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -301,7 +301,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -312,7 +312,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -340,7 +340,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -351,7 +351,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/tours/leh-zangskar-leh/leh-zangskar-leh-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 

@@ -1,10 +1,21 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './slider-itinerary.css?inline';
 import { useDocumentHead } from "@builder.io/qwik-city";
+import { useLocation  } from "@builder.io/qwik-city";
 
 export default component$(() => {
     useStylesScoped$(styles);
     const head = useDocumentHead();
+    const loc = useLocation();
+
+    const pathSegments = loc.url.pathname.split('/').filter(Boolean);
+    // const urlSection = pathSegments.length > 1 ? pathSegments[0] : null;
+    const urlSection = pathSegments.length > 1 
+        ? pathSegments[0]
+            .split('-')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ')
+        : null;
     
     const trimTitle = (str: string) => {
 
@@ -15,27 +26,49 @@ export default component$(() => {
         let index = str.length; // Default to the end of the string
         for (let i = 0; i < str.length; i++) {
             if (specialChars.includes(str[i])) {
-            index = i;
-            break;
+                index = i;
+                break;
             }
         }
 
         // Extract the substring up to the special character
+
         return str.substring(0, index);
     }
 
+    const title = trimTitle(head.title).trimEnd().replace(/ /g,"-").toLowerCase();
+    // const imageUrl = `../../img/tours/${title}/${title}-slide.jpg`;
+    let imageUrl: string;
+    if(urlSection === 'Bike Tours') {
+        imageUrl = `../../img/bike-tours/${title}/${title}-slide.jpg`;
+    } else if(urlSection === 'Bike Tour Packages') {
+        imageUrl = `../../img/bike-tour-packages/${title}/${title}-slide.jpg`;
+    } else if(urlSection === 'About') {
+        imageUrl = `../../img/about/${title}-slide.jpg`;
+    } else {
+        imageUrl = `../../img/${title}-slide.jpg`;
+    }
+
     return (
-        <div class="bradcumb-area adventure-2 overlay-bg-4">
+        <div class="bradcumb-area adventure-2 overlay-bg-4" data-title={`${title}`} style={{ backgroundImage: `url(${imageUrl})`, backgroundSize: 'cover' }}>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col">
                         <div class="bradcumb text-center">
                             <span>{trimTitle(head.title)}</span>
                             <ul>
+                                <li><i class="fas fa-map-marker-alt"></i></li>
                                 <li><a href="/">Home</a></li>
+                                {urlSection && <li><a href="/">{urlSection}</a></li>}
                                 <li>{trimTitle(head.title)}</li>
                             </ul>
                         </div>
+                    </div>
+
+                    <div class="col">
+                        <a id="o_wblog_post_content_jump" href="#intro" class="css_editable_mode_hidden justify-content-center align-items-center rounded-circle mx-auto mb-5 text-decoration-none">
+                            <i class="fa fa-angle-down fa-3x text-white" aria-label="To blog content" title="To blog content"></i>
+                        </a>
                     </div>
                 </div>
             </div>

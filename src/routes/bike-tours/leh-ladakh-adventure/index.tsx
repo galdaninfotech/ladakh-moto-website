@@ -82,15 +82,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Leh Ladakh Adventure - Bike Tour, 5N/6D - @ ₹15,500/-",
+  title: "Leh Ladakh Adventure - Bike Tour, Leh to Leh | 5N/6D, 550 km - @ ₹15,500/-",
   meta: [
     {
       name: "description",
-      content: "Leh to Leh | 550 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel and Mechanic included | Leh Ladakh Adventure Bike Tour - including Khardong la, Nubra Valley and Pangong Lake. 100% Travellers Satisfaction Guaranteed.",
+      content: "Leh to Leh | 550 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel & Mechanic included | Leh Ladakh Adventure Bike Tour - including Khardong La, Nubra Valley & Pangong Lake. 100% Travellers Satisfaction Guaranteed.",
     },
-    {
-        name: "robots",
-        content: "index, follow"
-    }
   ],
 };

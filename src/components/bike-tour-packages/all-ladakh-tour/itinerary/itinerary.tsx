@@ -29,7 +29,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/all-ladakh-tour/all-ladakh-tour-day1.jpg" alt="Day One Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day1.jpg" alt="Day One Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -40,7 +40,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/all-ladakh-tour/all-ladakh-tour-day1.jpg" alt="Day One Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day1.jpg" alt="Day One Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -71,7 +71,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/all-ladakh-tour/all-ladakh-tour-day2.jpg" alt="Day Two Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day2.jpg" alt="Day Two Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -82,7 +82,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/all-ladakh-tour/all-ladakh-tour-day2.jpg" alt="Day Two Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day2.jpg" alt="Day Two Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -114,7 +114,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/all-ladakh-tour/all-ladakh-tour-day3.jpg" alt="Day Three Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day3.jpg" alt="Day Three Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -125,7 +125,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/all-ladakh-tour/all-ladakh-tour-day3.jpg" alt="Day Three Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day3.jpg" alt="Day Three Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -157,7 +157,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/all-ladakh-tour/all-ladakh-tour-day4.jpg" alt="Day Four Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day4.jpg" alt="Day Four Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -168,7 +168,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/all-ladakh-tour/all-ladakh-tour-day4.jpg" alt="Day Four Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day4.jpg" alt="Day Four Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -199,7 +199,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/all-ladakh-tour/all-ladakh-tour-day5.jpg" alt="Day Five Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day5.jpg" alt="Day Five Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -210,7 +210,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/all-ladakh-tour/all-ladakh-tour-day5.jpg" alt="Day Five Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day5.jpg" alt="Day Five Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -241,7 +241,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/all-ladakh-tour/all-ladakh-tour-day6.jpg" alt="Day Six Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day6.jpg" alt="Day Six Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -252,7 +252,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/all-ladakh-tour/all-ladakh-tour-day6.jpg" alt="Day Six Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day6.jpg" alt="Day Six Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -284,7 +284,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/all-ladakh-tour/all-ladakh-tour-day7.jpg" alt="Day Seven Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day7.jpg" alt="Day Seven Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -295,7 +295,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/all-ladakh-tour/all-ladakh-tour-day7.jpg" alt="Day Seven Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day7.jpg" alt="Day Seven Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -328,7 +328,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/all-ladakh-tour/all-ladakh-tour-day8.jpg" alt="Day Eight Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day8.jpg" alt="Day Eight Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -339,7 +339,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/all-ladakh-tour/all-ladakh-tour-day8.jpg" alt="Day Eight Itinerary Image Of The All Ladakh Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-day8.jpg" alt="Day Eight Itinerary Image Of The All Ladakh Tour Bike Package" />
                                     </div>
                                 </div>
 

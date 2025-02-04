@@ -84,9 +84,5 @@ export const head: DocumentHead = {
       name: "description",
       content: "Ladakh Tour with Hanle",
     },
-    {
-        name: "robots",
-        content: "index, follow"
-    },
   ],
 };

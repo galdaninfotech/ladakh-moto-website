@@ -58,9 +58,5 @@ export const head: DocumentHead = {
       name: "description",
       content: "Zanskar Valley",
     },
-    {
-        name: "robots",
-        content: "index, follow"
-    },
   ],
 };

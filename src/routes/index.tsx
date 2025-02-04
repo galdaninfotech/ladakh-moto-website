@@ -26,10 +26,6 @@ export const head: DocumentHead = {
   title: "Welcome to Ladakh Moto - LadakhMoto",
   meta: [
     {
-        name: "keyword",
-        content: "Ladakh Moto, LadakhMoto"
-    },
-    {
       name: "description",
       content: "Discover Ladakh with Ladakh Moto – your trusted, locally-owned travel agency in Leh. Offering authentic adventures, customized tours, and expert guidance, we help you explore the breathtaking landscapes and vibrant culture of Ladakh. Start your unforgettable journey today!",
     },

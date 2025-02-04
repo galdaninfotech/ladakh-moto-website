@@ -18,7 +18,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                    <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                 </div>
             </div>
 
@@ -29,12 +29,12 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage size="desktop" src="/img/tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                    <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-overview.jpg" alt="Overview Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                 </div>
             </div>
             
             <p>
-                This is a tour where you will be island hopping across the interesting places in Ladakh and Kashmir for its 11 exciting days. You will be enthralled by countless mountain passes, tranquil lakes, secluded villages as well as towns full of history. Before we start with Nubra Valley, this tour will take us to the impressive Pangong Lake, Hanle, the world’s highest motorable road Umling La and picturesque regions of Kargil and Srinagar, beginning from Leh.
+                This is a tour where you will be island hopping across the interesting places in Ladakh and Kashmir for its 11 exciting days. You will be enthralled by countless mountain passes, tranquil lakes, secluded villages as well as towns full of history. Before we start with Nubra Valley, this tour will take us to the impressive Pangong Lake, Hanle, the world's highest motorable road Umling La and picturesque regions of Kargil and Srinagar, beginning from Leh.
             </p>
 
 

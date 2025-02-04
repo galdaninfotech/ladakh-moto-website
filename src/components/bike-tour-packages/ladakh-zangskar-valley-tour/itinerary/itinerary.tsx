@@ -28,7 +28,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day1.jpg" alt="Day One Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day1.jpg" alt="Day One Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -39,7 +39,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day1.jpg" alt="Day One Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day1.jpg" alt="Day One Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -71,7 +71,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -82,7 +82,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -115,7 +115,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -126,7 +126,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -157,7 +157,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -168,7 +168,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -199,7 +199,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -210,7 +210,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -240,7 +240,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -251,7 +251,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -283,7 +283,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -294,7 +294,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -325,7 +325,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -336,7 +336,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -369,7 +369,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -380,7 +380,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -411,7 +411,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day10.jpg" alt="Day Ten Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day10.jpg" alt="Day Ten Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 
@@ -422,7 +422,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day10.jpg" alt="Day Ten Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-day10.jpg" alt="Day Ten Itinerary Image Of The Ladakh Zanskar Valley Tour Bike Package" />
                                     </div>
                                 </div>
 

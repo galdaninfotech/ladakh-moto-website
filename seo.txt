@@ -507,6 +507,13 @@ DevOps:
     Collaboration & Communication => Slack, Jira, Trelllo
     Leadership & Strategy => 
 
+========================================================
+
+odoo:
+master pw: 5mnq-u4v6-dedi  qyxy-bk9j-87z3
+
+login pw: Admin1234
+
 =====================================================
 
 Domain 1800/-
@@ -524,6 +531,11 @@ Maintenance 30% = 44,640/-
 
 Total Cost = 1,62,800/-
 Maintenance 30% = 48,840/-
+
+Total Cost = 1,96,800/-
+Maintenance 30% = 65,600/-
+
+
 
 Completion Time:  2 Months
 
@@ -543,21 +555,21 @@ https://bahmni.atlassian.net/wiki/spaces/BAH/pages/2901114904/Bahmni+as+Health+I
 https://github.com/bahmniindiadistro/openmrs-module-hip/blob/master/omod/docs/dev-setup.md
 
 
-Write in paragraphs the features IPD given below:
- 
-IPD Features:
-* Admit, Discharge & Transfer
-* Ward Management
-* Bed Layout & Availability Chart
-* In-Patient Dashboard
-* Medicine Scheduling and Chart
 
-The IPD module computerizes every aspect of In Patient management, including consultation and prescription of the docter, shift wise schedules the admintration of drugs and other nursing tasks. It tracks tthe status of Patient medication like Pending, Late, Completed, Administered Late, Missed / Skipped, and Stopped. Doctors can always moniter, precribe more drugs and oversee the overall progress of the patient.
 ===================================================================================================================
 
-Leh Ladakh Adventure Bike Tour, 5N/6D ₹15,500/-
+Title & Descriptions:
 
+Leh Ladakh Adventure Bike Tour, 5N/6D ₹15,500/-
 550 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel and Mechanic included | Leh Ladakh Adventure Bike Tour - including Khardong la, Nubra Valley and Pangong Lake. 100% Travellers Satisfaction Guaranteed. Book Now!
+
+--------
+
+Leh Ladakh Adventure - Bike Tour, Leh to Leh | 5N/6D, 550 km - @ ₹15,500/-
+Leh to Leh | 550 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel & Mechanic included | Leh Ladakh Adventure Bike Tour - including Khardong La, Nubra Valley & Pangong Lake. 100% Travellers Satisfaction Guaranteed.
+
+---------
+
 
 
 Book now for exclusive discounts in our hot summer sale!
@@ -568,7 +580,7 @@ Upto 35% Off
 Starts from: Delhi · Ends at: Delhi.
 
 
-
+==================================================================================================
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 

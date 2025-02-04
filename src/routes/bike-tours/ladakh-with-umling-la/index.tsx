@@ -90,9 +90,5 @@ export const head: DocumentHead = {
       name: "description",
       content: "Ladakh With Umling La is an unforgettable journey with Ladakh Moto to Umling La, the world's highest motorable road. Explore breathtaking landscapes, rugged terrains, and authentic Ladakhi culture with our expertly curated bike tours. Experience adventure motor biking like never before!",
     },
-    {
-        name: "robots",
-        content: "index, follow"
-    },
   ],
 };
