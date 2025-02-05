@@ -21,6 +21,8 @@ export default component$(() => {
     const loc = useLocation();
   return (
     <>
+        {/* Google Tag Manager (noscript) */}
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFMMQ5LD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         
         {/* Start Preloader */}
@@ -61,7 +63,6 @@ export default component$(() => {
         </div>
 
         <script src="/js/vendor/jquery-3.3.1.min.js"></script>
-        
         <script src="/js/bootstrap.min.js"></script>	
         <script src="/js/popper.min.js"></script>
         <script src="/js/meanmenu.min.js"></script>

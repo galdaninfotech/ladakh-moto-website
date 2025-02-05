@@ -25,7 +25,7 @@ export default component$(() => {
         // Find the index of the first special character
         let index = str.length; // Default to the end of the string
         for (let i = 0; i < str.length; i++) {
-            if (specialChars.includes(str[i])) {
+            if (specialChars.includes(str[i]) ) {
                 index = i;
                 break;
             }
@@ -37,7 +37,6 @@ export default component$(() => {
     }
 
     const title = trimTitle(head.title).trimEnd().replace(/ /g,"-").toLowerCase();
-    // const imageUrl = `../../img/tours/${title}/${title}-slide.jpg`;
     let imageUrl: string;
     if(urlSection === 'Bike Tours') {
         imageUrl = `../../img/bike-tours/${title}/${title}-slide.jpg`;
@@ -63,12 +62,6 @@ export default component$(() => {
                                 <li>{trimTitle(head.title)}</li>
                             </ul>
                         </div>
-                    </div>
-
-                    <div class="col">
-                        <a id="o_wblog_post_content_jump" href="#intro" class="css_editable_mode_hidden justify-content-center align-items-center rounded-circle mx-auto mb-5 text-decoration-none">
-                            <i class="fa fa-angle-down fa-3x text-white" aria-label="To blog content" title="To blog content"></i>
-                        </a>
                     </div>
                 </div>
             </div>
