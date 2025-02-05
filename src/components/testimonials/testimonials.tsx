@@ -3,8 +3,8 @@ import styles from './testimonials.css?inline';
 import ImgRajesh from '../../media/testimonials/rajesh.jpg?jsx';
 import ImgSuraj from '../../media/testimonials/suraj.jpg?jsx';
 import ImgAditya from '../../media/testimonials/aditya.jpg?jsx';
-import ImgAnkit from '../../media/testimonials/ankit.jpg?jsx';
-import ImgSunny from '../../media/testimonials/sunny.jpg?jsx';
+// import ImgAnkit from '../../media/testimonials/ankit.jpg?jsx';
+// import ImgSunny from '../../media/testimonials/sunny.jpg?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
