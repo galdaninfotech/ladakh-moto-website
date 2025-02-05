@@ -68,14 +68,11 @@ export const RouterHead = component$(() => {
 
         {/* CSS */}
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></link>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
         <link rel="stylesheet" href="/css/animate.min.css" />
-        <link rel="stylesheet" href="/fonts/fontawesome/css/fontawesome.all.min.css" />
         <link rel="stylesheet" href="/css/owl-carousel.min.css" />
         <link rel="stylesheet" href="/css/meanmenu.min.css" />
         <link rel="stylesheet" href="/css/cssanimation.min.css" />
-        <link rel="stylesheet" href="/css/range-slider.min.css" />
         <link rel="stylesheet" href="/css/default.css" />
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/custom.css" />
