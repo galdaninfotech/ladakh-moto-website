@@ -64,8 +64,8 @@ export default component$(() => {
 
         <script src="/js/vendor/jquery-3.3.1.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>	
-        <script src="/js/popper.min.js"></script>
-        <script src="/js/meanmenu.min.js"></script>
+        {/* <script src="/js/popper.min.js"></script> */}
+        {/* <script src="/js/meanmenu.min.js"></script> */}
 
         <script src="/js/main.js"></script>
 

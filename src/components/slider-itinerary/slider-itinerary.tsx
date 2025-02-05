@@ -3,6 +3,8 @@ import styles from './slider-itinerary.css?inline';
 import { useDocumentHead } from "@builder.io/qwik-city";
 import { useLocation  } from "@builder.io/qwik-city";
 
+import GeoAlt from "~/components/svgs/geo-alt/geo-alt";
+
 export default component$(() => {
     useStylesScoped$(styles);
     const head = useDocumentHead();
@@ -56,7 +58,7 @@ export default component$(() => {
                         <div class="bradcumb text-center">
                             <span>{trimTitle(head.title)}</span>
                             <ul>
-                                <li><i class="fas fa-map-marker-alt"></i></li>
+                                <li><GeoAlt /></li>
                                 <li><a href="/">Home</a></li>
                                 {urlSection && <li><a href="/">{urlSection}</a></li>}
                                 <li>{trimTitle(head.title)}</li>

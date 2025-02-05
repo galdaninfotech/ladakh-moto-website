@@ -5,6 +5,11 @@ import Facebook from "~/components/svgs/facebook/facebook";
 import Instagram from "~/components/svgs/instagram/instagram";
 import Youtube from "~/components/svgs/youtube/youtube";
 
+import EmailAt from "~/components/svgs/email-at/email-at";
+import Telephone from "~/components/svgs/telephone/telephone";
+
+import ChevronDoubleRight from "~/components/svgs/chevron-double-right/chevron-double-right";
+
 export default component$(() => {
     useStylesScoped$(styles);
 
@@ -29,12 +34,12 @@ export default component$(() => {
 							<div class="widget quick-link-widget">
 								<h3>Quick Links</h3>
 								<ul>
-									<li><a href="/about/about-us"><i class="fal fa-angle-right"></i>About Us</a></li>
-									<li><a href="/why-travel-with-ladakhmoto"><i class="fal fa-angle-right"></i>Why Travel With Us?</a></li>
-									<li><a href="/guides-and-staffs"><i class="fal fa-angle-right"></i>Guides & Staff</a></li>
-									<li><a href="/contact"><i class="fal fa-angle-right"></i>Contact Us</a></li>
-									<li><a href="/how-to-reach"><i class="fal fa-angle-right"></i>How To Reach</a></li>
-									<li><a href="/our-core-values"><i class="fal fa-angle-right"></i>Our Core Values</a></li>
+									<li><a href="/about/about-us"><ChevronDoubleRight />About Us</a></li>
+									<li><a href="/why-travel-with-ladakhmoto"><ChevronDoubleRight />Why Travel With Us?</a></li>
+									<li><a href="/guides-and-staffs"><ChevronDoubleRight />Guides & Staff</a></li>
+									<li><a href="/contact"><ChevronDoubleRight />Contact Us</a></li>
+									<li><a href="/how-to-reach"><ChevronDoubleRight />How To Reach</a></li>
+									<li><a href="/our-core-values"><ChevronDoubleRight />Our Core Values</a></li>
 								</ul>
 							</div>
 						</div>
@@ -42,12 +47,12 @@ export default component$(() => {
 							<div class="widget quick-link-categories">
 								<h3>Adventure Rides</h3>
 								<ul>
-									<li><a href="/bike-tours/leh-ladakh-adventure"><i class="fal fa-angle-right"></i>Leh Ladakh Adventure</a></li>
-									<li><a href="/bike-tours/ladakh-with-umling-la"><i class="fal fa-angle-right"></i>Ladakh With Umling La</a></li>
-									<li><a href="/bike-tours/ladakh-srinagar-with-umling-la"><i class="fal fa-angle-right"></i>Ladakh Srinagar Umling La</a></li>
-									<li><a href="/bike-tours/leh-zangskar-leh"><i class="fal fa-angle-right"></i>Leh Zangskar Leh</a></li>
-									<li><a href="/bike-tours/manali-leh-srinagar"><i class="fal fa-angle-right"></i>Manali Leh Srinagar</a></li>
-									<li><a href="/bike-tours/srinagar-leh-manali"><i class="fal fa-angle-right"></i>Srinagar Leh Manali</a></li>
+									<li><a href="/bike-tours/leh-ladakh-adventure"><ChevronDoubleRight />Leh Ladakh Adventure</a></li>
+									<li><a href="/bike-tours/ladakh-with-umling-la"><ChevronDoubleRight />Ladakh With Umling La</a></li>
+									<li><a href="/bike-tours/ladakh-srinagar-with-umling-la"><ChevronDoubleRight />Ladakh Srinagar Umling La</a></li>
+									<li><a href="/bike-tours/leh-zangskar-leh"><ChevronDoubleRight />Leh Zangskar Leh</a></li>
+									<li><a href="/bike-tours/manali-leh-srinagar"><ChevronDoubleRight />Manali Leh Srinagar</a></li>
+									<li><a href="/bike-tours/srinagar-leh-manali"><ChevronDoubleRight />Srinagar Leh Manali</a></li>
 								</ul>
 							</div>
 						</div>
@@ -55,13 +60,13 @@ export default component$(() => {
 							<div class="widget quick-destinations">
 								<h3>Destinations</h3>
 								<ul>
-									<li><a href="/destinations/nubra-valley"><i class="fal fa-angle-right"></i>Nubra Valley</a></li>
-									<li><a href="/destinations/pangong-lake"><i class="fal fa-angle-right"></i>Pangong Lake</a></li>
-									<li><a href="/destinations/tsomoriri-lake"><i class="fal fa-angle-right"></i>Tsomoriri Lake</a></li>
-									<li><a href="/destinations/leh-city"><i class="fal fa-angle-right"></i>Leh City</a></li>
-									<li><a href="/destinations/zanskar-valley"><i class="fal fa-angle-right"></i>Zanskar Valley</a></li>
-									<li><a href="/destinations/shanti-stupa"><i class="fal fa-angle-right"></i>Shanti Stupa</a></li>
-									<li><a href="/destinations/lamayuru-monastery"><i class="fal fa-angle-right"></i>Lamayuru Monastery</a></li>
+									<li><a href="/destinations/nubra-valley"><ChevronDoubleRight />Nubra Valley</a></li>
+									<li><a href="/destinations/pangong-lake"><ChevronDoubleRight />Pangong Lake</a></li>
+									<li><a href="/destinations/tsomoriri-lake"><ChevronDoubleRight />Tsomoriri Lake</a></li>
+									<li><a href="/destinations/leh-city"><ChevronDoubleRight />Leh City</a></li>
+									<li><a href="/destinations/zanskar-valley"><ChevronDoubleRight />Zanskar Valley</a></li>
+									<li><a href="/destinations/shanti-stupa"><ChevronDoubleRight />Shanti Stupa</a></li>
+									<li><a href="/destinations/lamayuru-monastery"><ChevronDoubleRight />Lamayuru Monastery</a></li>
 								</ul>
 							</div>
 						</div>
@@ -70,11 +75,11 @@ export default component$(() => {
 								<h3>Contact Us</h3>
 								<ul>
 									<li><a href="#"><i class="fal fa-paper-plane"></i>DB2 Zangsti, Nr. MCL Vehicle Parking, Leh, 194101 Ladakh, India</a></li>
-									<li><a href="mailto:info@ladakhmoto.com"><i class="fal fa-envelope"></i>info@ladakhmoto.com</a></li>
-									<li><a href="tel:+91 9622958013"><i class="fal fa-phone-alt"></i>+91 9622958013</a></li>
-									<li><a href="tel:+91 9906989962"><i class="fal fa-phone-alt"></i>+91 9906989962</a></li>
-									<li><a href="tel:+91 9419393330"><i class="fal fa-phone-alt"></i>+91 9419393330</a></li>
-									<li><a href="tel:+91 8899537311"><i class="fal fa-phone-alt"></i>+91 8899537311</a></li>
+									<li><EmailAt /><a href="mailto:info@ladakhmoto.com">info@ladakhmoto.com</a></li>
+									<li><Telephone /><a href="tel:+91 9622958013">+91 9622958013</a></li>
+									<li><Telephone /><a href="tel:+91 9906989962">+91 9906989962</a></li>
+									<li><Telephone /><a href="tel:+91 9419393330">+91 9419393330</a></li>
+									<li><Telephone /><a href="tel:+91 8899537311">+91 8899537311</a></li>
 								</ul>
 							</div>
 						</div>
