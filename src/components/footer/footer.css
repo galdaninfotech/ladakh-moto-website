@@ -2,6 +2,7 @@
     background: rgb(35 39 48);
     color: #fff;
     padding: 12px;
+    font-size: 14px;
 }
 .payment-buttons {
     display: flex;
@@ -36,6 +37,10 @@
 
 .developedby-text {
     text-align: right;
+}
+.developedby-text a {
+    color: white;
+    text-decoration: none;
 }
 .developedby-text i {
     margin-right: 6px;

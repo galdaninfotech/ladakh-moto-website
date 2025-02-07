@@ -97,7 +97,7 @@ export default component$(() => {
 						</div>
 						<div class="col-sm-6">
 							<div class="developedby-text">
-								<a href="tel:+91-9596690135"><i class="fal fa-phone-alt"></i>Galdan Infotech</a>
+								<a href="tel:+91-9596690135"><Telephone />Galdan Infotech</a>
 							</div>
 						</div>
 					</div>

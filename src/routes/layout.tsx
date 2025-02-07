@@ -7,7 +7,11 @@ import Slider from "~/components/slider/slider";
 import SliderItinerary from "~/components/slider-itinerary/slider-itinerary";
 
 import bootstrapStyles from "../../public/css/bootstrap.min.css?inline";
-
+import meanmenu from "../../public/css/meanmenu.min.css?inline";
+import defaultCss from "../../public/css/default.css?inline";
+// import style from "../../public/css/style.css?inline";
+// import custom from "../../public/css/custom.css?inline";
+ 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
   // https://qwik.dev/docs/caching/
@@ -21,6 +25,10 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 
 export default component$(() => {
     useStyles$(bootstrapStyles);
+    useStyles$(meanmenu);
+    useStyles$(defaultCss);
+    // useStyles$(style);
+    // useStyles$(custom);
     const loc = useLocation();
   return (
     <>

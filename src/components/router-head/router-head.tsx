@@ -67,9 +67,6 @@ export const RouterHead = component$(() => {
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
 
         {/* CSS */}
-        {/* <link rel="stylesheet" href="/css/bootstrap.min.css" /> */}
-        <link rel="stylesheet" href="/css/meanmenu.min.css" />
-        <link rel="stylesheet" href="/css/default.css" />
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/custom.css" />
         <link rel="stylesheet" href="/css/responsive.css" />

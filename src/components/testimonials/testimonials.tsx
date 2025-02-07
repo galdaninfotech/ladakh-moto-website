@@ -24,7 +24,7 @@ export default component$(() => {
                     <div class="wow fadeIn" data-wow-delay="0.1s">
                         <span class="mb-4">LadakhMoto Reviews</span>
                             <p class="mb-4">With Ladakhmoto you not only receive a piece of memoirs by participating in a memorable adventure, you also support a local enterprise dedicated to responsible, sustainable tourism in Ladakh.</p>
-                            <a class="btn btn-primary rounded-pill px-4" href="https://www.ladakhmoto.com/contact">Contact Sales</a>
+                            <a class="btn btn-primary px-4" href="https://www.ladakhmoto.com/contact">Contact Sales</a>
                     </div>
 
                     <section class="carousel-landmark wow fadeIn" data-wow-delay="0.5s">
@@ -80,15 +80,14 @@ export default component$(() => {
                                 
                                 <div class="control-btn">
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                    <i class="fa-solid fa-arrow-left"></i>
-                                    <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
+                                        {/* <i class="fa-solid fa-arrow-left"></i> */}
+                                        <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                
-                                    <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
+                                        {/* <i class="fa-solid fa-arrow-right"></i> */}
+                                        <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
