@@ -1,10 +1,12 @@
-import { component$, Slot } from "@builder.io/qwik";
+import { component$, Slot, useStyles$ } from "@builder.io/qwik";
 import type { RequestHandler  } from "@builder.io/qwik-city";
 import { useLocation  } from "@builder.io/qwik-city";
 import Footer from "~/components/footer/footer";
 import Header from "~/components/header/header";
 import Slider from "~/components/slider/slider";
 import SliderItinerary from "~/components/slider-itinerary/slider-itinerary";
+
+import bootstrapStyles from "../../public/css/bootstrap.min.css?inline";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
@@ -18,6 +20,7 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 };
 
 export default component$(() => {
+    useStyles$(bootstrapStyles);
     const loc = useLocation();
   return (
     <>

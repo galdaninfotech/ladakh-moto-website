@@ -43,13 +43,13 @@ export const RouterHead = component$(() => {
 
         {/*
         <link rel="icon" type="image/png" href="https://filestore/ladakhmoto.png?h=50&amp;w=50" />
-        <link rel="apple-touch-icon" type="image/png" href="https://media1.thrillophilia.com/filestore/thrillophilia.png?h=50&amp;w=50" />
-        <link rel="apple-touch-icon" type="image/png" href="https://media1.thrillophilia.com/filestore/thrillophilia.png?h=50&amp;w=50" size='60x60' />
-        <link rel="apple-touch-icon" type="image/png" href="https://media1.thrillophilia.com/filestore/thrillophilia.png?h=76&amp;w=76" size='76x76' />
-        <link rel="apple-touch-icon" type="image/png" href="https://media1.thrillophilia.com/filestore/thrillophilia.png?h=120&amp;w=120" size='120x120' />
-        <link rel="apple-touch-icon" type="image/png" href="https://media1.thrillophilia.com/filestore/thrillophilia.png?h=152&amp;w=152" size='152x152' />
-        <link rel="apple-touch-icon" type="image/png" href="https://media1.thrillophilia.com/filestore/thrillophilia.png?h=167&amp;w=167" size='167x167' />
-        <link rel="apple-touch-icon" type="image/png" href="https://media1.thrillophilia.com/filestore/thrillophilia.png?h=180&amp;w=180" size='180x180' />
+        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=50&amp;w=50" />
+        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=50&amp;w=50" size='60x60' />
+        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=76&amp;w=76" size='76x76' />
+        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=120&amp;w=120" size='120x120' />
+        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=152&amp;w=152" size='152x152' />
+        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=167&amp;w=167" size='167x167' />
+        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=180&amp;w=180" size='180x180' />
         <meta name="apple-mobile-web-app-title" content="LadakhMoto" />
         */}
 
@@ -67,20 +67,12 @@ export const RouterHead = component$(() => {
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
 
         {/* CSS */}
-        <link rel="stylesheet" href="/css/bootstrap.min.css" />
-
-        <link rel="stylesheet" href="/css/animate.min.css" />
-        <link rel="stylesheet" href="/css/owl-carousel.min.css" />
+        {/* <link rel="stylesheet" href="/css/bootstrap.min.css" /> */}
         <link rel="stylesheet" href="/css/meanmenu.min.css" />
-        <link rel="stylesheet" href="/css/cssanimation.min.css" />
         <link rel="stylesheet" href="/css/default.css" />
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/custom.css" />
         <link rel="stylesheet" href="/css/responsive.css" />
-
-        {/* Gallery => now added in gallery page itself - can be safely remove from here*/}
-        {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> */}
-        {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" /> */}
 
 
         {head.links.map((l) => (
