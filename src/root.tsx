@@ -8,6 +8,7 @@ import {
 import { RouterHead } from './components/router-head/router-head';
 
 import './global.css';
+import { QwikPartytown } from './components/partytown/partytown';
 
 export default component$(() => {
   /**
@@ -21,6 +22,13 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charset="utf-8" />
+
+        <QwikPartytown forward={['gtag','dataLayer.push']} />
+        {/* <!-- Google Tag Manager --> */}
+        {/* <link rel='preconnect' href='https://www.googletagmanager.com' crossOrigin /> */}
+        <script src="/js/google-tag-manager.js"></script>
+        {/* <!-- End Google Tag Manager --> */}
+        
         {!isDev && (
           <link
             rel="manifest"

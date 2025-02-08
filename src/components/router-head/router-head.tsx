@@ -13,12 +13,6 @@ export const RouterHead = component$(() => {
         <link rel="canonical" href={loc.url.href} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-        {/* <!-- Google Tag Manager --> */}
-        {/* <link rel='preconnect' href='https://www.googletagmanager.com' crossOrigin /> */}
-        <script src="/js/google-tag-manager.js"></script>
-        {/* <!-- End Google Tag Manager --> */}
-
           
         <title>{head.title}</title>
 
