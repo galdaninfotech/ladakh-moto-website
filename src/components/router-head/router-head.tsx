@@ -1,11 +1,34 @@
 import { component$ } from "@builder.io/qwik";
 import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
+import trimTitle from '~/components/slider-itinerary/slider-itinerary';
+
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
  */
 export const RouterHead = component$(() => {
   const head = useDocumentHead();
   const loc = useLocation();
+
+  const trimTitle = (str: string) => {
+
+    // Define the special characters you want to check for
+    const specialChars = "!@#$%^&*()-+?_=,<>/";
+
+    // Find the index of the first special character
+    let index = str.length; // Default to the end of the string
+    for (let i = 0; i < str.length; i++) {
+        if (specialChars.includes(str[i]) ) {
+            index = i;
+            break;
+        }
+    }
+
+    // Extract the substring up to the special character
+
+    return str.substring(0, index);
+}
+
+  const formattedTitle = trimTitle(head.title).trimEnd().replace(/ /g, "-").toLowerCase();
  
   return (
     <>
@@ -29,7 +52,8 @@ export const RouterHead = component$(() => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content={head.title} />
         <meta property="og:description" content={head.meta[0].content} />
-        <meta property="og:url" content="https://www.ladakhmoto.com//leh-ladakh-adventure" />
+        <meta property="og:url" content={`https://www.ladakhmoto.com/${formattedTitle}`} />
+        {/* <meta property="og:url" content="https://www.ladakhmoto.com//leh-ladakh-adventure" /> */}
         <meta property="og:site_name" content="@LadakhMoto" />
         <meta property="og:image" content="https://vl-prod-static.b-cdn.net/system/images/000/300/878/160b26bc2e280d83db6ada2224d6107e/banner/DSC00399.jpg?1594207788" />
         <meta property="og:image:width" content="4177" />
@@ -56,9 +80,9 @@ export const RouterHead = component$(() => {
 
 
         {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" /> */}
 
         {/* CSS */}
         <link rel="stylesheet" href="/css/style.css" />

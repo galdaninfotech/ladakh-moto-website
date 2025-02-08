@@ -5,6 +5,25 @@ import { useLocation  } from "@builder.io/qwik-city";
 
 import GeoAlt from "~/components/svgs/geo-alt/geo-alt";
 
+const trimTitle = (str: string) => {
+
+    // Define the special characters you want to check for
+    const specialChars = "!@#$%^&*()-+?_=,<>/";
+
+    // Find the index of the first special character
+    let index = str.length; // Default to the end of the string
+    for (let i = 0; i < str.length; i++) {
+        if (specialChars.includes(str[i]) ) {
+            index = i;
+            break;
+        }
+    }
+
+    // Extract the substring up to the special character
+
+    return str.substring(0, index);
+}
+
 export default component$(() => {
     useStylesScoped$(styles);
     const head = useDocumentHead();
@@ -19,24 +38,7 @@ export default component$(() => {
             .join(' ')
         : null;
     
-    const trimTitle = (str: string) => {
-
-        // Define the special characters you want to check for
-        const specialChars = "!@#$%^&*()-+?_=,<>/";
-
-        // Find the index of the first special character
-        let index = str.length; // Default to the end of the string
-        for (let i = 0; i < str.length; i++) {
-            if (specialChars.includes(str[i]) ) {
-                index = i;
-                break;
-            }
-        }
-
-        // Extract the substring up to the special character
-
-        return str.substring(0, index);
-    }
+    
 
     const title = trimTitle(head.title).trimEnd().replace(/ /g,"-").toLowerCase();
     let imageUrl: string;
