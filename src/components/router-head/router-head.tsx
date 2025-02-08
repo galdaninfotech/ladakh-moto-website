@@ -1,6 +1,5 @@
 import { component$ } from "@builder.io/qwik";
 import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
-import trimTitle from '~/components/slider-itinerary/slider-itinerary';
 
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
