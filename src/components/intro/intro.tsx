@@ -10,7 +10,7 @@ export default component$(() => {
                 <div class="col">
                     {/* Mobile */}
                     <div class="intro d-block d-lg-none">
-                        <h2>Why Choose LadakhMoto?</h2>
+                        <h1>Why Choose LadakhMoto?</h1>
                         <span class="d-flex justify-content-center"><strong><i>Authentic Adventures Guided By Locals</i></strong></span>
                         <p>
                             Ladakhmoto is a local company located right in the center of Leh, Ladakh. We provide authentic and seamless travel experiences with full accountability and a deep-rooted knowledge of the region.  
@@ -24,7 +24,7 @@ export default component$(() => {
 
                     {/* Desktop */}
                     <div class="intro d-none d-lg-block">
-                        <h2>Why Choose LadakhMoto?</h2>
+                        <h1>Why Choose LadakhMoto?</h1>
                         <span class="d-flex justify-content-center"><strong><i>Authentic Adventures Guided By Locals</i></strong></span>
                         <p>
                             Ladakhmoto is a local company located right in the center of Leh, Ladakh. We provide authentic and seamless travel experiences with full accountability and a deep-rooted knowledge of the region.
