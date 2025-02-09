@@ -1,4 +1,4 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import { component$, useStylesScoped$, useVisibleTask$ } from '@builder.io/qwik';
 import styles from './footer.css?inline';
 import Twitter from "~/components/svgs/twitter/twitter";
 import Facebook from "~/components/svgs/facebook/facebook";
@@ -13,9 +13,19 @@ import ChevronDoubleRight from "~/components/svgs/chevron-double-right/chevron-d
 export default component$(() => {
     useStylesScoped$(styles);
 
+    useVisibleTask$(() => {
+        const footer = document.querySelector('.footer-area');
+        if (footer) {
+			const bgImage = footer.getAttribute('data-bg');
+			if (bgImage) {
+				(footer as HTMLElement).style.backgroundImage = `url(${bgImage})`;
+			}
+        }
+    });
+
     return (
         <>
-            <footer class="footer-area pt-85 pb-60">
+            <footer class="footer-area pt-85 pb-60" data-bg="/img/bg/footer-bg.webp">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-3 col-sm-6">
@@ -103,13 +113,6 @@ export default component$(() => {
 					</div>
 				</div>
 			</div>
-
-            {/* Fix for Testimonial script error */}
-            <ul id="testim-dots" class="dots d-none">
-                <li class="dot active"></li>
-                <li class="dot"></li>
-            </ul>
-            <div id="testim-content" class="cont"></div>
         </>
     );
 });
