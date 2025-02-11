@@ -29,7 +29,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day1.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day1.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -40,7 +40,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day1.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day1.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -70,7 +70,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day2.webp" alt="Day Two Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -81,7 +81,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day2.webp" alt="Day Two Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -109,7 +109,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day3.webp" alt="Day Three Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -120,7 +120,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day3.webp" alt="Day Three Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -148,7 +148,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day4.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day4.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -159,7 +159,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day4.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day4.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -187,7 +187,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day5.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day5.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -198,7 +198,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day5.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day5.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -225,7 +225,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day6.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day6.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -236,7 +236,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day6.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day6.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -264,7 +264,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day7.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day7.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -275,7 +275,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day7.jpg" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-day7.webp" alt="Day One Itinerary Image Of The Ladakh With Umling La Bike Tour" />
                                     </div>
                                 </div>
 

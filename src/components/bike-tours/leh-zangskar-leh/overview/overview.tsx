@@ -18,7 +18,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-overview.jpg" alt="Overview Image Of The Leh Zanskar Leh Bike Tour" />
+                    <ItineraryImage src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-overview.webp" alt="Overview Image Of The Leh Zanskar Leh Bike Tour" />
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-overview.jpg" alt="Overview Image Of The Leh Zanskar Leh Bike Tour" />
+                    <ItineraryImage size="desktop" src="/img/bike-tours/leh-zangskar-leh/leh-zangskar-leh-overview.webp" alt="Overview Image Of The Leh Zanskar Leh Bike Tour" />
                 </div>
             </div>
             

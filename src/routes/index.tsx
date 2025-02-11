@@ -23,11 +23,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Ladakh Moto - LadakhMoto",
+  title: "Ladakh Moto - Local Travel Experts for Leh Ladakh bike adventures tours",
   meta: [
     {
       name: "description",
-      content: "Discover Ladakh with Ladakh Moto – your trusted, locally-owned travel agency in Leh. Offering authentic adventures, customized tours, and expert guidance, we help you explore the breathtaking landscapes and vibrant culture of Ladakh. Start your unforgettable journey today!",
+      content: "Ladakh Moto - Your local Ladakh travel agency specializing in bike tours, adventure bike trips, and customized road journeys. Experience Ladakh like never before!",
     },
   ],
 };

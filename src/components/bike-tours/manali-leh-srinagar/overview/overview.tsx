@@ -18,7 +18,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage src="/img/bike-tours/manali-leh-srinagar/manali-leh-srinagar-overview.jpg" alt="Day One Itinerary Image Of The Manali  To Leh Vai Umling La Bike Tour" />
+                    <ItineraryImage src="/img/bike-tours/manali-leh-srinagar/manali-leh-srinagar-overview.webp" alt="Day One Itinerary Image Of The Manali  To Leh Vai Umling La Bike Tour" />
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage size="desktop" src="/img/bike-tours/manali-leh-srinagar/manali-leh-srinagar-overview.jpg" alt="Day One Itinerary Image Of The Manali  To Leh Vai Umling La Bike Tour" />
+                    <ItineraryImage size="desktop" src="/img/bike-tours/manali-leh-srinagar/manali-leh-srinagar-overview.webp" alt="Day One Itinerary Image Of The Manali  To Leh Vai Umling La Bike Tour" />
                 </div>
             </div>
 

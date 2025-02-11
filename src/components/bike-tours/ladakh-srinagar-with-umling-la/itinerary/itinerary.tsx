@@ -28,7 +28,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day1.jpg" alt="Day One Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day1.webp" alt="Day One Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -39,7 +39,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day1.jpg" alt="Day One Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day1.webp" alt="Day One Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -68,7 +68,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day2.webp" alt="Day Two Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -79,7 +79,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day2.jpg" alt="Day Two Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day2.webp" alt="Day Two Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -107,7 +107,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day3.webp" alt="Day Three Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -118,7 +118,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day3.jpg" alt="Day Three Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day3.webp" alt="Day Three Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -146,7 +146,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day4.webp" alt="Day Four Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -157,7 +157,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day4.jpg" alt="Day Four Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day4.webp" alt="Day Four Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -185,7 +185,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day5.webp" alt="Day Five Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -196,7 +196,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day5.jpg" alt="Day Five Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day5.webp" alt="Day Five Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -224,7 +224,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day6.webp" alt="Day Six Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -235,7 +235,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day6.jpg" alt="Day Six Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day6.webp" alt="Day Six Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -262,7 +262,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day7.webp" alt="Day Seven Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -273,7 +273,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day7.jpg" alt="Day Seven Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day7.webp" alt="Day Seven Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -301,7 +301,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day8.webp" alt="Day Eight Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -312,7 +312,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day8.jpg" alt="Day Eight Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day8.webp" alt="Day Eight Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -340,7 +340,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day9.webp" alt="Day Nine Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -351,7 +351,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day9.jpg" alt="Day Nine Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day9.webp" alt="Day Nine Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -379,7 +379,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day10.jpg" alt="Day Ten Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day10.webp" alt="Day Ten Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
@@ -390,7 +390,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day10.jpg" alt="Day Ten Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-day10.webp" alt="Day Ten Itinerary Image Of The Ladakh Srinagar With Umling La Bike Tour" />
                                     </div>
                                 </div>
 
