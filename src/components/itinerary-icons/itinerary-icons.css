@@ -1,1 +1,37 @@
+table {
+    width: 100%;
+    font-size: 14px;
+}
 
+table tr th {
+    width: '20%';
+}
+
+table thead tr th div {
+    background: url(/img/icons-sprite.webp) no-repeat; 
+    width: 50px; 
+    height: 50px; 
+    margin: 0 auto;
+}
+
+#highest-point {
+    background-position: -209px 0;
+}
+#distance {
+    background-position: 2px 0;
+}
+#duration {
+    background-position: -104px 0;
+}
+#lodging {
+    background-position: -264px 0;
+}
+#meal {
+    background-position: -158px 0;
+}
+
+
+table tbody tr td span {
+    display: flex;
+    justify-content: center;
+}
