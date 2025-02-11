@@ -43,13 +43,13 @@ export default component$(() => {
     const title = trimTitle(head.title).trimEnd().replace(/ /g,"-").toLowerCase();
     let imageUrl: string;
     if(urlSection === 'Bike Tours') {
-        imageUrl = `../../img/bike-tours/${title}/${title}-slide.jpg`;
+        imageUrl = `../../img/bike-tours/${title}/${title}-slide.webp`;
     } else if(urlSection === 'Bike Tour Packages') {
-        imageUrl = `../../img/bike-tour-packages/${title}/${title}-slide.jpg`;
+        imageUrl = `../../img/bike-tour-packages/${title}/${title}-slide.webp`;
     } else if(urlSection === 'About') {
-        imageUrl = `../../img/about/${title}-slide.jpg`;
+        imageUrl = `../../img/about/${title}-slide.webp`;
     } else {
-        imageUrl = `../../img/${title}-slide.jpg`;
+        imageUrl = `../../img/${title}-slide.webp`;
     }
 
     return (
