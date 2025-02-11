@@ -13,9 +13,9 @@ export default component$<Props>((props) => {
         <div class="responsive-image-container">
             {
             props.size === 'mobile' ? 
-                <img loading="lazy" src={props.src} alt={props.alt} /> 
+                <img width="1500" height="800" loading="lazy" src={props.src} alt={props.alt} /> 
             : 
-                <img loading="lazy" style="height: 305px;" src={props.src} alt={props.alt} />
+                <img width="1500" height="800" loading="lazy" style="height: 305px;" src={props.src} alt={props.alt} />
             }
         </div>
 
