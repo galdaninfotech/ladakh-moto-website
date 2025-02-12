@@ -2,9 +2,6 @@ import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './header.css?inline';
 import ImgLogoSM from '../../media/logo-sm.png?jsx';
 import ImgLogoLG from '../../media/logo-lg.png?jsx';
-import ChevronDown from "~/components/svgs/chevron-down/chevron-down";
-import EmailAt from "~/components/svgs/email-at/email-at";
-import Telephone from "~/components/svgs/telephone/telephone";
 
 export default component$(() => {
   useStylesScoped$(styles);

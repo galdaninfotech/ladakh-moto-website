@@ -1,14 +1,5 @@
 import { component$, useStylesScoped$, useVisibleTask$ } from '@builder.io/qwik';
 import styles from './footer.css?inline';
-import Twitter from "~/components/svgs/twitter/twitter";
-import Facebook from "~/components/svgs/facebook/facebook";
-import Instagram from "~/components/svgs/instagram/instagram";
-import Youtube from "~/components/svgs/youtube/youtube";
-
-import EmailAt from "~/components/svgs/email-at/email-at";
-import Telephone from "~/components/svgs/telephone/telephone";
-
-import ChevronDoubleRight from "~/components/svgs/chevron-double-right/chevron-double-right";
 
 export default component$(() => {
     useStylesScoped$(styles);
