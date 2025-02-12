@@ -17,14 +17,14 @@ export default component$(() => {
                 <div class="col-lg-6 col-sm-3">
                     <div class="header-top-left d-none">
                         <ul>
-                            <li class="has-dropdownzzzzzzzzzz"><a href="#" aria-label="USD">USD</a>
+                            <li class="dropdown"><a href="#" aria-label="USD">USD</a>
                                 <ul>
                                     <li><a href="#" aria-label="INR">INR</a></li>
                                     <li><a href="#" aria-label="USD">USD</a></li>
                                     <li><a href="#" aria-label="EUR">EUR</a></li>
                                 </ul>
                             </li>
-                            <li class="has-dropdownzzzzzzzzzz"><a href="#" aria-label="English">English</a>
+                            <li class="dropdown"><a href="#" aria-label="English">English</a>
                                 <ul>
                                     <li><a href="#" aria-label="English">English</a></li>
                                 </ul>
@@ -36,9 +36,9 @@ export default component$(() => {
                     {/* <!-- Header top contact --> */}
                     <div class="header-top-contact">
                         <ul>
-                            <li><a href="mailto:info@ladakhmoto.com"><EmailAt />info@ladakhmoto.com</a></li>
-                            <li><a href="tel:+91-9622958013"><Telephone />+91-9622958013</a></li>
-                            <li><a href="tel:+91-9906989962"><Telephone />+91-9906989962</a></li>
+                            <li><a class="email" href="mailto:info@ladakhmoto.com">info@ladakhmoto.com</a></li>
+                            <li><a class="phone" href="tel:+91-9622958013">+91-9622958013</a></li>
+                            <li><a class="phone" href="tel:+91-9906989962">+91-9906989962</a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,8 +69,8 @@ export default component$(() => {
                                     <li>
                                         <a href="/">Home</a>
                                     </li>
-                                    <li class="has-dropdownzzzzzzzzzz">
-                                        <a href="#">About</a><ChevronDown />
+                                    <li class="dropdown">
+                                        <a href="#">About</a>
                                         <ul>
                                             <li><a href="/about/about-us">About Us</a></li>
                                             <li><a href="/about/about-ladakh">About Ladakh</a></li>
@@ -78,8 +78,8 @@ export default component$(() => {
                                             <li><a href="/about/our-team">Our Team</a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-dropdownzzzzzzzzzz">
-                                        <a href="#">Biking Adventures</a><ChevronDown />
+                                    <li class="dropdown">
+                                        <a href="#">Biking Adventures</a>
                                         <ul>
                                             <li><a href="/bike-tours/leh-ladakh-adventure">Leh Ladakh Adventure</a></li>
                                             <li><a href="/bike-tours/ladakh-with-umling-la">Ladakh With Umling La</a></li>
@@ -89,8 +89,8 @@ export default component$(() => {
                                             <li><a href="/bike-tours/srinagar-leh-manali">Srinagar Leh Manali</a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-dropdownzzzzzzzzzz">
-                                        <a href="#">Holiday Packages</a><ChevronDown />
+                                    <li class="dropdown">
+                                        <a href="#">Holiday Packages</a>
                                         <ul>
                                             <li><a href="/bike-tour-packages/all-ladakh-tour">All Ladakh Tour</a></li>
                                             <li><a href="/bike-tour-packages/amazing-ladakh">Amazing Ladakh Tour</a></li>
@@ -98,8 +98,8 @@ export default component$(() => {
                                             <li><a href="/bike-tour-packages/ladakh-zangskar-valley-tour">Ladakh Zangskar Valley Tour</a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-dropdownzzzzzzzzzz">
-                                        <a href="#">Destinations</a><ChevronDown />
+                                    <li class="dropdown">
+                                        <a href="#">Destinations</a>
                                         <ul>
                                             <li><a href="/destinations\leh-city">Leh City</a></li>
                                             <li><a href="/destinations\nubra-valley">Nubra Valley</a></li>

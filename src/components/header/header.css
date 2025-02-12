@@ -10,6 +10,32 @@ header.header-area.style-2 .site-logo {
     height: 70px;
 }
 
-EmailAt {
-    margin-right: 10px;
+/* Main Menu Icons */
+.main-menu-wrap .gene-nav ul.menu li.dropdown a::after {
+    content: '';
+    display: inline-table;
+    background: url(/img/icons-sprite.webp) no-repeat;
+    margin: 0 auto;
+    width: 15px;
+    height: 21px;
+    background-position: -32px -46px;
+    margin-left: 2px;
+}
+
+/* Top Contact Icons */
+.header-top-contact ul li a::before {
+    content: '';
+    display: inline-table;
+    background: url(/img/icons-sprite.webp) no-repeat;
+    margin: 0 auto;
+}
+.header-top-contact ul li a.email::before {
+    width: 22px;
+    height: 20px;
+    background-position: -93px -46px;
+}
+.header-top-contact ul li a.phone::before {
+    width: 14px;
+    height: 20px;
+    background-position: -60px -46px;
 }

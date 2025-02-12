@@ -43,7 +43,7 @@
 }
 .item {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 .items span:nth-child(2) {
   font-size: 13px;
@@ -77,4 +77,21 @@
     font-size: 13px;
     text-align: justify;
     line-height: 17px;
+}
+
+
+#wrapper-need-help .items .item::before {
+    content: '';
+    display: inline-table;
+    background: url(/img/icons-sprite.webp) no-repeat;
+}
+#wrapper-need-help .items .item.phone::before {
+    width: 14px;
+    height: 22px;
+    background-position: -60px -46px;
+}
+#wrapper-need-help .items .item.email::before {
+    background-position: -93px -46px;
+    width: 22px;
+    height: 22px;
 }

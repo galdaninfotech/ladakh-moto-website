@@ -19,7 +19,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-overview.jpg" alt="Overview Image Of The All Ladakh Tour Bike Package" />
+                    <ItineraryImage src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-overview.webp" alt="Overview Image Of The All Ladakh Tour Bike Package" />
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ export default component$(() => {
                 </div>
 
                 <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                    <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-overview.jpg" alt="Overview Image Of The All Ladakh Tour Bike Package" />
+                    <ItineraryImage size="desktop" src="/img/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-overview.webp" alt="Overview Image Of The All Ladakh Tour Bike Package" />
                 </div>
             </div>
 

@@ -28,7 +28,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day1.jpg" alt="Day One Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day1.webp" alt="Day One Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
@@ -39,7 +39,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day1.jpg" alt="Day One Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day1.webp" alt="Day One Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
@@ -70,7 +70,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day2.jpg" alt="Day Two Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day2.webp" alt="Day Two Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
@@ -81,7 +81,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day2.jpg" alt="Day Two Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day2.webp" alt="Day Two Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
@@ -113,7 +113,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day3.jpg" alt="Day Three Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day3.webp" alt="Day Three Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
@@ -124,7 +124,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day3.jpg" alt="Day Three Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day3.webp" alt="Day Three Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
@@ -156,7 +156,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day4.jpg" alt="Day Four Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day4.webp" alt="Day Four Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
@@ -167,7 +167,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day4.jpg" alt="Day Four Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day4.webp" alt="Day Four Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
@@ -198,7 +198,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day5.jpg" alt="Day Five Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day5.webp" alt="Day Five Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
@@ -209,7 +209,7 @@ export default component$(() => {
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh/amazing-ladakh-day5.jpg" alt="Day Five Itinerary Image Of The Amazing Ladakh Bike Package" />
+                                        <ItineraryImage size="desktop" src="/img/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-day5.webp" alt="Day Five Itinerary Image Of The Amazing Ladakh Bike Package" />
                                     </div>
                                 </div>
 
