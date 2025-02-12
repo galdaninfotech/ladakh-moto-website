@@ -3,8 +3,6 @@ import styles from './slider-itinerary.css?inline';
 import { useDocumentHead } from "@builder.io/qwik-city";
 import { useLocation  } from "@builder.io/qwik-city";
 
-import GeoAlt from "~/components/svgs/geo-alt/geo-alt";
-
 const trimTitle = (str: string) => {
 
     // Define the special characters you want to check for
@@ -19,8 +17,7 @@ const trimTitle = (str: string) => {
         }
     }
 
-    // Extract the substring up to the special character
-
+    // Extract the substring up to the special character, and return
     return str.substring(0, index);
 }
 
@@ -60,7 +57,7 @@ export default component$(() => {
                         <div class="bradcumb text-center">
                             <span>{trimTitle(head.title)}</span>
                             <ul>
-                                <li><GeoAlt /></li>
+                                <li></li>
                                 <li><a href="/">Home</a></li>
                                 {urlSection && <li><a href="/">{urlSection}</a></li>}
                                 <li>{trimTitle(head.title)}</li>
