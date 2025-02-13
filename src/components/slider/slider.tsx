@@ -1,9 +1,9 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './slider.css?inline';
 import ImgSlide1 from '../../media/slider/slide1.webp?w=1920&h=720&jsx';
-import ImgSlide2 from '../../media/slider/slide2.jpg?w=1920&h=720&jsx';
-import ImgSlide3 from '../../media/slider/slide3.jpg?w=1920&h=720&jsx';
-import ImgSlide4 from '../../media/slider/slide4.jpg?w=1920&h=720&jsx';
+import ImgSlide2 from '../../media/slider/slide2.webp?w=1920&h=720&jsx';
+import ImgSlide3 from '../../media/slider/slide3.webp?w=1920&h=720&jsx';
+import ImgSlide4 from '../../media/slider/slide4.webp?w=1920&h=720&jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
