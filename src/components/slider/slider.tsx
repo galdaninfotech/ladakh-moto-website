@@ -21,7 +21,7 @@ export default component$(() => {
                         <picture>
                             <source media="(max-width: 640px)" srcset="/img/slider/slide1-mobile.webp" />
                             <source media="(min-width: 641px)" srcset="/img/slider/slide1.webp" />
-                            <img class="d-block" src="/img/slider/slide1.webp" alt="Icon" />
+                            <img class="d-block" decoding="sync" loading="eager" src="/img/slider/slide1.webp" alt="Icon" />
                         </picture>
                       <div class="carousel-caption kb-caption kb-caption-left">
                         <span class="slider-title" data-animation="animated">Leh Ladakh Adventure</span>
