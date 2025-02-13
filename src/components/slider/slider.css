@@ -30,8 +30,7 @@
     }
 
     .kb-carousel > .carousel-inner > .carousel-item > img,
-    .kb-carousel > .carousel-inner > .carousel-item > a > img,
-    picture img {
+    .kb-carousel > .carousel-inner > .carousel-item > a > img {
         animation: kenburns 20000ms linear 0s infinite alternate;
     }
 
@@ -41,7 +40,19 @@
         opacity: 0;
     }
 
-
+    @media screen and (max-width: 768px) {
+        .carousel-item img {
+            position: relative;
+            left: -42%;
+            height: 500px;
+            width: auto;
+            
+        }
+        .carousel-item img#slide1 {
+            left: -80%;
+            
+        }
+    }
 
     /* Carousel Captions */
     .kb-caption {
