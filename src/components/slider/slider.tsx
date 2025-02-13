@@ -1,6 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './slider.css?inline';
-import ImgSlide1 from '../../media/slider/slide1.webp?w=1920&h=720&jsx';
+
 import ImgSlide2 from '../../media/slider/slide2.webp?w=1920&h=720&jsx';
 import ImgSlide3 from '../../media/slider/slide3.webp?w=1920&h=720&jsx';
 import ImgSlide4 from '../../media/slider/slide4.webp?w=1920&h=720&jsx';
@@ -18,7 +18,11 @@ export default component$(() => {
                   {/* <!-- Carousel Items --> */}
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <ImgSlide1 id="slide1" class="d-block" decoding="sync" loading="eager" alt="Slide One" />
+                        <picture>
+                            <source media="(max-width: 640px)" srcset="/img/slider/slide1-mobile.webp" />
+                            <source media="(min-width: 641px)" srcset="/img/slider/slide1.webp" />
+                            <img class="d-block" src="/img/slider/slide1.webp" alt="Icon" />
+                        </picture>
                       <div class="carousel-caption kb-caption kb-caption-left">
                         <span class="slider-title" data-animation="animated">Leh Ladakh Adventure</span>
                         <p data-animation="animated">5 Nights 6 Days Adventure. Leh - Khardong la - Nubra Valley - Pangong - Leh...</p>
