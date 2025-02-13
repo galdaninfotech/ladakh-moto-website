@@ -24,10 +24,10 @@ export default component$(() => {
 								<h3>About Ladakh Moto</h3>
 								<p>Ladakh Moto is a locally based Ladakhi company with dedicated local employees working under the supervision of Local managers who are acquainted with the years of experience in handling and organizing such motorbiking expeditions.</p>
 								<ul>
-									<li><a class="facebook" href="https://www.facebook.com/ladakhmotos/" aria-label="Follow us on Facebook" target="_blank"><span class="sr-only">Facebook</span></a></li>
-									<li><a class="twitter" href="https://x.com/LadakhMoto/status/1868987553472561199" aria-label="Follow us on Twitter" target="_blank"><span class="sr-only">Twitter</span></a></li>
-									<li><a class="instagram" href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram" target="_blank"><span class="sr-only">Instagram</span></a></li>
-									<li><a class="youtube" href="https://www.youtube.com/@LadakhMotoTour" aria-label="Subscribe to our YouTube channel" target="_blank"><span class="sr-only">YouTube</span></a></li>
+									<li><a class="facebook" href="https://www.facebook.com/ladakhmotos/" aria-label="Follow us on Facebook" target="_blank" rel="noreferrer"><span class="sr-only">Facebook</span></a></li>
+									<li><a class="twitter" href="https://x.com/LadakhMoto/status/1868987553472561199" aria-label="Follow us on Twitter" target="_blank" rel="noreferrer"><span class="sr-only">Twitter</span></a></li>
+									<li><a class="instagram" href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram" target="_blank" rel="noreferrer"><span class="sr-only">Instagram</span></a></li>
+									<li><a class="youtube" href="https://www.youtube.com/@LadakhMotoTour" aria-label="Subscribe to our YouTube channel" target="_blank" rel="noreferrer"><span class="sr-only">YouTube</span></a></li>
 								</ul>
 							</div>
 						</div>

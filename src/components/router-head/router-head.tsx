@@ -75,8 +75,6 @@ export const RouterHead = component$(() => {
             <meta key={m.key} {...m} />
         ))}
 
-        <link rel="shortcut icon" href="/img/favicon.png" />
-
 
         {/* Google Fonts */}
         {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
