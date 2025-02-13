@@ -37,7 +37,7 @@ export default component$(() => {
         
         
         {/* Start Preloader */}
-		<div class="preloader-wrap">
+		{/* <div class="preloader-wrap">
 			<div class="cube-wrapper">
 				<div class="cube-folding">
 					<span class="leaf1"></span>
@@ -47,7 +47,7 @@ export default component$(() => {
 				</div>
 				<span class="loading" data-name="Loading">Loading</span>
 			</div>
-		</div>
+		</div> */}
 		{/* End Preloader */}
 
         <div class="wrapper">
