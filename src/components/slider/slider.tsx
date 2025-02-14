@@ -22,7 +22,7 @@ export default component$(() => {
                       <div class="carousel-caption kb-caption kb-caption-left">
                         <span class="slider-title" data-animation="animated">Leh Ladakh Adventure</span>
                         <p data-animation="animated">5 Nights 6 Days Adventure. Leh - Khardong la - Nubra Valley - Pangong - Leh...</p>
-                        <span data-animation="animated"><a href="/leh-ladakh-adventure" class="button-text width-6">More Details</a></span>
+                        <span data-animation="animated"><a href="/leh-ladakh-adventure" class="button-text width-6" title="More Details on Leh Ladakh Adventure Tour" aria-label="More Details on Leh Ladakh Adventure Tour">More Details</a></span>
                       </div>
                     </div>
 
@@ -31,7 +31,7 @@ export default component$(() => {
                       <div class="carousel-caption kb-caption kb-caption-right">
                         <span class="slider-title" data-animation="animated">Ladakh with Umling -La</span>
                         <p data-animation="animated">7 Nights 8 Days Adventure. Leh - Nubra - Pangong - Hanle -  Umling la</p>
-                        <span data-animation="animated"><a href="/ladakh-with-umling-la" class="button-text width-6">More Details</a></span>
+                        <span data-animation="animated"><a href="/ladakh-with-umling-la" class="button-text width-6" title="More Details on Leh Ladakh Adventure Tour" aria-label="More Details on Leh Ladakh Adventure Tour">More Details</a></span>
                       </div>
                     </div>
 
@@ -40,7 +40,7 @@ export default component$(() => {
                       <div class="carousel-caption kb-caption kb-caption-center">
                         <span class="slider-title" data-animation="animated">Manali Leh Srinagar</span>
                         <p data-animation="animated">9 nights 10 Days  Adventure. Manali - Leh - Nubra - Turtuk - Pangong  - Srinagar</p>
-                        <span data-animation="animated"><a href="/manali-leh-srinagar" class="button-text width-6">More Details</a></span>
+                        <span data-animation="animated"><a href="/manali-leh-srinagar" class="button-text width-6" title="More Details on Leh Ladakh Adventure Tour" aria-label="More Details on Leh Ladakh Adventure Tour">More Details</a></span>
                       </div>
                     </div>
                     
@@ -49,7 +49,7 @@ export default component$(() => {
                       <div class="carousel-caption kb-caption kb-caption-left">
                         <span class="slider-title" data-animation="animated">Srinagar Leh Manali</span>
                         <p data-animation="animated">9 nights 10 Days. Srinagar - Leh - Turtuk - Pangong - Manali</p>
-                        <span data-animation="animated"><a href="/srinagar-leh-manali" class="button-text width-6">More Details</a></span>
+                        <span data-animation="animated"><a href="/srinagar-leh-manali" class="button-text width-6" title="More Details on Leh Ladakh Adventure Tour" aria-label="More Details on Leh Ladakh Adventure Tour">More Details</a></span>
                       </div>
                     </div>
                   <div id="slider-bottom-image"></div>

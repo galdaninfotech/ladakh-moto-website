@@ -25,7 +25,7 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/bike-tours/leh-ladakh-adventure" aria-label="Leh Ladakh Adventure">
+                                <a href="/bike-tours/leh-ladakh-adventure" aria-label="Leh Ladakh Adventure" title="Leh Ladakh Adventure">
                                     <ImgLehLadakhAdventureHome alt="Leh Ladakh Adventure" />
                                 </a>
                             </figure>
@@ -40,7 +40,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
-                                    <h3><a href="/bike-tours/leh-ladakh-adventure">Leh Ladakh Adventure</a></h3>
+                                    <h3><a href="/bike-tours/leh-ladakh-adventure" aria-label="Leh Ladakh Adventure" title="Leh Ladakh Adventure">Leh Ladakh Adventure</a></h3>
                                     <div class="col-12">
                                         <OverviewIcons highestAltitude="18300ft" distance="550km" duration="6D/5N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
@@ -49,8 +49,8 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 15,500/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/bike-tours/leh-ladakh-adventure" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="/bike-tours/leh-ladakh-adventure" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4"> 
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/bike-tours/ladakh-with-umling-la" aria-label="Ladakh with Umling La">
+                                <a href="/bike-tours/ladakh-with-umling-la" aria-label="Ladakh with Umling La" title="Ladakh with Umling La">
                                     <ImgLadakhWithUmlingLaHome alt="Ladakh with Umling La" />
                                 </a>
                             </figure>
@@ -75,7 +75,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
-                                    <h3 class="tour-name" data-tour-name="Ladakh With Umling La"><a href="/bike-tours/ladakh-with-umling-la">Ladakh With Umling La</a></h3>
+                                    <h3 class="tour-name" data-tour-name="Ladakh With Umling La"><a href="/bike-tours/ladakh-with-umling-la" aria-label="Ladakh with Umling La" title="Ladakh with Umling La">Ladakh With Umling La</a></h3>
                                     <div class="col-12">
                                         <OverviewIcons duration="8D/7N" highestAltitude="19024ft" distance="1050km" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
@@ -84,8 +84,8 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/bike-tours/ladakh-with-umling-la" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="/bike-tours/ladakh-with-umling-la" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/bike-tours/ladakh-srinagar-with-umling-la" aria-label="Ladakh Srinagar With Umling La">
+                                <a href="/bike-tours/ladakh-srinagar-with-umling-la" aria-label="Ladakh Srinagar With Umling La" title="Ladakh Srinagar With Umling La">
                                     <ImgLadakhSrinagarWithUmlingLaHome alt="Ladakh Srinagar With Umling La" />
                                 </a>
                             </figure>
@@ -111,7 +111,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
-                                    <h3><a href="/bike-tours/ladakh-srinagar-with-umling-la">Ladakh Srinagar Umling La</a></h3>
+                                    <h3><a href="/bike-tours/ladakh-srinagar-with-umling-la" aria-label="Ladakh Srinagar With Umling La" title="Ladakh Srinagar With Umling La">Ladakh Srinagar Umling La</a></h3>
                                     <div class="col-12">
                                         <OverviewIcons highestAltitude="19024ft" distance="1576km" duration="10N/11D" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
@@ -120,8 +120,8 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 25,000/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/bike-tours/ladakh-srinagar-with-umling-la" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="/bike-tours/ladakh-srinagar-with-umling-la" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/bike-tours/leh-zangskar-leh" aria-label="Leh Zangskar Leh">
+                                <a href="/bike-tours/leh-zangskar-leh" aria-label="Leh Zangskar Leh" title="Leh Zangskar Leh">
                                     <ImgLehZangskarLeh alt="Leh Zangskar Leh" />
                                 </a>
                             </figure>
@@ -146,7 +146,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
-                                    <h3><a href="/bike-tours/leh-zangskar-leh">Leh Zangskar Leh</a></h3>
+                                    <h3><a href="/bike-tours/leh-zangskar-leh" aria-label="Leh Zangskar Leh" title="Leh Zangskar Leh">Leh Zangskar Leh</a></h3>
                                     <div class="col-12">
                                         <OverviewIcons highestAltitude="14070ft" distance="1485km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
@@ -155,8 +155,8 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 28,500/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/bike-tours/leh-zangskar-leh" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="/bike-tours/leh-zangskar-leh" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +166,7 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/bike-tours/manali-leh-srinagar" aria-label="Manali Leh Srinagar">
+                                <a href="/bike-tours/manali-leh-srinagar" aria-label="Manali Leh Srinagar" title="Manali Leh Srinagar">
                                     <ImgManaliLehSrinagar alt="Manali Leh Srinagar" />
                                 </a>
                             </figure>
@@ -181,7 +181,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
-                                    <h3><a href="/bike-tours/manali-leh-srinagar">Manali Leh Srinagar</a></h3>
+                                    <h3><a href="/bike-tours/manali-leh-srinagar" aria-label="Manali Leh Srinagar" title="Manali Leh Srinagar">Manali Leh Srinagar</a></h3>
                                     <div class="col-12">
                                         <OverviewIcons highestAltitude="18380ft" distance="1456km" duration="10D/09N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
@@ -190,8 +190,8 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/bike-tours/manali-leh-srinagar" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="/bike-tours/manali-leh-srinagar" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -201,7 +201,7 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/bike-tours/srinagar-leh-manali" aria-label="Srinagar Leh Manali">
+                                <a href="/bike-tours/srinagar-leh-manali" aria-label="Srinagar Leh Manali" title="Srinagar Leh Manali">
                                     <ImgSrinagarLehManali alt="Srinagar Leh Manali" />
                                 </a>
                             </figure>
@@ -216,7 +216,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
-                                    <h3><a href="/bike-tours/srinagar-leh-manali">Srinagar Leh Manali</a></h3>
+                                    <h3><a href="/bike-tours/srinagar-leh-manali" aria-label="Srinagar Leh Manali" title="Srinagar Leh Manali">Srinagar Leh Manali</a></h3>
                                     <div class="col-12">
                                         <OverviewIcons highestAltitude="19024ft" distance="1576km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
@@ -225,8 +225,8 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/bike-tours/srinagar-leh-manali" class="button-text width-6">More Details<i class="fas fa-book-reader"></i></a>
+                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="/bike-tours/srinagar-leh-manali" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>

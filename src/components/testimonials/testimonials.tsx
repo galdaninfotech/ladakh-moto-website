@@ -24,7 +24,7 @@ export default component$(() => {
                     <div class="wow fadeIn" data-wow-delay="0.1s">
                         <span class="mb-4">LadakhMoto Reviews</span>
                             <p class="mb-4">With Ladakhmoto you not only receive a piece of memoirs by participating in a memorable adventure, you also support a local enterprise dedicated to responsible, sustainable tourism in Ladakh.</p>
-                            <a class="btn btn-primary px-4" href="https://www.ladakhmoto.com/contact">Contact Sales</a>
+                            <a class="btn btn-primary px-4" href="https://www.ladakhmoto.com/contact" aria-label="Contact Sales" title="Contact Sales">Contact Sales</a>
                     </div>
 
                     <section class="carousel-landmark wow fadeIn" data-wow-delay="0.5s">

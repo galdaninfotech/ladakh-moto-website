@@ -58,8 +58,8 @@ export default component$(() => {
                             <span>{trimTitle(head.title)}</span>
                             <ul>
                                 <li></li>
-                                <li><a href="/">Home</a></li>
-                                {urlSection && <li><a href="/">{urlSection}</a></li>}
+                                <li><a href="/" aria-label="Home" title="Home">Home</a></li>
+                                {urlSection && <li><a href="/" aria-label={`${urlSection}`} title={`${urlSection}`}>{urlSection}</a></li>}
                                 <li>{trimTitle(head.title)}</li>
                             </ul>
                         </div>

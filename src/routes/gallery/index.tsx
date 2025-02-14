@@ -37,94 +37,94 @@ export default component$(() => {
             <section class="container mt-5 mb-5">
                 <article class="row row-cols-1 row-cols-sm-2 g-2 d-flex justify-content-center">
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-1.jpg" href="/img/gallery/gallery-lg-1.jpg" data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-1.jpg" href="/img/gallery/gallery-lg-1.jpg" aria-label="Ladakh Moto Slide1" title="Ladakh Moto Slide1" data-caption="">
                             <ImgGallerySMImage1 alt="Ladakh Moto Slide1" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-2.jpg" href="/img/gallery/gallery-lg-2.jpg" data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-2.jpg" href="/img/gallery/gallery-lg-2.jpg" aria-label="Ladakh Moto Slide2" title="Ladakh Moto Slide2" data-caption="">
                             <ImgGallerySMImage2 alt="Ladakh Moto Slide2" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-3.jpg"  href="/img/gallery/gallery-lg-3.jpg"data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-3.jpg"  href="/img/gallery/gallery-lg-3.jpg" aria-label="Ladakh Moto Slide3" title="Ladakh Moto Slide3" data-caption="">
                             <ImgGallerySMImage3 alt="Ladakh Moto Slide3" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-4.jpg"  href="/img/gallery/gallery-lg-4.jpg"data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-4.jpg"  href="/img/gallery/gallery-lg-4.jpg" aria-label="Ladakh Moto Slide4" title="Ladakh Moto Slide4" data-caption="">
                             <ImgGallerySMImage4 alt="Ladakh Moto Slide4" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-5.jpg"  href="/img/gallery/gallery-lg-5.jpg"data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-5.jpg"  href="/img/gallery/gallery-lg-5.jpg" aria-label="Ladakh Moto Slide5" title="Ladakh Moto Slide5" data-caption="">
                             <ImgGallerySMImage5 alt="Ladakh Moto Slide5" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-6.jpg"  href="/img/gallery/gallery-lg-6.jpg"data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-6.jpg"  href="/img/gallery/gallery-lg-6.jpg" aria-label="Ladakh Moto Slide6" title="Ladakh Moto Slide6" data-caption="">
                             <ImgGallerySMImage6 alt="Ladakh Moto Slide6" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-7.jpg"  href="/img/gallery/gallery-lg-7.jpg"data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-7.jpg"  href="/img/gallery/gallery-lg-7.jpg" aria-label="Ladakh Moto Slide7" title="Ladakh Moto Slide7" data-caption="">
                             <ImgGallerySMImage7 alt="Ladakh Moto Slide7" />
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-8.jpg"  href="/img/gallery/gallery-lg-8.jpg"data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-8.jpg"  href="/img/gallery/gallery-lg-8.jpg" aria-label="Ladakh Moto Slide8" title="Ladakh Moto Slide8" data-caption="">
                             <ImgGallerySMImage8 alt="Ladakh Moto Slide8" />
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-9.jpg"  href="/img/gallery/gallery-lg-9.jpg"data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-9.jpg"  href="/img/gallery/gallery-lg-9.jpg" aria-label="Ladakh Moto Slide9" title="Ladakh Moto Slide9" data-caption="">
                             <ImgGallerySMImage9 alt="Ladakh Moto Slide9" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-10.jpg" href="/img/gallery/gallery-lg-10.jpg" data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-10.jpg" href="/img/gallery/gallery-lg-10.jpg" aria-label="Ladakh Moto Slide10" title="Ladakh Moto Slide10" data-caption="">
                             <ImgGallerySMImage10 alt="Ladakh Moto Slide10" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-11.jpg" href="/img/gallery/gallery-lg-11.jpg" data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-11.jpg" href="/img/gallery/gallery-lg-11.jpg" aria-label="Ladakh Moto Slide11" title="Ladakh Moto Slide11" data-caption="">
                             <ImgGallerySMImage11 alt="Ladakh Moto Slide11" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-12.jpg" href="/img/gallery/gallery-lg-12.jpg" data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-12.jpg" href="/img/gallery/gallery-lg-12.jpg" aria-label="Ladakh Moto Slide12" title="Ladakh Moto Slide12" data-caption="">
                             <ImgGallerySMImage12 alt="Ladakh Moto Slide12" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-13.jpg" href="/img/gallery/gallery-lg-13.jpg" data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-13.jpg" href="/img/gallery/gallery-lg-13.jpg" aria-label="Ladakh Moto Slide13" title="Ladakh Moto Slide13" data-caption="">
                             <ImgGallerySMImage13 alt="Ladakh Moto Slide13" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-14.jpg" href="/img/gallery/gallery-lg-14.jpg" data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-14.jpg" href="/img/gallery/gallery-lg-14.jpg" aria-label="Ladakh Moto Slide14" title="Ladakh Moto Slide14" data-caption="">
                             <ImgGallerySMImage14 alt="Ladakh Moto Slide14" />
                         </a>
                     </div>
             
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-15.jpg" href="/img/gallery/gallery-lg-15.jpg" data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-15.jpg" href="/img/gallery/gallery-lg-15.jpg" aria-label="Ladakh Moto Slide15" title="Ladakh Moto Slide15" data-caption="">
                             <ImgGallerySMImage15 alt="Ladakh Moto Slide15" />
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-3 text-center">
-                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-16.jpg" href="/img/gallery/gallery-lg-16.jpg" data-caption="">
+                        <a data-fancybox="gallery" data-src="/img/gallery/gallery-lg-16.jpg" href="/img/gallery/gallery-lg-16.jpg" aria-label="Ladakh Moto Slide16" title="Ladakh Moto Slide16" data-caption="">
                             <ImgGallerySMImage16 alt="Ladakh Moto Slide16" />
                         </a>
                     </div>

@@ -57,10 +57,10 @@ export default component$(() => {
                         </div>
 
                         <div class="sticky-buttons">
-                            <a href="#overview" class={{ active: activeSection.value === 'overview' }}>Overview</a>
-                            <a href="#itinerary" class={{ active: activeSection.value === 'itinerary' }}>Itinerary</a>
-                            <a href="#dates" class={{ active: activeSection.value === 'dates' }}>Dates</a>
-                            <a href="#cost" class={{ active: activeSection.value === 'cost' }}>Cost</a>
+                            <a aria-label="Overview" title="Overview" href="#overview" class={{ active: activeSection.value === 'overview' }}>Overview</a>
+                            <a aria-label="Itinerary" title="Itinerary" href="#itinerary" class={{ active: activeSection.value === 'itinerary' }}>Itinerary</a>
+                            <a aria-label="Dates" title="Dates" href="#dates" class={{ active: activeSection.value === 'dates' }}>Dates</a>
+                            <a aria-label="Cost" title="Cost" href="#cost" class={{ active: activeSection.value === 'cost' }}>Cost</a>
                         </div>
 
                         <Overview />

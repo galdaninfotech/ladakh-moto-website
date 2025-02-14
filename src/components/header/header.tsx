@@ -13,29 +13,16 @@ export default component$(() => {
             <div class="row">
                 <div class="col-lg-6 col-sm-3">
                     <div class="header-top-left d-none">
-                        <ul>
-                            <li class="dropdown"><a href="#" aria-label="USD">USD</a>
-                                <ul>
-                                    <li><a href="#" aria-label="INR">INR</a></li>
-                                    <li><a href="#" aria-label="USD">USD</a></li>
-                                    <li><a href="#" aria-label="EUR">EUR</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="#" aria-label="English">English</a>
-                                <ul>
-                                    <li><a href="#" aria-label="English">English</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                        
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-9">
                     {/* <!-- Header top contact --> */}
                     <div class="header-top-contact">
                         <ul>
-                            <li><a class="email" href="mailto:info@ladakhmoto.com">info@ladakhmoto.com</a></li>
-                            <li><a class="phone" href="tel:+91-9622958013">+91-9622958013</a></li>
-                            <li><a class="phone" href="tel:+91-9906989962">+91-9906989962</a></li>
+                            <li><a class="email" aria-label="email" title="email" href="mailto:info@ladakhmoto.com">info@ladakhmoto.com</a></li>
+                            <li><a class="phone" aria-label="phone" title="phone" href="tel:+91-9622958013">+91-9622958013</a></li>
+                            <li><a class="phone" aria-label="phone" title="phone" href="tel:+91-9906989962">+91-9906989962</a></li>
                         </ul>
                     </div>
                 </div>
@@ -49,12 +36,12 @@ export default component$(() => {
                         {/* <!-- Start site logo --> */}
                         <div class="site-logo d-md-none">
                             <a href="/">
-                                <ImgLogoSM id="logo-sm" decoding="sync" loading="eager" alt="Ladakh Moto" />
+                                <ImgLogoSM id="logo-sm" decoding="sync" loading="eager" alt="Ladakh Moto" aria-label="Ladakh Moto" title="Ladakh Moto" />
                             </a>
                         </div>
 
                         <div class="site-logo d-none d-md-block" style="top: -8px;">
-                            <ImgLogoLG decoding="sync" loading="eager" alt="LadakhMoto" />
+                            <ImgLogoLG decoding="sync" loading="eager" alt="LadakhMoto" aria-label="Ladakh Moto" title="Ladakh Moto" />
                         </div>
                         {/* <!-- End site logo --> */}
                     </div>
@@ -64,55 +51,55 @@ export default component$(() => {
                             <nav class="gene-nav">
                                 <ul class="menu">
                                     <li>
-                                        <a href="/">Home</a>
+                                        <a aria-label="Home" title="Home" href="/">Home</a>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">About</a>
+                                        <a aria-label="About" title="About" href="#">About</a>
                                         <ul>
-                                            <li><a href="/about/about-us">About Us</a></li>
-                                            <li><a href="/about/about-ladakh">About Ladakh</a></li>
-                                            <li><a href="/about/our-services">Our Services</a></li>
-                                            <li><a href="/about/our-team">Our Team</a></li>
+                                            <li><a aria-label="About Us" title="About Us" href="/about/about-us">About Us</a></li>
+                                            <li><a aria-label="About Ladakh" title="About Ladakh" href="/about/about-ladakh">About Ladakh</a></li>
+                                            <li><a aria-label="Our Services" title="Our Services" href="/about/our-services">Our Services</a></li>
+                                            <li><a aria-label="Our Team" title="Our Team" href="/about/our-team">Our Team</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Biking Adventures</a>
+                                        <a aria-label="Biking Adventures" title="Biking Adventures" href="#">Biking Adventures</a>
                                         <ul>
-                                            <li><a href="/bike-tours/leh-ladakh-adventure">Leh Ladakh Adventure</a></li>
-                                            <li><a href="/bike-tours/ladakh-with-umling-la">Ladakh With Umling La</a></li>
-                                            <li><a href="/bike-tours/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></li>
-                                            <li><a href="/bike-tours/leh-zangskar-leh">Leh Zangskar Leh</a></li>
-                                            <li><a href="/bike-tours/manali-leh-srinagar">Manali Leh Srinagar</a></li>
-                                            <li><a href="/bike-tours/srinagar-leh-manali">Srinagar Leh Manali</a></li>
+                                            <li><a aria-label="Leh Ladakh Adventure" title="Leh Ladakh Adventure" href="/bike-tours/leh-ladakh-adventure">Leh Ladakh Adventure</a></li>
+                                            <li><a aria-label="Ladakh With Umling La" title="Ladakh With Umling La" href="/bike-tours/ladakh-with-umling-la">Ladakh With Umling La</a></li>
+                                            <li><a aria-label="Ladakh Srinagar With Umling La" title="Ladakh Srinagar With Umling La" href="/bike-tours/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></li>
+                                            <li><a aria-label="Leh Zangskar Leh" title="Leh Zangskar Leh" href="/bike-tours/leh-zangskar-leh">Leh Zangskar Leh</a></li>
+                                            <li><a aria-label="Manali Leh Srinagar" title="Manali Leh Srinagar" href="/bike-tours/manali-leh-srinagar">Manali Leh Srinagar</a></li>
+                                            <li><a aria-label="Srinagar Leh Manali" title="Srinagar Leh Manali" href="/bike-tours/srinagar-leh-manali">Srinagar Leh Manali</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Holiday Packages</a>
+                                        <a aria-label="Holiday Packages" title="Holiday Packages" href="#">Holiday Packages</a>
                                         <ul>
-                                            <li><a href="/bike-tour-packages/all-ladakh-tour">All Ladakh Tour</a></li>
-                                            <li><a href="/bike-tour-packages/amazing-ladakh">Amazing Ladakh Tour</a></li>
-                                            <li><a href="/bike-tour-packages/ladakh-tour-with-hanle">Ladakh Tour With Hanle</a></li>
-                                            <li><a href="/bike-tour-packages/ladakh-zangskar-valley-tour">Ladakh Zangskar Valley Tour</a></li>
+                                            <li><a aria-label="All Ladakh Tour" title="All Ladakh Tour" href="/bike-tour-packages/all-ladakh-tour">All Ladakh Tour</a></li>
+                                            <li><a aria-label="Amazing Ladakh Tour" title="Amazing Ladakh Tour" href="/bike-tour-packages/amazing-ladakh">Amazing Ladakh Tour</a></li>
+                                            <li><a aria-label="Ladakh Tour With Hanle" title="Ladakh Tour With Hanle" href="/bike-tour-packages/ladakh-tour-with-hanle">Ladakh Tour With Hanle</a></li>
+                                            <li><a aria-label="Ladakh Zangskar Valley Tour" title="Ladakh Zangskar Valley Tour" href="/bike-tour-packages/ladakh-zangskar-valley-tour">Ladakh Zangskar Valley Tour</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Destinations</a>
+                                        <a aria-label="Destinations" title="Destinations" href="#">Destinations</a>
                                         <ul>
-                                            <li><a href="/destinations\leh-city">Leh City</a></li>
-                                            <li><a href="/destinations\nubra-valley">Nubra Valley</a></li>
-                                            <li><a href="/destinations\pangong-lake">Pangong Lake</a></li>
-                                            <li><a href="/destinations\tsomoriri-lake">Tsomoriri Lake</a></li>
-                                            <li><a href="/destinations\zanskar-valley">Zanskar Valley</a></li>
-                                            <li><a href="/destinations\hanle-village">Hanle Village</a></li>
-                                            <li><a href="/destinations\shanti-stupa">Shanti Stupa</a></li>
-                                            <li><a href="/destinations\thiksey-monastery">Thiksey Monastery</a></li>
-                                            <li><a href="/destinations\lamayuru-monastery">Lamayuru Monastery</a></li>
+                                            <li><a aria-label="Leh City" title="Leh City" href="/destinations\leh-city">Leh City</a></li>
+                                            <li><a aria-label="Nubra Valley" title="Nubra Valley" href="/destinations\nubra-valley">Nubra Valley</a></li>
+                                            <li><a aria-label="Pangong Lake" title="Pangong Lake" href="/destinations\pangong-lake">Pangong Lake</a></li>
+                                            <li><a aria-label="Tsomoriri Lake" title="Tsomoriri Lake" href="/destinations\tsomoriri-lake">Tsomoriri Lake</a></li>
+                                            <li><a aria-label="Zanskar Valley" title="Zanskar Valley" href="/destinations\zanskar-valley">Zanskar Valley</a></li>
+                                            <li><a aria-label="Hanle Village" title="Hanle Village" href="/destinations\hanle-village">Hanle Village</a></li>
+                                            <li><a aria-label="Shanti Stupa" title="Shanti Stupa" href="/destinations\shanti-stupa">Shanti Stupa</a></li>
+                                            <li><a aria-label="Thiksey Monastery" title="Thiksey Monastery" href="/destinations\thiksey-monastery">Thiksey Monastery</a></li>
+                                            <li><a aria-label="Lamayuru Monastery" title="Lamayuru Monastery" href="/destinations\lamayuru-monastery">Lamayuru Monastery</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="/gallery">Gallery</a></li>
-                                    <li><a href="/gallery">Blog</a></li>
+                                    <li><a aria-label="Gallery" title="Gallery" href="/gallery">Gallery</a></li>
+                                    <li><a aria-label="Blog" title="Blog" href="/gallery">Blog</a></li>
                                     <li class="icon">
-                                        <a href="/contact"><i class="far fa-user"></i>Contact</a>
+                                        <a aria-label="Contack" title="Contack" href="/contact"><i class="far fa-user"></i>Contact</a>
                                     </li>
                                 </ul>
                             </nav>

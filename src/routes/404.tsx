@@ -14,7 +14,7 @@ export default component$(() => {
                             <h2>Page Not Found</h2>
                             <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
                             <p>Explore our exciting Ladakh bike tours and adventure trips instead. Head back to our homepage and start planning your next Himalayan journey with Ladakh Moto!</p>
-                            <a href="/" class="btn btn-primary mt-5">Back to Home</a>
+                            <a href="/" class="btn btn-primary mt-5" aria-label="Back to Home" title="Back to Home">Back to Home</a>
                         </div>
                     </div>
                 </div>

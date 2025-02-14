@@ -56,10 +56,10 @@ export default component$(() => {
                         </div>
 
                         <div class="sticky-buttons">
-                            <a href="#overview">Overview</a>
-                            <a href="#itinerary">Itinerary</a>
-                            <a href="#dates">Dates</a>
-                            <a href="#cost">Cost</a>
+                            <a aria-label="Overview" title="Overview" href="#overview">Overview</a>
+                            <a aria-label="Itinerary" title="Itinerary" href="#itinerary">Itinerary</a>
+                            <a aria-label="Dates" title="Dates" href="#dates">Dates</a>
+                            <a aria-label="Cost" title="Cost" href="#cost">Cost</a>
                         </div>
 
                         <Overview />

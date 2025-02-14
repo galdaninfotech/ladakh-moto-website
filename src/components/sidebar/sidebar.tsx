@@ -24,16 +24,16 @@ export default component$(() => {
                     Do not hesitage to give us a call. We are a team of local experts and we are happy to talk to you.
                 </p>
                 <div class="items">
-                    <div class="item phone"><a href="tel:9622958013">9622958013</a></div>
-                    <div class="item phone"><a href="tel:9906989962">9906989962</a></div>
-                    <div class="item email">info@ladakhmoto.com</div>
+                    <div class="item phone"><a href="tel:9622958013" aria-label="Phone" title="Phone">9622958013</a></div>
+                    <div class="item phone"><a href="tel:9906989962" aria-label="Phone" title="Phone">9906989962</a></div>
+                    <div class="item email" aria-label="Email" title="Email">info@ladakhmoto.com</div>
                 </div>
             </div>
 
             <div style="background-color: #dee2e6; border-radius: 4px;"></div>
 
             <div id="download-pdf d-none">
-                <a class="" href="/Ladakh-Travel-Guide-PDF.pdf" aria-label="Download Ladakh Travel Guide PDF" target="_blank">
+                <a class="" href="/Ladakh-Travel-Guide-PDF.pdf" aria-label="Download Ladakh Travel Guide PDF" title="Download Ladakh Travel Guide PDF" target="_blank">
                     <i class="bi bi-download d-none"></i>
                     <span class="elementor-button-text ml-3 d-none" style="margin-left: 10px;">Ladakh Travel Guide</span>
                 </a>

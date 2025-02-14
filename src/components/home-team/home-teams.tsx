@@ -26,10 +26,10 @@ export default component$(() => {
                             </div>
                         </div>
                         <figcaption>
-                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
-                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
+                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook" title="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
+                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram" title="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
-                        <a href="/team/phunchok-rigzin" aria-label="Phunchok Rigzin"></a>
+                        <a href="/team/phunchok-rigzin" aria-label="Phunchok Rigzin" title="Phunchok Rigzin"></a>
                     </figure>
                 </div>
 
@@ -43,10 +43,10 @@ export default component$(() => {
                             </div>
                         </div>
                         <figcaption>
-                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
-                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
+                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook" title="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
+                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram" title="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
-                        <a href="/team/skalzang-gyatso" aria-label="Skalzang Gyatso"></a>
+                        <a href="/team/skalzang-gyatso" aria-label="Skalzang Gyatso" title="Skalzang Gyatso"></a>
                     </figure>
                 </div>
 
@@ -60,10 +60,10 @@ export default component$(() => {
                             </div>
                         </div>
                         <figcaption>
-                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
-                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
+                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook" title="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
+                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram" title="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
-                        <a href="/team/stanzin-namgyal" aria-label="Stanzin Namgyal"></a>
+                        <a href="/team/stanzin-namgyal" aria-label="Stanzin Namgyal" title="Stanzin Namgyal"></a>
                     </figure>
                 </div>
 
@@ -77,10 +77,10 @@ export default component$(() => {
                             </div>
                         </div>
                         <figcaption>
-                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
-                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
+                            <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook" title="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
+                            <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram" title="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
-                        <a href="/team/stanzin-namgial" aria-label="Stanzin Namgial"></a>
+                        <a href="/team/stanzin-namgial" aria-label="Stanzin Namgial" title="Stanzin Namgial"></a>
                     </figure>
                 </div>
             </div>

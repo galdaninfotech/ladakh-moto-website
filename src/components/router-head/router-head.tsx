@@ -1,14 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
 
-/**
- * The RouterHead component is placed inside of the document `<head>` element.
- */
-export const RouterHead = component$(() => {
-  const head = useDocumentHead();
-  const loc = useLocation();
 
-  const trimTitle = (str: string) => {
+const trimTitle = (str: string) => {
 
     // Define the special characters you want to check for
     const specialChars = "!@#$%^&*()-+?_=,<>/";
@@ -27,8 +21,33 @@ export const RouterHead = component$(() => {
     return str.substring(0, index);
 }
 
-  const formattedTitle = trimTitle(head.title).trimEnd().replace(/ /g, "-").toLowerCase();
- 
+/**
+ * The RouterHead component is placed inside of the document `<head>` element.
+ */
+export const RouterHead = component$(() => {
+    const head = useDocumentHead();
+    const loc = useLocation();
+
+    const pathSegments = loc.url.pathname.split('/').filter(Boolean);
+    const urlSection = pathSegments.length > 1 
+        ? pathSegments[0]
+            .split('-')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ')
+        : null;
+
+    const titleSlug = trimTitle(head.title).trimEnd().replace(/ /g,"-").toLowerCase();
+    let imageUrl: string;
+    if(urlSection === 'Bike Tours') {
+        imageUrl = `img/bike-tours/${titleSlug}/${titleSlug}`;
+    } else if(urlSection === 'Bike Tour Packages') {
+        imageUrl = `img/bike-tour-packages/${titleSlug}/${titleSlug}`;
+    } else if(urlSection === 'About') {
+        imageUrl = `img/about/${titleSlug}`;
+    } else {
+        imageUrl = `img/${titleSlug}`;
+    }
+
   return (
     <>
 
@@ -40,33 +59,41 @@ export const RouterHead = component$(() => {
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@LadakhMoto" />
-        <meta name="twitter:creator" content="@LadakhMoto" />
+        <meta name="twitter:domain" content="ladakhmoto.com" />
+        <meta name="twitter:creator" content="LadakhMoto" />
         <meta name="twitter:title" content={head.title} />
         <meta name="twitter:description" content={head.meta[0].content} />
-        <meta name="twitter:image" content="https://ladakhmoto.com/img/og-image.jpg" />
+        {
+            loc.url.pathname == '/' 
+            ? <meta name="twitter:image" content="https://ladakhmoto.com/img/ladakhmto-twitter.webp" />
+            : <meta name="twitter:image" content={`https://www.ladakhmoto.com/${imageUrl}-twitter.webp`} />
+        }
+        
 
 
         {/* Open Graph Tags */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content={head.title} />
         <meta property="og:description" content={head.meta[0].content} />
-        <meta property="og:url" content={`https://www.ladakhmoto.com/${formattedTitle}`} />
-        {/* <meta property="og:url" content="https://www.ladakhmoto.com//leh-ladakh-adventure" /> */}
-        <meta property="og:site_name" content="@LadakhMoto" />
-        <meta property="og:image" content="https://vl-prod-static.b-cdn.net/system/images/000/300/878/160b26bc2e280d83db6ada2224d6107e/banner/DSC00399.jpg?1594207788" />
-        <meta property="og:image:width" content="4177" />
-        <meta property="og:image:height" content="2790" />
+        <meta property="og:url" content={`https://www.ladakhmoto.com/${titleSlug}`} />
+        <meta property="og:site_name" content="LadakhMoto" />
+        {
+            loc.url.pathname == '/' 
+            ? <meta name="og:image" content="https://ladakhmoto.com/img/ladakhmto-og.webp" />
+            : <meta name="og:image" content={`https://www.ladakhmoto.com/${imageUrl}-og.webp`} />
+        }
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="628" />
 
         {/*
         <link rel="icon" type="image/png" href="https://filestore/ladakhmoto.png?h=50&amp;w=50" />
-        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=50&amp;w=50" />
-        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=50&amp;w=50" size='60x60' />
-        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=76&amp;w=76" size='76x76' />
-        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=120&amp;w=120" size='120x120' />
-        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=152&amp;w=152" size='152x152' />
-        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=167&amp;w=167" size='167x167' />
-        <link rel="apple-touch-icon" type="image/png" href="https://img.ladakhmot.com/images/ladakhmot.png?h=180&amp;w=180" size='180x180' />
+        <link rel="apple-touch-icon" type="image/png" href="https://ladakhmot.com/img/ladakhmot.png?h=50&amp;w=50" />
+        <link rel="apple-touch-icon" type="image/png" href="https://ladakhmot.com/img/ladakhmot.png?h=50&amp;w=50" size='60x60' />
+        <link rel="apple-touch-icon" type="image/png" href="https://ladakhmot.com/img/ladakhmot.png?h=76&amp;w=76" size='76x76' />
+        <link rel="apple-touch-icon" type="image/png" href="https://ladakhmot.com/img/ladakhmot.png?h=120&amp;w=120" size='120x120' />
+        <link rel="apple-touch-icon" type="image/png" href="https://ladakhmot.com/img/ladakhmot.png?h=152&amp;w=152" size='152x152' />
+        <link rel="apple-touch-icon" type="image/png" href="https://ladakhmot.com/img/ladakhmot.png?h=167&amp;w=167" size='167x167' />
+        <link rel="apple-touch-icon" type="image/png" href="https://ladakhmot.com/img/ladakhmot.png?h=180&amp;w=180" size='180x180' />
         <meta name="apple-mobile-web-app-title" content="LadakhMoto" />
         */}
 
@@ -84,7 +111,7 @@ export const RouterHead = component$(() => {
         {/* CSS */}
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/custom.css" />
-        <link rel="stylesheet" href="/css/responsive.css" />
+        {/* <link rel="stylesheet" href="/css/responsive.css" /> */}
 
 
         {head.links.map((l) => (
