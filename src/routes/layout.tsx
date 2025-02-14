@@ -9,8 +9,8 @@ import SliderItinerary from "~/components/slider-itinerary/slider-itinerary";
 import bootstrapStyles from "../../public/css/bootstrap.min.css?inline";
 // import meanmenu from "../../public/css/meanmenu.min.css?inline";
 import defaultCss from "../../public/css/default.css?inline";
-import style from "../../public/css/style.css?inline";
-import custom from "../../public/css/custom.css?inline";
+// import style from "../../public/css/style.css?inline";
+// import custom from "../../public/css/custom.css?inline";
 import responsive from "../../public/css/responsive.css?inline";
  
 export const onGet: RequestHandler = async ({ cacheControl }) => {
