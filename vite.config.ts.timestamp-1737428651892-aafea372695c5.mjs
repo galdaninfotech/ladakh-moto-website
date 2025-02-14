@@ -1,8 +1,8 @@
 // vite.config.ts
-import { defineConfig } from "file:///C:/laragon/www/ladakh-moto-website/node_modules/vite/dist/node/index.js";
-import { qwikVite } from "file:///C:/laragon/www/ladakh-moto-website/node_modules/@builder.io/qwik/dist/optimizer.mjs";
-import { qwikCity } from "file:///C:/laragon/www/ladakh-moto-website/node_modules/@builder.io/qwik-city/lib/vite/index.mjs";
-import tsconfigPaths from "file:///C:/laragon/www/ladakh-moto-website/node_modules/vite-tsconfig-paths/dist/index.mjs";
+import { defineConfig } from "file:///C:/laragon/www/ladakhmoto/node_modules/vite/dist/node/index.js";
+import { qwikVite } from "file:///C:/laragon/www/ladakhmoto/node_modules/@builder.io/qwik/dist/optimizer.mjs";
+import { qwikCity } from "file:///C:/laragon/www/ladakhmoto/node_modules/@builder.io/qwik-city/lib/vite/index.mjs";
+import tsconfigPaths from "file:///C:/laragon/www/ladakhmoto/node_modules/vite-tsconfig-paths/dist/index.mjs";
 
 // package.json
 var package_default = {

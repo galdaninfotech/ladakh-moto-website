@@ -111,7 +111,6 @@ export const RouterHead = component$(() => {
         {/* CSS */}
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/custom.css" />
-        {/* <link rel="stylesheet" href="/css/responsive.css" /> */}
 
 
         {head.links.map((l) => (
