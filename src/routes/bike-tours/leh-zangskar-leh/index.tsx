@@ -83,11 +83,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Leh Zangskar Leh" ,
+  title: "Leh Zangskar Leh - Bike Tour, Leh to Leh | 9N/10D, 1485 km - @ ₹28,500/-" ,
   meta: [
     {
       name: "description",
-      content: "Leh Zangskar Leh",
+      content: "Leh to Leh | 1485 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel & Mechanic included | Ladakh Zangskar Leh Bike Tour - including Lamayuru, Padum, Phuktal Monastery, Shingo La pass, Serchu, Tsokar & Tsomoriri Lake. 100% Travellers Satisfaction Guaranteed.",
     },
   ],
 };

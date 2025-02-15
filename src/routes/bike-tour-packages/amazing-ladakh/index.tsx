@@ -78,11 +78,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Amazing Ladakh Tour",
+  title: "Amazing Ladakh Tour - Tour Package, Leh to Leh | 5N/6D, 530 km - @ ₹12,500/-",
   meta: [
     {
       name: "description",
-      content: "Amazing Ladakh Tour",
+      content: "Leh to Leh | 530 km Trip  - Hotel, Meal, Transportation, Permit, Guide | Amazing Ladakh Tour - including Khardong La, Nubra Valley, Pangong Lake. 100% Travellers Satisfaction Guaranteed.",
     },
   ],
 };

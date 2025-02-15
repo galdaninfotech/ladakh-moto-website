@@ -76,11 +76,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Ladakh Zangskar Valley Tour",
+  title: "Ladakh Zangskar Valley Tour - Tour package, Leh to Leh | 10N/11D, 1360 km - @ ₹18,200/-",
   meta: [
     {
       name: "description",
-      content: "Ladakh Zangskar Valley Tour.",
+      content: "Leh to Leh | 1360 km trip  - Hotel, Meal, Transportation, Permit, Guide | All Ladakh Tour - including Leh, Kargil, Lamayuru, Padum, Phukthal monastery & Pangong Lake . 100% Travellers Satisfaction Guaranteed.",
     },
   ],
 };

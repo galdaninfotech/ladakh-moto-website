@@ -84,11 +84,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Ladakh With Umling La",
+  title: "Ladakh with Umling La - Bike Tour, Leh to Leh | 7N/8D, 1050 km - @ ₹19,500/-",
   meta: [
     {
       name: "description",
-      content: "Ladakh With Umling La is an unforgettable journey with Ladakh Moto to Umling La, the world's highest motorable road. Explore breathtaking landscapes, rugged terrains, and authentic Ladakhi culture with our expertly curated bike tours. Experience adventure motor biking like never before!",
+      content: "Leh to Leh | 1050 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel & Mechanic included | Ladakh With Umling La Bike Tour - including Khardong La, Nubra Valley, Pangong Lake, Hanle & Umling La pass. 100% Travellers Satisfaction Guaranteed.",
     },
   ],
 };

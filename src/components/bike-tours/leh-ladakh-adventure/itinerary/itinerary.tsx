@@ -85,7 +85,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Shanti Stupa, Leh Palace, Magnet Hill, Hall of Fame, Gurudwara Pathar Sahib</li>
-                                    <li>After your breakfast today, drive to visit the Magnetic Hill which is also enthralling as it generates an optical illusion and on the way visit Gurudwara Pathar Sahib which is a serene Sikh shrine. Later, visit out the Shanti Stupa to take stunning views of the Leh town and then venture out to the UNESCO recognized Leh Palace. End your day with a trip to the Hall of Fame, a memorial for the Indian Army and recollects the history with its specific gallery.</li>
+                                    <li>After your breakfast today, drive to visit the Magnetic Hill which is also enthralling as it generates an illusion and on the way visit Gurudwara Pathar Sahib which is a serene Sikh shrine. Later, visit out the Shanti Stupa to take stunning views of the Leh town and then venture out to the UNESCO recognized Leh Palace. End your day with a trip to the Hall of Fame, a memorial for the Indian Army and recollects the history with its specific gallery.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 

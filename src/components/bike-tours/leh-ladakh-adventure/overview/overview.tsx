@@ -43,13 +43,13 @@ export default component$(() => {
             <h3>Tour Highlights:</h3>
             <ul class="overview-tour-highlights">
                 <li>Drive through Khardung La, which is one of the highest motorable passes in the world.</li>
-                <li>Get the opportunity to witness the culture and the sights which Nubra Valley has to offer, including its sand hills.</li>
+                <li>Get the opportunity to witness the culture and the sights which Nubra Valley has to offer, including its sand dunes.</li>
                 <li>Marvel at the views of ever-changing colors of Pangong Lake.</li>
                 <li>Get in touch with the culture and scenic views of Ladakh region.</li>
             </ul>
 
             <p>
-                This motorbiking tour provides a thrilling adventure to the mountains of impressive heritage and picturesque views of Ladakh, more than making it a must visit destination for every traveler.
+                This tour combines high-altitude adventure with serene cultural exploration, making it perfect for motorbiking enthusiasts looking to challenge themselves while experiencing the beauty of Ladakh.
             </p>
             
 

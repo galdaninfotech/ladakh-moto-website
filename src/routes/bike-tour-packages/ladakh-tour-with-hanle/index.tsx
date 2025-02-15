@@ -78,11 +78,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Ladakh Tour with Hanle",
+  title: "Ladakh Tour With Hanle - Tour package, Leh to Leh | 7N/8D, 930 km - @ ₹18,000/-",
   meta: [
     {
       name: "description",
-      content: "Ladakh Tour with Hanle",
+      content: "Leh to Leh | 930 km Trip  - Hotel, Meal, Transportation, Permit, Guide | All Ladakh Tour - including Khardong La, Nubra Valley, Pangong Lake, Hanle. 100% Travellers Satisfaction Guaranteed.",
     },
   ],
 };

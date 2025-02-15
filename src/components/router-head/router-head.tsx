@@ -65,7 +65,7 @@ export const RouterHead = component$(() => {
         <meta name="twitter:description" content={head.meta[0].content} />
         {
             loc.url.pathname == '/' 
-            ? <meta name="twitter:image" content="https://ladakhmoto.com/img/ladakhmto-twitter.webp" />
+            ? <meta name="twitter:image" content="https://ladakhmoto.com/img/ladakhmoto-twitter.webp" />
             : <meta name="twitter:image" content={`https://www.ladakhmoto.com/${imageUrl}-twitter.webp`} />
         }
         
@@ -75,11 +75,15 @@ export const RouterHead = component$(() => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content={head.title} />
         <meta property="og:description" content={head.meta[0].content} />
-        <meta property="og:url" content={`https://www.ladakhmoto.com/${titleSlug}`} />
+        {
+            loc.url.pathname == '/' 
+            ? <meta property="og:url" content={`https://www.ladakhmoto.com/`} />
+            : <meta property="og:url" content={`https://www.ladakhmoto.com/${imageUrl}`} />
+        }
         <meta property="og:site_name" content="LadakhMoto" />
         {
             loc.url.pathname == '/' 
-            ? <meta name="og:image" content="https://ladakhmoto.com/img/ladakhmto-og.webp" />
+            ? <meta name="og:image" content="https://ladakhmoto.com/img/ladakhmoto-og.webp" />
             : <meta name="og:image" content={`https://www.ladakhmoto.com/${imageUrl}-og.webp`} />
         }
         <meta property="og:image:width" content="1200" />

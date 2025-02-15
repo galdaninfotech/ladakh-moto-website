@@ -83,11 +83,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Manali Leh Srinagar",
+  title: "Manali Leh Srinagar - Bike Tour, Manali to Srinagar | 9N/10D, 1525 km - @ ₹23,000/-",
   meta: [
     {
       name: "description",
-      content: "Manali Leh Srinagar",
+      content: "Manali to Srinagar | 1525 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel & Mechanic included | Manali Leh Srinagar Bike Tour - including Manali, Leh, Khardong la, Nubra valley, Turtuk, Pangong lake, Kargil & Srinagar. 100% Travellers Satisfaction Guaranteed.",
     },
   ],
 };

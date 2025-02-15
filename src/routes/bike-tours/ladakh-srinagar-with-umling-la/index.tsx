@@ -83,11 +83,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Ladakh Srinagar With Umling La",
+  title: "Ladakh Srinagar With Umling La - Bike Tour, Leh to Srinagar | 10N/11D, 1576 km - @ ₹25,000/-",
   meta: [
     {
       name: "description",
-      content: "Ladakh Srinagar With Umling La",
+      content: "Leh to Srinagar | 1576 km trip on Himalayan 411 BSVI bike - Hotel, Meal, Fuel & Mechanic included | Ladakh Srinagar With Umling la Bike Tour - including Khardong La, Nubra Valley, Turtuk, Pangong Lake, Hanle, Kargil & Umling La pass. 100% Travellers Satisfaction Guaranteed.",
     },
   ],
 };
