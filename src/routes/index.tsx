@@ -1,6 +1,5 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Schema } from '~/components/schema/schema';
 import Intro from "~/components/intro/intro";
 import Testimonials from "~/components/testimonials/testimonials";
 import HomePackages from "~/components/home-packages/home-packages";
@@ -9,18 +8,6 @@ import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
 import HomeTeams from "~/components/home-team/home-teams";
 
 export default component$(() => {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "TouristAttraction",
-        "name": "LadakhMoto",
-        "description": "Ladakhmoto is a local company located right in the center of Leh, Ladakh. We provide authentic and seamless travel experiences with full accountability and a deep-rooted knowledge of the region.",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Leh",
-            "addressRegion": "Ladakh",
-            "addressCountry": "IN"
-        }
-    };
 
     return (
         <>
