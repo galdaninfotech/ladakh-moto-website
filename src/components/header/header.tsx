@@ -85,15 +85,15 @@ export default component$(() => {
                                     <li class="dropdown">
                                         <a aria-label="Destinations" title="Destinations" href="#">Destinations</a>
                                         <ul>
-                                            <li><a aria-label="Leh City" title="Leh City" href="/destinations\leh-city">Leh City</a></li>
-                                            <li><a aria-label="Nubra Valley" title="Nubra Valley" href="/destinations\nubra-valley">Nubra Valley</a></li>
-                                            <li><a aria-label="Pangong Lake" title="Pangong Lake" href="/destinations\pangong-lake">Pangong Lake</a></li>
-                                            <li><a aria-label="Tsomoriri Lake" title="Tsomoriri Lake" href="/destinations\tsomoriri-lake">Tsomoriri Lake</a></li>
-                                            <li><a aria-label="Zanskar Valley" title="Zanskar Valley" href="/destinations\zanskar-valley">Zanskar Valley</a></li>
-                                            <li><a aria-label="Hanle Village" title="Hanle Village" href="/destinations\hanle-village">Hanle Village</a></li>
-                                            <li><a aria-label="Shanti Stupa" title="Shanti Stupa" href="/destinations\shanti-stupa">Shanti Stupa</a></li>
-                                            <li><a aria-label="Thiksey Monastery" title="Thiksey Monastery" href="/destinations\thiksey-monastery">Thiksey Monastery</a></li>
-                                            <li><a aria-label="Lamayuru Monastery" title="Lamayuru Monastery" href="/destinations\lamayuru-monastery">Lamayuru Monastery</a></li>
+                                            <li><a aria-label="Leh City" title="Leh City" href="/destinations/leh-city">Leh City</a></li>
+                                            <li><a aria-label="Nubra Valley" title="Nubra Valley" href="/destinations/nubra-valley">Nubra Valley</a></li>
+                                            <li><a aria-label="Pangong Lake" title="Pangong Lake" href="/destinations/pangong-lake">Pangong Lake</a></li>
+                                            <li><a aria-label="Tsomoriri Lake" title="Tsomoriri Lake" href="/destinations/tsomoriri-lake">Tsomoriri Lake</a></li>
+                                            <li><a aria-label="Zanskar Valley" title="Zanskar Valley" href="/destinations/zanskar-valley">Zanskar Valley</a></li>
+                                            <li><a aria-label="Hanle Village" title="Hanle Village" href="/destinations/hanle-village">Hanle Village</a></li> 
+                                            <li><a aria-label="Shanti Stupa" title="Shanti Stupa" href="/destinations/shanti-stupa">Shanti Stupa</a></li>
+                                            <li><a aria-label="Thiksey Monastery" title="Thiksey Monastery" href="/destinations/thiksey-monastery">Thiksey Monastery</a></li>
+                                            <li><a aria-label="Lamayuru Monastery" title="Lamayuru Monastery" href="/destinations/lamayuru-monastery">Lamayuru Monastery</a></li>
                                         </ul>
                                     </li>
                                     <li><a aria-label="Gallery" title="Gallery" href="/gallery">Gallery</a></li>

@@ -21,7 +21,7 @@
     }
 
     /* Carousel Items */
-        .kb-carousel .carousel-item {
+    .kb-carousel .carousel-item {
         transition: transform .6s ease-in-out 0s, opacity ease-in-out .6s;
     }
 
@@ -225,3 +225,5 @@ a.width-6 {
     text-align: center;
     margin-top: 15px;
 }
+
+
