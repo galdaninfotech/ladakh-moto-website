@@ -21,8 +21,8 @@ export default component$(() => {
                         <ImgPhuntsogRigzin alt="Phuntsog Rigzin" />
                         <div class="title">
                             <div>
-                                <h2>Phunchok Rigzin</h2>
-                                <h3>Tour Leader</h3>
+                                <h3>Phunchok Rigzin</h3>
+                                <h4>Tour Leader</h4>
                             </div>
                         </div>
                         <figcaption>
@@ -38,8 +38,8 @@ export default component$(() => {
                         <ImgSkalzangGyatso alt="Skalzang Gyatso" />
                         <div class="title">
                             <div>
-                                <h2>Skalzang Gyatso</h2>
-                                <h3>Marshal</h3>
+                                <h3>Skalzang Gyatso</h3>
+                                <h4>Marshal</h4>
                             </div>
                         </div>
                         <figcaption>
@@ -55,8 +55,8 @@ export default component$(() => {
                         <ImgStanzinNamgyal alt="Stanzin Namgyal" />
                         <div class="title">
                             <div>
-                            <h2>Stanzin Namgyal</h2>
-                            <h3>Operation</h3>
+                            <h3>Stanzin Namgyal</h3>
+                            <h4>Operation</h4>
                             </div>
                         </div>
                         <figcaption>
@@ -72,8 +72,8 @@ export default component$(() => {
                         <ImgStanzinNamgial alt="Stanzin Namgial" />
                         <div class="title">
                             <div>
-                                <h2>Stanzin Namgial</h2>
-                                <h3>Operation</h3>
+                                <h3>Stanzin Namgial</h3>
+                                <h4>Operation</h4>
                             </div>
                         </div>
                         <figcaption>

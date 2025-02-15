@@ -196,3 +196,13 @@ window.addEventListener("scroll", (event) => {
     }
 });
 
+
+
+// Hide All Email links from Bot Harvesters
+const emailElem = document.querySelectorAll('.email-link');
+emailElem.forEach((elem) => {
+    const user = 'info';
+    const domain = 'ladakhmoto.com';
+    elem.href = 'mailto:' + user + '@' + domain;
+    elem.innerText = user + '@' + domain;
+});

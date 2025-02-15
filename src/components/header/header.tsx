@@ -20,7 +20,7 @@ export default component$(() => {
                     {/* <!-- Header top contact --> */}
                     <div class="header-top-contact">
                         <ul>
-                            <li><a class="email" aria-label="email" title="email" href="mailto:info@ladakhmoto.com">info@ladakhmoto.com</a></li>
+                            <li><a class="email email-link" aria-label="Email" title="Email" href="#">Email Us</a></li>
                             <li><a class="phone" aria-label="phone" title="phone" href="tel:+91-9622958013">+91-9622958013</a></li>
                             <li><a class="phone" aria-label="phone" title="phone" href="tel:+91-9906989962">+91-9906989962</a></li>
                         </ul>

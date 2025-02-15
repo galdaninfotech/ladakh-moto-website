@@ -26,7 +26,7 @@ export default component$(() => {
                 <div class="items">
                     <div class="item phone"><a href="tel:9622958013" aria-label="Phone" title="Phone">9622958013</a></div>
                     <div class="item phone"><a href="tel:9906989962" aria-label="Phone" title="Phone">9906989962</a></div>
-                    <div class="item email" aria-label="Email" title="Email">info@ladakhmoto.com</div>
+                    <div class="item email"><a class="email email-link" aria-label="Email" title="Email" href="#">Email Us</a></div>
                 </div>
             </div>
 
