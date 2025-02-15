@@ -53,7 +53,11 @@ export const RouterHead = component$(() => {
 
         <link rel="canonical" href={loc.url.href} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+        {/* Fevicon */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="manifest" href="/manifest.webmanifest" />
           
         <title>{head.title}</title>
 
@@ -69,7 +73,6 @@ export const RouterHead = component$(() => {
             : <meta name="twitter:image" content={`https://www.ladakhmoto.com/${imageUrl}-twitter.webp`} />
         }
         
-
 
         {/* Open Graph Tags */}
         <meta property="og:type" content="article" />
