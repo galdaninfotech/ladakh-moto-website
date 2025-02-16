@@ -20,14 +20,14 @@ export default component$(() => {
                     {/* Mobile Screen */}
                     <div class="row d-block d-lg-none">
                         <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                            <DestinationImage src="/img/destinations/leh-city.jpg" alt="Leh City" />
+                            <DestinationImage src="/img/destinations/leh-city.webp" alt="Leh City" />
                         </div>
                     </div>
 
                     {/* Desktop Screen */}
                     <div class="row d-none d-lg-block">
                         <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
-                            <DestinationImage size="desktop" src="/img/destinations/leh-city.jpg" alt="Leh City" />
+                            <DestinationImage size="desktop" src="/img/destinations/leh-city.webp" alt="Leh City" />
                         </div>
                     </div>
 
