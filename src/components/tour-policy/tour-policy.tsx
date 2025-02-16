@@ -40,7 +40,7 @@ export default component$(() => {
                         <div id="tourPolicyCollapse2" class="accordion-collapse collapse" data-bs-parent="#tourPolicyAccordion">
                             <div class="accordion-body">
                                 <ul>
-                                    <li>In case of trip or adventure activity cancellation due to any avoidable or unavoidable reasons, notification must be sent via email to info@ladakhmoto.com.</li>
+                                    <li>In case of trip or adventure activity cancellation due to any avoidable or unavoidable reasons, notification must be sent via email to <a class="email email-link" aria-label="Email" title="Email" href="#">Email Us</a>.</li>
                                     <li>Cancellation charges will apply from the date we receive the cancellation request by email. The charges are as follows:
                                         <ul>
                                             <li>30 days or more before departure: 90% of the total Land Package Cost will be refunded.</li>

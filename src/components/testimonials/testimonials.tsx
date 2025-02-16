@@ -1,10 +1,10 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './testimonials.css?inline';
-import ImgRajesh from '../../media/testimonials/rajesh.jpg?jsx';
-import ImgSuraj from '../../media/testimonials/suraj.jpg?jsx';
-import ImgAditya from '../../media/testimonials/aditya.jpg?jsx';
-// import ImgAnkit from '../../media/testimonials/ankit.jpg?jsx';
-// import ImgSunny from '../../media/testimonials/sunny.jpg?jsx';
+import ImgRajesh from '../../media/testimonials/rajesh.webp?jsx';
+import ImgSuraj from '../../media/testimonials/suraj.webp?jsx';
+import ImgAditya from '../../media/testimonials/aditya.webp?jsx';
+import ImgAnkit from '../../media/testimonials/ankit.webp?jsx';
+import ImgSunny from '../../media/testimonials/sunny.webp?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -34,37 +34,39 @@ export default component$(() => {
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
                             </div>
                             <div class="carousel-inner">
-                            <div class="carousel-item carousel-item-1 active">
-                                        <div class="testimonial-item ps-5">
-                                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                                            <p class="fs-4 textimal-text">Ladakhmoto made our 10-day biking tour in Ladakh an unforgettable experience! The professional team, well-planned itinerary, and stunning routes exceeded our expectations. From the road captain to the mechanics, everything was top-notch. Highly recommended!</p>
-                                            <div class="d-flex align-items-center">
-                                                <ImgRajesh style="width: 60px; height: 60px;" class="img-fluid flex-shrink-0 rounded-circle" alt="Rajesh, Gujurat" />
-                                                <div class="ps-3">
-                                                    <span class="mb-1">Rajesh</span>
-                                                    <span class="at">@Gujurat</span>
-                                                </div>
+                                <div class="carousel-item carousel-item-1 active">
+                                    <div class="testimonial-item ps-5">
+                                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                                        <p class="fs-4 textimal-text">Ladakhmoto made our 10-day biking tour in Ladakh an unforgettable experience! The professional team, well-planned itinerary, and stunning routes exceeded our expectations. From the road captain to the mechanics, everything was top-notch. Highly recommended!</p>
+                                        <div class="d-flex align-items-center">
+                                            <ImgRajesh style="width: 60px; height: 60px;" class="img-fluid flex-shrink-0 rounded-circle" alt="Rajesh, Gujurat" />
+                                            <div class="ps-3">
+                                                <span class="mb-1">Rajesh</span>
+                                                <span class="at">@Gujurat</span>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
 
-                            <div class="carousel-item carousel-item-2">
-                                        <div class="testimonial-item ps-5">
-                                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                                            <p class="fs-4 textimal-text">My 10-day Zanskar biking tour with Ladakhmoto was absolutely incredible! The breathtaking landscapes, expert guidance, and seamless support from their team made it an adventure of a lifetime. I highly recommend Ladakhmoto for unforgettable journeys!</p>
-                                            <div class="d-flex align-items-center">
-                                                <ImgSuraj style="width: 60px; height: 60px;" class="img-fluid flex-shrink-0 rounded-circle" alt="Suraj, Maharashtra" />
-                                                <div class="ps-3">
-                                                    <span class="mb-1">Suraj</span>
-                                                    <span class="at">@Maharashtra</span>
-                                                </div>
+                                <div class="carousel-item carousel-item-2">
+                                    <div class="testimonial-item ps-5">
+                                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                                        <p class="fs-4 textimal-text">My 10-day Zanskar biking tour with Ladakhmoto was absolutely incredible! The breathtaking landscapes, expert guidance, and seamless support from their team made it an adventure of a lifetime. I highly recommend Ladakhmoto for unforgettable journeys!</p>
+                                        <div class="d-flex align-items-center">
+                                            <ImgSuraj style="width: 60px; height: 60px;" class="img-fluid flex-shrink-0 rounded-circle" alt="Suraj, Maharashtra" />
+                                            <div class="ps-3">
+                                                <span class="mb-1">Suraj</span>
+                                                <span class="at">@Maharashtra</span>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
+                                </div> 
 
-                            <div class="carousel-item carousel-item-2">
+                                <div class="carousel-item carousel-item-2">
                                     <div class="testimonial-item ps-5">
                                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
                                         <p class="fs-4 textimal-text">Ladakhmoto made our 7-day Leh-Ladakh biking tour an extraordinary adventure! The well-organized itinerary, skilled road captain, and stunning routes left us in awe. Exceptional support throughout the journey made it truly unforgettable. Highly recommended!</p>
@@ -77,15 +79,43 @@ export default component$(() => {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="carousel-item carousel-item-2">
+                                    <div class="testimonial-item ps-5">
+                                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                                        <p class="fs-4 textimal-text">My biking tour with Ladakhmoto through Leh-Ladakh was absolutely amazing! The scenic routes, expert guidance, and exceptional support made it an unforgettable adventure. Everything was perfectly organized, and the experience was beyond expectations. Highly recommended!</p>
+                                        <div class="d-flex align-items-center">
+                                            <ImgAnkit style="width: 60px; height: 60px;" class="img-fluid flex-shrink-0 rounded-circle" alt="Ankit, Kerela" />
+                                            <div class="ps-3">
+                                                <span class="mb-1">Ankit</span>
+                                                <span class="at">@Kerela</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item carousel-item-2">
+                                    <div class="testimonial-item ps-5">
+                                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                                        <p class="fs-4 textimal-text">Ladakhmoto made our 7-day Leh-Ladakh biking tour an extraordinary adventure! The well-organized itinerary, skilled road captain, and stunning routes left us in awe. Exceptional support throughout the journey made it truly unforgettable. Highly recommended!</p>
+                                        <div class="d-flex align-items-center">
+                                            <ImgSunny style="width: 60px; height: 60px;" class="img-fluid flex-shrink-0 rounded-circle" alt="Sunny, Mumbai" />
+                                            <div class="ps-3">
+                                                <span class="mb-1">Sunny</span>
+                                                <span class="at">@Mumbai</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 
                                 <div class="control-btn">
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                        {/* <i class="fa-solid fa-arrow-left"></i> */}
+                                        <i class="fa-solid fa-arrow-left"></i>
                                         <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                        {/* <i class="fa-solid fa-arrow-right"></i> */}
+                                        <i class="fa-solid fa-arrow-right"></i>
                                         <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>

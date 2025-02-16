@@ -1,9 +1,9 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './home-teams.css?inline';
-import ImgPhuntsogRigzin from '../../media/team/phuntsog-rigzin.jpg?jsx';
-import ImgSkalzangGyatso from '../../media/team/skalzang-gyatso.jpg?jsx';
-import ImgStanzinNamgyal from '../../media/team/stanzin-namgyal.jpg?jsx';
-import ImgStanzinNamgial from '../../media/team/stanzin-namgial.jpg?jsx';
+import ImgPhuntsogRigzin from '../../media/team/phuntsog-rigzin.webp?jsx';
+import ImgSkalzangGyatso from '../../media/team/skalzang-gyatso.webp?jsx';
+import ImgStanzinNamgyal from '../../media/team/stanzin-namgyal.webp?jsx';
+import ImgStanzinNamgial from '../../media/team/stanzin-namgial.webp?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);

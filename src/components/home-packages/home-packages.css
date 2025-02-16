@@ -41,6 +41,7 @@
   .package-card {
     background-color: #23282e;
     color: #fff;
+    min-height: 326px;
   }
   
   .package-card h2 {

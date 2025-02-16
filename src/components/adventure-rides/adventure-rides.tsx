@@ -1,12 +1,12 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './adventure-rides.css?inline';
 import OverviewIcons from '~/components/overview-icons/overview-icons';
-import ImgLehLadakhAdventureHome from '../../media/bike-tours/leh-ladakh-adventure/leh-ladakh-adventure-home.jpg?jsx';
-import ImgLadakhWithUmlingLaHome from '../../media/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-home.jpg?jsx';
-import ImgLadakhSrinagarWithUmlingLaHome from '../../media/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-home.jpg?jsx';
-import ImgLehZangskarLeh from '../../media/bike-tours/leh-zangskar-leh/leh-zangskar-leh-home.jpg?jsx';
-import ImgManaliLehSrinagar from '../../media/bike-tours/manali-leh-srinagar/manali-leh-srinagar-home.jpg?jsx';
-import ImgSrinagarLehManali from '../../media/bike-tours/srinagar-leh-manali/srinagar-leh-manali-home.jpg?jsx';
+import ImgLehLadakhAdventureHome from '../../media/bike-tours/leh-ladakh-adventure/leh-ladakh-adventure-home.webp?jsx';
+import ImgLadakhWithUmlingLaHome from '../../media/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-home.webp?jsx';
+import ImgLadakhSrinagarWithUmlingLaHome from '../../media/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-home.webp?jsx';
+import ImgLehZangskarLeh from '../../media/bike-tours/leh-zangskar-leh/leh-zangskar-leh-home.webp?jsx';
+import ImgManaliLehSrinagar from '../../media/bike-tours/manali-leh-srinagar/manali-leh-srinagar-home.webp?jsx';
+import ImgSrinagarLehManali from '../../media/bike-tours/srinagar-leh-manali/srinagar-leh-manali-home.webp?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
