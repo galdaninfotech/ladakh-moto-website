@@ -28,12 +28,12 @@ export default component$<ItemProps>((props) => {
             </div>
 
             <div class="fab-wheel">
-                <a class="fab-action fab-action-1" href="https://api.whatsapp.com/send?phone=9622958013" target="_blank" aria-label="Contact us on WhatsApp" title="Contact us on WhatsApp">
+                <a class="fab-action fab-action-1" href="https://api.whatsapp.com/send?phone=9622958013" target="_blank" aria-label="Leave a message on WhatsApp" title="Leave a message on WhatsApp">
                     <i class="bi bi-whatsapp" aria-hidden="true"></i>
                     <span class="sr-only">WhatsApp</span>
                 </a>
 
-                <a class="fab-action fab-action-2" href="tel:9622958013" aria-label="Call us" title="Call us">
+                <a class="fab-action fab-action-2" href="tel:9622958013" aria-label="Call For Instant Booking" title="Call For Instant Booking">
                     <i class="bi bi-telephone-outbound" aria-hidden="true"></i>
                     <span class="sr-only">Phone</span>
                 </a>
@@ -43,7 +43,7 @@ export default component$<ItemProps>((props) => {
                     <span class="sr-only">Email</span>
                 </a>
 
-                <a class="fab-action fab-action-4" href="https://www.instagram.com/ladakhmototour/" target="_blank" aria-label="Follow us on Instagram" title="Follow us on Instagram">
+                <a class="fab-action fab-action-4" href="https://www.instagram.com/ladakhmototour/" target="_blank" aria-label="Follow On Instagram" title="Follow On Instagram">
                     <i class="bi bi-instagram" aria-hidden="true"></i>
                     <span class="sr-only">Instagram</span>
                 </a>

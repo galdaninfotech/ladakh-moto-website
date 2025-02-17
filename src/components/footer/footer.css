@@ -97,16 +97,16 @@
     margin: 0 auto;
 }
 .widget.contact-widget ul li a.facebook::before {
-    background-position: 7px -68px;
+    background-position: 4px -100px;
 }
 .widget.contact-widget ul li a.twitter::before {
-    background-position: -19px  -68px;
+    background-position: -19px  -100px;
 }
 .widget.contact-widget ul li a.instagram::before {
-    background-position: -41px -69px;
+    background-position: -41px -101px;
 }
 .widget.contact-widget ul li a.youtube::before {
-    background-position: -64px -68px;
+    background-position: -64px -100px;
 }
 
 a.galdaninfotech::before {

@@ -14,20 +14,20 @@ table thead tr th div {
     margin: 0 auto;
 }
 
+#duration {
+    background-position: -48px 12px;
+}
 #highest-point {
-    background-position: -209px 0;
+    background-position: -209px 14px;
 }
 #distance {
-    background-position: 2px 0;
-}
-#duration {
-    background-position: -52px 0;
+    background-position: 2px 14px;
 }
 #lodging {
-    background-position: -264px 0;
+    background-position: -264px 14px;
 }
 #meal {
-    background-position: -158px 0;
+    background-position: -158px 14px;
 }
 
 

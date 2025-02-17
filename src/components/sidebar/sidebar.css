@@ -88,10 +88,10 @@
 #wrapper-need-help .items .item.phone::before {
     width: 14px;
     height: 22px;
-    background-position: -60px -46px;
+    background-position: -60px -72px;
 }
 #wrapper-need-help .items .item.email::before {
-    background-position: -93px -46px;
+    background-position: -93px -71px;
     width: 22px;
     height: 22px;
 }

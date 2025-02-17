@@ -32,10 +32,10 @@ header.header-area.style-2 .site-logo {
 .header-top-contact ul li a.email::before {
     width: 22px;
     height: 20px;
-    background-position: -93px -46px;
+    background-position: -93px -47px;
 }
 .header-top-contact ul li a.phone::before {
     width: 14px;
     height: 20px;
-    background-position: -60px -46px;
+    background-position: -60px -47px;
 }

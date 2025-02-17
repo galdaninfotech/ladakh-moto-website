@@ -15,19 +15,19 @@ table thead tr th div {
 }
 
 #highest-point {
-    background-position: -209px 0;
+    background-position: -209px 15px;
 }
 #distance {
-    background-position: 2px 0;
+    background-position: 2px 12px;
 }
 #duration {
-    background-position: -104px 0;
+    background-position: -104px 15px;
 }
 #lodging {
-    background-position: -264px 0;
+    background-position: -264px 15px;
 }
 #meal {
-    background-position: -158px 0;
+    background-position: -158px 15px;
 }
 
 
