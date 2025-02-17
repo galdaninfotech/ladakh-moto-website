@@ -2,6 +2,7 @@ import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import ItineraryImage from "~/components/itinerary-image";
 import styles from './itinerary.css?inline';
 import ItineraryIcons from '~/components/itinerary-icons/itinerary-icons';
+import { handleAccordionScrollIntoView } from '~/utils/handleAccordionScrollIntoView';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -15,7 +16,7 @@ export default component$(() => {
                 <div class="accordion" id="itineraryAccordion">
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse1" aria-expanded="true" aria-controls="itineraryCollapse1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse1" aria-expanded="true" aria-controls="itineraryCollapse1" onClick$={handleAccordionScrollIntoView}>
                             Day 01 : Arrival in Leh – Acclimatization Day
                             </button>
                         </h3>
@@ -57,7 +58,7 @@ export default component$(() => {
                     </div>
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="false" aria-controls="itineraryCollapse2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="false" aria-controls="itineraryCollapse2" onClick$={handleAccordionScrollIntoView}>
                             Day 02 : : Leh – Sham Valley Tour
                             </button>
                         </h3>
@@ -100,7 +101,7 @@ export default component$(() => {
                     </div>
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="false" aria-controls="itineraryCollapse3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="false" aria-controls="itineraryCollapse3" onClick$={handleAccordionScrollIntoView}>
                             Day 03 : Leh to Nubra Valley via Khardung La Pass
                             </button>
                         </h3>
@@ -143,7 +144,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="false" aria-controls="itineraryCollapse4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="false" aria-controls="itineraryCollapse4" onClick$={handleAccordionScrollIntoView}>
                             Day 04 : Nubra Valley to Pangong Lake via Shyok Route
                             </button>
                         </h3>
@@ -185,7 +186,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse5" aria-expanded="false" aria-controls="itineraryCollapse5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse5" aria-expanded="false" aria-controls="itineraryCollapse5" onClick$={handleAccordionScrollIntoView}>
                             Day 05 : Pangong Lake to Leh via Chang La Pass
                             </button>
                         </h3>
@@ -226,7 +227,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse6" aria-expanded="false" aria-controls="itineraryCollapse6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse6" aria-expanded="false" aria-controls="itineraryCollapse6" onClick$={handleAccordionScrollIntoView}>
                             Day 06 : Departure from Leh
                             </button>
                         </h3>

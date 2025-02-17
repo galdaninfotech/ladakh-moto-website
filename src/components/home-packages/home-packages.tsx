@@ -3,7 +3,7 @@ import styles from './home-packages.css?inline';
 import ImgAllLadakhTour from '../../media/bike-tour-packages/all-ladakh-tour/all-ladakh-tour-overview.webp?jsx';
 import ImgAmazingLadakhTour from '../../media/bike-tour-packages/amazing-ladakh-tour/amazing-ladakh-tour-overview.webp?jsx';
 import ImgLadakhWithHanle from '../../media/bike-tour-packages/ladakh-tour-with-hanle/ladakh-tour-with-hanle-overview.webp?jsx';
-import ImgLadakhZanskarTour from '../../media/bike-tour-packages/ladakh-zangskar-valley-tour/ladakh-zangskar-valley-tour-overview.webp?jsx';
+import ImgLadakhZanskarTour from '../../media/bike-tour-packages/ladakh-zanskar-valley-tour/ladakh-zanskar-valley-tour-overview.webp?jsx';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -57,7 +57,7 @@ export default component$(() => {
                             <div class="description">
                                 <h2>Ladakh Zanskar</h2>
                                 <p>A tour of Hemis, Diskit and Thiksey monasteries will take...</p>
-                                <a href="/bike-tour-packages/ladakh-zangskar-valley-tour" aria-label="More Details" title="More Details"><button>More Details</button></a>
+                                <a href="/bike-tour-packages/ladakh-zanskar-valley-tour" aria-label="More Details" title="More Details"><button>More Details</button></a>
                             </div>
                         </div>
                     </div>

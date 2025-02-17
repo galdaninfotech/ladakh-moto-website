@@ -1,5 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './tour-policy.css?inline';
+import { handleAccordionScrollIntoView } from '~/utils/handleAccordionScrollIntoView';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -13,7 +14,7 @@ export default component$(() => {
                 <div class="accordion" id="tourPolicyAccordion">
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tourPolicyCollapse1" aria-expanded="false" aria-controls="tourPolicyCollapse1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tourPolicyCollapse1" aria-expanded="false" aria-controls="tourPolicyCollapse1" onClick$={handleAccordionScrollIntoView}>
                             Booking and Payment Policies
                             </button>
                         </h3>
@@ -33,7 +34,7 @@ export default component$(() => {
                     </div>
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tourPolicyCollapse2" aria-expanded="false" aria-controls="tourPolicyCollapse2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tourPolicyCollapse2" aria-expanded="false" aria-controls="tourPolicyCollapse2" onClick$={handleAccordionScrollIntoView}>
                             Cancellation Policy
                             </button>
                         </h3>
@@ -69,7 +70,7 @@ export default component$(() => {
                     </div>
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tourPolicyCollapse3" aria-expanded="false" aria-controls="tourPolicyCollapse3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tourPolicyCollapse3" aria-expanded="false" aria-controls="tourPolicyCollapse3" onClick$={handleAccordionScrollIntoView}>
                             Other Terms & Policies
                             </button>
                         </h3>
@@ -91,7 +92,7 @@ export default component$(() => {
                     </div>
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tourPolicyCollapse4" aria-expanded="false" aria-controls="tourPolicyCollapse4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tourPolicyCollapse4" aria-expanded="false" aria-controls="tourPolicyCollapse4" onClick$={handleAccordionScrollIntoView}>
                             Please Note
                             </button>
                         </h3>

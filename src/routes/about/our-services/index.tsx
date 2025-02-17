@@ -38,7 +38,7 @@ export default component$(() => {
                     <ul>
                         <li><strong>Group Tours</strong>:You are able to meet and travel with other visitors with similar interests as you making your stay in Ladakh even better. Travel in groups as you desire.</li>
                         <li><strong>Private Tours</strong>: This is specially created for the ones interested in tour all by themselves and have the total freedom when it comes to deciding their plan.</li>
-                        <li><strong>Cultural & Scenic Tours</strong>: Places such as Leh, Pangong, Nubra, Tsomoriri and Zangskar are one of the stops on the tour that give you the chance to experience the culture, monasteries and beautiful landscapes of Ladakh. </li>
+                        <li><strong>Cultural & Scenic Tours</strong>: Places such as Leh, Pangong, Nubra, Tsomoriri and Zanskar are one of the stops on the tour that give you the chance to experience the culture, monasteries and beautiful landscapes of Ladakh. </li>
                         <li><strong>Luxury Options</strong>: In the case with us relaxation can be accompanied by luxury and comfort because we have premium packages that offer good hotels, high quality food, and expensive cars to those of you who like to enjoy finer things in life.</li>
                     </ul>
 

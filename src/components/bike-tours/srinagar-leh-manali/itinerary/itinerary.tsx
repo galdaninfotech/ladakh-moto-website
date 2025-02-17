@@ -2,6 +2,7 @@ import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import ItineraryImage from "~/components/itinerary-image";
 import styles from './itinerary.css?inline';
 import ItineraryIcons from '~/components/itinerary-icons/itinerary-icons';
+import { handleAccordionScrollIntoView } from '~/utils/handleAccordionScrollIntoView';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -16,7 +17,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse1" aria-expanded="true" aria-controls="itineraryCollapse1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse1" aria-expanded="true" aria-controls="itineraryCollapse1" onClick$={handleAccordionScrollIntoView}>
                             Day 01 : Arrival in Srinagar
                             </button>
                         </h3>
@@ -56,7 +57,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="false" aria-controls="itineraryCollapse2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="false" aria-controls="itineraryCollapse2" onClick$={handleAccordionScrollIntoView}>
                             Day 02 : Srinagar to Kargil
                             </button>
                         </h3>
@@ -95,7 +96,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="false" aria-controls="itineraryCollapse3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="false" aria-controls="itineraryCollapse3" onClick$={handleAccordionScrollIntoView}>
                             Day 03 : Kargil to Leh Via Lamayuru
                             </button>
                         </h3>
@@ -134,7 +135,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="false" aria-controls="itineraryCollapse4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="false" aria-controls="itineraryCollapse4" onClick$={handleAccordionScrollIntoView}>
                             Day 04 : Leh to Nubra Valley via Khardung La Pass
                             </button>
                         </h3>
@@ -173,7 +174,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse5" aria-expanded="false" aria-controls="itineraryCollapse5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse5" aria-expanded="false" aria-controls="itineraryCollapse5" onClick$={handleAccordionScrollIntoView}>
                             Day 05 : Nubra Valley to Turtuk and Back
                             </button>
                         </h3>
@@ -211,7 +212,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse6" aria-expanded="false" aria-controls="itineraryCollapse6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse6" aria-expanded="false" aria-controls="itineraryCollapse6" onClick$={handleAccordionScrollIntoView}>
                             Day 06 : Nubra Valley to Pangong Lake Via Shayok valley
                             </button>
                         </h3>
@@ -250,7 +251,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse7" aria-expanded="false" aria-controls="itineraryCollapse7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse7" aria-expanded="false" aria-controls="itineraryCollapse7" onClick$={handleAccordionScrollIntoView}>
                             Day 07 : Pangong Lake to Leh
                             </button>
                         </h3>
@@ -289,7 +290,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse8" aria-expanded="false" aria-controls="itineraryCollapse8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse8" aria-expanded="false" aria-controls="itineraryCollapse8" onClick$={handleAccordionScrollIntoView}>
                             Day 08 : Leh to Serchu Via Taglangla
                             </button>
                         </h3>
@@ -328,7 +329,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse9" aria-expanded="false" aria-controls="itineraryCollapse9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse9" aria-expanded="false" aria-controls="itineraryCollapse9" onClick$={handleAccordionScrollIntoView}>
                             Day 09 : Serchu to Manali Via Baralacha
                             </button>
                         </h3>
@@ -367,7 +368,7 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse10" aria-expanded="false" aria-controls="itineraryCollapse10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse10" aria-expanded="false" aria-controls="itineraryCollapse10 onClick$={handleAccordionScrollIntoView}">
                             Day 10 : Departure From Manali
                             </button>
                         </h3>

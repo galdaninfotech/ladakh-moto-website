@@ -4,7 +4,7 @@ import OverviewIcons from '~/components/overview-icons/overview-icons';
 import ImgLehLadakhAdventureHome from '../../media/bike-tours/leh-ladakh-adventure/leh-ladakh-adventure-home.webp?jsx';
 import ImgLadakhWithUmlingLaHome from '../../media/bike-tours/ladakh-with-umling-la/ladakh-with-umling-la-home.webp?jsx';
 import ImgLadakhSrinagarWithUmlingLaHome from '../../media/bike-tours/ladakh-srinagar-with-umling-la/ladakh-srinagar-with-umling-la-home.webp?jsx';
-import ImgLehZangskarLeh from '../../media/bike-tours/leh-zangskar-leh/leh-zangskar-leh-home.webp?jsx';
+import ImgLehZanskarLeh from '../../media/bike-tours/leh-zanskar-leh/leh-zanskar-leh-home.webp?jsx';
 import ImgManaliLehSrinagar from '../../media/bike-tours/manali-leh-srinagar/manali-leh-srinagar-home.webp?jsx';
 import ImgSrinagarLehManali from '../../media/bike-tours/srinagar-leh-manali/srinagar-leh-manali-home.webp?jsx';
 
@@ -131,8 +131,8 @@ export default component$(() => {
                         <div class="col-md-6 col-lg-4">
                             <div class="package-wrap">
                             <figure class="feature-image">
-                                <a href="/bike-tours/leh-zangskar-leh" aria-label="Leh Zangskar Leh" title="Leh Zangskar Leh">
-                                    <ImgLehZangskarLeh alt="Leh Zangskar Leh" />
+                                <a href="/bike-tours/leh-zanskar-leh" aria-label="Leh Zanskar Leh" title="Leh Zanskar Leh">
+                                    <ImgLehZanskarLeh alt="Leh Zanskar Leh" />
                                 </a>
                             </figure>
                             <div class="package-price">
@@ -146,7 +146,7 @@ export default component$(() => {
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
-                                    <h3><a href="/bike-tours/leh-zangskar-leh" aria-label="Leh Zangskar Leh" title="Leh Zangskar Leh">Leh Zangskar Leh</a></h3>
+                                    <h3><a href="/bike-tours/leh-zanskar-leh" aria-label="Leh Zanskar Leh" title="Leh Zanskar Leh">Leh Zanskar Leh</a></h3>
                                     <div class="col-12">
                                         <OverviewIcons highestAltitude="14070ft" distance="1485km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
@@ -156,7 +156,7 @@ export default component$(() => {
 
                                     <div class="btn-wrap">
                                         <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/bike-tours/leh-zangskar-leh" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
+                                        <a href="/bike-tours/leh-zanskar-leh" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>

@@ -18,7 +18,7 @@ header.header-area.style-2 .site-logo {
     margin: 0 auto;
     width: 15px;
     height: 21px;
-    background-position: -32px -46px;
+    background-position: -32px -39px;
     margin-left: 2px;
 }
 
@@ -31,11 +31,11 @@ header.header-area.style-2 .site-logo {
 }
 .header-top-contact ul li a.email::before {
     width: 22px;
-    height: 20px;
-    background-position: -93px -47px;
+    height: 22px;
+    background-position: -93px -38px;
 }
 .header-top-contact ul li a.phone::before {
     width: 14px;
-    height: 20px;
-    background-position: -60px -47px;
+    height: 22px;
+    background-position: -60px -39px;
 }

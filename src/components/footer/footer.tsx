@@ -51,7 +51,7 @@ export default component$(() => {
 									<li><a href="/bike-tours/leh-ladakh-adventure" aria-label="Leh Ladakh Adventure" title="Leh Ladakh Adventure">Leh Ladakh Adventure</a></li>
 									<li><a href="/bike-tours/ladakh-with-umling-la" aria-label="Ladakh With Umling La" title="Ladakh With Umling La"> Ladakh With Umling La</a></li>
 									<li><a href="/bike-tours/ladakh-srinagar-with-umling-la" aria-label="Ladakh Srinagar Umling La" title="Ladakh Srinagar Umling La">Ladakh Srinagar Umling La</a></li>
-									<li><a href="/bike-tours/leh-zangskar-leh" aria-label="Leh Zangskar Leh" title="Leh Zangskar Leh">Leh Zangskar Leh</a></li>
+									<li><a href="/bike-tours/leh-zanskar-leh" aria-label="Leh Zanskar Leh" title="Leh Zanskar Leh">Leh Zanskar Leh</a></li>
 									<li><a href="/bike-tours/manali-leh-srinagar" aria-label="Manali Leh Srinagar" title="Manali Leh Srinagar">Manali Leh Srinagar</a></li>
 									<li><a href="/bike-tours/srinagar-leh-manali" aria-label="Srinagar Leh Manali" title="Srinagar Leh Manali">Srinagar Leh Manali</a></li>
 								</ul>

@@ -68,7 +68,7 @@ export default component$(() => {
                                             <li><a aria-label="Leh Ladakh Adventure" title="Leh Ladakh Adventure" href="/bike-tours/leh-ladakh-adventure">Leh Ladakh Adventure</a></li>
                                             <li><a aria-label="Ladakh With Umling La" title="Ladakh With Umling La" href="/bike-tours/ladakh-with-umling-la">Ladakh With Umling La</a></li>
                                             <li><a aria-label="Ladakh Srinagar With Umling La" title="Ladakh Srinagar With Umling La" href="/bike-tours/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></li>
-                                            <li><a aria-label="Leh Zangskar Leh" title="Leh Zangskar Leh" href="/bike-tours/leh-zangskar-leh">Leh Zangskar Leh</a></li>
+                                            <li><a aria-label="Leh Zanskar Leh" title="Leh Zanskar Leh" href="/bike-tours/leh-zanskar-leh">Leh Zanskar Leh</a></li>
                                             <li><a aria-label="Manali Leh Srinagar" title="Manali Leh Srinagar" href="/bike-tours/manali-leh-srinagar">Manali Leh Srinagar</a></li>
                                             <li><a aria-label="Srinagar Leh Manali" title="Srinagar Leh Manali" href="/bike-tours/srinagar-leh-manali">Srinagar Leh Manali</a></li>
                                         </ul>
@@ -79,7 +79,7 @@ export default component$(() => {
                                             <li><a aria-label="All Ladakh Tour" title="All Ladakh Tour" href="/bike-tour-packages/all-ladakh-tour">All Ladakh Tour</a></li>
                                             <li><a aria-label="Amazing Ladakh Tour" title="Amazing Ladakh Tour" href="/bike-tour-packages/amazing-ladakh">Amazing Ladakh Tour</a></li>
                                             <li><a aria-label="Ladakh Tour With Hanle" title="Ladakh Tour With Hanle" href="/bike-tour-packages/ladakh-tour-with-hanle">Ladakh Tour With Hanle</a></li>
-                                            <li><a aria-label="Ladakh Zangskar Valley Tour" title="Ladakh Zangskar Valley Tour" href="/bike-tour-packages/ladakh-zangskar-valley-tour">Ladakh Zangskar Valley Tour</a></li>
+                                            <li><a aria-label="Ladakh Zanskar Valley Tour" title="Ladakh Zanskar Valley Tour" href="/bike-tour-packages/ladakh-zanskar-valley-tour">Ladakh Zanskar Valley Tour</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">

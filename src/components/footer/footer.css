@@ -60,7 +60,7 @@
     width: 14px;
     height: 19px;
     margin: 0 auto;
-    background-position: -11px -46px;
+    background-position: -10px -41px;
 }
 
 .widget.contact-us ul li a::before {
@@ -72,17 +72,17 @@
 }
 
 .widget.contact-us ul li a.address::before {
-    background-position: -115px -46px;
+    background-position: -115px -40px;
     width: 22px;
 }
 
 .widget.contact-us ul li a.email::before {
-    background-position: -93px -46px;
+    background-position: -93px -40px;
     width: 22px;
 }
 
 .widget.contact-us ul li a.phone::before {
-    background-position: -60px -46px;
+    background-position: -60px -40px;
     width: 14px;
 }
 
@@ -97,23 +97,23 @@
     margin: 0 auto;
 }
 .widget.contact-widget ul li a.facebook::before {
-    background-position: 4px -100px;
+    background-position: 3px -95px;
 }
 .widget.contact-widget ul li a.twitter::before {
-    background-position: -19px  -100px;
+    background-position: -19px  -95px;
 }
 .widget.contact-widget ul li a.instagram::before {
-    background-position: -41px -101px;
+    background-position: -42px -95px;
 }
 .widget.contact-widget ul li a.youtube::before {
-    background-position: -64px -100px;
+    background-position: -64px -96px;
 }
 
 a.galdaninfotech::before {
     content: '';
     display: inline-table;
     background: url(/img/icons-sprite.webp) no-repeat;
-    background-position: -60px -48px;
+    background-position: -60px -42px;
     width: 14px;
     height: 19px;
     margin: 0 auto;

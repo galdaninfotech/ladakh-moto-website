@@ -1,5 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './inclusions-exclusions.css?inline';
+import { handleAccordionScrollIntoView } from '~/utils/handleAccordionScrollIntoView';
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -9,7 +10,7 @@ export default component$(() => {
             <div class="accordion" id="costAccordion">
                 <div class="accordion-item">
                     <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#costCollapse1" aria-expanded="true" aria-controls="costCollapse1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#costCollapse1" aria-expanded="true" aria-controls="costCollapse1" onClick$={handleAccordionScrollIntoView}>
                         Inclusions
                         </button>
                     </h3>
@@ -29,7 +30,7 @@ export default component$(() => {
                 </div>
                 <div class="accordion-item">
                     <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#costCollapse2" aria-expanded="false" aria-controls="costCollapse2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#costCollapse2" aria-expanded="false" aria-controls="costCollapse2" onClick$={handleAccordionScrollIntoView}>
                         Exclusions
                         </button>
                     </h3>
