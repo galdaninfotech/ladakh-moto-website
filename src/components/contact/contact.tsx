@@ -94,7 +94,7 @@ export const Contact = component$(() => {
                 * All fields are required.
             </p>
            
-            <button type="button" disabled={formState.isSubmitting} class="btn btn-primary mt-3">
+            <button type="submit" disabled={formState.isSubmitting} class="btn btn-primary mt-3">
                 {formState.isSubmitting ? "Sending Message..." : "Send Message"}
             </button>
         </form>

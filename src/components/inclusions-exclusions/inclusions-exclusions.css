@@ -2,3 +2,20 @@ ul.inclusions, ul.exclusions {
     list-style: none;
     padding-top: 28px;
 }
+
+.accordion-body ul.inclusions li::before,
+.accordion-body ul.exclusions li::before {
+    content: '';
+    display: inline-table;
+    background: url(/img/icons-sprite.webp) no-repeat;
+    width: 14px;
+    height: 19px;
+    margin-right: 5px;
+}
+
+.accordion-body ul.inclusions li::before {
+    background-position: -167px -40px;
+}
+.accordion-body ul.exclusions li::before {
+    background-position: -185px -40px;
+}

@@ -88,6 +88,17 @@ export default component$(() => {
 				</div>
 			</footer>
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6" style="height: 150px">
+                        ggggggggggggggggggggggggggg							
+                    </div>
+                    <div class="col-sm-6">
+                        ggggggggggggggggggggggggggg
+                    </div>
+                </div>
+            </div>
+
             <div class="copy-right-area">
 				<div class="container">
 					<div class="row">

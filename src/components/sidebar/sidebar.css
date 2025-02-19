@@ -95,3 +95,10 @@
     width: 22px;
     height: 22px;
 }
+
+.wrapper-confidence .items .item::before {
+    content: '';
+    display: inline-table;
+    background: url(/img/icons-sprite.webp) no-repeat;
+    background-position: -167px -40px;
+}

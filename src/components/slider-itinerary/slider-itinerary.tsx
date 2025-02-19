@@ -43,6 +43,8 @@ export default component$(() => {
         imageUrl = `../../img/bike-tours/${title}/${title}-slide.webp`;
     } else if(urlSection === 'Bike Tour Packages') {
         imageUrl = `../../img/bike-tour-packages/${title}/${title}-slide.webp`;
+    } else if(urlSection === 'Destinations') {
+        imageUrl = `../../img/destinations/${title}/${title}-slide.webp`;
     } else if(urlSection === 'About') {
         imageUrl = `../../img/about/${title}-slide.webp`;
     } else {

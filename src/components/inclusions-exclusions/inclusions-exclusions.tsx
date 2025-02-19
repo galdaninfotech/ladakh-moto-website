@@ -7,14 +7,14 @@ export default component$(() => {
 
     return (
         <>
-            <div class="accordion" id="costAccordion">
+            <div class="accordion" id="inclusionsExclusionsAccordion">
                 <div class="accordion-item">
                     <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#costCollapse1" aria-expanded="true" aria-controls="costCollapse1" onClick$={handleAccordionScrollIntoView}>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#inclusionsExclusionsCollapse1" aria-expanded="true" aria-controls="inclusionsExclusionsCollapse1" onClick$={handleAccordionScrollIntoView}>
                         Inclusions
                         </button>
                     </h3>
-                    <div id="costCollapse1" class="accordion-collapse collapse" data-bs-parent="#costAccordion">
+                    <div id="inclusionsExclusionsCollapse1" class="accordion-collapse collapse" data-bs-parent="#inclusionsExclusionsAccordion">
                         <div class="accordion-body">
                             <ul class="inclusions">
                                 <li>Royal Enfield Himalayan 411 Bike BSVI</li>
@@ -37,11 +37,11 @@ export default component$(() => {
                 </div>
                 <div class="accordion-item">
                     <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#costCollapse2" aria-expanded="false" aria-controls="costCollapse2" onClick$={handleAccordionScrollIntoView}>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#inclusionsExclusionsCollapse2" aria-expanded="false" aria-controls="inclusionsExclusionsCollapse2" onClick$={handleAccordionScrollIntoView}>
                         Exclusions
                         </button>
                     </h3>
-                    <div id="costCollapse2" class="accordion-collapse collapse" data-bs-parent="#costAccordion">
+                    <div id="inclusionsExclusionsCollapse2" class="accordion-collapse collapse" data-bs-parent="#inclusionsExclusionsAccordion">
                         <div class="accordion-body">
                             <ul class="exclusions">
                                 <li>GST 5% (Service Tax)</li>

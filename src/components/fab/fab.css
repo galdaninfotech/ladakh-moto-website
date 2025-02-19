@@ -70,16 +70,16 @@
     margin: 0 auto;
 }
 .fab-action-1::after {
-    background-position: 10px -129px;
+    background-position: 10px -125px;
 }
 .fab-action-2::after {
-    background-position: -21px -129px;
+    background-position: -21px -125px;
 }
 .fab-action-3::after {
-    background-position: -50px -129px;
+    background-position: -50px -125px;
 }
 .fab-action-4::after {
-    background-position: -85px -129px;
+    background-position: -85px -125px;
 }
 
 .fab-checkbox:checked ~ .fab-wheel .fab-action {

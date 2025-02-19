@@ -15,7 +15,7 @@ export default component$(() => {
             <div class="row">
                 <div class="col-lg-9">
                     <div class="intro">
-                        <h1 id="tour-name" data-tour-name="Contact Us">Contact Us</h1>
+                        <h1 id="tour-name" data-tour-name="Contact Us">Contact Us - LadakhMoto</h1>
                     </div>
                     <p class="mb-30">
                         Do not hesitage leave us a message. We are a team of local experts and we are happy to respond to your queries.
