@@ -1,7 +1,7 @@
 import { component$, useStore, useStylesScoped$, $ } from "@builder.io/qwik";
 import styles from "./contact.css?inline";
 import { Resend } from "resend";
-const resend = new Resend("re_A3gx4BcE_Gz6JPtno8y63q86ZLK5nkEgG");
+const resend = new Resend("re_QK8RviMo_Fc7ALxvoV3WK4KjSksxDfqES");
 
 export const Contact = component$(() => {
   useStylesScoped$(styles);
@@ -62,16 +62,6 @@ export const Contact = component$(() => {
             <div class="form-group">
                 <label for="email">E-Mail Address <span>*</span></label>
                 <input name="email" class="form-control" type="text" required
-                    value={formState.email}
-                    onInput$={(e) =>
-                        (formState.email = (e.target as HTMLInputElement).value)
-                    }
-                />
-            </div>
-
-            <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input name="phone" class="form-control" type="text" 
                     value={formState.email}
                     onInput$={(e) =>
                         (formState.email = (e.target as HTMLInputElement).value)
