@@ -31,7 +31,7 @@ export const Contact = component$(() => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${resend.apiKey}`
+            'Authorization': `Bearer re_QK8RviMo_Fc7ALxvoV3WK4KjSksxDfqES`
           },
           body: JSON.stringify({
             from: "onboarding@resend.dev",
