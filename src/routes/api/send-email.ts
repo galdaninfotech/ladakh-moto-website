@@ -14,7 +14,7 @@ export const onPost: RequestHandler = async ({ request, json }) => {
 
   try {
     await resend.emails.send({
-      from: 'you@example.com',
+      from: 'info@ladakhmoto.com',
       to: 'galdaninfotech@gmail.com',
       // replyTo: 'you@example.com',
       subject: 'hello world',
