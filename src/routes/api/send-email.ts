@@ -22,7 +22,7 @@ export const onPost: RequestHandler = async (requestEvent) => {
     }
 
     const emailResponse = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
+      from: 'info@ladakhmoto.com',
       to: 'galdaninfotech@gmail.com',
       subject: `Message from ${name}`,
       text: message,

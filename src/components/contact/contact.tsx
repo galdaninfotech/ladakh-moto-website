@@ -19,38 +19,52 @@ export const Contact = component$(() => {
   const handleSubmit = $(async () => {
     alert("Send Starting!");
     if (formState.isSubmitting) return;
-
+  
     formState.isSubmitting = true;
     formState.successMessage = "";
     formState.errorMessage = "";
-
+  
     console.log("Submitting form with data:", formState);
     try {
-        console.log("Attempting to send email...");
-        const result = await fetch('https://api.resend.com/emails', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer re_QK8RviMo_Fc7ALxvoV3WK4KjSksxDfqES`
-          },
-          body: JSON.stringify({
-            from: "onboarding@resend.dev",
-            to: "galdaninfotech@gmail.com",
-            subject: "Test Email from Node.js",
-            text: "This is a test email sent from a Node.js script using Resend API."
-          }),
-          mode: 'no-cors'
-        });
-    
-        console.log("Email sent successfully:", result);
-    
-        formState.successMessage = "Your message has been sent!";
-        formState.name = "";
-        formState.email = "";
-        formState.message = "";
-        } catch (error) {
-            console.error("Error sending email:", error);
-            formState.errorMessage = "Failed to send your message. Please try again.";
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formState.name,
+          email: formState.email,
+          message: formState.message
+        })
+      });
+  
+      // First, try to get the response text
+      const responseText = await response.text();
+      console.log("Raw response:", responseText);
+  
+      let errorData;
+      try {
+        // Try to parse it as JSON
+        errorData = JSON.parse(responseText);
+      } catch (parseError) {
+        console.error("Response is not JSON:", responseText);
+        throw new Error(`Server returned invalid JSON: ${responseText.substring(0, 100)}...`);
+      }
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}, message: ${errorData.message || 'Unknown error'}`);
+      }
+  
+      console.log("Email sent successfully:", errorData);
+      formState.successMessage = "Your message has been sent!";
+      formState.name = "";
+      formState.email = "";
+      formState.message = "";
+    } catch (error) {
+      console.error("Error sending email:", error);
+      formState.errorMessage = `Failed to send your message. Please try again. Error: ${error.message}`;
+    } finally {
+      formState.isSubmitting = false;
     }
   });
 
