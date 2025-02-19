@@ -62,7 +62,7 @@ export const Contact = component$(() => {
       formState.message = "";
     } catch (error) {
       console.error("Error sending email:", error);
-      formState.errorMessage = `Failed to send your message. Please try again. Error: ${error.message}`;
+      formState.errorMessage = `Failed to send your message. Please try again.`;
     } finally {
       formState.isSubmitting = false;
     }
