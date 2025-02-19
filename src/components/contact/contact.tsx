@@ -26,23 +26,31 @@ export const Contact = component$(() => {
 
     console.log("Submitting form with data:", formState);
     try {
-      console.log("Attempting to send email...");
-      const result = await resend.emails.send({
-        from: "info@ladakhmoto.com",
-        to: "galdaninfotech@gmail.com",
-        subject: "Test Email from Node.js",
-        text: "This is a test email sent from a Node.js script using Resend API.",
-      });
-
-      console.log("Email sent successfully:", result);
-
-      formState.successMessage = "Your message has been sent!";
-      formState.name = "";
-      formState.email = "";
-      formState.message = "";
-    } catch (error) {
-      console.error("Error sending email:", error);
-      formState.errorMessage = "Failed to send your message. Please try again.";
+        console.log("Attempting to send email...");
+        const result = await fetch('https://api.resend.com/emails', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${resend.apiKey}`
+          },
+          body: JSON.stringify({
+            from: "onboarding@resend.dev",
+            to: "galdaninfotech@gmail.com",
+            subject: "Test Email from Node.js",
+            text: "This is a test email sent from a Node.js script using Resend API."
+          }),
+          mode: 'no-cors'
+        });
+    
+        console.log("Email sent successfully:", result);
+    
+        formState.successMessage = "Your message has been sent!";
+        formState.name = "";
+        formState.email = "";
+        formState.message = "";
+        } catch (error) {
+            console.error("Error sending email:", error);
+            formState.errorMessage = "Failed to send your message. Please try again.";
     }
   });
 
