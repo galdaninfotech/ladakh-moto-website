@@ -28,7 +28,7 @@ export const Contact = component$(() => {
     try {
       console.log("Attempting to send email...");
       const result = await resend.emails.send({
-        from: "onboarding@resend.dev",
+        from: "info@ladakhmoto.com",
         to: "galdaninfotech@gmail.com",
         subject: "Test Email from Node.js",
         text: "This is a test email sent from a Node.js script using Resend API.",
