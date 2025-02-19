@@ -1,7 +1,7 @@
 import { component$, useStore, useStylesScoped$, $ } from "@builder.io/qwik";
 import styles from "./contact.css?inline";
 import { Resend } from "resend";
-const resend = new Resend("re_QK8RviMo_Fc7ALxvoV3WK4KjSksxDfqES");
+// const resend = new Resend("re_QK8RviMo_Fc7ALxvoV3WK4KjSksxDfqES");
 
 export const Contact = component$(() => {
   useStylesScoped$(styles);
