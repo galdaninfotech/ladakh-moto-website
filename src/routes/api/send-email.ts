@@ -1,29 +1,44 @@
 import { RequestHandler } from '@builder.io/qwik-city';
-
 import { Resend } from 'resend';
-const resend = new Resend('re_A3gx4BcE_Gz6JPtno8y63q86ZLK5nkEgG');
 
-export const onPost: RequestHandler = async ({ request, json }) => {
-  const { name, email, message } = await request.json();
+const resend = new Resend('re_QK8RviMo_Fc7ALxvoV3WK4KjSksxDfqES');
 
-  console.log(name);
-
-  if (!name || !email || !message) {
-    throw json(400, { message: 'All fields are required' });
-  }
-
+export const onPost: RequestHandler = async (requestEvent) => {
+  const { parseBody, json } = requestEvent;
+  
   try {
-    await resend.emails.send({
-      from: 'info@ladakhmoto.com',
+    const { name, email, message } = await parseBody() as { 
+      name: string; 
+      email: string; 
+      message: string 
+    };
+
+    if (!name || !email || !message) {
+      json(400, { 
+        success: false,
+        message: 'All fields are required' 
+      });
+      return;
+    }
+
+    const emailResponse = await resend.emails.send({
+      from: 'Acme <onboarding@resend.dev>',
       to: 'galdaninfotech@gmail.com',
-      // replyTo: 'you@example.com',
-      subject: 'hello world',
-      text: 'it works!',
+      subject: `Message from ${name}`,
+      text: message,
     });
 
-    throw json(200, { message: 'Email sent successfully' });
+    json(200, { 
+      success: true,
+      message: 'Email sent successfully', 
+      data: emailResponse 
+    });
   } catch (error) {
     console.error('Error sending email:', error);
-    throw json(500, { message: 'Error sending email' });
+    json(500, { 
+      success: false,
+      message: 'Error sending email', 
+      error: String(error) 
+    });
   }
 };
