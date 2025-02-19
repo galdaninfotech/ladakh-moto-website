@@ -17,14 +17,12 @@ export const Contact = component$(() => {
 
   // Wrap the function with $() to create a QRL
   const handleSubmit = $(async () => {
-    alert("Send Starting!");
     if (formState.isSubmitting) return;
-  
+    
     formState.isSubmitting = true;
     formState.successMessage = "";
     formState.errorMessage = "";
   
-    console.log("Submitting form with data:", formState);
     try {
       const response = await fetch('/api/send-email', {
         method: 'POST',
@@ -38,25 +36,13 @@ export const Contact = component$(() => {
         })
       });
   
-      // First, try to get the response text
-      const responseText = await response.text();
-      console.log("Raw response:", responseText);
-  
-      let errorData;
-      try {
-        // Try to parse it as JSON
-        errorData = JSON.parse(responseText);
-      } catch (parseError) {
-        console.error("Response is not JSON:", responseText);
-        throw new Error(`Server returned invalid JSON: ${responseText.substring(0, 100)}...`);
-      }
-  
+      const data = await response.json();
+      
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}, message: ${errorData.message || 'Unknown error'}`);
+        throw new Error(data.message || 'Unknown error');
       }
   
-      console.log("Email sent successfully:", errorData);
-      formState.successMessage = "Your message has been sent!";
+      formState.successMessage = data.message;
       formState.name = "";
       formState.email = "";
       formState.message = "";
