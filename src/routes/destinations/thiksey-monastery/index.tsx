@@ -75,11 +75,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Thiksey Monastery",
+  title: "Thiksey Monastery - Ladakh's Majestic Buddhist Monastery | Complete Travel Guide!",
   meta: [
     {
       name: "description",
-      content: "Thiksey Monastery",
+      content: "Explore Thiksey Monastery with Ladakh Moto. Discover ancient architecture, vibrant Buddhist culture, and stunning panoramic views of the Indus Valley. Plan your Thiksey Monastery visit today!",
     },
   ],
 };

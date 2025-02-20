@@ -5,7 +5,7 @@ import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
 const trimTitle = (str: string) => {
 
     // Define the special characters you want to check for
-    const specialChars = "!@#$%^&*()-+?_=,<>/";
+    const specialChars = "!@|#$%^&*()-+?_=,<>/";
 
     // Find the index of the first special character
     let index = str.length; // Default to the end of the string

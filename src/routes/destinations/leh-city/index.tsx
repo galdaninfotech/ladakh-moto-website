@@ -76,11 +76,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Leh City",
+  title: "Leh City - Culture, Adventure & Scenic Beauty | Complete Travel Guide!",
   meta: [
     {
       name: "description",
-      content: "Leh City",
+      content: "Discover the charm of Leh City, the cultural heart of Ladakh. Explore ancient monasteries, vibrant markets, and thrilling Himalayan adventures. Plan your unforgettable journey with Ladakh Moto today!",
     },
   ],
 };

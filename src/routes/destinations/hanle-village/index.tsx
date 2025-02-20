@@ -74,11 +74,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Hanle Village",
+  title: "Hanle Village - Complete Travel Guide! | Astronomy, Monastery & Tranquility",
   meta: [
     {
       name: "description",
-      content: "Hanle Village",
+      content: "Discover Hanle Village with Ladakh Moto. Visit the famous Hanle Observatory, explore ancient monasteries, and experience the serene beauty of Ladak-'s remote landscapes.|Plan your Hanle adventure today!",
     },
   ],
 };

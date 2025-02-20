@@ -76,11 +76,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Lamayuru Monastery",
+  title: "Lamayuru Monastery - Buddhist Heritage & Moonland Views | Complete Travel Guide!",
   meta: [
     {
       name: "description",
-      content: "Lamayuru Monastery",
+      content: 'Explore Lamayuru Monastery with Ladakh Moto. Discover ancient Buddhist heritage, stunning "Moonland" landscapes, and vibrant local festivals. Plan your Lamayuru Monastery visit today!',
     },
   ],
 };

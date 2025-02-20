@@ -1,7 +1,7 @@
 import { RequestHandler } from '@builder.io/qwik-city';
 import { Resend } from 'resend';
 
-const resend = new Resend('re_QK8RviMo_Fc7ALxvoV3WK4KjSksxDfqES');
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const onPost: RequestHandler = async ({ parseBody, json }) => {
   try {

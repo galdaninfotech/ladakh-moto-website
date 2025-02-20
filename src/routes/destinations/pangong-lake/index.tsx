@@ -75,11 +75,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Pangong Lake",
+  title: "Pangong Lake - Ladakh's Iconic High-Altitude Lake & Scenic Beauty | Complete Travel Guide!",
   meta: [
     {
       name: "description",
-      content: "Pangong Lake",
+      content: "Explore the breathtaking Pangong Lake with Ladakh Moto. Witness the changing colors of the lake, enjoy scenic drives, and experience Ladakh's stunning landscapes. Book your Pangong Lake adventure today!",
     },
   ],
 };

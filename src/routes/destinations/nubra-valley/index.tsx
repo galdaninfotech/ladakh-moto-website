@@ -79,11 +79,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Nubra Valley",
+  title: "Nubra Valley - Sand Dunes, Monasteries & Adventure | Complete Travel Guide!",
   meta: [
     {
       name: "description",
-      content: "Nubra Valley",
+      content: "Discover the beauty of Nubra Valley with Ladakh Moto. Visit Hunder sand dunes, ride through Khardung La Pass, explore ancient monasteries, and experience Ladakh's unique culture. Plan your Nubra Valley adventure today!",
     },
   ],
 };

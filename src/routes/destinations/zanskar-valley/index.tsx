@@ -76,11 +76,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Zanskar Valley",
+  title: "Zanskar Valley - Trekking, Monasteries & Scenic Beauty | Complete Travel Guide!",
   meta: [
     {
       name: "description",
-      content: "Zanskar Valley",
+      content: "Discover the untouched beauty of Zanskar Valley with Ladakh Moto. Experience thrilling treks, ancient monasteries, and breathtaking Himalayan landscapes. Plan your Zanskar Valley adventure today!",
     },
   ],
 };

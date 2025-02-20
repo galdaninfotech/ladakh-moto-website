@@ -166,7 +166,7 @@ $(document).ready(function($) {
         event.preventDefault();
         const el = document.querySelector(".tour-name");
         const tourName = el.getAttribute("data-tour-name");
-        // alert(tourName);
+        console.log(tourName, el, "hhhhhhhhhhhhh");
 
         $('.form-popup-bg').addClass('is-visible');
     });

@@ -74,11 +74,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Shanti Stupa",
+  title: "Shanti Stupa - Iconic Buddhist Monument in Leh | Complete Travel Guide!",
   meta: [
     {
       name: "description",
-      content: "Shanti Stupa",
+      content: "Explore Shanti Stupa with Ladakh Moto. Experience panoramic views of Leh, peaceful surroundings, and the spiritual charm of this iconic Ladakh landmark. Plan your Shanti Stupa visit today!",
     },
   ],
 };

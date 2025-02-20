@@ -36,21 +36,6 @@ export default component$(() => {
     <>
         {/* Google Tag Manager (noscript) */}
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFMMQ5LD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        
-        
-        {/* Start Preloader */}
-		{/* <div class="preloader-wrap">
-			<div class="cube-wrapper">
-				<div class="cube-folding">
-					<span class="leaf1"></span>
-					<span class="leaf2"></span>
-					<span class="leaf3"></span>
-					<span class="leaf4"></span>
-				</div>
-				<span class="loading" data-name="Loading">Loading</span>
-			</div>
-		</div> */}
-		{/* End Preloader */}
 
         <div class="wrapper">
             <main>

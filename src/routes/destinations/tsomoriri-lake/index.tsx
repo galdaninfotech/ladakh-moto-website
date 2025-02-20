@@ -74,11 +74,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Tsomoriri Lake",
+  title: "Tsomoriri Lake - Ladakh's Pristine High-Altitude Lake | Complete Travel Guide!",
   meta: [
     {
       name: "description",
-      content: "Tsomoriri Lake",
+      content: "Discover the tranquility of Tso Moriri Lake with Ladakh Moto. Experience stunning views, peaceful surroundings, and the rich biodiversity of this Ladakh gem. Plan your Tso Moriri Lake adventure today!",
     },
   ],
 };
