@@ -9,7 +9,7 @@ export default component$(() => {
             <div class="form-container">
                 <button id="btnCloseForm" class="close-button">X</button>
                 <h4>Tour Enquiry</h4>
-                <p>For more information. Please complete this form.</p>
+                <p>For more information, please complete this form.</p>
                 <form action="">
                     <div class="form-group">
                         <label for="name">Name</label>

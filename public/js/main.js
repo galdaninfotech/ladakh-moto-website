@@ -166,12 +166,12 @@ $(document).ready(function($) {
         event.preventDefault();
         const el = document.querySelector(".tour-name");
         const tourName = el.getAttribute("data-tour-name");
-        console.log(tourName, el, "hhhhhhhhhhhhh");
+        console.log(tourName, el, "hhhhhhhhhhhhhh");
 
         $('.form-popup-bg').addClass('is-visible');
     });
     
-        //close popup when clicking x or off popup
+    //close popup when clicking x or off popup
     $('.form-popup-bg').on('click', function(event) {
         if ($(event.target).is('.form-popup-bg') || $(event.target).is('#btnCloseForm')) {
         event.preventDefault();
