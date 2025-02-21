@@ -2,36 +2,81 @@ import { Handler } from '@netlify/functions';
 import { Resend } from 'resend';
 import fetch from 'node-fetch';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Check if required environment variables are set
+const RESEND_API_KEY = process.env.RESEND_API_KEY;
+const RECAPTCHA_SECRET_KEY = process.env.RECAPTCHA_SECRET_KEY;
 
-async function verifyRecaptcha(token: string) {
-  const response = await fetch('https://www.google.com/recaptcha/api/siteverify', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body: `secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${token}`,
-  });
+if (!RESEND_API_KEY || !RECAPTCHA_SECRET_KEY) {
+  console.error('Missing required environment variables');
+}
 
-  const data = await response.json() as { success: boolean; score: number };
-  return data.success && data.score >= 0.5; // Adjust threshold as needed
+const resend = new Resend(RESEND_API_KEY);
+
+async function verifyRecaptcha(token: string): Promise<boolean> {
+  try {
+    const response = await fetch('https://www.google.com/recaptcha/api/siteverify', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: new URLSearchParams({
+        secret: RECAPTCHA_SECRET_KEY!,
+        response: token
+      }).toString()
+    });
+
+    if (!response.ok) {
+      console.error('reCAPTCHA API error:', response.status, await response.text());
+      return false;
+    }
+
+    const data = await response.json() as { success: boolean; score: number };
+    console.log('reCAPTCHA verification response:', data);
+    
+    return data.success && data.score >= 0.5;
+  } catch (error) {
+    console.error('reCAPTCHA verification error:', error);
+    return false;
+  }
 }
 
 export const handler: Handler = async (event) => {
+  // Add CORS headers
+  const headers = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS'
+  };
+
+  // Handle preflight requests
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 200,
+      headers,
+      body: ''
+    };
+  }
+
   if (event.httpMethod !== 'POST') {
     return {
       statusCode: 405,
-      body: JSON.stringify({ message: 'Method not allowed' })
+      headers,
+      body: JSON.stringify({ success: false, message: 'Method not allowed' })
     };
   }
 
   try {
-    const { name, email, message, recaptchaToken, honeypot } = JSON.parse(event.body || '{}');
+    if (!event.body) {
+      throw new Error('No request body');
+    }
+
+    const { name, email, message, recaptchaToken, honeypot } = JSON.parse(event.body);
 
     // Check honeypot
     if (honeypot) {
       return {
         statusCode: 400,
+        headers,
         body: JSON.stringify({
           success: false,
           message: 'Invalid submission'
@@ -43,6 +88,7 @@ export const handler: Handler = async (event) => {
     if (!name || !email || !message || !recaptchaToken) {
       return {
         statusCode: 400,
+        headers,
         body: JSON.stringify({
           success: false,
           message: 'All fields are required'
@@ -55,6 +101,7 @@ export const handler: Handler = async (event) => {
     if (!isHuman) {
       return {
         statusCode: 400,
+        headers,
         body: JSON.stringify({
           success: false,
           message: 'reCAPTCHA verification failed'
@@ -62,29 +109,36 @@ export const handler: Handler = async (event) => {
       };
     }
 
-    const emailResponse = await resend.emails.send({
-      from: 'info@ladakhmoto.com',
-      to: 'galdaninfotech@gmail.com',
-      subject: `Message from ${name} <${email}>`,
-      text: message,
-    });
+    try {
+      const emailResponse = await resend.emails.send({
+        from: 'info@ladakhmoto.com',
+        to: 'galdaninfotech@gmail.com',
+        subject: `Message from ${name} <${email}>`,
+        text: message,
+      });
 
-    return {
-      statusCode: 200,
-      body: JSON.stringify({
-        success: true,
-        message: 'Email sent successfully',
-        data: emailResponse
-      })
-    };
+      return {
+        statusCode: 200,
+        headers,
+        body: JSON.stringify({
+          success: true,
+          message: 'Email sent successfully',
+          data: emailResponse
+        })
+      };
+    } catch (emailError) {
+      console.error('Resend API error:', emailError);
+      throw new Error('Failed to send email');
+    }
+
   } catch (error) {
-    console.error('Error sending email:', error);
+    console.error('Server error:', error);
     return {
       statusCode: 500,
+      headers,
       body: JSON.stringify({
         success: false,
-        message: 'Error sending email',
-        error: String(error)
+        message: error instanceof Error ? error.message : 'Internal server error'
       })
     };
   }
