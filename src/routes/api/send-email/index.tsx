@@ -5,7 +5,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 async function validateRecaptcha(token: string): Promise<boolean> {
     try {
-      const secretKey = process.env.RECAPTCHA_SECRET_KEY;
+      const secretKey = process.env.VITE_RECAPTCHA_SECRET_KEY;
       const response = await fetch('https://www.google.com/recaptcha/api/siteverify', {
         method: 'POST',
         headers: {

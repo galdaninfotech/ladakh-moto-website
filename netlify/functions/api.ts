@@ -4,9 +4,9 @@ import fetch from 'node-fetch';
 
 // Check if required environment variables are set
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
-const RECAPTCHA_SECRET_KEY = process.env.RECAPTCHA_SECRET_KEY;
+const VITE_RECAPTCHA_SECRET_KEY = process.env.VITE_RECAPTCHA_SECRET_KEY;
 
-if (!RESEND_API_KEY || !RECAPTCHA_SECRET_KEY) {
+if (!RESEND_API_KEY || !VITE_RECAPTCHA_SECRET_KEY) {
   console.error('Missing required environment variables');
 }
 
@@ -20,7 +20,7 @@ async function verifyRecaptcha(token: string): Promise<boolean> {
         'Content-Type': 'application/x-www-form-urlencoded',
       },
       body: new URLSearchParams({
-        secret: RECAPTCHA_SECRET_KEY!,
+        secret: VITE_RECAPTCHA_SECRET_KEY!,
         response: token
       }).toString()
     });
