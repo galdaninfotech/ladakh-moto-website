@@ -122,13 +122,13 @@ export const handler: Handler = async (event) => {
         headers,
         body: JSON.stringify({
           success: true,
-          message: 'Email sent successfully',
+          message: '👍 Message sent successfully! We will get back to you shortly.',
           data: emailResponse
         })
       };
     } catch (emailError) {
       console.error('Resend API error:', emailError);
-      throw new Error('Failed to send email');
+      throw new Error('😕 Hmm... that did not work. Please try again in a moment or contact us directly.');
     }
 
   } catch (error) {
