@@ -1,7 +1,21 @@
 import { Handler } from '@netlify/functions';
 import { Resend } from 'resend';
+import fetch from 'node-fetch';
 
-const resend = new Resend('re_QK8RviMo_Fc7ALxvoV3WK4KjSksxDfqES');
+const resend = new Resend(process.env.RESEND_API_KEY);
+
+async function verifyRecaptcha(token: string) {
+  const response = await fetch('https://www.google.com/recaptcha/api/siteverify', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: `secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${token}`,
+  });
+
+  const data = await response.json() as { success: boolean; score: number };
+  return data.success && data.score >= 0.5; // Adjust threshold as needed
+}
 
 export const handler: Handler = async (event) => {
   if (event.httpMethod !== 'POST') {
@@ -12,9 +26,21 @@ export const handler: Handler = async (event) => {
   }
 
   try {
-    const { name, email, message } = JSON.parse(event.body || '{}');
+    const { name, email, message, recaptchaToken, honeypot } = JSON.parse(event.body || '{}');
 
-    if (!name || !email || !message) {
+    // Check honeypot
+    if (honeypot) {
+      return {
+        statusCode: 400,
+        body: JSON.stringify({
+          success: false,
+          message: 'Invalid submission'
+        })
+      };
+    }
+
+    // Verify required fields
+    if (!name || !email || !message || !recaptchaToken) {
       return {
         statusCode: 400,
         body: JSON.stringify({
@@ -24,10 +50,22 @@ export const handler: Handler = async (event) => {
       };
     }
 
+    // Verify reCAPTCHA
+    const isHuman = await verifyRecaptcha(recaptchaToken);
+    if (!isHuman) {
+      return {
+        statusCode: 400,
+        body: JSON.stringify({
+          success: false,
+          message: 'reCAPTCHA verification failed'
+        })
+      };
+    }
+
     const emailResponse = await resend.emails.send({
       from: 'info@ladakhmoto.com',
       to: 'galdaninfotech@gmail.com',
-      subject: `Message from ${name}`,
+      subject: `Message from ${name} <${email}>`,
       text: message,
     });
 
