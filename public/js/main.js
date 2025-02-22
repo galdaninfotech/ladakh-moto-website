@@ -165,17 +165,25 @@ $(document).ready(function($) {
     $('.btnOpenForm').on('click', function(event) {
         event.preventDefault();
         const el = document.querySelector(".tour-name");
-        const tourName = el.getAttribute("data-tour-name");
-        console.log(tourName, el, "hhhhhhhhhhhhhh");
+        const tourName = el ? el.getAttribute("data-tour-name") : '';
+        // console.log(tourName, el, "hhhhhhhhhhhhhh");
 
-        $('.form-popup-bg').addClass('is-visible');
+        const formPopupBg = document.querySelector('.form-popup-bg');
+        if (formPopupBg) {
+            formPopupBg.style.opacity = '1';
+            formPopupBg.style.visibility = 'visible';
+        }
     });
     
     //close popup when clicking x or off popup
     $('.form-popup-bg').on('click', function(event) {
         if ($(event.target).is('.form-popup-bg') || $(event.target).is('#btnCloseForm')) {
-        event.preventDefault();
-        $(this).removeClass('is-visible');
+            event.preventDefault();
+            const formPopupBg = document.querySelector('.form-popup-bg');
+            if (formPopupBg) {
+                formPopupBg.style.opacity = '0';
+                formPopupBg.style.visibility = 'hidden';
+            }
         }
     });        
 });
