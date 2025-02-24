@@ -23,8 +23,6 @@ export default component$(() => {
       <head>
         <meta charset="utf-8" />
 
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com/" ></link>
-        <QwikPartytown forward={['gtag','dataLayer.push']} />
         {/* <!-- Google Tag Manager --> */}
         {/* <link rel='preconnect' href='https://www.googletagmanager.com' crossOrigin /> */}
         <script src="/js/google-tag-manager.js"></script>
