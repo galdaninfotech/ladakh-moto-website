@@ -169,7 +169,7 @@ export const Contact = component$(() => {
 
   return (
     <div>
-        <form preventdefault:submit onSubmit$={handleSubmit} class="mb-30">
+        <form id="contact" preventdefault:submit onSubmit$={handleSubmit} class="mb-30 contact-form">
             <div class="form-group">
                 <label for="name">Name <span>*</span></label>
                 <input 
@@ -249,10 +249,10 @@ export const Contact = component$(() => {
         </form>
 
         {formState.successMessage && (
-            <p style={{ color: "green" }}>{formState.successMessage}</p>
+            <p id="contact-success-message" style={{ color: "green" }}>{formState.successMessage}</p>
         )}
         {formState.errorMessage && (
-            <p style={{ color: "red" }}>{formState.errorMessage}</p>
+            <p id="contact-failure-message" style={{ color: "red" }}>{formState.errorMessage}</p>
         )}
 
         {/* Add reCAPTCHA badge */}
