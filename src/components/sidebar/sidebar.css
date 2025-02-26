@@ -102,3 +102,9 @@
     background: url(/img/icons-sprite.webp) no-repeat;
     background-position: -167px -40px;
 }
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-top: 60px;
+    }
+}

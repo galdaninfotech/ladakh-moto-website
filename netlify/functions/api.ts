@@ -112,7 +112,7 @@ export const handler: Handler = async (event) => {
     try {
       const emailResponse = await resend.emails.send({
         from: 'Contact Form <contact-form@ladakhmoto.com>',
-        to: 'info@ladakhmoto.com',
+        to: 'galdaninfotech@gmail.com',
         reply_to: `${name} <${email}>`,
         subject: `Message from ${name} <${email}>`,
         text: message,

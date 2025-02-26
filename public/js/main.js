@@ -199,14 +199,20 @@ window.addEventListener("scroll", (event) => {
         if(scroll < 600) {
             document.getElementById("sidebar").style.marginTop = "128px";
         } else {
-            document.getElementById("sidebar").style.marginTop = "0px";
+            if (window.innerWidth <= 768) {
+                document.getElementById("sidebar").style.marginTop = "60px";
+            } else {
+                document.getElementById("sidebar").style.marginTop = "0px";
+            }
         }
     }
 });
 
 
 
-// Hide All Email links from Bot Harvesters
+/*================================================
+[  Hide All Email links from Bot Harvesters  ]
+================================================*/
 const emailElem = document.querySelectorAll('.email-link');
 emailElem.forEach((elem) => {
     const user = 'info';

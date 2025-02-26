@@ -249,14 +249,14 @@ export const Contact = component$(() => {
         </form>
 
         {formState.successMessage && (
-            <p id="contact-success-message" style={{ color: "green" }}>{formState.successMessage}</p>
+            <p id="contact-success-message">{formState.successMessage}</p>
         )}
         {formState.errorMessage && (
-            <p id="contact-failure-message" style={{ color: "red" }}>{formState.errorMessage}</p>
+            <p id="contact-failure-message">{formState.errorMessage}</p>
         )}
 
         {/* Add reCAPTCHA badge */}
-        <div class="recaptcha-terms" style={{ fontSize: '12px', marginTop: '10px', opacity: '0.8' }}>
+        <div class="recaptcha-terms">
           This site is protected by reCAPTCHA and the Google{' '}
           <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
             Privacy Policy
