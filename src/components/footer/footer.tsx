@@ -9,7 +9,8 @@ export default component$(() => {
         if (footer) {
 			const bgImage = footer.getAttribute('data-bg');
 			if (bgImage) {
-				(footer as HTMLElement).style.backgroundImage = `url(${bgImage})`;
+				// (footer as HTMLElement).style.backgroundImage = `url(${bgImage})`;
+				(footer as HTMLElement).style.background = `#444 url(${bgImage})`;
 			}
         }
     });

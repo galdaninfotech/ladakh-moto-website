@@ -35,32 +35,86 @@ export default component$(() => {
                     
 
                     <p>
-                        Lamayuru Monastery, one of the oldest and most revered Buddhist monasteries in Ladakh, is a must-visit destination for anyone traveling to the region. Perched on a hilltop amidst the dramatic landscapes of Ladakh, Lamayuru Monastery offers a unique blend of history, culture, and natural beauty. Located around 120 kilometers from Leh, the monastery is an architectural marvel that attracts pilgrims, spiritual seekers, and travelers from all over the world. With its ancient origins, stunning surroundings, and rich Buddhist heritage, Lamayuru Monastery provides an unforgettable experience for every visitor.
+                        Lamayuru Monastery, one of Ladakh's oldest and most spectacular monasteries, is a place of spirituality, history, and breathtaking landscapes. Situated at an altitude of 3,510 meters, it is often referred to as the "Moonland of Ladakh" due to the surrounding surreal, moon-like terrain. Founded in the 11th century by Mahasiddha Naropa, Lamayuru is home to rich Buddhist heritage, stunning murals, and sacred caves that add to its mystical allure.
                     </p>
 
+                    <h2>Things to See Inside Lamayuru Monastery</h2>
+                    <ul>
+                        <li>
+                            <strong>The Assembly Hall (Dukhang)</strong> - A grand prayer hall adorned with ancient thangkas (Buddhist paintings), statues of deities, and vibrant murals depicting Buddhist legends. This is where monks gather for daily prayers and ceremonies.
+                        </li>
+                        <li>
+                            <strong>The Cave of Naropa</strong> - A sacred meditation cave where the Indian saint Naropa is believed to have meditated. It is one of the holiest spots within the monastery.
+                        </li>
+                        <li>
+                            <strong>Statues of Buddha and Bodhisattvas</strong> - The monastery houses an array of magnificent statues, including those of Lord Buddha, Avalokiteshvara (the deity of compassion), and other revered figures in Tibetan Buddhism.
+                        </li>
+                        <li>
+                            <strong>Prayer Wheels and Chortens </strong>- Scattered around the monastery are large prayer wheels and stupas, symbolizing peace and enlightenment. Spinning the prayer wheels while reciting mantras is a ritual believed to bring good fortune.
+                        </li>
+                        <li>
+                            <strong>Lamayuru Library</strong> - A collection of ancient Buddhist scriptures, including manuscripts written in gold and silver ink. This treasure trove of knowledge gives insight into the rich traditions of Tibetan Buddhism.
+                        </li>
+
+                    </ul>
+
+                    <h2>Things to See Around Lamayuru Monastery</h2>
+                    <ul>
+                        <li>
+                            <strong>The Moonland Terrain</strong> - Just outside the monastery, the unusual, crater-like formations of Lamayuru's landscape resemble the surface of the moon. This natural wonder, caused by the erosion of clay and sand, makes for a surreal and photogenic experience.
+                        </li>
+                        <li>
+                            <strong>Wanla Monastery</strong> - A short drive from Lamayuru, Wanla Gompa is a hidden gem known for its exquisite 15th-century frescoes and unique three-story Avalokiteshvara statue.
+                        </li>
+                        <li>
+                            <strong>Singay Lakang Temple</strong> - Located within the monastery complex, this small but intricately designed temple is an important spiritual site, featuring beautiful carvings and paintings.
+                        </li>
+                        <li>
+                            <strong>Hemis Shukpachan Village</strong> - A peaceful Ladakhi village known for its ancient juniper trees, traditional homes, and serene walking trails offering stunning views of the Himalayas.
+                        </li>
+                        <li>
+                            <strong>Fotu La Pass (4,108m) </strong>- Just beyond Lamayuru, this high-altitude pass is the highest point on the Srinagar-Leh Highway and offers panoramic views of the surrounding mountains and valleys.
+                        </li>
+                    </ul>
+
+
+                    <h2>Festivals at Lamayuru Monastery</h2>
                     <p>
-                        The history of Lamayuru Monastery dates back to the 10th century, making it one of the most historically significant monasteries in Ladakh. It is believed that the monastery was originally founded by a prominent Buddhist scholar, and it has since evolved into a center for Buddhist learning and practice. Lamayuru Monastery is a major site for followers of the Gelug and Kagyu sects of Tibetan Buddhism. Its spiritual significance draws numerous pilgrims each year who come to seek blessings and experience the serene atmosphere of the monastery.
+                        The monastery is most vibrant during the annual Yuru Kabgyat Festival, a grand celebration featuring masked Cham dances, sacred rituals, and traditional music performed by the monks. Held in June or July, this festival attracts both pilgrims and travelers eager to witness Ladakh's rich cultural heritage.
                     </p>
 
-                    <p>
-                        The architecture of Lamayuru Monastery is another highlight of the site. The monastery is built in a traditional Tibetan style, with intricately designed prayer halls, temples, and stupas that house various Buddhist relics and sacred objects. One of the most striking features of the monastery is its large prayer hall, adorned with beautiful frescoes and statues of Buddha. Visitors can explore the monastery's interior and marvel at the vivid artwork and religious symbols that depict scenes from the life of the Buddha and various Buddhist teachings. The monastery is also home to a small community of monks who continue to maintain its spiritual practices.
-                    </p>
+                    <h2>Best Time to Visit</h2>
 
                     <p>
-                        One of the most captivating aspects of Lamayuru Monastery is its stunning location. Situated on a rocky hill overlooking the surrounding landscape, the monastery provides breathtaking panoramic views of the moon-like terrain of Lamayuru Valley. The unique topography, with its towering cliffs, deep ravines, and barren mountains, gives the monastery an ethereal and almost otherworldly appearance. The landscape around Lamayuru Monastery is perfect for photography, with the contrast of the monastery's traditional architecture against the rugged, lunar-like terrain creating a dramatic and unforgettable scene.
+                        The ideal time to visit Lamayuru Monastery is from May to September, when the roads are open, and the weather is pleasant. Winter visits are also possible but can be challenging due to snowfall and extreme cold.
                     </p>
 
-                    <p>
-                        For nature lovers and adventure seekers, Lamayuru Monastery offers an excellent opportunity to explore the surrounding valley. The area around Lamayuru is known for its rugged beauty, and there are several trekking routes that take visitors through the valley and its neighboring villages. The trek to Lamayuru Monastery is a scenic journey, offering travelers the chance to experience the raw beauty of Ladakh's landscape up close. Whether you are an experienced trekker or someone looking for a more relaxed exploration, the Lamayuru area has something to offer everyone.
-                    </p>
+                    <h2>How to Reach Lamayuru Monastery</h2>
+
+                    <ul>
+                        <li>
+                            <strong>By Road</strong>: Lamayuru is about 125 km from Leh, situated on the Srinagar-Leh Highway (NH1). The scenic drive takes around 4 hours, passing through breathtaking mountain passes and valleys.
+                        </li>
+                        <li>
+                            <strong>By Bike or Self-Drive</strong>: A popular stop for bikers and road trip enthusiasts, Lamayuru offers an unforgettable journey through Ladakh's dramatic landscapes.
+                        </li>
+                        <li>
+                            <strong>By Public Transport</strong>: Shared taxis and buses operate between Leh and Lamayuru, though schedules may vary.
+                        </li>
+                    </ul>
+
+                    <h2>Where to Stay</h2>
 
                     <p>
-                        In addition to its spiritual and natural beauty, Lamayuru Monastery also offers visitors a chance to engage with the local culture. The monastery is an active center of religious life, and visitors can witness monks in prayer, chanting, and performing rituals that have been practiced for centuries. The monastery also hosts religious festivals throughout the year, during which traditional dances, music, and ceremonies are held. These festivals offer an opportunity to experience the vibrant cultural heritage of Ladakh and deepen your understanding of the region's Buddhist traditions.
+                        There are basic guesthouses and homestays near Lamayuru Monastery, offering a comfortable stay with warm Ladakhi hospitality. For those seeking a more immersive experience, staying at the monastery's guest quarters is a unique opportunity to experience the monastic lifestyle.
                     </p>
 
+                    <h2>Experience the Tranquility of Lamayuru</h2>
+
                     <p>
-                        In conclusion, Lamayuru Monastery is a spiritual, historical, and natural gem that should not be missed by any traveler visiting Ladakh. Its rich history, breathtaking architecture, serene atmosphere, and stunning location make it one of the most captivating destinations in the region. Whether you're seeking spiritual solace, exploring Ladakh's unique landscapes, or immersing yourself in the local culture, Lamayuru Monastery offers a rewarding and enriching experience. If you're planning a trip to Ladakh, make sure to include Lamayuru Monastery on your itinerary — it promises to be a highlight of your journey and an unforgettable place to visit.
+                        Whether you're drawn to its spiritual significance, breathtaking scenery, or ancient Buddhist heritage, Lamayuru Monastery promises a one-of-a-kind journey into Ladakh's mystical past. The peaceful aura, the rugged beauty of the Moonland, and the deep-rooted Buddhist traditions make this destination a must-visit for travelers seeking adventure, culture, and serenity in the heart of the Himalayas.
                     </p>
+
 
                     
                     

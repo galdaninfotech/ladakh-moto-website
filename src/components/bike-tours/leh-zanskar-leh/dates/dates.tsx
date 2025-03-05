@@ -24,28 +24,28 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>LZL20251</td>
-                                            <td>1st May - 10th May</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25MAY01".slice(8)}</td>
+                                            <td>01 May - 10 May</td>
+                                            <td><span>Filling Fast</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>LZL20252</td>
-                                            <td>13th May - 22nd May</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25MAY02".slice(8)}</td>
+                                            <td>13 May - 22 May</td>
+                                            <td><span>6 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>LZL20253</td>
-                                            <td>15th May - 24th May</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25MAY03".slice(8)}</td>
+                                            <td>15 May - 24 May</td>
+                                            <td><span>Limited Seats</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -67,28 +67,28 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>LZL20254</td>
-                                            <td>05th June - 14th June</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25JUN01".slice(8)}</td>
+                                            <td>05 Jun - 14 Jun</td>
+                                            <td><span>8 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>LZL20255</td>
-                                            <td>12th June - 21st June</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25JUN02".slice(8)}</td>
+                                            <td>12 Jun - 21 Jun</td>
+                                            <td><span>12 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>LZL20256</td>
-                                            <td>19th June - 28th June</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25JUN03".slice(8)}</td>
+                                            <td>19 Jun - 28 Jun</td>
+                                            <td><span>Filling Fast</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -110,27 +110,27 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>LZL20257</td>
-                                            <td>3rd July - 12th July</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25JUL01".slice(8)}</td>
+                                            <td>03 July - 12 July</td>
+                                            <td><span>16 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>LZL20258</td>
-                                            <td>10th July - 19th July</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25JUL02".slice(8)}</td>
+                                            <td>10 July - 19 July</td>
+                                            <td><span>10 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>LZL20259</td>
-                                            <td>17th July - 27th July</td>
+                                            <td>{"LZL25JUL03".slice(8)}</td>
+                                            <td>17 July - 27 July</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
@@ -153,27 +153,27 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>LZL202510</td>
-                                            <td>1st Aug - 10th Aug</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25AUG01".slice(8)}</td>
+                                            <td>01 Aug - 10 Aug</td>
+                                            <td><span>Filling Fast</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>LZL202511</td>
-                                            <td>07th Aug - 16th Aug</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25AUG02".slice(8)}</td>
+                                            <td>07 Aug - 16 Aug</td>
+                                            <td><span>18 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>LZL202512</td>
-                                            <td>14th Aug - 23rd Aug</td>
+                                            <td>{"LZL25AUG03".slice(8)}</td>
+                                            <td>14 Aug - 23 Aug</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
@@ -196,27 +196,27 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>LZL202513</td>
-                                            <td>04th Sept - 13th Sept</td>
-                                            <td><span>Open</span></td>
+                                            <td>{"LZL25SEP01".slice(8)}</td>
+                                            <td>04th Sep - 13th Sep</td>
+                                            <td><span>16 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>LZL202514</td>
-                                            <td>11th Sept - 20th Sept</td>
+                                            <td>{"LZL25SEP02".slice(8)}</td>
+                                            <td>11th Sep - 20th Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>LZL202515</td>
-                                            <td>18th Sept - 27th Sept</td>
+                                            <td>{"LZL25SEP03".slice(8)}</td>
+                                            <td>18th Sep - 27th Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         

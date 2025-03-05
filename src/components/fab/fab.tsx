@@ -12,15 +12,20 @@ export default component$<ItemProps>((props) => {
             <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
 
             <div class="fab-container position-fixed bottom-0 start-0 end-0 d-flex justify-content-center align-items-center mb-1 px-3">
-            {
-                props.tourPrice ? 
-                <div class="fab-price" onClick$={(event) => event.stopPropagation()}>
-                    <span>Starts: {props.tourPrice}</span>
-                </div>
-                : 
-                    null
-            }
+                {/* {
+                    props.tourPrice ? 
+                    <div class="fab-book-now btnOpenForm" onClick$={(event) => event.stopPropagation()}>
+                        <span>BOOK NOW</span>
+                    </div>
+                    : 
+                        null
+                } */}
                 
+                <div id="{props.tourPrice}" class="fab-book-now btnOpenForm" onClick$={(event) => event.stopPropagation()}>
+                    <span>BOOK NOW</span>
+                    <span class="d-none">{props.tourPrice}</span>
+                </div>
+
                 <label class="fabb" for="fabCheckbox">
                     {/* <i class="bi bi-telephone-outbound"></i> */}
                     ENQUIRY
@@ -36,11 +41,6 @@ export default component$<ItemProps>((props) => {
                 <a class="fab-action fab-action-2" href="tel:9622958013" aria-label="Call For Instant Booking" title="Call For Instant Booking">
                     <i class="bi bi-telephone-outbound" aria-hidden="true"></i>
                     <span class="sr-only">Phone</span>
-                </a>
-
-                <a class="fab-action fab-action-3 btnOpenForm" href="/" aria-label="Email us" title="Email us">
-                    <i class="bi bi-envelope" aria-hidden="true"></i>
-                    <span class="sr-only">Email</span>
                 </a>
 
                 <a class="fab-action fab-action-4" href="https://www.instagram.com/ladakhmototour/" target="_blank" aria-label="Follow On Instagram" title="Follow On Instagram">

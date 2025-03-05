@@ -35,31 +35,49 @@ export default component$(() => {
 
                     
                     <p>
-                        Pangong Lake, located in the northern region of Ladakh, is one of the most famous and breathtaking destinations in India. Known for its stunning beauty, this high-altitude lake stretches across 134 kilometers, with roughly two-thirds of it lying in China. Pangong Lake is a must-visit spot for nature lovers, adventure seekers, and anyone looking to experience the serene and untouched landscapes of Ladakh. Its unique color-changing waters, surrounded by barren mountains, offer a surreal and unforgettable experience for every tourist visiting Pangong Lake.
+                        Pangong Lake, also known as Pangong Tso, is a breathtaking endorheic lake nestled in the Himalayas at an elevation of 4,225 meters. Spanning approximately 134 kilometers, this pristine lake extends from India's Ladakh region into Tibet, with about 40 percent of its length in India and the remaining 60 percent in Tibet. Despite its saline waters, Pangong Lake freezes completely during winter, offering a unique spectacle of nature.  Pangong Lake is a must-visit spot for nature lovers, adventure seekers, and anyone looking to experience the serene and untouched landscapes of Ladakh. Its unique color-changing waters, surrounded by barren mountains, offer a surreal and unforgettable experience for every tourist visiting Pangong Lake.
+                    </p>
+
+                    <h2>Top Attractions:</h2>
+
+                    <ul>
+                        <li>
+                            <strong>Color-Changing Waters</strong>: Witness the lake's mesmerizing hues shift from azure to deep blue and even green, depending on the time of day and weather conditions.
+                        </li>
+                        <li>
+                            <strong>Wildlife Spotting</strong>: The lake is a haven for birdwatchers, especially during the summer months when migratory birds, including the rare black-necked crane, make it their temporary home.
+                        </li>
+                        <li>
+                            <strong>Camping</strong>: Experience the serenity of the lake by camping along its shores, under a canopy of stars, and immerse yourself in the tranquil ambiance of the surrounding landscapes.
+                        </li>
+                        <li>
+                            <strong>The Journey</strong>: A visit to Pangong Lake is also an adventure in itself. While the lake is the primary attraction, the journey to Pangong Lake is equally fascinating. The road to Pangong Lake takes travelers through some of the most stunning landscapes of Ladakh, including high mountain passes like Chang La. The drive offers panoramic views of the surrounding hills, valleys, and villages, making it a memorable experience. For those seeking a bit of adventure, the road journey to Pangong Lake is sure to excite and inspire.
+                        </li>
+                        <li>
+                            <strong>Chang La Pass</strong>: Standing at 5,360 meters (17,590 feet), one of the highest motorable passes in the world and a gateway to the stunning Pangong Lake. Surrounded by snow-covered peaks, this high-altitude pass offers breathtaking views and a thrilling ride for adventure seekers. Due to its extreme elevation, the air is thin and chilly, making short stops ideal for acclimatization. The pass is also home to the Changla Baba Temple, believed to protect travelers on their journey. A visit to Chang La is an unforgettable experience for those exploring the rugged beauty of Ladakh.
+                        </li>
+                    </ul>
+
+
+                    <h2>Best Time to Visit:</h2>
+
+                    <p>
+                        The ideal time to explore Pangong Lake is from May to September, when the weather is pleasant, and the lake's vivid colors are at their peak. During these months, the access roads are clear, making the journey to the lake more comfortable and enjoyable.
+                    </p>
+
+                    <h2>How to Reach:</h2>
+                    <p>
+                        <strong>By Road</strong>: Pangong Lake is approximately 160 kilometers from Leh, the capital of Ladakh. The journey takes you through the scenic Chang La Pass, one of the world's highest motorable roads, offering panoramic views of the rugged Himalayan terrain.
+                    </p>
+
+                    <h2>Permits:</h2>
+
+                    <p>
+                        Visitors are required to obtain an Inner Line Permit to access Pangong Lake, as it is located near the sensitive Line of Actual Control between India and China. These permits can be acquired in Leh and are mandatory for both domestic and international tourists.
                     </p>
 
                     <p>
-                        The main highlight of Pangong Lake is its mesmerizing blue waters, which change colors throughout the day. The lake, located at an altitude of 14,270 feet, is known for its vivid shades of blue and turquoise, which appear even more striking against the backdrop of the barren, rocky mountains. Whether it's the early morning sunlight or the late afternoon glow, Pangong Lake offers numerous opportunities for photography, making it an ideal destination for those looking to capture the natural beauty of Ladakh. The crystal-clear waters and dramatic surroundings make Pangong Lake one of the most photogenic locations in the world.
-                    </p>
-
-                    <p>
-                        A visit to Pangong Lake is also an adventure in itself. While the lake is the primary attraction, the journey to Pangong Lake is equally fascinating. Located about 160 kilometers from Leh, the road to Pangong Lake takes travelers through some of the most stunning landscapes of Ladakh, including high mountain passes like Chang La. The drive offers panoramic views of the surrounding hills, valleys, and villages, making it a memorable experience. For those seeking a bit of adventure, the road journey to Pangong Lake is sure to excite and inspire.
-                    </p>
-
-                    <p>
-                        Pangong Lake also offers an opportunity for peaceful reflection and relaxation. The remote and tranquil environment of the lake makes it a perfect spot for unwinding and connecting with nature. Visitors can spend their time walking along the shore, taking in the mesmerizing views, or simply sitting and soaking in the peaceful atmosphere. Pangong Lake is an ideal destination for those who wish to escape the hustle and bustle of city life and immerse themselves in a place of solitude and serenity. Camping by the lake under the starry sky is another popular activity that allows tourists to experience the full magic of Pangong Lake.
-                    </p>
-
-                    <p>
-                        Another unique feature of Pangong Lake is its unique wildlife. Despite being situated in a harsh and remote region, Pangong Lake is home to a variety of birds and animals, making it a great destination for wildlife enthusiasts. Migratory birds such as the Bar-headed Goose, Ruddy Shelduck, and other species are often spotted around the lake, making it a haven for birdwatchers. The area surrounding Pangong Lake is also home to the rare Tibetan wild ass, or Kiang, as well as marmots and other small wildlife. These fascinating creatures add an extra layer of excitement to the overall experience of visiting Pangong Lake.
-                    </p>
-
-                    <p>
-                        While visiting Pangong Lake, travelers also have the chance to explore nearby villages and cultural sites. The nearby village of Spangmik, where many travelers camp, offers a glimpse into the local Ladakhi lifestyle. Visitors can interact with the friendly locals, sample traditional Ladakhi cuisine, and experience the simplicity of life in one of the most remote areas of India. The area's unique culture and hospitality add an enriching experience to your visit to Pangong Lake. Exploring these villages provides a deeper connection to the culture and traditions of Ladakh.
-                    </p>
-
-                    <p>
-                        Pangong Lake is a destination that should be included in every traveler's itinerary when visiting Ladakh. Its unparalleled beauty, peaceful surroundings, and the unique experience it offers make it one of the most sought-after destinations in the region. Whether you're looking for adventure, tranquility, or simply a place to marvel at the wonders of nature, Pangong Lake is sure to exceed your expectations. With its stunning landscape, rich wildlife, and tranquil atmosphere, Pangong Lake is more than just a lake - it's an unforgettable experience that every traveler must experience.
+                        Embarking on a journey to Pangong Lake promises an unforgettable experience, blending natural beauty with a sense of adventure. Whether you're a nature enthusiast, a photography lover, or simply seeking tranquility, Pangong Lake offers a slice of paradise in the heart of the Himalayas.
                     </p>
 
                     

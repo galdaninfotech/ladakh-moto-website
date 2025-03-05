@@ -24,27 +24,27 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>MLU20251</td>
-                                            <td>1st May - 11th May</td>
+                                            <td>{"MLS25MAY01".slice(8)}</td>
+                                            <td>01 May - 11 May</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>MLU20252</td>
-                                            <td>13th May - 23rd May</td>
+                                            <td>{"MLS25MAY02".slice(8)}</td>
+                                            <td>13 May - 23 May</td>
                                             <td><span>Open</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>MLU20253</td>
-                                            <td>15th May - 25th May</td>
+                                            <td>{"MLS25MAY03".slice(8)}</td>
+                                            <td>15 May - 25 May</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
@@ -67,27 +67,27 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>MLU20254</td>
-                                            <td>05th June - 15th June</td>
+                                            <td>{"MLS25JUN01".slice(8)}</td>
+                                            <td>05 Jun - 15 Jun</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>MLU20255</td>
-                                            <td>12th June - 22nd June</td>
+                                            <td>{"MLS25JUN02".slice(8)}</td>
+                                            <td>12 Jun - 22 Jun</td>
                                             <td><span>Open</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>MLU20256</td>
-                                            <td>19th June - 29th June</td>
+                                            <td>{"MLS25JUN03".slice(8)}</td>
+                                            <td>19 Jun - 29 Jun</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
@@ -110,27 +110,27 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>MLU20257</td>
-                                            <td>3rd July - 13th July</td>
+                                            <td>{"MLS25JUL01".slice(8)}</td>
+                                            <td>3 July - 13 July</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>MLU20258</td>
-                                            <td>10th July - 20th July</td>
+                                            <td>{"MLS25JUL02".slice(8)}</td>
+                                            <td>10 July - 20 July</td>
                                             <td><span>Open</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>MLU20259</td>
-                                            <td>17th July - 28th July</td>
+                                            <td>{"MLS25JUL03".slice(8)}</td>
+                                            <td>17 July - 28 July</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
@@ -153,27 +153,27 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>MLU202510</td>
-                                            <td>1st Aug - 11th Aug</td>
+                                            <td>{"MLS25AUG01".slice(8)}</td>
+                                            <td>1 Aug - 11 Aug</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>MLU202511</td>
-                                            <td>07th Aug - 17th Aug</td>
+                                            <td>{"MLS25AUG02".slice(8)}</td>
+                                            <td>07 Aug - 17 Aug</td>
                                             <td><span>Open</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>MLU202512</td>
-                                            <td>14th Aug - 24th Aug</td>
+                                            <td>{"MLS25AUG03".slice(8)}</td>
+                                            <td>14 Aug - 24 Aug</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
@@ -196,27 +196,27 @@ export default component$(() => {
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Tour ID</th>
+                                            <th>Tour</th>
                                             <th>Date</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>MLU202513</td>
-                                            <td>04th Sept - 14th Sept</td>
+                                            <td>{"MLS25SEP01".slice(8)}</td>
+                                            <td>04 Sep - 14 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>MLU202514</td>
-                                            <td>11th Sept - 21st Sept</td>
+                                            <td>{"MLS25SEP02".slice(8)}</td>
+                                            <td>11 Sep - 21 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>MLU202515</td>
-                                            <td>18th Sept - 28th Sept</td>
+                                            <td>{"MLS25SEP03".slice(8)}</td>
+                                            <td>18 Sep - 28 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         

@@ -41,7 +41,9 @@ export default component$(() => {
                         </div>
 
                         <div class="site-logo d-none d-md-block" style="top: -8px;">
-                            <ImgLogoLG decoding="sync" loading="eager" alt="LadakhMoto" aria-label="Ladakh Moto" title="Ladakh Moto" />
+                            <a href="/">
+                                <ImgLogoLG decoding="sync" loading="eager" alt="LadakhMoto" aria-label="Ladakh Moto" title="Ladakh Moto" />
+                            </a>
                         </div>
                         {/* <!-- End site logo --> */}
                     </div>

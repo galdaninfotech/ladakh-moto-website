@@ -35,31 +35,96 @@ export default component$(() => {
 
                     
                     <p>
-                        Thiksey Monastery, located in the beautiful region of Ladakh, is one of the most prominent and picturesque Buddhist monasteries in the area. Situated on a hilltop in the Indus Valley, Thiksey Monastery offers panoramic views of the surrounding landscapes, making it a must-visit destination for every traveler to Ladakh. The monastery is a striking example of Tibetan Buddhist architecture and culture, attracting visitors from around the world who come to explore its spiritual significance, history, and breathtaking surroundings. Whether you're interested in Buddhism, history, or simply admiring the beauty of Ladakh, Thiksey Monastery provides an unforgettable experience.
+                        Perched on a hilltop at an altitude of 3,600 meters, Thiksey Monastery is one of the most stunning and largest monasteries in Ladakh. Often compared to Tibet's Potala Palace, this 12-story monastery offers breathtaking views of the Indus Valley and houses a treasure trove of Buddhist art, statues, stupas, and ancient scriptures. Founded in the 15th century, Thiksey is a thriving center of Buddhist learning, attracting monks, pilgrims, and travelers from around the world.
+                    </p>
+
+                    <h2>Things to See Inside Thiksey Monastery</h2>
+
+                    <ul>
+                        <li>
+                            <strong>Maitreya Buddha Statue</strong> - One of the most iconic attractions of Thiksey Monastery, this 49-foot-tall statue of Maitreya Buddha (the Future Buddha) spans two floors and is adorned with gold and vibrant colors. It was built in 1970 to commemorate the 14th Dalai Lama's visit.
+                        </li>
+                        <li>
+                            <strong>Assembly Hall (Dukhang)</strong> - The main prayer hall, where monks gather for daily prayers and religious ceremonies. The hall is beautifully decorated with intricate murals, thangkas (Buddhist paintings), and ancient scriptures.
+                        </li>
+                        <li>
+                            <strong>3Tara Temple</strong> - This sacred space is dedicated to Goddess Tara, the female Bodhisattva of compassion. Inside, you'll find 21 statues of Tara, each representing a different aspect of her divine presence.
+                        </li>
+                        <li>
+                            <strong>Lamokhang Temple</strong> - This section houses sacred Buddhist scriptures, including rare manuscripts written in gold and silver ink. It also serves as a learning center where young monks study Buddhist philosophy and literature.
+                        </li>
+                        <li>
+                            <strong>Rooftop Viewpoint</strong> - One of the highlights of the monastery is its panoramic rooftop, offering stunning views of the surrounding mountains, the Indus River, and the lush valleys of Ladakh. Sunset and sunrise from this point are particularly mesmerizing.
+                        </li>
+                        <li>
+                            <strong>Prayer Wheels & Chortens</strong> - As you walk around the monastery, you will find giant prayer wheels and white stupas (chortens), symbolizing peace and enlightenment. Spinning the prayer wheels while chanting mantras is a common spiritual practice.
+                        </li>
+                        <li>
+                            <strong>Monks' Living Quarters</strong> - The monastery is home to over 100 monks, and visitors can observe their daily routines, including morning prayer chants, meditation sessions, and traditional rituals.
+                        </li>
+                        <li>
+                            <strong>Cham Dance Hall</strong> - During festivals like Gustor, the monastery hosts elaborate masked dance performances, where monks perform the Cham dance to depict Buddhist teachings and the victory of good over evil.
+                        </li>
+                    </ul>
+
+
+                    <h2>Things to See Around Thiksey Monastery</h2>
+                    <ul>
+                        <li>
+                            <strong>Shey Palace & Monastery (5 km away)</strong> - The former royal residence of Ladakh's kings, this historic palace features a 15-meter-tall copper statue of Shakyamuni Buddha, one of the largest in Ladakh.
+                        </li>
+                        <li>
+                            <strong>Stakna Monastery (9 km away)</strong> - Known as the "Tiger's Nose Monastery" due to its location on a rocky hill, this monastery offers incredible views of the Indus River and houses beautiful paintings and scriptures.
+                        </li>
+                        <li>
+                            <strong>Hemis Monastery (35 km away)</strong> - The largest and wealthiest monastery in Ladakh, Hemis is famous for its Hemis Festival, celebrated with vibrant mask dances and traditional rituals.
+                        </li>
+                        <li>
+                            <strong>Indus River Rafting</strong> - Adventure seekers can experience white-water rafting on the Indus River, offering thrilling rapids and scenic landscapes along the way.
+                        </li>
+                        <li>
+                            <strong>Leh City (19 km away) </strong>- The capital of Ladakh, Leh is home to Leh Palace, Shanti Stupa, bustling markets, and vibrant cafés, making it a perfect stop before or after visiting Thiksey.
+                        </li>
+                    </ul>
+
+                    <h2>Festivals at Thiksey Monastery</h2>
+                    <p>
+                        Thiksey Monastery is known for hosting two major Buddhist festivals:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Gustor Festival (October-November)</strong> - A two-day festival featuring sacred Cham dances (masked dances), ritual prayers, and spiritual ceremonies, celebrating the victory of good over evil.
+                        </li>
+                        <li>
+                            <strong>Ladakh Festival (September)</strong> - The monastery participates in this grand cultural festival, showcasing traditional music, dance, and Ladakhi heritage.
+                        </li>
+                    </ul>
+
+                    <h2>Best Time to Visit</h2>
+                    <p>
+                        The ideal time to visit Thiksey Monastery is from May to September, when Ladakh's weather is pleasant, and all roads remain accessible. The early morning prayer ceremony, held around 6:00 AM, is a must-experience for visitors seeking a deeper spiritual connection.
+                    </p>
+
+                    <h2>How to Reach Thiksey Monastery</h2>
+                    <ul>
+                        <li>
+                            <strong>By Road</strong>: Thiksey Monastery is located 19 km from Leh, easily accessible by car, bike, or taxi via the Leh-Manali Highway.
+                        </li>
+                        <li>
+                            <strong>By Public Transport</strong>: Buses and shared taxis operate between Leh and Thiksey, making it convenient for travelers.
+                        </li>
+                        <li>
+                            <strong>By Air</strong>: The nearest airport is Kushok Bakula Rimpochee Airport in Leh (about 20 km away), with regular flights from Delhi, Mumbai, and Srinagar.
+                        </li>
+                    </ul>
+
+                    <h2>Where to Stay</h2>
+                    <p>
+                        Visitors can find accommodations in Leh, Shey, or nearby guesthouses around Thiksey. For a truly immersive experience, some guesthouses offer monastery stays, where you can live among the monks and experience their daily routines.
                     </p>
 
                     <p>
-                        Thiksey Monastery is part of the Gelug sect of Tibetan Buddhism and is known for its impressive architecture, which resembles the Potala Palace in Lhasa, Tibet. The monastery houses several shrines, chapels, and a massive 15-meter statue of Maitreya Buddha, which is one of the main attractions for visitors. The intricate murals, sculptures, and paintings inside the monastery depict various Buddhist teachings and stories, adding to the spiritual aura of the place. The peaceful and serene environment of Thiksey Monastery makes it an ideal spot for meditation and contemplation, offering a unique opportunity to connect with the spiritual traditions of Ladakh.
-                    </p>
-
-                    <p>
-                        The monastery is also known for its stunning location on a hill, providing visitors with panoramic views of the valley and surrounding mountains. The view from the top of Thiksey Monastery is truly breathtaking, with the Indus River flowing below and the vast desert landscapes of Ladakh stretching into the horizon. The landscape surrounding Thiksey Monastery is dotted with small villages, green fields, and rugged mountain peaks, making it an excellent spot for photography. Whether you're visiting during the day or at sunset, Thiksey Monastery offers some of the best scenic vistas in Ladakh.
-                    </p>
-
-                    <p>
-                        In addition to its impressive architecture and views, Thiksey Monastery is a center of Buddhist learning and culture. The monastery is home to a community of monks who maintain the religious and cultural traditions of the region. Visitors to Thiksey Monastery have the chance to witness monks in prayer, chanting, and performing various religious rituals, providing a glimpse into the spiritual life of Ladakh. The monastery also serves as a hub for religious festivals and events, where visitors can observe traditional Buddhist ceremonies and experience the rich cultural heritage of Ladakh.
-                    </p>
-
-                    <p>
-                        For those interested in exploring Ladakh's religious history, Thiksey Monastery is an essential stop. Founded in the 15th century, the monastery has a long and rich history, playing a significant role in the spread of Buddhism in the region. It has been a center of education, learning, and religious practice for centuries, and its historical importance adds to its allure for tourists. A visit to Thiksey Monastery offers the opportunity to learn about the evolution of Buddhism in Ladakh and the important role the monastery has played in preserving the region's spiritual traditions.
-                    </p>
-
-                    <p>
-                        The monastery is also home to a museum that displays religious artifacts, manuscripts, and ancient Buddhist texts. This museum provides valuable insights into the history of Buddhism in Ladakh and the cultural practices of the people. For history and culture enthusiasts, a visit to Thiksey Monastery's museum is an enriching experience that deepens the understanding of Ladakh's spiritual and cultural heritage. The monastery's tranquil atmosphere and historical significance make it an ideal destination for those interested in learning about the region's past and traditions.
-                    </p>
-
-                    <p>
-                        In conclusion, Thiksey Monastery is one of Ladakh's most significant cultural and spiritual landmarks. Its breathtaking location, impressive architecture, rich history, and spiritual importance make it a must-visit destination for every traveler in Ladakh. Whether you are drawn to the stunning views, the peaceful atmosphere, or the opportunity to learn about Buddhism and Ladakhi culture, Thiksey Monastery offers an unforgettable experience. If you're planning a trip to Ladakh, don't miss the chance to explore Thiksey Monastery — it promises to be a highlight of your journey and a truly remarkable place to visit.
+                        Experience the Spiritual Grandeur of Thiksey With its majestic architecture, deep-rooted Buddhist traditions, and breathtaking views, Thiksey Monastery is a must-visit destination in Ladakh. Whether you're a spiritual seeker, an architecture enthusiast, or a traveler looking for peace and tranquility, Thiksey offers an unforgettable experience.
                     </p>
 
                     

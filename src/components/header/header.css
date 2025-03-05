@@ -39,3 +39,7 @@ header.header-area.style-2 .site-logo {
     height: 22px;
     background-position: -60px -40px;
 }
+
+.site-logo img {
+    cursor: pointer;
+}

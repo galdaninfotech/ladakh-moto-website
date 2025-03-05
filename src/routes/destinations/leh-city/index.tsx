@@ -33,33 +33,85 @@ export default component$(() => {
                     </div>
 
                     
+                    
                     <p>
-                        Leh City, the capital of Ladakh, is a mesmerizing destination nestled in the northernmost part of India. Known for its stunning landscapes, serene monasteries, and rich culture, Leh City attracts thousands of tourists every year. The city is surrounded by the majestic Himalayan mountains, offering visitors unparalleled views of snow-capped peaks and vast desert landscapes. For those looking for adventure, spirituality, and a taste of local life, Leh City is the perfect getaway.
+                        Leh, town, Ladakh union territory, northern India. The town is located in the valley of the upper Indus River at an elevation of 11,550 feet (3,520 meters), surrounded by the towering peaks of the Ladakh Range (a southeastern extension of the Karakoram Range).
                     </p>
 
                     <p>
-                        One of the top reasons to visit Leh City is its breathtaking natural beauty. The city is situated at an altitude of 11,500 feet above sea level, which gives it a unique charm with clear blue skies, rugged terrain, and striking views of the surrounding mountains. Trekking, mountain biking, and river rafting are just a few of the adventurous activities available in Leh City. For nature lovers, the pristine environment and tranquil lakes like Pangong Tso and Tso Moriri are not to be missed.
+                        Nestled in the heart of the Himalayas, Leh is a captivating blend of natural splendor and rich cultural heritage. As the largest city and joint capital of Ladakh, it serves as a gateway to the region's most mesmerizing landscapes and historical landmarks.
+                    </p>
+
+                    <h2>Top Attractions in Leh:</h2>
+
+
+
+                    <ul>
+                        <li>
+                            <strong>Leh Palace</strong>: This 17th-century edifice, constructed by King Sengge Namgyal, offers panoramic views of the city and the Stok Kangri Mountain in the Zanskar range. Its architecture reflects a harmonious blend of Indian and Tibetan styles.
+                        </li> 
+                        <li>
+                            <strong>Shanti Stupa</strong>: Perched atop Changspa hill, this white-domed stupa provides breathtaking vistas of Leh and the surrounding snow-capped peaks. Built-in 1991 by Japanese Buddhist Bhikshu, it's especially enchanting at sunrise and sunset. 
+                            </li>
+                        <li>
+                            <strong>Sankar Monastery</strong>: Sankar Monastery, a serene Buddhist retreat in Leh, is a must-visit for those seeking peace and spirituality. Located just a few kilometres from the city centre, this monastery is an offshoot of Spituk Monastery and serves as the residence of the head lama of Ladakh. Adorned with intricate murals, golden statues, and a mesmerizing image of Avalokiteshvara with 1,000 arms, Sankar Monastery offers a tranquil escape with stunning views of Leh. It is best visited in the evening when the monks perform their daily prayers, creating a truly divine atmosphere.
+                        </li>
+                        <li>
+                            <strong>Leh Market</strong>: Leh Market is the vibrant heart of the city, bustling with local life and colourful shops. From handcrafted Pashmina shawls and Tibetan jewellery to traditional Ladakhi artifacts and souvenirs, the market is a paradise for shoppers. The aroma of freshly brewed butter tea and local delicacies fills the air, while street vendors showcase exquisite handicrafts. Whether you're looking for unique keepsakes or simply soaking in the lively atmosphere, Leh Market offers an authentic taste of Ladakh’s rich culture and heritage.
+                        </li>
+                        <li>
+                            <strong>Namgyal Tsemo Gompa</strong>: This monastery, established in 1430, is known for its three-story high gold statue of Maitreya Buddha and ancient manuscripts. The monastery offers a breathtaking view of the town.
+                        </li>
+                        <li>
+                            <strong>Thiksey Monastery</strong>: Located approximately 18 kilometers from Leh, this twelve-story complex resembles Tibet's Potala Palace and houses numerous stupas, statues, and art pieces. 
+                        </li>
+                        <li>
+                            <strong>Hemis Monastery</strong>: One of the oldest and wealthiest monasteries in Ladakh, Hemis is renowned for its annual festival celebrating Guru Padmasambhava
+                        </li>
+
+                    </ul>
+                    
+                    <h2>Adventure and Activities:</h2>
+
+                    <ul>
+                        <li>
+                            <strong>Trekking</strong>: Embark on the Markha Valley trek for an immersive experience through picturesque landscapes, quaint villages, and high-altitude passes. 
+                        </li>
+                        <li>
+                            <strong>Motorbiking</strong>: Riding through Ladakh’s rugged terrain on a motorbike is the ultimate adventure, offering breathtaking views of towering mountains, high-altitude passes, and pristine valleys. The thrill of conquering routes like Khardung La and Chang La makes it a dream destination for every biking enthusiast.
+                        </li>
+                        <li>
+                            <strong>Mountaineering</strong>: Leh is a paradise for mountaineering enthusiasts, offering thrilling climbs amidst the majestic Himalayas. Peaks like Stok Kangri (6,153m), Kang Yatse (6,400m), and Nun Kun (7,135m) challenge both beginners and experienced climbers. The breathtaking landscapes, high-altitude glaciers, and rugged terrain make every ascent an unforgettable adventure. With proper acclimatization and expert guidance, mountaineering in Leh promises a once-in-a-lifetime experience for those seeking adrenaline and awe-inspiring views.
+                        </li>
+                        <li>
+                            <strong>River Rafting</strong>: Challenge the rapids of the Zanskar River for an adrenaline-pumping adventure amidst deep gorges and towering mountains. 
+                        </li>
+                        <li>
+                            <strong>Star Gazing</strong>: Leh's clear skies make it a haven for stargazers and astrophotographers. The minimal light pollution offers unparalleled views of the night sky. 
+                        </li>    
+                    </ul>
+
+
+                    <h2>Cultural Insights:</h2>
+                    <p>
+                        Leh's vibrant markets are a treasure trove of traditional crafts, jewellery, and textiles. Engage with the warm-hearted locals, savour authentic Ladakhi cuisine, and immerse yourself in the region's unique festivals and traditions.
+                    </p>
+
+                    <h2>Best Time to Visit:</h2>
+                    <p>
+                        The ideal period to explore Leh is from May to September when the weather is pleasant, and all routes and passes are accessible. 
+                    </p>
+
+                    <h2>How to reach Leh:</h2>
+                    <p>
+                        Leh can be reached by air, road, and, for the truly adventurous, by bike. The Kushok Bakula Rimpoche Airport in Leh is well-connected with major Indian cities like Delhi, Mumbai, and Srinagar. By road, travelers can take the Manali-Leh Highway (open from June to September) or the Srinagar-Leh Highway (open from May to October), both offering stunning landscapes along the way. For thrill-seekers, a bike trip to Leh through winding mountain roads and high-altitude passes is an unforgettable experience.
                     </p>
 
                     <p>
-                        Leh City is also a cultural hub, where you can experience the vibrant Ladakhi culture. The city is home to ancient monasteries, palaces, and traditional villages, each offering a glimpse into the region's unique history and heritage. Leh Palace, which was once the royal residence, offers panoramic views of the city. The monasteries of Leh City, such as Hemis, Thiksey, and Spituk, are not only places of spiritual significance but also architectural marvels, making them a must-see for every visitor.
+                        Embark on a journey to Leh and uncover the magic of this Himalayan gem, where every corner tells a story and every experience leaves an indelible mark on your soul.
                     </p>
 
-                    <p>
-                        Leh City is also famous for its colorful markets. The Leh Market, with its bustling alleys, is the perfect place to experience the local way of life and pick up some souvenirs. From handcrafted jewelry to traditional Ladakhi clothes and carpets, the market offers an array of items that reflect the rich cultural diversity of the region. Whether you're looking for unique gifts or simply want to immerse yourself in the local vibe, Leh City's markets are a delightful experience.
-                    </p>
 
-                    <p>
-                        For those interested in history, Leh City offers plenty of sites that tell the story of its past. The ancient Leh Palace, built in the 16th century, gives visitors a glimpse into the royal lifestyle of the region. The monasteries surrounding the city also have deep historical significance, with murals, scriptures, and relics that date back centuries. Exploring these sites provides insight into the spiritual and cultural evolution of Leh City.
-                    </p>
-
-                    <p>
-                        The weather in Leh City is also one of its most appealing aspects. The region experiences a cold desert climate, with clear skies and crisp air year-round. Summers (from May to September) are ideal for tourists, with pleasant temperatures and plenty of sunshine. Winters, although harsh, offer a chance to see Leh City covered in a blanket of snow, making it an equally magical destination for those seeking winter adventures or peace and solitude.
-                    </p>
-
-                    <p>
-                        Visiting Leh City is not just about the scenery and adventure; it's about the experience of connecting with the local community. The people of Leh City are warm and welcoming, with a unique blend of Tibetan and Indian cultures. Interacting with locals, learning about their traditions, and tasting the local Ladakhi cuisine are experiences that will stay with you long after your visit. Whether you are wandering through the ancient monasteries or savoring a cup of butter tea, Leh City will leave an indelible mark on your heart.
-                    </p>
 
 
 

@@ -25,8 +25,15 @@
 }
 table.table tr td>span:last-child {
     color: #017272;
-    border: 2px solid teal;
-    padding: 5px 18px;
+    border: 1px solid teal;
+    padding: 4px 8px;
     border-radius: 4px;
-    text-transform: uppercase;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.3rem;
+}
+table.table tr td>span.closed {
+    color: red;
+    border: 1px solid red;
 }

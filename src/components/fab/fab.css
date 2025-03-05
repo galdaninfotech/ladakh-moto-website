@@ -94,12 +94,12 @@
   
 .fab-wheel .fab-action-1 {
     right: 0;
-    bottom: 11rem;
+    bottom: 7.8rem;
 }
   
 .fab-wheel .fab-action-2 {
     right: 0;
-    bottom: 7.7rem;
+    bottom: 4.4rem;
 }
 .fab-wheel .fab-action-3 {
     right: 0;
@@ -111,13 +111,14 @@
 }
   
 
-.fab-price {
+.fab-book-now {
     font-size: 0.8rem;
     color: #fff;
     background: teal;
-    padding: 0.5rem 0.9rem;
+    padding: 0.5rem 2.8rem;
     border-radius: 5px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 /* fab-wheel a.fab-action {

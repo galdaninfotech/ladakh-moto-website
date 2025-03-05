@@ -42,7 +42,7 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/bike-tours/leh-ladakh-adventure" aria-label="Leh Ladakh Adventure" title="Leh Ladakh Adventure">Leh Ladakh Adventure</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="18300ft" distance="550km" duration="6D/5N" lodging="Hotel/Camp" meal="BF/Din" />
+                                        <OverviewIcons highestAltitude="18300ft" distance="460km" duration="6D/5N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #767474; margin-right: 5px;"><del>₹ 21,000</del></span>
@@ -77,7 +77,7 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3 class="tour-name" data-tour-name="Ladakh With Umling La"><a href="/bike-tours/ladakh-with-umling-la" aria-label="Ladakh with Umling La" title="Ladakh with Umling La">Ladakh With Umling La</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons duration="8D/7N" highestAltitude="19024ft" distance="1050km" lodging="Hotel/Camp" meal="BF/Din" />
+                                        <OverviewIcons duration="8D/7N" highestAltitude="19024ft" distance="820km" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #767474; margin-right: 5px;"><del>₹ 24,000</del></span>
@@ -113,7 +113,7 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/bike-tours/ladakh-srinagar-with-umling-la" aria-label="Ladakh Srinagar With Umling La" title="Ladakh Srinagar With Umling La">Ladakh Srinagar Umling La</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="19024ft" distance="1576km" duration="10N/11D" lodging="Hotel/Camp" meal="BF/Din" />
+                                        <OverviewIcons highestAltitude="19024ft" distance="1280km" duration="10N/11D" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #767474; margin-right: 5px;"><del>₹ 29,000</del></span>
@@ -148,7 +148,7 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/bike-tours/leh-zanskar-leh" aria-label="Leh Zanskar Leh" title="Leh Zanskar Leh">Leh Zanskar Leh</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="14070ft" distance="1485km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
+                                        <OverviewIcons highestAltitude="16703ft" distance="991km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #767474; margin-right: 5px;"><del>₹ 34,000</del></span>
@@ -177,13 +177,13 @@ export default component$(() => {
                                 <div class="package-meta text-center">
                                     <ul>
                                         <li> <i class="fas fa-calendar-alt"></i> 10 Days </li>
-                                        <li> <i class="fas fa-map-marked-alt"></i> Manali - Leh </li>
+                                        <li> <i class="fas fa-map-marked-alt"></i> Manali - Srinagar </li>
                                     </ul>
                                 </div>
                                 <div class="package-content d-md-block">
                                     <h3><a href="/bike-tours/manali-leh-srinagar" aria-label="Manali Leh Srinagar" title="Manali Leh Srinagar">Manali Leh Srinagar</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="18380ft" distance="1456km" duration="10D/09N" lodging="Hotel/Camp" meal="BF/Din" />
+                                        <OverviewIcons highestAltitude="18380ft" distance="1010km" duration="10D/09N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #767474; margin-right: 5px;"><del>₹ 29,000</del></span>
@@ -218,7 +218,7 @@ export default component$(() => {
                                 <div class="package-content d-md-block">
                                     <h3><a href="/bike-tours/srinagar-leh-manali" aria-label="Srinagar Leh Manali" title="Srinagar Leh Manali">Srinagar Leh Manali</a></h3>
                                     <div class="col-12">
-                                        <OverviewIcons highestAltitude="19024ft" distance="1576km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
+                                        <OverviewIcons highestAltitude="19024ft" distance="1010km" duration="10D/9N" lodging="Hotel/Camp" meal="BF/Din" />
                                     </div>
                                     <span style="color: #000; margin-right: 5px;">Starting from</span> 
                                     <span style="color: #767474; margin-right: 5px;"><del>₹ 27,000</del></span>

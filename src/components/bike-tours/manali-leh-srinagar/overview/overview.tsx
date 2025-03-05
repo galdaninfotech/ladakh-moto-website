@@ -41,7 +41,7 @@ export default component$(() => {
             <ul class="overview-tour-highlights">
                 <li>Cross several important mountain passes including Zojila , Baralacha and Khardung La </li>
                 <li>Visit the beautiful and isolated lake Pangong </li>
-                <li>Explore Turtuk, a beautiful town located at the Indo-Pak remains with breathtaking views and rich Balti culture</li>
+                <li>Explore Turtuk, a beautiful town located at the Indo-Pak border with breathtaking views and rich Balti culture</li>
                 <li>Take a trip to the Nubra Valley where you get to ride through the Shyok river valleys and the surrounding sand dunes</li>
                 <li>Get to experience the wonderful culture and history in cities of Leh and Diskit.</li>
             </ul>

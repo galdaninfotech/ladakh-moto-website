@@ -34,31 +34,55 @@ export default component$(() => {
 
 
                     <p>
-                        Shanti Stupa, located in the heart of Leh, Ladakh, is one of the most iconic and peaceful landmarks in the region. Built to promote world peace, Shanti Stupa is not just a religious monument but also a symbol of harmony and spirituality. Perched on a hilltop, this majestic stupa offers stunning panoramic views of the surrounding Leh city, the Indus Valley, and the snow-capped mountains. A visit to Shanti Stupa is a must for anyone traveling to Ladakh, as it provides both spiritual enrichment and a breathtaking experience of the natural beauty of the region.
+                        Perched atop the serene hills of Chanspa in Leh, Ladakh, the Shanti Stupa stands as a luminous beacon of peace and unity. This white-domed Buddhist monument not only showcases architectural splendor but also offers visitors a tranquil retreat with panoramic vistas of the surrounding Himalayan landscape.
                     </p>
 
-                    <p>
-                        The Shanti Stupa was constructed by the Japanese Buddhist monk, Gyomyo Nakamura, in collaboration with the locals of Ladakh in the 1990s. It was built with the vision of promoting peace, as a symbol of the bond between Japan and Ladakh. The structure is adorned with intricate designs, and the golden statue of the Buddha inside the stupa adds to its serenity. Shanti Stupa is not only a place of pilgrimage but also a place where visitors can reflect on the importance of peace and compassion in today's world.
-                    </p>
+                    <h2>Historical Significance</h2>
 
                     <p>
-                        One of the main attractions of Shanti Stupa is its location, which offers a spectacular view of Leh and its surrounding landscapes. Situated at an altitude of 3,600 meters, Shanti Stupa provides an unobstructed view of the majestic Himalayan mountains, the green valleys of Leh, and the sprawling Indus River below. The sight of the sun setting over the valley from Shanti Stupa is truly mesmerizing, with the entire landscape bathed in golden hues. Whether you're an early riser or a sunset lover, Shanti Stupa offers one of the most serene and beautiful views in Ladakh.
+                        The inception of Shanti Stupa dates back to 1991, a collaborative endeavor between Japanese Buddhist monk Gyomyo Nakamura and local Ladakhi craftsmen. This initiative was part of the Peace Pagoda mission, aiming to commemorate 2,500 years of Buddhism and promote global harmony. The stupa enshrines relics of Lord Buddha, sanctified by the 14th Dalai Lama, enhancing its spiritual importance. 
                     </p>
 
-                    <p>
-                        The architectural design of Shanti Stupa is another feature that makes it stand out. The stupa's white walls and golden dome make it one of the most recognizable structures in Ladakh. The stupa's design follows the traditional Buddhist architectural style, with beautifully detailed carvings depicting various aspects of Buddha's life. As you walk around the stupa, the peaceful ambiance and the gentle breeze further enhance the tranquility of the space. The stupa also has several prayer wheels, allowing visitors to engage in the Buddhist practice of spinning the wheels as a form of meditation and prayer.
-                    </p>
+                    <h2>Architectural Marvel</h2>
 
                     <p>
-                        For those interested in the spiritual and cultural aspects of Ladakh, visiting Shanti Stupa offers a chance to connect with the region's Buddhist heritage. The stupa plays an important role in the Buddhist community in Ladakh and serves as a gathering place for pilgrims and monks. The peaceful surroundings of Shanti Stupa provide the perfect setting for meditation, reflection, and inner peace. Whether you're interested in learning about Buddhist philosophy or simply want to take in the serenity of the place, Shanti Stupa offers a profound spiritual experience for all visitors.
+                        The stupa's architecture is a harmonious blend of Japanese and Ladakhi styles. Its two-tiered structure is adorned with intricate carvings: the first level showcases a central golden Buddha statue in the Dharmachakra posture, symbolizing the teaching phase of Buddha's life, while the second level illustrates pivotal events such as Buddha's birth, enlightenment, and death (Mahaparinirvana). Encircling the stupa are numerous smaller meditative Buddha reliefs, enhancing the site's serene ambiance. 
                     </p>
 
-                    <p>
-                        Shanti Stupa is also a great place for photography. Its stunning architecture, combined with the beautiful natural surroundings, provides endless opportunities for capturing the beauty of Ladakh. The view from the stupa, especially during the early morning or evening light, is absolutely stunning. Whether you're a professional photographer or an amateur, Shanti Stupa offers some of the best photographic moments in Ladakh. Its unique combination of cultural heritage and natural beauty makes it an ideal destination for those looking to capture the essence of the region.
-                    </p>
+                    <h2>Breathtaking Panoramas</h2>
 
                     <p>
-                        In conclusion, Shanti Stupa is a must-visit destination for any traveler in Ladakh. Its peaceful ambiance, breathtaking views, spiritual significance, and beautiful architecture make it one of the most iconic landmarks in the region. Whether you're seeking spiritual solace, enjoying the panoramic views, or simply immersing yourself in the tranquility of the surroundings, Shanti Stupa offers a rewarding experience for every visitor. If you're planning a trip to Ladakh, make sure to include Shanti Stupa on your itinerary — it promises to be an unforgettable experience that leaves you with a sense of peace and serenity.
+                        At an elevation of 3,609 meters (11,841 feet), Shanti Stupa offers unparalleled panoramic views of Leh and its environs. Visitors can gaze upon the sprawling Indus Valley, the majestic Stok Kangri peak, and the quaint town of Leh nestled amidst rugged mountains. The site is particularly enchanting during sunrise and sunset, when the interplay of light and shadow paints the landscape in mesmerizing hues. 
+                    </p>
+
+                    <h2>Spiritual Oasis</h2>
+
+                    <p>
+                        Beyond its visual allure, Shanti Stupa serves as a sanctuary for meditation and introspection. The tranquil environment, punctuated by the gentle flutter of prayer flags and the distant murmur of chants, provides an ideal setting for spiritual seekers and peace enthusiasts. The stupa's construction aimed to promote world peace and prosperity, symbolizing the enduring ties between Japan and India. 
+                    </p>
+
+                    <h2>Accessibility</h2>
+
+                    <p>
+                        Reaching Shanti Stupa is both an adventure and a pilgrimage. Visitors can embark on a short drive from Leh city or undertake a more invigorating ascent via a flight of 555 steps, a journey that offers moments for reflection and anticipation. The stupa is accessible year-round, but the period between May and September is ideal, offering pleasant weather and clear skies. 
+                    </p>
+
+                    <h2>Visitor Information</h2>
+                    <ul>
+                        <li>Timings: Open daily from 8:00 AM to 8:00 PM.</li>
+                        <li>Entry Fee: No admission charge.</li>
+                        <li>Best Time to Visit: Early mornings or late afternoons to witness the captivating sunrise or sunset.</li>
+                    </ul>
+
+                    <h2>- Tips:</h2>
+                    <ul>
+                        <li>- Carry water and wear comfortable footwear if you plan to climb the steps.</li>
+                        <li>- Be prepared for cooler temperatures, especially during evenings.</li>
+                        <li>- Respect the sanctity of the site by maintaining silence and observing local customs.</li>
+                    </ul>
+
+                    <p>
+                        In essence, a visit to Shanti Stupa is more than a sightseeing excursion; it's an immersion into the serene spirituality and rich cultural tapestry of Ladakh. Whether you're seeking inner peace, architectural beauty, or breathtaking landscapes, Shanti Stupa promises an experience that lingers long after you've descended its sacred steps. 
                     </p>
 
                     

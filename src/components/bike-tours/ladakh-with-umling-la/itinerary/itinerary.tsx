@@ -127,7 +127,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Khardung La Pass 18380 feet in height, Diskit Monastery, and Hunder Sand Dunes</li>
-                                    <li>This ride will take you to the highest point on the route, Khardung La. After crossing the pass, you will reach the beautiful valley of Nubra. You can visit the Diskit Monastery, which has a large Maitreya Buddha statue. After that, you can go to the Hunder Sand Dunes, where you could ride camels that have two humps, known as Bactrian camels.</li>
+                                    <li>This ride will take you to the highest point on the route, Khardung La (one of the highest passes in the world). After crossing the pass, you will reach the beautiful valley of Nubra. You can visit the Diskit Monastery, which has a large Maitreya Buddha statue. After that, you can go to the Hunder Sand Dunes, where you could ride camels that have two humps, known as Bactrian camels.</li>
                                     <li><span>Overnight</span>: Camps/Guesthouse in Hunder, Nubra Valley</li>
                                 </ul>
 
@@ -145,7 +145,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="14270 ft" distance="120 km" duration="5-6 hrs" lodging="Cottages" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14270 ft" distance="120 km" duration="5-6 hrs" lodging="Cottage/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">

@@ -240,7 +240,7 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>:Shingo La Pass (16,703 ft), Lahaul Valley</li>
+                                    <li><span>Highlights</span>: Gonbo Rangjon, Shingo La Pass (16,703 ft), Lahaul Valley</li>
                                     <li>Today's ride is challenging as you cross the high-altitude Shingo La Pass, which connects Zanskar to Lahaul Valley. The pass offers panoramic views of the Himalayas, with glaciers and snow-capped peaks surrounding you. Descend into the beautiful Lahaul Valley and continue to Sarchu, a popular stopover for travelers on the Manali-Leh highway.</li>
                                     <li><span>Overnight</span>: Camp in serchu</li>
                                 </ul>
@@ -280,7 +280,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Gata Loops, Nakee La Pass (15,547 ft), Lachulung La Pass (16,616 ft), Tso Kar Lake</li>
-                                    <li>Pass through the famous Gata Loops, a series of 21 hairpin bends that lead to Nakee La and Lachulung La passes. This journe through spectacular barren high-altitude desert. Tso Kar, a saltwater lake with its shores, attracts diverse wildlife, particularly migratory birds, after descending from the passes. </li>
+                                    <li>Pass through the famous Gata Loops, a series of 21 hairpin bends that lead to Nakee La and Lachulung La passes. This journey through spectacular barren high-altitude desert. Tso Kar, a saltwater lake with its shores, attracts diverse wildlife, particularly migratory birds, after descending from the passes. </li>
                                     <li><span>Overnight</span>: Camp/Homestay in Tsokar</li>
                                 </ul>
 
@@ -358,8 +358,8 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Amazing landscape view, Thiksey Monastery</li>
-                                    <li>Ride back to Leh through the scenic Puga Valley, known for its geothermal springs and vast landscapes. En route, stop at Thiksey Monastery, one of Ladakh's largest and most beautiful monasteries, built on a hill resembling the Potala Palace in Lhasa. Reach Leh by evening, where you can relax and explore the local markets. Look forward to enjoying a farewell dinner whilst reminiscing all the good times you had in your tour.</li>
-                                    <li><span>Overnight</span>: Hotel in Kargil</li>
+                                    <li>Ride back to Leh through the spectacular Thiksey Monastery, one of Ladakh's largest and most beautiful monasteries, built on a hill resembling the Potala Palace in Lhasa. Reach Leh by evening, where you can relax and explore the local markets. Look forward to enjoying a farewell dinner whilst reminiscing all the good times you had in your tour.</li>
+                                    <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
                             </div>

@@ -126,7 +126,7 @@ export default component$(() => {
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Khardung La Pass, 18380 feet height, Diskit Monastery, and Hunder Sand Dunes</li>
                                     <li>This ride will take you to the highest point on the route, Khardung La. After crossing the pass, you will reach the beautiful valley of Nubra. You can visit the Diskit Monastery, which has a large Maitreya Buddha statue. After that, you can go to the Hunder Sand Dunes, where you could ride camels that have two humps, known as Bactrian camels.</li>
-                                    <li><span>Overnight</span>: Camps/Guesthouse in Hunder, Nubra Valley</li>
+                                    <li><span>Overnight</span>: Hotel/Camp in Hunder, Nubra Valley</li>
                                 </ul>
 
                             </div>
@@ -243,7 +243,7 @@ export default component$(() => {
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>:Remote Landscapes, Changthang Plateau, Hanle Observatory</li>
                                     <li>Start your trip to Hanle, one of the most isolated places in Ladakh. You will ride through the arid Changthang Plateau which is known for the expansive scenery and some wildlife. Arriving at Hanle, the ones who are fond of astronomy may visit the Hanle Telescope, among the highest telescopes in the world. To sum up, Hanle is a small undisturbed quiet village with clear dark nights ideal for stargazing and away from the tourist crowd.</li>
-                                    <li><span>Overnight</span>: Guest house/Homestay in Hanle</li>
+                                    <li><span>Overnight</span>: Camp/Homestay in Hanle</li>
                                 </ul>
                             </div>
                         </div>
@@ -281,7 +281,7 @@ export default component$(() => {
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Umling La Pass (World’s Highest Motorable Road)</li>
                                     <li>Today is among the most difficult and exciting days of this tour. Ride up to Umling La Pass which has the distinction of being the highest motor able road in the whole world which stands at an astounding 19,024 feet. The ascent towards the Umling La pass is not easy with high altitudes and harsh weather conditions but once on top, you can see some great views. After reaching the top, ride back to Hanle and enjoy your evening.</li>
-                                    <li><span>Overnight</span>: Guest house/Homestay in Hanle</li>
+                                    <li><span>Overnight</span>: Camp/Homestay in Hanle</li>
                                 </ul>
 
                             </div>
@@ -318,7 +318,7 @@ export default component$(() => {
                                 </div>
 
                                 <ul class="itinerary">
-                                    <li><span>Highlights</span>: Puga Valley Hot Springs</li>
+                                    <li><span>Highlights</span>: Thiksey Monastery, Puga Valley Hot Springs</li>
                                     <li>The return journey into the Leh is through Puga Valley, which is beautiful and secluded; this valley has many hot springs and mesmerizing scenery. Visit Thiksey monastery along the way, which is one of the most photogenic in Ladakh. The monastery built on a mountain top look and feel like the Potala Palace of Lhasa. Then afterwards, further proceed down to Leh, where you will have time free to spend the evenings.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>

@@ -125,7 +125,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Namika La, Fotu La, Indus Valley and Lamayuru Monastery</li>
-                                    <li>After breakfast, we start riding towards Leh, passing through the Namkila La and Fotu La passes. Enroute vist Lamayuru monastery. During this journey, you are accompanied by lovely views of the Indus Valley. You are fully in Leh by the early afternoon where you are free to relaxation and getting ready for the other rides which are to occur. The evening can be enjoyed exploring the local markets or paying a visit to the Leh Palace </li>
+                                    <li>After breakfast, we start riding towards Leh, passing through the Namkila La and Fotu La passes. Enroute visit Lamayuru monastery. During this journey, you are accompanied by lovely views of the Indus Valley. You are fully in Leh by the early afternoon where you are free to relaxation and getting ready for the other rides which are to occur. The evening can be enjoyed exploring the local markets or paying a visit to the Leh Palace </li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 
@@ -164,7 +164,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Khardung La Pass, 18380 feet height, Diskit Monastery, and Hunder Sand Dunes</li>
-                                    <li>This ride will take you to the highest point on the route, Khardung La. After crossing the pass, you will reach the beautiful valley of Nubra. You can visit the Diskit Monastery, which has a large Maitreya Buddha statue. After that, you can go to the Hunder Sand Dunes, where you could ride camels that have two humps, known as Bactrian camels. </li>
+                                    <li>This ride will take you to the highest point on the route, Khardung La (one of the highest passes in the world). After crossing the pass, you will reach the beautiful valley of Nubra. You can visit the Diskit Monastery, which has a large Maitreya Buddha statue. After that, you can go to the Hunder Sand Dunes, where you could ride camels that have two humps, known as Bactrian camels. </li>
                                     <li><span>Overnight</span>: Hotel/Guest house in Hunder</li>
                                 </ul>
 
@@ -220,7 +220,7 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="5-6 hrs" lodging="Cottages" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="5-6 hrs" lodging="Cottage/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -231,7 +231,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="5-6 hrs" lodging="Cottages" meal="BF/Dinner" />
+                                        <ItineraryIcons highestAltitude="14270 ft" distance="160 km" duration="5-6 hrs" lodging="Cottage/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -280,7 +280,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Changla pass, Thiksey Monastery (optional stop)</li>
-                                    <li>The return trip to Leh may commence after breakfast, during which you will cross Chang la pass which is among ppone of the highest and  it is also possible to stop for some sightseeing including one of the best monasteries in Ladakh, Thiksey Monastery which is beautiful in its architecture style and its surrounding views. Proceed with riding back to leh and this time you could opt for some rest and sight seeing for all the places that you might have left earlier. </li>
+                                    <li>The return trip to Leh may commence after breakfast, during which you will cross Chang la pass which is one of the highest passes and  it is also possible to stop for some sightseeing including one of the best monasteries in Ladakh, Thiksey Monastery which is beautiful in its architecture style and its surrounding views. Proceed with riding back to leh and this time you could opt for some rest and sight seeing for all the places that you might have left earlier. </li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
 

@@ -8,8 +8,8 @@ export default component$(() => {
         <div class="form-popup-bg">
             <div class="form-container">
                 <button id="btnCloseForm" class="close-button">X</button>
-                <h4>Tour Enquiry</h4>
-                <p>For more information, please complete this form.</p>
+                <h4>Book Tour</h4>
+                <p>To book your seat in this, please complete this form.</p>
                 <form action="">
                     <div class="form-group">
                         <label for="name">Name</label>
@@ -32,7 +32,7 @@ export default component$(() => {
                         <textarea id="message" name="message"></textarea>
                     </div>
 
-                    <button type="submit">Submit</button>
+                    <button type="submit">Book Now</button>
                 </form>
             </div>
         </div>

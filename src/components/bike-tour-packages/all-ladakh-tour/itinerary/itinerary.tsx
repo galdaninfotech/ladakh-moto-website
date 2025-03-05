@@ -154,7 +154,7 @@ export default component$(() => {
                                 {/* Mobile Screen */}
                                 <div class="row d-block d-lg-none">
                                     <div class="col-12 col-lg-6">
-                                        <ItineraryIcons duration="5-6 Hr" highestAltitude="14272 ft" distance="160 km" lodging="Cottages" meal="BF/Dinner" />
+                                        <ItineraryIcons duration="5-6 Hr" highestAltitude="14272 ft" distance="160 km" lodging="Cottage/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-6 mt-3 mb-3 d-flex align-items-center justify-content-center">
@@ -165,7 +165,7 @@ export default component$(() => {
                                 {/* Desktop Screen */}
                                 <div class="row d-none d-lg-block">
                                     <div class="col-12 col-lg-12">
-                                        <ItineraryIcons duration="5-6 Hr" highestAltitude="14272 ft" distance="160 km" lodging="Cottages" meal="BF/Dinner" />
+                                        <ItineraryIcons duration="5-6 Hr" highestAltitude="14272 ft" distance="160 km" lodging="Cottage/Camp" meal="BF/Dinner" />
                                     </div>
 
                                     <div class="col-12 col-lg-12 mt-3 mb-3 d-flex align-items-center justify-content-center">

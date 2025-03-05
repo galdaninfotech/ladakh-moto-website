@@ -32,34 +32,54 @@ export default component$(() => {
                         </div>
                     </div>
 
-
                     <p>
-                        Situated in the farthest corners of Ladakh, Hanle Village is considered to be one of the mesmerizing and tranquil places in India. Hanle Village is home to magnificent sceneries, boasts of crystal clear skies, and is multicultural in nature which makes it pristine for people looking for meditation. The Village is one of the highest villages in India which is above 13,500 feet sea level making it a one of its kind experience for explorers who are tired of the mundane city life. If someone is planning a trip to Ladakh, Hanle Village is something that needs to be covered in the trip.
+                        Tucked away in Ladakh's remote Changthang region, Hanle Village is a paradise for those seeking serenity, adventure, and a cosmic spectacle like no other. Situated at an altitude of 4,500 meters (14,763 feet), Hanle is a mesmerizing blend of vast open landscapes, rugged mountain backdrops, and a peaceful atmosphere that feels like a world untouched by time.
                     </p>
 
                     <p>
-                        Hanle is a must visit for its unparalleled natural beauty. This place is surrounded by snow mountains, blue sky, and barren lands, making it a breathtaking view. The geography of Hanle is extremely remote, undeveloped, and rugged which is great for experiencing Ladakh's raw beauty. The worlds best place for photography, contemplation, adventure while letting wonders of nature express itself.
+                        Hanle is a destination that embodies solitude, spirituality, and celestial beauty. Far from bustling tourist circuits, this remote village is surrounded by vast barren landscapes, rolling hills, and an endless expanse of open skies. The village is also home to the resilient Changpa nomads, whose traditional way of life remains unchanged for generations. Whether you come to witness the Milky Way in its full glory, explore Ladakh's untouched wilderness, or simply embrace the silence of the mountains, Hanle offers a truly surreal and unforgettable experience.
                     </p>
 
-                    <p>
-                        Hanle Village is also home to one of the most unique and fascinating observatories in the world. The Hanle Observatory, located in the village, is run by the Indian Institute of Astrophysics and offers stunning views of the night sky. Due to its high altitude and clear atmosphere, the observatory is one of the best places in India for stargazing. The skies around Hanle Village are so clear and unpolluted by artificial lights that visitors can enjoy mesmerizing views of the Milky Way, constellations, and even distant galaxies. This makes Hanle Village an ideal destination for astronomy enthusiasts.
-                    </p>
+                    <h2>Why Visit Hanle?</h2>
+                    <ul>
+
+                        <li>Stargazing Haven - Home to the Indian Astronomical Observatory, one of the world's highest observatories, Hanle offers an unparalleled view of the night sky. With minimal light pollution, it's the perfect spot for astrophotography and gazing at galaxies, constellations, and shooting stars.</li>
+                        <li>Hanle Monastery - Perched on a hill, this 17th-century Buddhist gompa belongs to the Drukpa Kagyu sect and exudes a sense of spiritual calm. The monastery offers stunning panoramic views of the surrounding valley.</li>
+                        <li>Breathtaking Landscapes - Hanle's high-altitude desert, rolling plains, and distant snow-capped peaks create a surreal, picture-perfect setting. It's an ideal destination for offbeat travelers and photographers.</li>
+                        <li>Nomadic Encounters - The region is home to the Changpa nomads, who live in traditional yak wool tents and herd pashmina goats. A visit to Hanle offers a glimpse into their unique way of life.</li>
+
+                    </ul>
+
+                    <h2>Best Time to Visit</h2>
 
                     <p>
-                        For the intrepid adventurer, Hanle Village has diverse trekking and exploration opportunities. This village is near the Indo-Tibetan border and makes an excellent point for starting treks into the surrounding mountains and valleys. The equally challenging and rewarding treks around Hanle Village provide adventurers with opportunities to explore remote terrains, find hidden lakes, and experience the calmness of the high desert. The pristine off-the-beaten-path experience of trekking in and around Hanle Village is perfect for those seeking some solitude in Ladakh.
+                        The ideal time to visit Hanle is from May to September, when the weather is pleasant, and the roads are accessible. The nights are cold even in summer, so pack warm clothing.
                     </p>
 
-                    <p>
-                        The cultural side of Hanle Village is equally unique and enriching. Hanle Village has a small community of Tibetan Buddhists who live an agrarian lifestyle. The residents of Hanle Village are hospitable and friendly and give visitors a glimpse of how life is so simple yet so fulfilling in this far-flung corner of Ladakh. The ancient monasteries in and around Hanle Village such as the Hanle Monastery are so enigmatic that one is inevitably drawn into the spirituality and the rich culture of the region. Most of these monasteries are calm and quiet and provide a wonderful opportunity for the traveler to spend some time in reflection or meditation.
-                    </p>
+                    <h2>How to Reach Hanle</h2>
 
                     <p>
-                        The remoteness of Hanle Village means that it has largely escaped commercialization, and as a result, it retains its authentic charm. The village's lack of modern infrastructure and the absence of large crowds ensure that visitors can experience Ladakh in its purest form. For those who appreciate the simplicity of life, Hanle Village offers a rare opportunity to disconnect from the digital world and immerse oneself in nature and culture. The tranquility and authenticity of Hanle Village make it a perfect retreat for anyone looking for peace and solitude.
+                        By Road: Hanle is approximately 250 km from Leh, accessible via Umling La (the world's highest motorable pass) or via Nyoma and Loma. The journey offers stunning views of the Changthang plateau.
+                    </p>
+                    
+                    <p>
+                        Permits: Since Hanle is close to the Indo-China border, Inner Line Permits (ILP) are required for both Indian and foreign travelers, which can be obtained in Leh.
                     </p>
 
+                    <h2>Where to Stay</h2>
+
                     <p>
-                        In conclusion, Hanle Village is an exceptional destination that offers a perfect blend of natural beauty, adventure, culture, and serenity. Whether you're exploring the surrounding mountains, stargazing at the observatory, or interacting with the locals, Hanle Village provides an enriching experience for every traveler. Its high-altitude location, breathtaking landscapes, and unique cultural offerings make it one of the most special places in Ladakh. If you are looking for a peaceful retreat, a place for adventure, or a spot to connect with nature and culture, Hanle Village should undoubtedly be on your travel list. A visit to Hanle Village promises a once-in-a-lifetime experience that will leave you with lasting memories of the beauty and tranquility of Ladakh.
+                        Accommodation options in Hanle include homestays and guesthouses, offering basic yet comfortable facilities along with warm Ladakhi hospitality.
                     </p>
+
+                    <h2>Experience the Magic of Hanle</h2>
+
+                    <p>
+                        Whether you're an adventure seeker, a nature lover, or a stargazing enthusiast, Hanle Village promises an unforgettable journey into the mystical heart of Ladakh. Come, witness the magic of an endless sky, the silence of the mountains, and the warmth of Ladakh's remote beauty.
+                    </p>
+
+
+
 
                     
                     <Fab tourPrice={""} />
