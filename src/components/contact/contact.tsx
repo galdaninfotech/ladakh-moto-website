@@ -137,7 +137,7 @@ export const Contact = component$(() => {
         throw new Error('Failed to verify reCAPTCHA. Please try again.');
       }
 
-      const response = await fetch('/api/send-email', {
+      const response = await fetch('/api/contact-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

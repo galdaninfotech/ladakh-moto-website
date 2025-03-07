@@ -86,6 +86,9 @@
     border: solid 2px teal;
     border-radius: 8px;
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .form-popup-bg:before{
