@@ -8,32 +8,52 @@ export default component$(() => {
         <div class="form-popup-bg">
             <div class="form-container">
                 <button id="btnCloseForm" class="close-button">X</button>
-                <h4>Book Tour</h4>
-                <p>To book your seat in this, please complete this form.</p>
+                {/* <h4>Book Tour</h4> */}
                 <form action="">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input id="name" name="name" type="text" class="form-control" autocomplete="name"/>
+                    <div class="tourName"></div>
+                    <div class="form-group d-none">
+                        <label for="tourName">Tour Name</label>
+                        <input id="tourName" name="tourName" type="hidden" class="form-control tourname" autocomplete="off"/>
                     </div>
                     <div class="form-group">
-                        <label for="email">E-Mail Address <span>*</span></label>
-                        <input id="email" name="email" class="form-control" type="text" autocomplete="email" required/>
+                        <label for="tourDate">Tour Date <span>*</span></label>
+                        <select name="tourDate" id="tourDate" class="form-control">
+                            <option value="Select">Select Tour Date</option>
+                        </select>
                     </div>
                     <div class="form-group">
-                        <label for="phone">Phone Number <span>*</span></label>
-                        <input id="phone" name="phone" class="form-control" type="text" autocomplete="tel" required/>
+                        <label for="travelMode">Travel Mode <span>*</span></label>
+                        <select name="travelMode" id="travelMode" class="form-control">
+                            <option value="Select">Your Prefered Travel Mode</option>
+                        </select>
                     </div>
                     <div class="form-group">
                         <label for="noOfPerson">Number of Person</label>
-                        <input id="noOfPerson" name="noOfPerson" class="form-control" autocomplete="off" type="text" />
+                        <input type="number" id="noOfPerson" name="noOfPerson" class="form-control" min="1" value="1" autocomplete="off" />
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message"></textarea>
+                        <label for="email">Your E-Mail ID <span>*</span></label>
+                        <input id="email" name="email" class="form-control" type="text" autocomplete="email" required/>
                     </div>
 
+                    <div id="cost-display" class="table-responsive d-none">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">MODE</th>
+                                    <th scope="col">VEHICLE</th>
+                                    <th scope="col">COST</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cost-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                    
                     <button type="submit">Book Now</button>
                 </form>
+
+                
             </div>
         </div>
     );

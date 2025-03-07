@@ -52,7 +52,7 @@ export default component$(() => {
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="intro">
-                            <h1 id="tour-name" data-tour-name="Ladakh-Srinagar-With-Umling-La">Ladakh Srinagar With Umling La</h1>
+                            <h1 id="tour-name" data-tour-name="Ladakh Srinagar With Umling La">Ladakh Srinagar With Umling La</h1>
                         </div>
 
                         <div class="sticky-buttons">

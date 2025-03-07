@@ -220,3 +220,125 @@ emailElem.forEach((elem) => {
     elem.href = 'mailto:' + user + '@' + domain;
     elem.innerText = user + '@' + domain;
 });
+
+
+
+/*================================================
+[  Tour Name for Booking Form  ]
+================================================*/
+document.addEventListener('DOMContentLoaded', () => {
+    const tourNameElement = document.getElementById('tour-name');
+    const tourName = tourNameElement ? tourNameElement.getAttribute('data-tour-name') : '';
+
+    const tourNameDisplay = document.querySelector('.tourName');
+    const tourNameInput = document.getElementById('tourName');
+
+    if (tourNameDisplay) {
+        tourNameDisplay.textContent = tourName;
+    }
+
+    if (tourNameInput) {
+        tourNameInput.value = tourName;
+    }
+});
+
+/*================================================
+[  Travel Dates for Booking Form  ]
+================================================*/
+document.addEventListener('DOMContentLoaded', () => {
+    const tourDates = [];
+    const tables = document.querySelectorAll('.tourdates');
+
+    tables.forEach(table => {
+        const rows = table.querySelectorAll('tbody tr');
+        rows.forEach(row => {
+            const statusCell = row.querySelector('td span.closed');
+            if (!statusCell) {
+                const dateCell = row.querySelectorAll('td')[1];
+                if (dateCell) {
+                    tourDates.push(dateCell.textContent.trim());
+                }
+            }
+        });
+    });
+
+    const tourDateSelect = document.getElementById('tourDate');
+    if (tourDateSelect) {
+        tourDates.forEach(date => {
+            const option = document.createElement('option');
+            option.value = date;
+            option.textContent = date;
+            tourDateSelect.appendChild(option);
+        });
+    }
+});
+
+
+/*================================================
+[  Tour Cost Calculator for Booking Form  ]
+================================================*/
+document.addEventListener('DOMContentLoaded', () => {
+    const travelModes = [];
+    const table = document.querySelector('.travel-mode');
+
+    if (table) {
+        const rows = table.querySelectorAll('tbody tr');
+        rows.forEach(row => {
+            const modeCell = row.querySelectorAll('td')[0];
+            const vehicleCell = row.querySelectorAll('td')[1];
+            const costCell = row.querySelectorAll('td')[2];
+            if (modeCell && vehicleCell && costCell) {
+                travelModes.push({
+                    mode: modeCell.textContent.trim(),
+                    vehicle: vehicleCell.textContent.trim(),
+                    cost: parseFloat(costCell.textContent.replace(/[^\d.-]/g, ''))
+                });
+            }
+        });
+    }
+
+    const travelModeSelect = document.getElementById('travelMode');
+    const noOfPersonInput = document.getElementById('noOfPerson');
+    const costDisplay = document.getElementById('cost-display');
+    const costTableBody = document.getElementById('cost-table-body');
+
+    function updateCostDisplay() {
+        const selectedMode = travelModeSelect.value;
+        const noOfPerson = parseInt(noOfPersonInput.value, 10) || 1;
+        const selectedTravelMode = travelModes.find(({ mode }) => mode === selectedMode);
+
+        if (selectedTravelMode && costTableBody) {
+            const totalCost = selectedTravelMode.cost * noOfPerson;
+            costTableBody.innerHTML = `
+                <tr>
+                    <td>${selectedTravelMode.mode}</td>
+                    <td>${selectedTravelMode.vehicle}</td>
+                    <td>₹ ${selectedTravelMode.cost.toFixed(2)} PP</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Total Cost</strong></td>
+                    <td><strong>₹ ${totalCost.toFixed(2)}</strong></td>
+                </tr>
+            `;
+            costDisplay.classList.remove('d-none');
+        } else {
+            costTableBody.innerHTML = '';
+            costDisplay.classList.add('d-none');
+        }
+    }
+
+    if (travelModeSelect) {
+        travelModes.forEach(({ mode }) => {
+            const option = document.createElement('option');
+            option.value = mode;
+            option.textContent = mode;
+            travelModeSelect.appendChild(option);
+        });
+
+        travelModeSelect.addEventListener('change', updateCostDisplay);
+    }
+
+    if (noOfPersonInput) {
+        noOfPersonInput.addEventListener('input', updateCostDisplay);
+    }
+});

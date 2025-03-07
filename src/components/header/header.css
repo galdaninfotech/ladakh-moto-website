@@ -11,7 +11,7 @@ header.header-area.style-2 .site-logo {
 }
 
 /* Main Menu Icons */
-.main-menu-wrap .gene-nav ul.menu li.dropdown a::after {
+.main-menu-wrap > .gene-nav > ul.menu > li.dropdown > a::after {
     content: '';
     display: inline-table;
     background: url(/img/icons-sprite.webp) no-repeat;

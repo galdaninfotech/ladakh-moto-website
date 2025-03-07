@@ -22,10 +22,10 @@ export default component$(() => {
                                 <li>Riding Jacket, Gloves and Knee Guard for Bikers</li>
                                 <li>Tempo/Innova Vehicle (For seat in vehicle Option)</li>
                                 <li>Sharing-based accommodation in Hotels/Camps/Guest houses (Double Sharing for Couples)</li>
-                                <li>Breakfast + Dinner as per the Itinerary</li>
-                                <li>Experienced Motorbike Mechanic during the trip</li>
-                                <li>Pangong, Nubra Permission fee</li>
-                                <li>Wildlife & Environmental Fee</li>
+                                <li>Breakfast + Dinner as per the tour Itinerary</li>
+                                <li>Experienced motor bike Mechanic during the trip</li>
+                                <li>Pangong, Nubra Permission Fees</li>
+                                <li>Wildlife & Environmental Fees</li>
                                 <li>Oxygen Cylinder, Oximeter & Basic First Aid Kit</li>
                                 <li>Backup Vehicle to Carry Luggage</li>
                                 <li>All tolls during the Leh Ladakh Bike Trip</li>
@@ -45,9 +45,9 @@ export default component$(() => {
                         <div class="accordion-body">
                             <ul class="exclusions">
                                 <li>GST 5% (Service Tax)</li>
-                                <li>Lunch is not included and any other meal than mentioned in the itinerary</li>
+                                <li>Lunch is not included and any other meal than mentioned in the tour itinerary</li>
                                 <li>Any insurance</li>
-                                <li>Early check-in or late checkout rooms at any Guest House/ Camps</li>
+                                <li>Early check-in or late checkout rooms at any Guest House/Camps</li>
                                 <li>Any entry fees or Personal Expenses</li>
                                 <li>Airport Transfers</li>
                                 <li>Additional stays at any place except Itinerary will be chargeable.</li>

@@ -11,7 +11,7 @@ export default component$(() => {
                 <h2>Tour Cost</h2>
             </div>
             <div class="table-responsive py-1">
-                <table class="table table-bordered table-hover">
+                <table class="table table-bordered table-hover travel-mode">
                     <thead class="thead-dark table__head">
                         <tr>
                             <th scope="col">Travel Mode </th>
@@ -43,7 +43,7 @@ export default component$(() => {
                         <tr>
                             <td><strong>SUV (min 5 seats)</strong></td>
                             <td>Innova/Xylo</td>
-                            <td>₹ 30.500/- PP</td>
+                            <td>₹ 30,500/- PP</td>
                         </tr>
                     </tbody>
                 </table>

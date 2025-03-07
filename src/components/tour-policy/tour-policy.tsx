@@ -21,7 +21,7 @@ export default component$(() => {
                         <div id="tourPolicyCollapse1" class="accordion-collapse collapse" data-bs-parent="#tourPolicyAccordion">
                             <div class="accordion-body">
                                 <ul>
-                                    <li>Advance Payment: Full payment or an advance must be made at the time of booking.</li>
+                                    <li>Advance Payment: Full payment or an advance must be made at the time of booking the tour.</li>
                                     <li>Remaining Payment: The balance payment is required at least 15 days before the trip departure date.</li>
                                     <li>Booking Methods: Payments can be made via NEFT, RTGS, SWIFT, Bank Transfer, or Cash.</li>
                                     <li>GST Charges: A 5% GST (Service Tax) will be added to all bookings.</li>
@@ -60,7 +60,7 @@ export default component$(() => {
 
                                 <h6><strong>No refunds will be granted in the following cases:</strong></h6>
                                 <ul>
-                                    <li>For any missed or unused services during the tour, including meals, for any reason.</li>
+                                    <li>For any missed or unused services during the bike tour, including meals, for any reason.</li>
                                     <li>If the tour services are modified, changed, cancelled, or not utilized.</li>
                                     <li>If the client cancels the tour due to any alterations in the itinerary or trip details.</li>
                                     <li>If the client is dissatisfied with any service provided during the tour.</li>
@@ -78,13 +78,13 @@ export default component$(() => {
                             <div class="accordion-body">
                                 <ul>
                                     <li>The sequence of the day-wise tour program or itinerary may be changed by Ladakhmoto without prior notice.</li>
-                                    <li>The itinerary is subject to alterations due to traffic restrictions, weather conditions, flight changes, landslides, or other unforeseen travel-related events.</li>
+                                    <li>The tour itinerary is subject to alterations due to traffic restrictions, weather conditions, flight changes, landslides, or other unforeseen travel-related events.</li>
                                     <li>In the event that the group tour is canceled by us due to unavoidable circumstances, we will either transfer your booking to another fixed departure trip or provide a full refund, excluding any flight charges.</li>
                                     <li>Ladakhmoto ensures the highest level of safety during its adventure programs. However, in the case of any accidents or unforeseen incidents, we are not liable for injuries or loss of life. Any disputes will be subject to the jurisdiction of Leh only.</li>
                                     <li>All participants must sign an Indemnity Form before starting the program; failure to do so will result in the traveler being unable to join the adventure activities.</li>
                                     <li>No refund will be given if the client get sick or injured during the trip but will be taken care of with full assistance and no added charges.</li>
                                     <li>The package price does not include personal expenses such as laundry, phone calls, room service, alcohol, minibar charges, tips, porterage/offloading charges, monument entrance fees, camera fees, etc.</li>
-                                    <li>Package rates are subject to change without notice due to Force Majeure events, strikes, festivals, weather conditions, traffic delays, hotel or flight overbookings, cancellations or rerouting of flights, or entry restrictions at destinations. No refunds or compensation will be provided in such cases.</li>
+                                    <li>The Tour package rates are subject to change without notice due to Force Majeure events, strikes, festivals, weather conditions, traffic delays, hotel or flight overbookings, cancellations or rerouting of flights, or entry restrictions at destinations. No refunds or compensation will be provided in such cases.</li>
                                     <li>All guests are required to carry valid photo identification (Passport, Driving License, or Voter ID). Note that a PAN card is not accepted as valid ID in many locations.</li>
                                 </ul>
                             </div>

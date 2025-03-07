@@ -38,14 +38,35 @@
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
       display: flex;
       flex-direction: column;
-      width: 100%;
-      max-width: 700px;
+      width: 90%;
+      max-width: 500px;
       margin-left: auto;
       margin-right: auto;
       position:relative;
-    padding: 40px;
+    padding: 30px;
     color: #fff;
   }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: .34rem .75rem;
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .15rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
   .btnOpenForm {
     background-color: teal;
     border: none;
@@ -55,14 +76,16 @@
     height: 40px;
   }
   .close-button {
-    background:none;
-    color: #fff;
-    width: 40px;
-    height: 40px;
+    background: none;
+    color: #ff2e2e;
+    width: 32px;
+    height: 32px;
     position: absolute;
-    top: 0;
-    right: 0;
-    border: solid 1px #fff;
+    top: 5px;
+    right: 4px;
+    border: solid 2px teal;
+    border-radius: 8px;
+    font-size: 15px;
   }
   
   .form-popup-bg:before{
@@ -99,9 +122,35 @@
   .form-popup-bg > div > form > button {
     background-color: teal;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #fff;
     padding: 1px 24px;
-    height: 50px;
+    height: 40px;
     float: right;
   }
+
+  .tourName {
+    text-align: center;
+    font-weight: 600;
+  }
+
+ select option {
+    padding: 0.5rem;
+    background-color: #777;
+    color: #333;
+}
+
+#cost-display {
+    margin-top: 20px;
+}
+#cost-display > table tr th {
+    color: teal;
+    font-size: 10px;
+    padding: .2rem .2rem;
+}
+
+#cost-display > table {
+    color: wheat;
+    font-size: 10px;
+    padding: .2rem .2rem;
+}

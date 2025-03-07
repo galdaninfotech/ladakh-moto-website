@@ -21,7 +21,7 @@ export default component$(() => {
                         <div id="itineraryCollapse1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -65,7 +65,7 @@ export default component$(() => {
                         <div id="itineraryCollapse2" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -114,7 +114,7 @@ export default component$(() => {
                         <div id="itineraryCollapse3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -163,7 +163,7 @@ export default component$(() => {
                         <div id="itineraryCollapse4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -212,7 +212,7 @@ export default component$(() => {
                         <div id="itineraryCollapse5" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -261,7 +261,7 @@ export default component$(() => {
                         <div id="itineraryCollapse6" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -271,25 +271,25 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"LLA25SEP01".slice(2)}</td>
+                                            <td>{"LLA25SEP01".slice(8)}</td>
                                             <td>06 Sept - 11 Sept</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>LLA25SEP02</td>
+                                            <td>{"LLA25SEP02".slice(8)}</td>
                                             <td>13 Sept - 18 Sept</td>
                                             <td><span>17 Seats left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>LLA25SEP03</td>
+                                            <td>{"LLA25SEP03".slice(8)}</td>
                                             <td>20 Sept - 25 Sept</td>
                                             <td><span>14 Seats left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>LLA25SEP04</td>
+                                            <td>{"LLA25SEP04".slice(8)}</td>
                                             <td>27 Sept - 01 Oct</td>
                                             <td><span>Open</span></td>
                                         </tr>

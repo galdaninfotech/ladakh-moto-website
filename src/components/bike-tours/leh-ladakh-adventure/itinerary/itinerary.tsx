@@ -125,7 +125,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Khardung La Pass, 18380 feet height, Diskit Monastery, and Hunder Sand Dunes</li>
-                                    <li>This ride will take you to the highest point on the route, Khardung La (one of the highest passes in the world). After crossing the pass, you will reach the beautiful valley of Nubra. You can visit the Diskit Monastery, which has a large Maitreya Buddha statue. After that, you can go to the Hunder Sand Dunes, where you could ride camels that have two humps, known as Bactrian camels.</li>
+                                    <li>This trip will take you to the highest point on the route, Khardung La (one of the highest passes in the world). After crossing the pass, you will ride towards the beautiful valley of Nubra. You can visit the Diskit Monastery, which has a large Maitreya Buddha statue. After that, you will continue your trip to the Hunder Sand Dunes, where you could ride camels that have two humps, known as Bactrian camels.</li>
                                     <li><span>Overnight</span>: Camps/Guesthouse in Hunder, Nubra Valley</li>
                                 </ul>
 
@@ -164,8 +164,8 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Shyok River, Pangong Lake</li>
-                                    <li>So, Prepare for a spectacular journey that will take you along the breathtaking and exciting route of the Shyok river to reach the exquisite Pangong Lake. The trip will take you across rough mountain landscapes and tiny Periodically rural settlements of the Ladakhi people. Before long, once you have reached the lake, you will see its numerous blue waters gets refracted and scattered by sunlight. The lake is spread across of India and tibet and ranks among the highest salt water lakes of the world.</li>
-                                    <li><span>Overnight</span>: Cottages at Pangong Lake</li>
+                                    <li>So, Prepare for a spectacular trip that will take you along the breathtaking and exciting route of the Shyok river to reach the exquisite Pangong Lake. The trip will take you across rough mountain landscapes and periodically tiny rural settlements of the Ladakhi people. Before long, once you have reached the lake, you will see its numerous blue waters gets refracted and scattered by sunlight. The lake is spread across of India and Tibet and ranks among the highest salt water lakes in the world.</li>
+                                    <li><span>Overnight</span>: Cottage at Pangong Lake</li>
                                 </ul>
 
                             </div>
@@ -203,7 +203,7 @@ export default component$(() => {
 
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Changla Pass, Thiksey Monastery (optional stop)</li>
-                                    <li>The return trip to Leh may commence after breakfast, during which you will get to cross Changla Pass, one of the Highest passes and it is also possible to stop for some sightseeing including one of the best monasteries in Ladakh, Thiksey Monastery which is beautiful in its architecture style and its surrounding views. Proceed with riding back to Leh and this time you could opt for some rest and sightseeing for all the places that you might have left earlier. Look forward to enjoying a farewell dinner whilst reminiscing all the good times you had in your tour.</li>
+                                    <li>The return trip to Leh may commence after breakfast, during which you will get to cross Changla Pass, one of the Highest passes and it is also possible to stop for some sightseeing including one of the best monasteries in Ladakh, Thiksey Monastery which is beautiful in its architecture style and its surrounding views. Proceed with riding back to Leh and this time you could opt for some rest and sightseeing for all the places that you might have left earlier. Look forward to enjoying a farewell dinner whilst reminiscing all the good times you had in this bike tour.</li>
                                     <li><span>Overnight</span>: Hotel in Leh</li>
                                 </ul>
                             </div>
@@ -219,7 +219,7 @@ export default component$(() => {
                         <div id="itineraryCollapse8" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
                                 <p>
-                                    After breakfast, bid farewell to the mesmerizing landscapes of Ladakh and transfer to Leh Airport for your onward journey, carrying with you unforgettable memories of your motorbiking adventure across the Himalayas.
+                                    After breakfast, bid farewell to the mesmerizing landscapes of Ladakh and transfer to Leh Airport for your onward journey, carrying with you unforgettable memories of your motor biking adventure package across the Himalayas.
                                 </p>
 
                             </div>

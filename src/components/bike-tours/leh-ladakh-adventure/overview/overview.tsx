@@ -36,7 +36,7 @@ export default component$(() => {
             </div>
             
             <p>
-                This 6-day tour will take you on a motorbike trip across the stunning sceneries of Ladakh, including the gorgeous Nubra Valley and enchanting Pangong Lake. Get ready for an incredible experience filled with leisurely rides, cultural visits, and once in a lifetime experiences at the Himalayan region.
+                This 6-day tour will take you on a motorbike trip across the stunning sceneries of Ladakh, including the gorgeous Nubra Valley and enchanting Pangong Lake. Get ready for an incredible experience filled with leisurely rides, cultural visits, and once in a lifetime experiences of bike tour in the Himalayan region.
             </p>
 
 
@@ -49,7 +49,7 @@ export default component$(() => {
             </ul>
 
             <p>
-                This tour combines high-altitude adventure with serene cultural exploration, making it perfect for motorbiking enthusiasts looking to challenge themselves while experiencing the beauty of Ladakh.
+                This bike tour package combines high-altitude adventure with serene cultural exploration, making it perfect for motor biking enthusiasts looking to challenge themselves while experiencing the beauty of Ladakh.
             </p>
             
 

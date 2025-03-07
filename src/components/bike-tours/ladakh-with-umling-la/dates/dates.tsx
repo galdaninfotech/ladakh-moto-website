@@ -21,7 +21,7 @@ export default component$(() => {
                         <div id="itineraryCollapse1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -70,7 +70,7 @@ export default component$(() => {
                         <div id="itineraryCollapse2" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -119,7 +119,7 @@ export default component$(() => {
                         <div id="itineraryCollapse3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -168,7 +168,7 @@ export default component$(() => {
                         <div id="itineraryCollapse4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -217,7 +217,7 @@ export default component$(() => {
                         <div id="itineraryCollapse5" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover">
+                                <table class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
