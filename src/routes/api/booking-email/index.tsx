@@ -78,11 +78,11 @@ export const onPost: RequestHandler = async ({ parseBody, json }) => {
 
         const emailResponse = await resend.emails.send({
             from: 'Booking Form <booking@ladakhmoto.com>',
-            to: 'galdaninfotech@gmail.com',
+            to: 'info@ladakhmoto.com',
             reply_to: email,
             subject: `New Booking Request - ${tourName}`,
             html: `
-                <h2>New Tour Booking Request</h2>
+                <h2>New Booking Request</h2>
                 <p><strong>Tour Name:</strong> ${tourName}</p>
                 <p><strong>Tour Date:</strong> ${tourDate}</p>
                 <p><strong>Travel Mode:</strong> ${travelMode}</p>
