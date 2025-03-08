@@ -36,6 +36,7 @@ export const onPost: RequestHandler = async ({ parseBody, json }) => {
             travelMode, 
             noOfPerson, 
             email, 
+            phone, 
             honeypot, 
             recaptchaToken 
         } = body as {
@@ -44,6 +45,7 @@ export const onPost: RequestHandler = async ({ parseBody, json }) => {
             travelMode: string;
             noOfPerson: number;
             email: string;
+            phone: number;
             honeypot: string;
             recaptchaToken: string;
         };
@@ -66,7 +68,7 @@ export const onPost: RequestHandler = async ({ parseBody, json }) => {
             return;
         }
 
-        if (!tourName || !tourDate || !travelMode || !email) {
+        if (!tourName || !tourDate || !travelMode || !email || !phone || !recaptchaToken) {
             json(400, {
                 success: false,
                 message: 'All required fields must be filled'
@@ -86,6 +88,7 @@ export const onPost: RequestHandler = async ({ parseBody, json }) => {
                 <p><strong>Travel Mode:</strong> ${travelMode}</p>
                 <p><strong>Number of Persons:</strong> ${noOfPerson}</p>
                 <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Phone Number:</strong> ${phone}</p>
             `,
         });
 

@@ -10,6 +10,7 @@ export default component$(() => {
         travelMode: '',
         noOfPerson: 1,
         email: '',
+        phone: '',
         isSubmitting: false,
         successMessage: '',
         errorMessage: '',
@@ -89,12 +90,23 @@ export default component$(() => {
         if (!formData.travelMode.trim()) {
             errors.push("Travel Mode is required");
         }
+        
+        if (!formData.noOfPerson || formData.noOfPerson < 1) {
+            errors.push("Number of Persons is required and must be at least 1");
+        }
 
         if (!formData.email) {
             errors.push("Email is required");
         } else if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(formData.email)) {
             errors.push("Please enter a valid email address");
         }
+
+        if (!formData.phone) {
+            errors.push("Phone is required");
+        } else if (!/^\d{10}$/.test(formData.phone)) {
+            errors.push("Please enter a valid 10-digit phone number");
+        }
+
 
         if (errors.length > 0) {
             throw new Error(errors.join("\n"));
@@ -156,6 +168,7 @@ export default component$(() => {
                     travelMode: formState.travelMode,
                     noOfPerson: formState.noOfPerson,
                     email: formState.email,
+                    phone: formState.phone,
                     recaptchaToken: formState.recaptchaToken
                 })
             });
@@ -172,6 +185,7 @@ export default component$(() => {
             formState.travelMode = '';
             formState.noOfPerson = 1;
             formState.email = '';
+            formState.phone = '';
         } catch (error) {
             formState.errorMessage = (error instanceof Error ? error.message : 'An error occurred. Please try again.');
         } finally {
@@ -248,6 +262,20 @@ export default component$(() => {
                         />
                     </div>
 
+                    <div class="form-group">
+                        <label for="phone">Your Mobile Number <span>*</span></label>
+                        <input
+                            id="phone"
+                            name="phone"
+                            class="form-control"
+                            type="text"
+                            autocomplete="tel"
+                            required
+                            value={formState.phone}
+                            onInput$={(e) => (formState.phone = (e.target as HTMLInputElement).value)}
+                        />
+                    </div>
+
                     <div id="cost-display" class="table-responsive d-none">
                         <table class="table">
                             <thead class="thead-dark">
@@ -279,8 +307,8 @@ export default component$(() => {
                     </button>
                 </form>
 
-                {formState.successMessage && <p id="enquiry-success-message">{formState.successMessage}</p>}
-                {formState.errorMessage && <p id="enquiry-failure-message">{formState.errorMessage}</p>}
+                {formState.successMessage && <p id="booking-success-message">{formState.successMessage}</p>}
+                {formState.errorMessage && <p id="booking-failure-message">{formState.errorMessage}</p>}
 
                 <div class="recaptcha-terms">
                     This site is protected by reCAPTCHA and the Google{' '}

@@ -64,7 +64,7 @@ export const handler: Handler = async (event) => {
       throw new Error('No request body');
     }
 
-    const { tourName, tourDate, travelMode, noOfPerson, email, recaptchaToken, honeypot } = JSON.parse(event.body);
+    const { tourName, tourDate, travelMode, noOfPerson, email, phone, recaptchaToken, honeypot } = JSON.parse(event.body);
 
     if (honeypot) {
       return {
@@ -77,7 +77,7 @@ export const handler: Handler = async (event) => {
       };
     }
 
-    if (!tourName || !tourDate || !travelMode || !email || !recaptchaToken) {
+    if (!tourName || !tourDate || !travelMode || !email || phone || !recaptchaToken) {
       return {
         statusCode: 400,
         headers,
@@ -113,6 +113,7 @@ export const handler: Handler = async (event) => {
           <p><strong>Travel Mode:</strong> ${travelMode}</p>
           <p><strong>Number of Persons:</strong> ${noOfPerson}</p>
           <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Phone Number:</strong> ${phone}</p>
         `,
       });
 
