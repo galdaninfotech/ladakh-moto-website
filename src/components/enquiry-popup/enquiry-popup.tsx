@@ -91,9 +91,9 @@ export default component$(() => {
             errors.push("Travel Mode is required");
         }
         
-        if (!formData.noOfPerson || formData.noOfPerson < 1) {
-            errors.push("Number of Persons is required and must be at least 1");
-        }
+        // if (!formData.noOfPerson || formData.noOfPerson < 1) {
+        //     errors.push("Number of Persons is required and must be at least 1");
+        // }
 
         if (!formData.email) {
             errors.push("Email is required");

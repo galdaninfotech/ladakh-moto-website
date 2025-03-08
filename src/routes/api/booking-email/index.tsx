@@ -71,7 +71,7 @@ export const onPost: RequestHandler = async ({ parseBody, json }) => {
         if (!tourName || !tourDate || !travelMode || !email || !phone || !recaptchaToken) {
             json(400, {
                 success: false,
-                message: 'All required fields must be filled'
+                message: 'All required fields must be filled!'
             });
             return;
         }
@@ -94,7 +94,7 @@ export const onPost: RequestHandler = async ({ parseBody, json }) => {
 
         json(200, {
             success: true,
-            message: '👍 Booking request sent successfully! We will get back to you shortly.',
+            message: '👍 Booking request sent successfully! We will send you confirmation shortly.',
             data: emailResponse
         });
     } catch (error) {

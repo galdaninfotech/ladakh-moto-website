@@ -77,13 +77,13 @@ export const handler: Handler = async (event) => {
       };
     }
 
-    if (!tourName || !tourDate || !travelMode || !email || phone || !recaptchaToken) {
+    if (!tourName || !tourDate || !travelMode || !email || !phone || !recaptchaToken) {
       return {
         statusCode: 400,
         headers,
         body: JSON.stringify({
           success: false,
-          message: 'All required fields must be filled'
+          message: 'All required fields must be filled!'
         })
       };
     }
@@ -122,7 +122,7 @@ export const handler: Handler = async (event) => {
         headers,
         body: JSON.stringify({
           success: true,
-          message: '👍 Booking request sent successfully! We will get back to you shortly.',
+          message: '👍 Booking request sent successfully! We will send you confirmation shortly.',
           data: emailResponse
         })
       };
