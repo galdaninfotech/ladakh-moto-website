@@ -197,7 +197,7 @@ export default component$(() => {
         <div class="form-popup-bg">
             <div class="form-container">
                 <button id="btnCloseForm" class="close-button">x</button>
-                <form preventdefault:submit onSubmit$={handleSubmit}>
+                <form id="booking" preventdefault:submit onSubmit$={handleSubmit}>
                     <div class="tourName"></div>
                     <div class="form-group d-none">
                         <label for="tourName">Tour Name</label>
@@ -305,6 +305,8 @@ export default component$(() => {
                             ? 'Sending Enquiry...'
                             : 'Book Now'}
                     </button>
+
+                    <button style="float: left">Cancel</button>
                 </form>
 
                 {formState.successMessage && <p id="booking-success-message">{formState.successMessage}</p>}
