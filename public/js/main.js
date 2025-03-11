@@ -153,41 +153,6 @@ if(button) {
     })
 }
 
-/*================================================
-[  Popup Enquiry  ]
-================================================*/
-function closeForm() {
-    $('.form-popup-bg').removeClass('is-visible');
-}
-
-$(document).ready(function($) {
-    /* Contact Form Interactions */
-    $('.btnOpenForm').on('click', function(event) {
-        event.preventDefault();
-        const el = document.querySelector(".tour-name");
-        const tourName = el ? el.getAttribute("data-tour-name") : '';
-        // console.log(tourName, el, "hhhhhhhhhhhhhh");
-
-        const formPopupBg = document.querySelector('.form-popup-bg');
-        if (formPopupBg) {
-            formPopupBg.style.opacity = '1';
-            formPopupBg.style.visibility = 'visible';
-        }
-    });
-    
-    //close popup when clicking x or off popup
-    $('.form-popup-bg').on('click', function(event) {
-        if ($(event.target).is('.form-popup-bg') || $(event.target).is('#btnCloseForm')) {
-            event.preventDefault();
-            const formPopupBg = document.querySelector('.form-popup-bg');
-            if (formPopupBg) {
-                formPopupBg.style.opacity = '0';
-                formPopupBg.style.visibility = 'hidden';
-            }
-        }
-    });        
-});
-
 
 /*================================================
 [  Sidebar margin fix  ]
@@ -220,6 +185,54 @@ emailElem.forEach((elem) => {
     elem.href = 'mailto:' + user + '@' + domain;
     elem.innerText = user + '@' + domain;
 });
+
+
+/*================================================
+[  Popup Enquiry  ]
+================================================*/
+function closeForm() {
+    $('.form-popup-bg').removeClass('is-visible');
+}
+
+$(document).ready(function($) {
+    /* Contact Form Interactions */
+    $('.btnOpenForm').on('click', function(event) {
+        event.preventDefault();
+        const el = document.querySelector(".tour-name");
+        const tourName = el ? el.getAttribute("data-tour-name") : '';
+        // console.log(tourName, el, "hhhhhhhhhhhhhh");
+
+        const formPopupBg = document.querySelector('.form-popup-bg');
+        if (formPopupBg) {
+            formPopupBg.style.opacity = '1';
+            formPopupBg.style.visibility = 'visible';
+        }
+    });
+    
+    //close popup when clicking x or off popup
+    $('.form-popup-bg').on('click', function(event) {
+        if ($(event.target).is('.form-popup-bg') || $(event.target).is('#btnCloseForm')) {
+            event.preventDefault();
+            const formPopupBg = document.querySelector('.form-popup-bg');
+            if (formPopupBg) {
+                formPopupBg.style.opacity = '0';
+                formPopupBg.style.visibility = 'hidden';
+            }
+        }
+    });
+    
+    $('#cancel').on('click', function(event) {
+        event.preventDefault();
+        const formPopupBg = document.querySelector('.form-popup-bg');
+        if (formPopupBg) {
+            formPopupBg.style.opacity = '0';
+            formPopupBg.style.visibility = 'hidden';
+        }
+    });
+
+    
+});
+
 
 
 

@@ -127,9 +127,21 @@
     border: none;
     border-radius: 5px;
     color: #fff;
-    padding: 1px 24px;
+    padding: 1px 22px;
     height: 40px;
+    margin-top: 10px;
     float: right;
+  }
+
+  a#cancel {
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 22px;
+    height: 40px;
+    margin-top: 10px;
+    float: left;
   }
 
   .tourName {

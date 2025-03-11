@@ -298,15 +298,16 @@ export default component$(() => {
                         onInput$={(e) => (formState.honeypot = (e.target as HTMLInputElement).value)}
                     />
 
+                    <a id="cancel" href="">Cancel</a>
+
                     <button type="submit" disabled={formState.isSubmitting || !formState.recaptchaLoaded}>
                         {!formState.recaptchaLoaded
-                            ? 'Loading reCAPTCHA...'
+                            ? 'reCAPTCHA...'
                             : formState.isSubmitting
-                            ? 'Sending Enquiry...'
+                            ? 'Sending Booking...'
                             : 'Book Now'}
                     </button>
 
-                    <button style="float: left">Cancel</button>
                 </form>
 
                 {formState.successMessage && <p id="booking-success-message">{formState.successMessage}</p>}
