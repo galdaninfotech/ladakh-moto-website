@@ -49,7 +49,7 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 15,500/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a class="button-text width-6" href="/downloads/bike-tours/leh-ladakh-adventure.pdf" download="Leh Ladakh Adventure" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
                                         <a href="/bike-tours/leh-ladakh-adventure" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a class="button-text width-6" href="/downloads/bike-tours/ladakh-with-umling-la.pdf" download="Ladakh With Umling La" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
                                         <a href="/bike-tours/ladakh-with-umling-la" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 25,000/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a class="button-text width-6" href="/downloads/bike-tours/ladakh-srinagar-with-umling-la.pdf" download="Ladakh Srinagar Umling La" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
                                         <a href="/bike-tours/ladakh-srinagar-with-umling-la" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 28,500/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a class="button-text width-6" href="/downloads/bike-tours/leh-zanskar-leh.pdf" download="Leh Zanskar Leh" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
                                         <a href="/bike-tours/leh-zanskar-leh" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a class="button-text width-6" href="/downloads/bike-tours/manali-leh-srinagar.pdf" download="Manali Leh Srinagar" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
                                         <a href="/bike-tours/manali-leh-srinagar" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
@@ -225,7 +225,7 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 23,000/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a href="#" class="button-text width-6 btnOpenForm" aria-label="Book Now" title="Book Now">Book Now<i class="fas fa-angle-double-right"></i></a>
+                                        <a class="button-text width-6" href="/downloads/bike-tours/srinagar-leh-manali.pdf" download="Srinagar Leh Manali" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
                                         <a href="/bike-tours/srinagar-leh-manali" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>

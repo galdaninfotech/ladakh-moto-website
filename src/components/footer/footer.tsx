@@ -78,10 +78,10 @@ export default component$(() => {
 								<ul>
 									<li><a class="address" aria-label="Address" title="Address" href="#">DB2 Zangsti, Nr. MCL Vehicle Parking, Leh, 194101 Ladakh, India</a></li>
 									<li><a class="email email-link" aria-label="Email" title="Email" href="#">Email Us</a></li>
-									<li><a class="phone" aria-label="Phone Number" title="Phone Number" href="tel:+91 9622958013">+91 9622958013</a></li>
-									<li><a class="phone" aria-label="Phone Number" title="Phone Number" href="tel:+91 9906989962">+91 9906989962</a></li>
-									<li><a class="phone" aria-label="Phone Number" title="Phone Number" href="tel:+91 9419393330">+91 9419393330</a></li>
-									<li><a class="phone" aria-label="Phone Number" title="Phone Number" href="tel:+91 8899537311">+91 8899537311</a></li>
+									<li><a class="phone" aria-label="Phone Number" title="Phone Number" href="tel:+91-9622958013">+91-9622958013</a></li>
+									<li><a class="phone" aria-label="Phone Number" title="Phone Number" href="tel:+91-9906989962">+91-9906989962</a></li>
+									<li><a class="phone" aria-label="Phone Number" title="Phone Number" href="tel:+91-9419393330">+91-9419393330</a></li>
+									<li><a class="phone" aria-label="Phone Number" title="Phone Number" href="tel:+91-8899537311">+91-8899537311</a></li>
 								</ul>
 							</div>
 						</div>

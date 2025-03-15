@@ -42,8 +42,9 @@
     margin-bottom: 8px;
 }
 .item {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    gap: 1px;
+    font-size: 13px;
 }
 .items span:nth-child(2) {
   font-size: 13px;
@@ -107,4 +108,14 @@
     #sidebar {
         margin-top: 60px;
     }
+}
+
+.wrapper-confidence div.item::before {
+    content: '';
+    display: inline-table;
+    background: url(/img/icons-sprite.webp) no-repeat;
+    width: 14px;
+    height: 19px;
+    margin-right: 5px;
+    background-position: -167px -40px;
 }

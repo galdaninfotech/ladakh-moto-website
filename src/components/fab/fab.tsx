@@ -33,12 +33,12 @@ export default component$<ItemProps>((props) => {
             </div>
 
             <div class="fab-wheel">
-                <a class="fab-action fab-action-1" href="https://api.whatsapp.com/send?phone=9622958013" target="_blank" aria-label="Leave a message on WhatsApp" title="Leave a message on WhatsApp">
+                <a class="fab-action fab-action-1" href="https://api.whatsapp.com/send?phone=919622958013" target="_blank" aria-label="Leave a message on WhatsApp" title="Leave a message on WhatsApp">
                     <i class="bi bi-whatsapp" aria-hidden="true"></i>
                     <span class="sr-only">WhatsApp</span>
                 </a>
 
-                <a class="fab-action fab-action-2" href="tel:9622958013" aria-label="Call For Instant Booking" title="Call For Instant Booking">
+                <a class="fab-action fab-action-2" href="tel:+91-9622958013" aria-label="Call For Instant Booking" title="Call For Instant Booking">
                     <i class="bi bi-telephone-outbound" aria-hidden="true"></i>
                     <span class="sr-only">Phone</span>
                 </a>

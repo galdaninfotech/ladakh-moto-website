@@ -187,8 +187,9 @@ emailElem.forEach((elem) => {
 });
 
 
+
 /*================================================
-[  Popup Enquiry  ]
+[  Popup Enquiry - Opening & Closing of Dailog Box ]
 ================================================*/
 function closeForm() {
     $('.form-popup-bg').removeClass('is-visible');
@@ -230,11 +231,8 @@ $(document).ready(function($) {
         }
     });
 
-    
+
 });
-
-
-
 
 /*================================================
 [  Tour Name for Booking Form  ]
@@ -353,5 +351,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (noOfPersonInput) {
         noOfPersonInput.addEventListener('input', updateCostDisplay);
+    }
+});
+
+
+
+/*================================================
+[  Download Itinerray PDF  ]
+================================================*/
+document.addEventListener('DOMContentLoaded', () => {
+    const tourNameElement = document.getElementById('tour-name');
+    let tourName = tourNameElement ? tourNameElement.getAttribute('data-tour-name') : '';
+    tourNameLink = tourName.replace(/\s+/g, '-').toLowerCase() + '.pdf';
+
+    const itineraryDownloadAchor = document.querySelector('#download-itinerary');
+
+    if (itineraryDownloadAchor) {
+        itineraryDownloadAchor.href = "/downloads/bike-tours/" + tourNameLink;
+        itineraryDownloadAchor.download = tourName;
     }
 });
