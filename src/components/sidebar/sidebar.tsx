@@ -23,7 +23,7 @@ export default component$(() => {
             <div id="download-pdf">
                 <a id="download-itinerary" href="" download="" type="application/octet-stream" aria-label="Download Ladakh Travel Guide PDF" title="Download Ladakh Travel Guide PDF" target="_blank">
                     <i class="bi bi-download"></i>
-                    <span class="elementor-button-text ml-3" style="margin-left: 10px;">Download This Itinerary</span>
+                    <span class="elementor-button-text ml-3" style="margin-left: 10px;">Download Itinerary PDF</span>
                 </a>
             </div>
             <p id="earnest-money">Book your dream trip with a deposit of 30% of the tour cost.</p>

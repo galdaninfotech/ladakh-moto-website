@@ -23,6 +23,7 @@ export default component$(() => {
 						<div class="col-lg-3 col-sm-6">
 							<div class="widget contact-widget">
 								<h3>About Ladakh Moto</h3>
+                                <span class="registration_no">Registration No: 6087-B-LEH</span>
 								<p>Ladakh Moto is a locally based Ladakhi company with dedicated local employees working under the supervision of Local managers who are acquainted with the years of experience in handling and organizing such motorbiking expeditions.</p>
 								<ul>
 									<li><a class="facebook" href="https://www.facebook.com/ladakhmotos/" aria-label="Follow us on Facebook" title="Follow us on Facebook" target="_blank" rel="noreferrer"><span class="sr-only">Facebook</span></a></li>

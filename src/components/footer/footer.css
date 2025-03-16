@@ -122,3 +122,9 @@ a.galdaninfotech::before {
     margin: 0 auto;
     margin-top: 0px;
 }
+
+.registration_no {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+}
