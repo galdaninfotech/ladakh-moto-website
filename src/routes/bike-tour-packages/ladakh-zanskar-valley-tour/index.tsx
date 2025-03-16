@@ -64,7 +64,7 @@ export default component$(() => {
                         <Cost />
 
                         <TourPolicy />
-                        <TourPolicy />
+                        <GoogleReviews />
                         <EnquiryPopup />
                         <Fab tourPrice={tourPrice.value} />
                     </div>
