@@ -10,6 +10,7 @@ import Sidebar from "~/components/sidebar/sidebar";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
 import { Contact } from "~/components/contact/contact";
 import Fab from "~/components/fab/fab";
+import GoogleReviews from "~/components/google-reviews/google-reviews";
 
 export default component$(() => {
     useStylesScoped$(styles);
@@ -63,6 +64,7 @@ export default component$(() => {
                         <Itinerary />
                         <Cost />
 
+                        <TourPolicy />
                         <TourPolicy />
                         <EnquiryPopup />
                         <Contact />
