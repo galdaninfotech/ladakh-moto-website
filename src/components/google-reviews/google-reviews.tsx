@@ -1,6 +1,8 @@
-import { component$, useVisibleTask$ } from "@builder.io/qwik";
+import { component$, useVisibleTask$, useStylesScoped$ } from "@builder.io/qwik";
+import styles from './google-reviews.css?inline';
 
 export default component$(() => {
+    useStylesScoped$(styles);
     useVisibleTask$(() => {
         // Load Elfsight script
         const script = document.createElement('script');
