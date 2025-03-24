@@ -31,6 +31,7 @@ export default component$(() => {
                         </figcaption>
                         <a href="/team/phunchok-rigzin" aria-label="Phunchok Rigzin" title="Phunchok Rigzin"></a>
                     </figure>
+                    <a href="/about/our-team" class="button-text width-6 float-right" aria-label="Read More" title="Read More">Read More...</a>
                 </div>
 
                 <div class="col-md-3">
@@ -48,6 +49,7 @@ export default component$(() => {
                         </figcaption>
                         <a href="/team/skalzang-gyatso" aria-label="Skalzang Gyatso" title="Skalzang Gyatso"></a>
                     </figure>
+                    <a href="/about/our-team" class="button-text width-6 float-right" aria-label="Read More" title="Read More">Read More...</a>
                 </div>
 
                 <div class="col-md-3">
@@ -65,6 +67,7 @@ export default component$(() => {
                         </figcaption>
                         <a href="/team/stanzin-namgyal" aria-label="Stanzin Namgyal" title="Stanzin Namgyal"></a>
                     </figure>
+                    <a href="/about/our-team" class="button-text width-6 float-right" aria-label="Read More" title="Read More">Read More...</a>
                 </div>
 
                 <div class="col-md-3">
@@ -82,6 +85,7 @@ export default component$(() => {
                         </figcaption>
                         <a href="/team/stanzin-namgial" aria-label="Stanzin Namgial" title="Stanzin Namgial"></a>
                     </figure>
+                    <a href="/about/our-team" class="button-text width-6 float-right" aria-label="Read More" title="Read More">Read More...</a>
                 </div>
             </div>
         </div>

@@ -171,3 +171,14 @@ figure.snip1477.hover figcaption {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
+
+a.button-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  float: right;
+  top: -7px;
+  position: relative;
+}

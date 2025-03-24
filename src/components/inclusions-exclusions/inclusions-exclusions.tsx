@@ -19,11 +19,12 @@ export default component$(() => {
                             <ul class="inclusions">
                                 <li>Royal Enfield Himalayan 411 Bike BSVI</li>
                                 <li>Fuel for tour</li>
+                                <li>Road Captain/Marshal</li>
+                                <li>Experienced motor bike Mechanic during the trip</li>
                                 <li>Riding Jacket, Gloves and Knee Guard for Bikers</li>
                                 <li>Tempo/Innova Vehicle (For seat in vehicle Option)</li>
                                 <li>Sharing-based accommodation in Hotels/Camps/Guest houses (Double Sharing for Couples)</li>
                                 <li>Breakfast + Dinner as per the tour Itinerary</li>
-                                <li>Experienced motor bike Mechanic during the trip</li>
                                 <li>Pangong, Nubra Permission Fees</li>
                                 <li>Wildlife & Environmental Fees</li>
                                 <li>Oxygen Cylinder, Oximeter & Basic First Aid Kit</li>
