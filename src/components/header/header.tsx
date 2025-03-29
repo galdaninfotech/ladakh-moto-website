@@ -73,6 +73,7 @@ export default component$(() => {
                                             <li><a aria-label="Leh Zanskar Leh" title="Leh Zanskar Leh" href="/bike-tours/leh-zanskar-leh">Leh Zanskar Leh</a></li>
                                             <li><a aria-label="Manali Leh Srinagar" title="Manali Leh Srinagar" href="/bike-tours/manali-leh-srinagar">Manali Leh Srinagar</a></li>
                                             <li><a aria-label="Srinagar Leh Manali" title="Srinagar Leh Manali" href="/bike-tours/srinagar-leh-manali">Srinagar Leh Manali</a></li>
+                                            <li><a aria-label="Leh Ladakh With Turtuk" title="Leh Ladakh With Turtuk" href="/bike-tours/leh-ladakh-with-turtuk">Leh Ladakh With Turtuk</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">

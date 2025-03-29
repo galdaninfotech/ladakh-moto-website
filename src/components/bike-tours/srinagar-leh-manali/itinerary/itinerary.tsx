@@ -204,7 +204,7 @@ export default component$(() => {
                                 <ul class="itinerary">
                                     <li><span>Highlights</span>: Turtuk Village, Indo-Pak Border, Balti Culture</li>
                                     <li>Today, we will go on an excursion to Turtuk, a remote and isolated village located close to the protracted India Pakistan boundary, which is culturally diverse. Turtuk portrays the vividness of esteemed culture of balti, which is quite different from rest of Ladakh. This part of the ride lets you explore the village, interact with locals, and savor the views of the Apricot orchid's farms before heading back to Hunder for an overnight stay. </li>
-                                    <li><span>Overnight</span>: Camp/Guest house in Purne</li>
+                                    <li><span>Overnight</span>: Camp/Guest house in Hunder</li>
                                 </ul>
                             </div>
                         </div>
