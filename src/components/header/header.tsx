@@ -68,12 +68,12 @@ export default component$(() => {
                                         <a aria-label="Biking Adventures" title="Biking Adventures" href="#">Biking Adventures</a>
                                         <ul>
                                             <li><a aria-label="Leh Ladakh Adventure" title="Leh Ladakh Adventure" href="/bike-tours/leh-ladakh-adventure">Leh Ladakh Adventure</a></li>
+                                            <li><a aria-label="Leh Ladakh With Turtuk" title="Leh Ladakh With Turtuk" href="/bike-tours/leh-ladakh-with-turtuk">Leh Ladakh With Turtuk</a></li>
                                             <li><a aria-label="Ladakh With Umling La" title="Ladakh With Umling La" href="/bike-tours/ladakh-with-umling-la">Ladakh With Umling La</a></li>
                                             <li><a aria-label="Ladakh Srinagar With Umling La" title="Ladakh Srinagar With Umling La" href="/bike-tours/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></li>
-                                            <li><a aria-label="Leh Zanskar Leh" title="Leh Zanskar Leh" href="/bike-tours/leh-zanskar-leh">Leh Zanskar Leh</a></li>
                                             <li><a aria-label="Manali Leh Srinagar" title="Manali Leh Srinagar" href="/bike-tours/manali-leh-srinagar">Manali Leh Srinagar</a></li>
                                             <li><a aria-label="Srinagar Leh Manali" title="Srinagar Leh Manali" href="/bike-tours/srinagar-leh-manali">Srinagar Leh Manali</a></li>
-                                            <li><a aria-label="Leh Ladakh With Turtuk" title="Leh Ladakh With Turtuk" href="/bike-tours/leh-ladakh-with-turtuk">Leh Ladakh With Turtuk</a></li>
+                                            <li><a aria-label="Leh Zanskar Leh" title="Leh Zanskar Leh" href="/bike-tours/leh-zanskar-leh">Leh Zanskar Leh</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">

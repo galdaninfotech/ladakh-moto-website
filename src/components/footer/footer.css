@@ -1,8 +1,9 @@
 footer {
     margin-top: 60px;
+    background-color: #515151;
 }
 .copy-right-area {
-    background: rgb(35 39 48);
+    background: #666;
     color: #fff;
     padding: 12px;
     font-size: 14px;
@@ -127,4 +128,7 @@ a.galdaninfotech::before {
     color: #fff;
     font-size: 10px;
     font-weight: 500;
+    display: block;
+    margin-top: -11px;
+    color: #14b9b9;
 }

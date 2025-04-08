@@ -31,20 +31,20 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25MAY01".slice(8)}</td>
-                                            <td>01 May - 11 May</td>
+                                            <td>{"LLT25MAY01".slice(8)}</td>
+                                            <td>01 May - 07 May</td>
                                             <td><span>Filling Fast</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25MAY02".slice(8)}</td>
-                                            <td>13 May - 23 May</td>
+                                            <td>{"LLT25MAY02".slice(8)}</td>
+                                            <td>10 May - 16 May</td>
                                             <td><span>6 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>{"SLM25MAY03".slice(8)}</td>
-                                            <td>15 May - 25 May</td>
+                                            <td>{"LLT25MAY03".slice(8)}</td>
+                                            <td>18 May - 24 May</td>
                                             <td><span>5 Seats Left</span></td>
                                         </tr>
                                         
@@ -74,20 +74,20 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25JUN01".slice(8)}</td>
-                                            <td>05 Jun - 15 Jun</td>
+                                            <td>{"LLT25JUN01".slice(8)}</td>
+                                            <td>01 Jun - 07 Jun</td>
                                             <td><span>14 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25JUN02".slice(8)}</td>
-                                            <td>12 Jun - 22 Jun</td>
+                                            <td>{"LLT25JUN02".slice(8)}</td>
+                                            <td>14 Jun - 20 Jun</td>
                                             <td><span>10 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>{"SLM25JUN03".slice(8)}</td>
-                                            <td>19 Jun - 29 Jun</td>
+                                            <td>{"LLT25JUN03".slice(8)}</td>
+                                            <td>22 Jun - 28 Jun</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
@@ -117,20 +117,20 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25JUL01".slice(8)}</td>
-                                            <td>03 Jul - 13 Jul</td>
+                                            <td>{"LLT25JUL01".slice(8)}</td>
+                                            <td>05 Jul - 11 Jul</td>
                                             <td><span>17 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25JUL02".slice(8)}</td>
-                                            <td>10 Jul - 20 Jul</td>
+                                            <td>{"LLT25JUL02".slice(8)}</td>
+                                            <td>13 Jul - 19 Jul</td>
                                             <td><span>13 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>{"SLM25JUL03".slice(8)}</td>
-                                            <td>17 Jul - 28 Jul</td>
+                                            <td>{"LLT25JUL03".slice(8)}</td>
+                                            <td>20 Jul - 27 Jul</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
@@ -160,20 +160,20 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25AUG01".slice(8)}</td>
-                                            <td>01 Aug - 11 Aug</td>
+                                            <td>{"LLT25AUG01".slice(8)}</td>
+                                            <td>02 Aug - 08 Aug</td>
                                             <td><span>15 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25AUG02".slice(8)}</td>
-                                            <td>07 Aug - 17 Aug</td>
+                                            <td>{"LLT25AUG02".slice(8)}</td>
+                                            <td>10 Aug - 16 Aug</td>
                                             <td><span>12 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>{"SLM25AUG03".slice(8)}</td>
-                                            <td>14 Aug - 24 Aug</td>
+                                            <td>{"LLT25AUG03".slice(8)}</td>
+                                            <td>17 Aug - 23 Aug</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
@@ -203,20 +203,20 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25SEP01".slice(8)}</td>
-                                            <td>04 Sep - 14 Sep</td>
+                                            <td>{"LLT25SEP01".slice(8)}</td>
+                                            <td>01 Sep - 07 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25SEP02".slice(8)}</td>
-                                            <td>11 Sep - 21 Sep</td>
+                                            <td>{"LLT25SEP02".slice(8)}</td>
+                                            <td>13 Sep - 19 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
 
                                         <tr>
-                                            <td>{"SLM25SEP03".slice(8)}</td>
-                                            <td>18 Sep - 28 Sep</td>
+                                            <td>{"LLT25SEP03".slice(8)}</td>
+                                            <td>21 Sep - 27 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         

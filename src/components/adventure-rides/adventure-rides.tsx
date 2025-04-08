@@ -57,6 +57,41 @@ export default component$(() => {
                             </div>
                         </div>
 
+                        <div class="col-md-6 col-lg-4">
+                            <div class="package-wrap">
+                            <figure class="feature-image">
+                                <a href="/bike-tours/leh-ladakh-with-turtuk" aria-label="Leh Ladakh With Turtuk" title="Leh Ladakh With Turtuk">
+                                    <ImgLehZanskarLeh alt="Leh Ladakh With Turtuk" />
+                                </a>
+                            </figure>
+                            <div class="package-price">
+                                <span class="price-badge">₹ 16,500 / pp</span>
+                            </div>
+                            <div class="package-content-wrap">
+                                <div class="package-meta text-center">
+                                    <ul>
+                                        <li> <i class="fas fa-calendar-alt"></i> 07 Days </li>
+                                        <li> <i class="fas fa-map-marked-alt"></i> Leh - Leh </li>
+                                    </ul>
+                                </div>
+                                <div class="package-content d-md-block">
+                                    <h3><a href="/bike-tours/leh-ladakh-with-turtuk" aria-label="Leh Ladakh With Turtuk" title="Leh Ladakh With Turtuk">Leh Ladakh With Turtuk</a></h3>
+                                    <div class="col-12">
+                                        <OverviewIcons highestAltitude="18380ft" distance="720km" duration="7D/6N" lodging="Hotel/Camp" meal="BF/Din" />
+                                    </div>
+                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
+                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 23,000</del></span>
+                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 16,500/- </span>per person
+
+                                    <div class="btn-wrap">
+                                        <a class="button-text width-6" href="/downloads/bike-tours/leh-ladakh-with-turtuk.pdf" download="Leh Ladakh With Turtuk" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
+                                        <a href="/bike-tours/leh-ladakh-with-turtuk" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
                         <div class="col-md-6 col-lg-4"> 
                             <div class="package-wrap">
                             <figure class="feature-image">
@@ -122,41 +157,6 @@ export default component$(() => {
                                     <div class="btn-wrap">
                                         <a class="button-text width-6" href="/downloads/bike-tours/ladakh-srinagar-with-umling-la.pdf" download="Ladakh Srinagar Umling La" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
                                         <a href="/bike-tours/ladakh-srinagar-with-umling-la" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="package-wrap">
-                            <figure class="feature-image">
-                                <a href="/bike-tours/leh-ladakh-with-turtuk" aria-label="Leh Ladakh With Turtuk" title="Leh Ladakh With Turtuk">
-                                    <ImgLehZanskarLeh alt="Leh Ladakh With Turtuk" />
-                                </a>
-                            </figure>
-                            <div class="package-price">
-                                <span class="price-badge">₹ 28,500 / pp</span>
-                            </div>
-                            <div class="package-content-wrap">
-                                <div class="package-meta text-center">
-                                    <ul>
-                                        <li> <i class="fas fa-calendar-alt"></i> 07 Days </li>
-                                        <li> <i class="fas fa-map-marked-alt"></i> Leh - Leh </li>
-                                    </ul>
-                                </div>
-                                <div class="package-content d-md-block">
-                                    <h3><a href="/bike-tours/leh-ladakh-with-turtuk" aria-label="Leh Ladakh With Turtuk" title="Leh Ladakh With Turtuk">Leh Ladakh With Turtuk</a></h3>
-                                    <div class="col-12">
-                                        <OverviewIcons highestAltitude="18380ft" distance="720km" duration="7D/6N" lodging="Hotel/Camp" meal="BF/Din" />
-                                    </div>
-                                    <span style="color: #000; margin-right: 5px;">Starting from</span> 
-                                    <span style="color: #767474; margin-right: 5px;"><del>₹ 34,000</del></span>
-                                    <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 28,500/- </span>per person
-
-                                    <div class="btn-wrap">
-                                        <a class="button-text width-6" href="/downloads/bike-tours/leh-ladakh-with-turtuk.pdf" download="Leh Ladakh With Turtuk" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
-                                        <a href="/bike-tours/leh-ladakh-with-turtuk" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
                             </div>

@@ -13,7 +13,7 @@ export default component$(() => {
 
             <h3>Pre-Tour Preparation</h3>
             <ol>
-                <li><strong>Fitness Check:</strong>Kindly be sure to check up with your doctor if you are fit enough to undertake long-distance motor bike riding in high altitudes.</li>
+                <li><strong>Fitness Check:</strong> Kindly be sure to check up with your doctor if you are fit enough to undertake long-distance motor bike riding in high altitudes.</li>
                 <li><strong>Gear Up:</strong> Don't forget to only carry vital biking equipment which include boots designed for wet conditions, thermals, raincoats, and other forms of clothing for dynamic weather scenarios. An approved helmet, armored riding jackets, gloves, knee guards will be provided by Us.</li>
                 <li><strong>Bike Condition:</strong> In case you prefer to use your own bike, conduct detailed checks on systems such as brakes, tires, lights, and the engine for optimal conditions.</li>
                 <li><strong>Documents:</strong> Retain your driving license, motorcycle registration, certified insurance, pollution control cert. and permits given by Ladakhmoto on hand.</li>

@@ -39,17 +39,24 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LLA25ARP02".slice(8)}</td>
                                             <td>19 Apr - 24 Apr</td>
-                                            <td><span>Filling Fast</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LLA25ARP03".slice(8)}</td>
                                             <td>26 Apr - 01 May</td>
-                                            <td><span>6 Seats left</span></td>
+                                            <td><span>5 Seats left</span></td>
                                         </tr>
                                         
                                     </tbody>
                                 </table>
+
+                                <span class="animated-arrow">👉</span>
+                                <h4 class="note-heading">Note:</h4>
+                                <ul class="note-list">
+                                    <li>Closing soon. Grab your seat with special discount</li>
+                                    <li>If you are more than 7 person, we can arrange new slot.</li>
+                                </ul>
 
                             </div>
                         </div>
