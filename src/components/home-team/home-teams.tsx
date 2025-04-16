@@ -9,7 +9,7 @@ export default component$(() => {
     useStylesScoped$(styles);
 
     return (
-        <div class="container">
+        <div id="our-team" class="container">
             <div class="row">
                 <div class="intro">
                     <h2>Our Team</h2>

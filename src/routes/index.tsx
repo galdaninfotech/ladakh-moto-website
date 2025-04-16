@@ -1,11 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Intro from "~/components/intro/intro";
-import Testimonials from "~/components/testimonials/testimonials";
 import HomePackages from "~/components/home-packages/home-packages";
 import AdventureRides from "~/components/adventure-rides/adventure-rides";
 import EnquiryPopup from "~/components/enquiry-popup/enquiry-popup";
 import HomeTeams from "~/components/home-team/home-teams";
+import GoogleReviews from "~/components/google-reviews/google-reviews";
 
 export default component$(() => {
 
@@ -15,7 +15,7 @@ export default component$(() => {
             <AdventureRides />
             <HomePackages />
             <HomeTeams />
-            <Testimonials />
+            <GoogleReviews />
             <EnquiryPopup />
 
             
