@@ -105,7 +105,7 @@ export const handler: Handler = async (event) => {
         from: 'Booking Form <booking@ladakhmoto.com>',
         to: 'info@ladakhmoto.com',
         reply_to: email,
-        subject: `New Booking Request - ${tourName}`,
+        subject: `New Booking Request - ${email}`,
         html: `
           <h2>New Booking Request</h2>
           <p><strong>Tour Name:</strong> ${tourName}</p>
