@@ -37,3 +37,37 @@ table.table tr td>span.closed {
     color: #c90202;
     border: 1px solid red;
 }
+
+
+
+
+/* Note */
+h4.note-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #61707f;
+    font-weight: 500;
+    display: inline;
+    margin-left: 10px;
+}
+ul.note-list {
+    margin-top: -8px;
+}
+ul.note-list li {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.animated-arrow {
+    display: inline-block;
+    font-size: 16px;
+    animation: moveArrow 2.2s ease-in-out infinite;
+}
+@keyframes moveArrow {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(6px);
+    }
+}

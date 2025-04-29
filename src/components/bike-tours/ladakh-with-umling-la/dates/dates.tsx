@@ -33,7 +33,7 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LUL25MAY01".slice(8)}</td>
                                             <td>03 May - 10 May</td>
-                                            <td><span>6 Seats Left</span></td>
+                                            <td><span>4 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
@@ -56,6 +56,13 @@ export default component$(() => {
                                         
                                     </tbody>
                                 </table>
+
+                                <span class="animated-arrow">👉</span>
+                                <h4 class="note-heading">Note:</h4>
+                                <ul class="note-list">
+                                    <li>Closing soon. Grab your seat with special discount</li>
+                                    <li>If you are more than 7 person, we can arrange new slot.</li>
+                                </ul>
 
                             </div>
                         </div>

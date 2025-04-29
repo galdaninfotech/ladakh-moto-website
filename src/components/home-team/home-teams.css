@@ -21,8 +21,6 @@ figure.snip1477 {
   overflow: hidden;
   margin: 10px;
   min-width: 230px;
-  /* max-width: 315px; */
-  /* width: 100%; */
   color: #ffffff;
   text-align: center;
   font-size: 16px;
@@ -123,20 +121,13 @@ figure.snip1477 figcaption {
 }
 
 figure.snip1477 figcaption p {
-  /* margin: 0; */
     position: relative;
     bottom: 45px;
 }
 figure.snip1477 figcaption span a {
     margin-right: 10px !important;
 }
-figure.snip1477 a {
-  /* position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; */
-}
+
 figure.snip1477 figcaption span a {
     font-size: 40px;
 }
