@@ -14,10 +14,11 @@ export default component$(() => {
             </div>
             <div class="itinerary-accordian">
                 <div class="accordion" id="itineraryAccordion">
+                    
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse1" aria-expanded="true" aria-controls="itineraryCollapse1" onClick$={handleAccordionScrollIntoView}>
-                            Day 01 : Arrival in Leh
+                            Day 01 : Arrival in Leh  
                             </button>
                         </h3>
                         <div id="itineraryCollapse1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">

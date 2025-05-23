@@ -69,7 +69,8 @@ export default component$(() => {
                                         <ul>
                                             <li><a aria-label="Leh Ladakh Adventure" title="Leh Ladakh Adventure" href="/bike-tours/leh-ladakh-adventure">Leh Ladakh Adventure</a></li>
                                             <li><a aria-label="Leh Ladakh With Turtuk" title="Leh Ladakh With Turtuk" href="/bike-tours/leh-ladakh-with-turtuk">Leh Ladakh With Turtuk</a></li>
-                                            <li><a aria-label="Ladakh With Umling La" title="Ladakh With Umling La" href="/bike-tours/ladakh-with-umling-la">Ladakh With Umling La</a></li>
+                                            <li><a aria-label="Ladakh With Umling La" title="Ladakh With Umling La" href="/bike-tours/ladakh-with-umling-la">Ladakh With Umling La</a></li>                             
+                                            <li><a aria-label="Manali Leh With Umling La" title="Manali Leh With Umling La" href="/bike-tours/manali-leh-with-umling-la">Manali Leh With Umling La</a></li>                             
                                             <li><a aria-label="Ladakh Srinagar With Umling La" title="Ladakh Srinagar With Umling La" href="/bike-tours/ladakh-srinagar-with-umling-la">Ladakh Srinagar With Umling La</a></li>
                                             <li><a aria-label="Manali Leh Srinagar" title="Manali Leh Srinagar" href="/bike-tours/manali-leh-srinagar">Manali Leh Srinagar</a></li>
                                             <li><a aria-label="Srinagar Leh Manali" title="Srinagar Leh Manali" href="/bike-tours/srinagar-leh-manali">Srinagar Leh Manali</a></li>
@@ -78,7 +79,7 @@ export default component$(() => {
                                     </li>
                                     <li class="dropdown">
                                         <a aria-label="Holiday Packages" title="Holiday Packages" href="#">Holiday Packages</a>
-                                        <ul>
+                                        <ul> 
                                             <li><a aria-label="All Ladakh Tour" title="All Ladakh Tour" href="/bike-tour-packages/all-ladakh-tour">All Ladakh Tour</a></li>
                                             <li><a aria-label="Amazing Ladakh Tour" title="Amazing Ladakh Tour" href="/bike-tour-packages/amazing-ladakh">Amazing Ladakh Tour</a></li>
                                             <li><a aria-label="Ladakh Tour With Hanle" title="Ladakh Tour With Hanle" href="/bike-tour-packages/ladakh-tour-with-hanle">Ladakh Tour With Hanle</a></li>

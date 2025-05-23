@@ -1,0 +1,38 @@
+.accordion-item .accordion-header button.accordion-button {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.itineraryCollapse1 .accordion-body .itinerary strong {
+    font-size: 14px;
+}
+
+.accordion-body .itinerary strong {
+    margin-right: 16px;
+}
+
+.accordion-body .itinerary {
+    max-width: 450px;
+}
+.accordion-body .itinerary div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+table.table tr td>span:last-child {
+    color: #017272;
+    border: 2px solid teal;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.3rem;
+}
+table.table tr td>span.closed {
+    color: #c90202;
+    border: 1px solid red;
+}
