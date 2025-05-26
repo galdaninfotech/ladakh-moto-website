@@ -33,19 +33,19 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LZL25MAY01".slice(8)}</td>
                                             <td>01 May - 10 May</td>
-                                            <td><span>Filling Fast</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LZL25MAY02".slice(8)}</td>
                                             <td>13 May - 22 May</td>
-                                            <td><span>6 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LZL25MAY03".slice(8)}</td>
                                             <td>15 May - 24 May</td>
-                                            <td><span>Limited Seats</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -93,6 +93,14 @@ export default component$(() => {
                                         
                                     </tbody>
                                 </table>
+
+
+                                <span class="animated-arrow">👉</span>
+                                <h4 class="note-heading">Note:</h4>
+                                <ul class="note-list">
+                                    <li>Closing soon. Grab your seat with special discount</li>
+                                    <li>If you are more than 7 person, we can arrange new slot.</li>
+                                </ul>
 
                             </div>
                         </div>

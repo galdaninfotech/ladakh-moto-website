@@ -33,30 +33,25 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LLT25MAY01".slice(8)}</td>
                                             <td>01 May - 07 May</td>
-                                            <td><span>Filling Fast</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LLT25MAY02".slice(8)}</td>
                                             <td>10 May - 16 May</td>
-                                            <td><span>6 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LLT25MAY03".slice(8)}</td>
                                             <td>18 May - 24 May</td>
-                                            <td><span>5 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                     </tbody>
                                 </table>
 
-                                <span class="animated-arrow">👉</span>
-                                <h4 class="note-heading">Note:</h4>
-                                <ul class="note-list">
-                                    <li>Closing soon. Grab your seat with special discount</li>
-                                    <li>If you are more than 7 person, we can arrange new slot.</li>
-                                </ul>
+                     
 
                             </div>
                         </div>
@@ -83,7 +78,7 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LLT25JUN01".slice(8)}</td>
                                             <td>01 Jun - 07 Jun</td>
-                                            <td><span>14 Seats Left</span></td>
+                                            <td><span>Filling Fast</span></td>
                                         </tr>
                                         
                                         <tr>
@@ -100,6 +95,14 @@ export default component$(() => {
                                         
                                     </tbody>
                                 </table>
+
+
+                                <span class="animated-arrow">👉</span>
+                                <h4 class="note-heading">Note:</h4>
+                                <ul class="note-list">
+                                    <li>Closing soon. Grab your seat with special discount</li>
+                                    <li>If you are more than 7 person, we can arrange new slot.</li>
+                                </ul>
 
                             </div>
                         </div>

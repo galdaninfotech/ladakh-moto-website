@@ -33,19 +33,19 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LS25MAY01".slice(8)}</td>
                                             <td>1 May - 11 May</td>
-                                            <td><span>4 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LS25MAY02".slice(8)}</td>
                                             <td>13 May - 23 May</td>
-                                            <td><span>8 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LS25MAY03".slice(8)}</td>
                                             <td>15 May - 25 May</td>
-                                            <td><span>Filling Fast</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -68,7 +68,7 @@ export default component$(() => {
                                         <tr>
                                             <th>Tour</th>
                                             <th>Date</th>
-                                            <th>Status</th>
+                                            <th>Statuszz</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -91,6 +91,13 @@ export default component$(() => {
                                         </tr>
                                     </tbody>
                                 </table>
+
+                                <span class="animated-arrow">👉</span>
+                                <h4 class="note-heading">Note:</h4>
+                                <ul class="note-list">
+                                    <li>Closing soon. Grab your seat with special discount</li>
+                                    <li>If you are more than 7 person, we can arrange new slot.</li>
+                                </ul>
 
                             </div>
                         </div>
