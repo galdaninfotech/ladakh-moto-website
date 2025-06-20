@@ -26,7 +26,7 @@ export default component$(() => {
                                         <tr>
                                             <th>Tour</th>
                                             <th>Date</th>
-                                            <th>Statusz</th>
+                                            <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -83,19 +83,19 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LUL25JUN01".slice(8)}</td>
                                             <td>07 June - 14 June</td>
-                                            <td><span>Filling Fast</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LUL25JUN02".slice(8)}</td>
                                             <td>14 June - 21 June</td>
-                                            <td><span>12 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LUL25JUN03".slice(8)}</td>
                                             <td>21 June - 28 June</td>
-                                            <td><span>9 Seats Left</span></td>
+                                            <td><span>5 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
@@ -152,13 +152,13 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LUL25JUL03".slice(8)}</td>
                                             <td>19 July - 26 July</td>
-                                            <td><span>16 Seats Left</span></td>
+                                            <td><span>15 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LUL25JUL04".slice(8)}</td>
                                             <td>26 July - 02 Aug</td>
-                                            <td><span>14 Seats Left</span></td>
+                                            <td><span>12 Seats Left</span></td>
                                         </tr>
                                         
                                     </tbody>

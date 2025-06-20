@@ -128,13 +128,13 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LLA25JUN01".slice(8)}</td>
                                             <td>07 June - 12 June</td>
-                                            <td><span>Filling Fast</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LLA25JUN02".slice(8)}</td>
                                             <td>14 June - 19 June</td>
-                                            <td><span>8 seats left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
@@ -184,7 +184,7 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LLA25JUL01".slice(8)}</td>
                                             <td>05 July - 10 July</td>
-                                            <td><span>13 Seats left</span></td>
+                                            <td><span>12 Seats left</span></td>
                                         </tr>
                                         
                                         <tr>

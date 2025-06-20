@@ -44,7 +44,7 @@ export default component$(() => {
                     <div class="container">
                         <div class="d-flex justify-content-between">
                             <a href="tel:+91-9622958013"><i class="fal fa-phone-alt" style="margin-right: 8px;" aria-label="Phone Number" title="Phone Number"></i>+91-9622958013</a>
-                            <a href="tel:+91-9906989962"><i class="fal fa-phone-alt" style="margin-right: 8px;" aria-label="Phone Number" title="Phone Number"></i>+91-9906989962</a>
+                            <a href="tel:+91-9622958013"><i class="fal fa-phone-alt" style="margin-right: 8px;" aria-label="Phone Number" title="Phone Number"></i>+91-9906989962</a>
                         </div>
                     </div>
                 </div>

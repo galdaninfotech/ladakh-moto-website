@@ -68,26 +68,26 @@ export default component$(() => {
                                         <tr>
                                             <th>Tour</th>
                                             <th>Date</th>
-                                            <th>Statuszz</th>
+                                            <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>{"LS25JUN01".slice(8)}</td>
                                             <td>05 Jun - 14 Jun</td>
-                                            <td><span>Limited Seats</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LS25JUN02".slice(8)}</td>
                                             <td>12 Jun - 21 Jun</td>
-                                            <td><span>14 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LS25JUN03".slice(8)}</td>
                                             <td>19 Jun - 28 Jun</td>
-                                            <td><span>12 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -124,7 +124,7 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LS25JUL01".slice(8)}</td>
                                             <td>03 Jul - 12 Jul</td>
-                                            <td><span>15 Seats Left</span></td>
+                                            <td><span>14 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
@@ -166,7 +166,7 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LS25AUG01".slice(8)}</td>
                                             <td> 01 Aug - 10 Aug</td>
-                                            <td><span>17 Seats Left</span></td>
+                                            <td><span>16 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
@@ -214,7 +214,7 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LS25SEP02".slice(8)}</td>
                                             <td>11 Sep - 20 Sep</td>
-                                            <td><span>14 Seats Left</span></td>
+                                            <td><span>12 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>

@@ -76,19 +76,19 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LZL25JUN01".slice(8)}</td>
                                             <td>05 Jun - 14 Jun</td>
-                                            <td><span>8 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LZL25JUN02".slice(8)}</td>
                                             <td>12 Jun - 21 Jun</td>
-                                            <td><span>12 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LZL25JUN03".slice(8)}</td>
                                             <td>19 Jun - 28 Jun</td>
-                                            <td><span>Filling Fast</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -127,13 +127,13 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LZL25JUL01".slice(8)}</td>
                                             <td>03 July - 12 July</td>
-                                            <td><span>16 Seats Left</span></td>
+                                            <td><span>15 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LZL25JUL02".slice(8)}</td>
                                             <td>10 July - 19 July</td>
-                                            <td><span>10 Seats Left</span></td>
+                                            <td><span>9 Seats Left</span></td>
                                         </tr>
 
                                         <tr>
