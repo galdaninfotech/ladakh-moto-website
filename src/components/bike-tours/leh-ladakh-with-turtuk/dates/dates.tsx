@@ -140,7 +140,7 @@ export default component$(() => {
 
                                         <tr>
                                             <td>{"LLT25JUL03".slice(8)}</td>
-                                            <td>20 Jul - 27 Jul</td>
+                                            <td>20 Jul - 26 Jul</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
