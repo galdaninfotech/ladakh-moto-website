@@ -124,7 +124,7 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LS25JUL01".slice(8)}</td>
                                             <td>03 Jul - 12 Jul</td>
-                                            <td><span>14 Seats Left</span></td>
+                                            <td><span>06 Seats Left</span></td>
                                         </tr>
                                         
                                         <tr>

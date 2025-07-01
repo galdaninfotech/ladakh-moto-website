@@ -10,7 +10,7 @@ export default component$(() => {
                 <h2>Tour Dates</h2>
             </div>
             <div class="itinerary-accordian">
-                <div class="accordion" id="itineraryAccordion">
+                <div class="accordion" id="itineraryAccordion"> 
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
@@ -126,13 +126,13 @@ export default component$(() => {
                                         <tr>
                                             <td>{"SLM25JUL01".slice(8)}</td>
                                             <td>03 Jul - 12 Jul</td>
-                                            <td><span>14 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"SLM25JUL02".slice(8)}</td>
                                             <td>10 Jul - 19 Jul</td>
-                                            <td><span>11 Seats Left</span></td>
+                                            <td><span>08 Seats Left</span></td>
                                         </tr>
 
                                         <tr>

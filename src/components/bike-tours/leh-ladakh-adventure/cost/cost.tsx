@@ -45,6 +45,9 @@ export default component$(() => {
                             <td>Innova/Xylo</td>
                             <td>₹ 17,500/- PP</td>
                         </tr>
+                        <tr>
+                            <td className="flex items-center justify-end" colSpan={3}><strong><span class="animated-arrow">👉</span> Solo rider private room upgrade: extra Rs 4500</strong></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
