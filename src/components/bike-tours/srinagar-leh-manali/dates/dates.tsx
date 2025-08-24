@@ -132,13 +132,13 @@ export default component$(() => {
                                         <tr>
                                             <td>{"SLM25JUL02".slice(8)}</td>
                                             <td>10 Jul - 19 Jul</td>
-                                            <td><span>08 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"SLM25JUL03".slice(8)}</td>
                                             <td>17 Jul - 26 Jul</td>
-                                            <td><span>Open</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -169,19 +169,19 @@ export default component$(() => {
                                         <tr>
                                             <td>{"SLM25AUG01".slice(8)}</td>
                                             <td>01 Aug - 10 Aug</td>
-                                            <td><span>14 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"SLM25AUG02".slice(8)}</td>
                                             <td>07 Aug - 16 Aug</td>
-                                            <td><span>10 Seats Left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"SLM25AUG03".slice(8)}</td>
                                             <td>14 Aug - 23 Aug</td>
-                                            <td><span>Open</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                     </tbody>
