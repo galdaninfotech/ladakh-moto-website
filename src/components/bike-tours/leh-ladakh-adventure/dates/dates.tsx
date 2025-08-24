@@ -140,13 +140,13 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LLA25JUN03".slice(8)}</td>
                                             <td>21 June - 26 June</td>
-                                            <td><span>12 seats left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LLA25JUN04".slice(8)}</td>
                                             <td>28 June - 03 July</td>
-                                            <td><span>16 seats left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -184,25 +184,25 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LLA25JUL01".slice(8)}</td>
                                             <td>05 July - 10 July</td>
-                                            <td><span>05 Seats left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LLA25JUL02".slice(8)}</td>
                                             <td>12 July - 17 July</td>
-                                            <td><span>08 seats left </span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LLA25JUL03".slice(8)}</td>
                                             <td>19 July - 24 July</td>
-                                            <td><span>Filling fast</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LLA25JUL04".slice(8)}</td>
                                             <td>26 July - 31 July</td>
-                                            <td><span>Open</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -233,25 +233,25 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LLA25AUG01".slice(8)}</td>
                                             <td>02 Aug - 07 Aug</td>
-                                            <td><span>Filling Fast</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LLA25AUG02".slice(8)}</td>
                                             <td>09 Aug - 14 Aug</td>
-                                            <td><span>11 Seats left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LLA25AUG03".slice(8)}</td>
                                             <td>16 Aug -21 Aug</td>
-                                            <td><span>Open</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LLA25AUG04".slice(8)}</td>
                                             <td>23 Aug - 28 Aug</td>
-                                            <td><span>Open</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -282,24 +282,24 @@ export default component$(() => {
                                         <tr>
                                             <td>{"LLA25SEP01".slice(8)}</td>
                                             <td>06 Sept - 11 Sept</td>
-                                            <td><span>Open</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
                                             <td>{"LLA25SEP02".slice(8)}</td>
                                             <td>13 Sept - 18 Sept</td>
-                                            <td><span>17 Seats left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LLA25SEP03".slice(8)}</td>
                                             <td>20 Sept - 25 Sept</td>
-                                            <td><span>14 Seats left</span></td>
+                                            <td><span class="closed">Closed</span></td>
                                         </tr>
 
                                         <tr>
                                             <td>{"LLA25SEP04".slice(8)}</td>
-                                            <td>27 Sept - 01 Oct</td>
+                                            <td>27 Sept - 02 Oct</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
