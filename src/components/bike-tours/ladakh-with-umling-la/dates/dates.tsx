@@ -115,56 +115,6 @@ export default component$(() => {
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse1" aria-expanded="true" aria-controls="itineraryCollapse1">
-                            May 2025
-                            </button>
-                        </h3>
-                        <div id="itineraryCollapse1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">
-                            <div class="accordion-body">
-
-                                <table class="table table-striped table-hover tourdates">
-                                    <thead>
-                                        <tr>
-                                            <th>Tour</th>
-                                            <th>Date</th>
-                                            <th>Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>{"LUL25MAY01".slice(8)}</td>
-                                            <td>03 May - 10 May</td>
-                                            <td><span class="closed">Closed</span></td>
-                                        </tr>
-                                        
-                                        <tr>
-                                            <td>{"LUL25MAY02".slice(8)}</td>
-                                            <td>10 May -17 May</td>
-                                            <td><span class="closed">Closed</span></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>{"LUL25MAY03".slice(8)}</td>
-                                            <td>17 May - 24 May</td>
-                                            <td><span class="closed">Closed</span></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>{"LUL25MAY04".slice(8)}</td>
-                                            <td>24 May - 31 May</td>
-                                            <td><span class="closed">Closed</span></td>
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="true" aria-controls="itineraryCollapse2">
                             June 2026
                             </button>
@@ -364,8 +314,6 @@ export default component$(() => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

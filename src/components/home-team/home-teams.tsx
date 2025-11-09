@@ -2,7 +2,7 @@ import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './home-teams.css?inline';
 import ImgPhuntsogRigzin from '../../media/team/phuntsog-rigzin.webp?jsx';
 import ImgSkalzangGyatso from '../../media/team/skalzang-gyatso.webp?jsx';
-import ImgStanzinNamgyal from '../../media/team/stanzin-namgyal.webp?jsx';
+import ImgJigmetNamdol from '../../media/team/jigmet-namdol.webp?jsx';
 import ImgStanzinNamgial from '../../media/team/stanzin-namgial.webp?jsx';
 
 export default component$(() => {
@@ -54,10 +54,10 @@ export default component$(() => {
 
                 <div class="col-md-3">
                     <figure class="snip1477">
-                        <ImgStanzinNamgyal alt="Stanzin Namgyal" />
+                        <ImgJigmetNamdol alt="Jigmet Namdol" />
                         <div class="title">
                             <div>
-                            <h3>Stanzin Namgyal</h3>
+                            <h3>Jigmet Namdol</h3>
                             <h4>Operation</h4>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ export default component$(() => {
                             <span> <a style="margin-right: 10px;" href="https://www.facebook.com/ladakhmoto/" aria-label="Follow us on Facebook" title="Follow us on Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a> </span>
                             <span><a href="https://www.instagram.com/ladakhmototour/" aria-label="Follow us on Instagram" title="Follow us on Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
                         </figcaption>
-                        <a href="/team/stanzin-namgyal" aria-label="Stanzin Namgyal" title="Stanzin Namgyal"></a>
+                        <a href="/team/jigmet-namdol" aria-label="Jigmet Namdol" title="Jigmet Namdol"></a>
                     </figure>
                     <a href="/about/our-team" class="button-text width-6 float-right" aria-label="Read More" title="Read More">Read More...</a>
                 </div>
