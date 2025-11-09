@@ -10,7 +10,7 @@ export default component$(() => {
                 <h2>Tour Dates</h2>
             </div>
             <div class="itinerary-accordian">
-                <div class="accordion" id="itineraryAccordion"> 
+                <div class="accordion" id="itineraryAccordion">
 
                     <div class="accordion-item">
                         <h3 class="accordion-header">
@@ -31,23 +31,22 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25MAY01".slice(8)}</td>
-                                            <td>01 May - 11 May</td>
+                                            <td>{"LS25MAY01".slice(8)}</td>
+                                            <td>1 May - 11 May</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25MAY02".slice(8)}</td>
+                                            <td>{"LS25MAY02".slice(8)}</td>
                                             <td>13 May - 23 May</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
-
+                                        
                                         <tr>
-                                            <td>{"SLM25MAY03".slice(8)}</td>
+                                            <td>{"LS25MAY03".slice(8)}</td>
                                             <td>15 May - 25 May</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
-                                        
                                     </tbody>
                                 </table>
 
@@ -74,23 +73,22 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25JUN01".slice(8)}</td>
+                                            <td>{"LS25JUN01".slice(8)}</td>
                                             <td>05 Jun - 14 Jun</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25JUN02".slice(8)}</td>
+                                            <td>{"LS25JUN02".slice(8)}</td>
                                             <td>12 Jun - 21 Jun</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
-
+                                        
                                         <tr>
-                                            <td>{"SLM25JUN03".slice(8)}</td>
+                                            <td>{"LS25JUN03".slice(8)}</td>
                                             <td>19 Jun - 28 Jun</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
-                                        
                                     </tbody>
                                 </table>
 
@@ -114,7 +112,7 @@ export default component$(() => {
                         <div id="itineraryCollapse3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover tourdates">
+                                <table id="" class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -124,23 +122,22 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25JUL01".slice(8)}</td>
+                                            <td>{"LS25JUL01".slice(8)}</td>
                                             <td>03 Jul - 12 Jul</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25JUL02".slice(8)}</td>
+                                            <td>{"LS25JUL02".slice(8)}</td>
                                             <td>10 Jul - 19 Jul</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
-
+                                        
                                         <tr>
-                                            <td>{"SLM25JUL03".slice(8)}</td>
+                                            <td>{"LS25JUL03".slice(8)}</td>
                                             <td>17 Jul - 26 Jul</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
-                                        
                                     </tbody>
                                 </table>
 
@@ -151,13 +148,13 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="false" aria-controls="itineraryCollapse4">
-                            August 2025
+                            Aug2025
                             </button>
                         </h3>
                         <div id="itineraryCollapse4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover tourdates">
+                                <table id="" class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -167,23 +164,22 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25AUG01".slice(8)}</td>
-                                            <td>01 Aug - 10 Aug</td>
+                                            <td>{"LS25AUG01".slice(8)}</td>
+                                            <td> 01 Aug - 10 Aug</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25AUG02".slice(8)}</td>
+                                            <td>{"LS25AUG02".slice(8)}</td>
                                             <td>07 Aug - 16 Aug</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
-
+                                        
                                         <tr>
-                                            <td>{"SLM25AUG03".slice(8)}</td>
+                                            <td>{"LS25AUG03".slice(8)}</td>
                                             <td>14 Aug - 23 Aug</td>
                                             <td><span class="closed">Closed</span></td>
                                         </tr>
-                                        
                                     </tbody>
                                 </table>
 
@@ -200,7 +196,7 @@ export default component$(() => {
                         <div id="itineraryCollapse5" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                             <div class="accordion-body">
 
-                                <table class="table table-striped table-hover tourdates">
+                                <table id="" class="table table-striped table-hover tourdates">
                                     <thead>
                                         <tr>
                                             <th>Tour</th>
@@ -210,23 +206,22 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25SEP01".slice(8)}</td>
+                                            <td>{"LS25SEP01".slice(8)}</td>
                                             <td>04 Sep - 13 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25SEP02".slice(8)}</td>
+                                            <td>{"LS25SEP02".slice(8)}</td>
                                             <td>11 Sep - 20 Sep</td>
-                                            <td><span>Open</span></td>
+                                            <td><span>12 Seats Left</span></td>
                                         </tr>
-
+                                        
                                         <tr>
-                                            <td>{"SLM25SEP03".slice(8)}</td>
+                                            <td>{"LS25SEP03".slice(8)}</td>
                                             <td>18 Sep - 27 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
-                                        
                                     </tbody>
                                 </table>
 

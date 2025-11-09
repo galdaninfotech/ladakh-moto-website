@@ -15,7 +15,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse1" aria-expanded="true" aria-controls="itineraryCollapse1">
-                            May 2025
+                            May 2026
                             </button>
                         </h3>
                         <div id="itineraryCollapse1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">
@@ -31,25 +31,25 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25MAY01".slice(8)}</td>
-                                            <td>01 May - 11 May</td>
-                                            <td><span class="closed">Closed</span></td>
+                                            <td>{"SLM26MAY01".slice(8)}</td>
+                                            <td>02 May - 11 May</td>
+                                            <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25MAY02".slice(8)}</td>
-                                            <td>13 May - 23 May</td>
-                                            <td><span class="closed">Closed</span></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>{"SLM25MAY03".slice(8)}</td>
-                                            <td>15 May - 25 May</td>
-                                            <td><span class="closed">Closed</span></td>
+                                            <td>{"SLM26MAY02".slice(8)}</td>
+                                            <td>21 May - 30 May</td>
+                                            <td><span>Open</span></td>
                                         </tr>
                                         
                                     </tbody>
                                 </table>
+
+                                <span class="animated-arrow">👉</span>
+                                <h4 class="note-heading">Note:</h4>
+                                <ul class="note-list">
+                                    <li>Closing soon. Grab your seat with special discount</li>
+                                </ul>
 
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse2" aria-expanded="false" aria-controls="itineraryCollapse2">
-                            June 2025
+                            June 2026
                             </button>
                         </h3>
                         <div id="itineraryCollapse2" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -74,32 +74,19 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25JUN01".slice(8)}</td>
-                                            <td>05 Jun - 14 Jun</td>
-                                            <td><span class="closed">Closed</span></td>
+                                            <td>{"SLM26JUN01".slice(8)}</td>
+                                            <td>10 Jun - 19 Jun</td>
+                                            <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25JUN02".slice(8)}</td>
-                                            <td>12 Jun - 21 Jun</td>
-                                            <td><span class="closed">Closed</span></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>{"SLM25JUN03".slice(8)}</td>
-                                            <td>19 Jun - 28 Jun</td>
-                                            <td><span class="closed">Closed</span></td>
+                                            <td>{"SLM26JUN02".slice(8)}</td>
+                                            <td>30 Jun - 09 Jul</td>
+                                            <td><span>Open</span></td>
                                         </tr>
                                         
                                     </tbody>
                                 </table>
-
-                                <span class="animated-arrow">👉</span>
-                                <h4 class="note-heading">Note:</h4>
-                                <ul class="note-list">
-                                    <li>Closing soon. Grab your seat with special discount</li>
-                                    <li>If you are more than 7 person, we can arrange new slot.</li>
-                                </ul>
 
                             </div>
                         </div>
@@ -108,7 +95,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse3" aria-expanded="false" aria-controls="itineraryCollapse3">
-                            July 2025
+                            July 2026
                             </button>
                         </h3>
                         <div id="itineraryCollapse3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -124,21 +111,9 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25JUL01".slice(8)}</td>
-                                            <td>03 Jul - 12 Jul</td>
-                                            <td><span class="closed">Closed</span></td>
-                                        </tr>
-                                        
-                                        <tr>
-                                            <td>{"SLM25JUL02".slice(8)}</td>
-                                            <td>10 Jul - 19 Jul</td>
-                                            <td><span class="closed">Closed</span></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>{"SLM25JUL03".slice(8)}</td>
-                                            <td>17 Jul - 26 Jul</td>
-                                            <td><span class="closed">Closed</span></td>
+                                            <td>{"SLM26JUL01".slice(8)}</td>
+                                            <td>20 Jul - 29 Jul</td>
+                                            <td><span>Open</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -151,7 +126,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse4" aria-expanded="false" aria-controls="itineraryCollapse4">
-                            August 2025
+                            August 2026
                             </button>
                         </h3>
                         <div id="itineraryCollapse4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -167,21 +142,15 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25AUG01".slice(8)}</td>
-                                            <td>01 Aug - 10 Aug</td>
-                                            <td><span class="closed">Closed</span></td>
+                                            <td>{"SLM26AUG01".slice(8)}</td>
+                                            <td>09 Aug - 18 Aug</td>
+                                            <td><span>Open</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td>{"SLM25AUG02".slice(8)}</td>
-                                            <td>07 Aug - 16 Aug</td>
-                                            <td><span class="closed">Closed</span></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>{"SLM25AUG03".slice(8)}</td>
-                                            <td>14 Aug - 23 Aug</td>
-                                            <td><span class="closed">Closed</span></td>
+                                            <td>{"SLM26AUG02".slice(8)}</td>
+                                            <td>29 Aug - 07 Sep</td>
+                                            <td><span>Open</span></td>
                                         </tr>
                                         
                                     </tbody>
@@ -194,7 +163,7 @@ export default component$(() => {
                     <div class="accordion-item">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itineraryCollapse5" aria-expanded="false" aria-controls="itineraryCollapse5">
-                            September 2025
+                            September 2026
                             </button>
                         </h3>
                         <div id="itineraryCollapse5" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
@@ -210,20 +179,8 @@ export default component$(() => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>{"SLM25SEP01".slice(8)}</td>
-                                            <td>04 Sep - 13 Sep</td>
-                                            <td><span>Open</span></td>
-                                        </tr>
-                                        
-                                        <tr>
-                                            <td>{"SLM25SEP02".slice(8)}</td>
-                                            <td>11 Sep - 20 Sep</td>
-                                            <td><span>Open</span></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>{"SLM25SEP03".slice(8)}</td>
-                                            <td>18 Sep - 27 Sep</td>
+                                            <td>{"SLM26SEP01".slice(8)}</td>
+                                            <td>09 Sep - 28 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
