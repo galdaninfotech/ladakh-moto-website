@@ -180,7 +180,7 @@ export default component$(() => {
                                     <tbody>
                                         <tr>
                                             <td>{"SLM26SEP01".slice(8)}</td>
-                                            <td>09 Sep - 28 Sep</td>
+                                            <td>09 Sep - 18 Sep</td>
                                             <td><span>Open</span></td>
                                         </tr>
                                         
