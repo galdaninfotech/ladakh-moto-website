@@ -18,7 +18,7 @@ export default component$(() => {
                     <div class="row">
                         <div class="col-12">
                             <div class="intro">
-                                <h2>Adventure Rides 2025</h2>
+                                <h2>Adventure Rides 2026</h2>
                             </div>
                         </div>
 
