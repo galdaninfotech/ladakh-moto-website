@@ -1,16 +1,12 @@
 import { Handler } from '@netlify/functions';
-import nodemailer from 'nodemailer';
 import fetch from 'node-fetch';
+import { sendEmail } from '../../src/utils/email';
 
 // Check if required environment variables are set
-const SMTP_HOST = process.env.SMTP_HOST;
-const SMTP_PORT = process.env.SMTP_PORT;
-const SMTP_USER = process.env.SMTP_USER;
-const SMTP_PASS = process.env.SMTP_PASS;
 const VITE_RECAPTCHA_SECRET_KEY = process.env.VITE_RECAPTCHA_SECRET_KEY;
 
-if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS || !VITE_RECAPTCHA_SECRET_KEY) {
-  console.error('Missing required environment variables');
+if (!VITE_RECAPTCHA_SECRET_KEY) {
+  console.error('Missing required environment variable: VITE_RECAPTCHA_SECRET_KEY');
 }
 
 async function verifyRecaptcha(token: string): Promise<boolean> {
@@ -111,18 +107,7 @@ export const handler: Handler = async (event) => {
     }
 
     try {
-      const port = parseInt(SMTP_PORT || '587', 10);
-      const transporter = nodemailer.createTransport({
-        host: SMTP_HOST,
-        port: port,
-        secure: port === 465,
-        auth: {
-          user: SMTP_USER,
-          pass: SMTP_PASS,
-        },
-      });
-
-      const emailResponse = await transporter.sendMail({
+      const emailResponse = await sendEmail({
         from: 'Contact Form <contact-form@ladakhmoto.com>',
         to: 'info@ladakhmoto.com',
         replyTo: `${name} <${email}>`,

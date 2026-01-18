@@ -15,8 +15,14 @@ export async function sendEmail(options: EmailOptions) {
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_PASS;
 
+  console.log(`SMTP Config check - Host: ${host ? 'Set' : 'Missing'}, User: ${user ? 'Set' : 'Missing'}, Port: ${port}`);
+
   if (!host || !user || !pass) {
-    throw new Error('SMTP configuration is missing (SMTP_HOST, SMTP_USER, SMTP_PASS)');
+    const missing = [];
+    if (!host) missing.push('SMTP_HOST');
+    if (!user) missing.push('SMTP_USER');
+    if (!pass) missing.push('SMTP_PASS');
+    throw new Error(`SMTP configuration is missing: ${missing.join(', ')}`);
   }
 
   const transporter = nodemailer.createTransport({
