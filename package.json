@@ -34,6 +34,7 @@
     "@fullhuman/postcss-purgecss": "^7.0.2",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.12.7",
+    "@types/nodemailer": "^7.0.5",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
     "@typescript-eslint/parser": "^7.7.1",
     "autoprefixer": "^10.4.19",
@@ -52,6 +53,7 @@
     "@netlify/functions": "^3.0.0",
     "netlify-cli": "^19.0.2",
     "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.12",
     "resend": "^3.2.0",
     "sharp": "^0.34.2"
   }
