@@ -7,8 +7,8 @@
 
 ## Phase 2: Migration
 - [x] Task: Refactor the Contact Email API route/function to use the new Nodemailer utility. 4bc68d5
-- [~] Task: Refactor the Booking Email API route/function to use the new Nodemailer utility.
-- [ ] Task: Conductor - User Manual Verification 'Migration' (Protocol in workflow.md)
+- [x] Task: Refactor the Booking Email API route/function to use the new Nodemailer utility. 07365ff
+- [~] Task: Conductor - User Manual Verification 'Migration' (Protocol in workflow.md)
 
 ## Phase 3: Cleanup and Finalization
 - [ ] Task: Remove `resend` from `package.json` and uninstall the dependency.
