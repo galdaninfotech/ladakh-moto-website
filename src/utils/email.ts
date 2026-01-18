@@ -6,6 +6,7 @@ export interface EmailOptions {
   subject: string;
   text?: string;
   html?: string;
+  replyTo?: string;
 }
 
 export async function sendEmail(options: EmailOptions) {
@@ -34,6 +35,7 @@ export async function sendEmail(options: EmailOptions) {
     subject: options.subject,
     text: options.text,
     html: options.html,
+    replyTo: options.replyTo,
   };
 
   try {
