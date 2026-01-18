@@ -1,7 +1,7 @@
 # Track Plan: Migrate Email Service to Nodemailer
 
 ## Phase 1: Setup and Configuration
-- [ ] Task: Install `nodemailer` and `@types/nodemailer`.
+- [x] Task: Install `nodemailer` and `@types/nodemailer`. 4502db9
 - [ ] Task: Create a `utils/email.ts` (or similar) module to initialize the Nodemailer transporter using environment variables (`SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`).
 - [ ] Task: Conductor - User Manual Verification 'Setup and Configuration' (Protocol in workflow.md)
 
