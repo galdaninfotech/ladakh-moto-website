@@ -157,7 +157,7 @@ export default component$(() => {
                 throw new Error('Failed to verify reCAPTCHA. Please try again.');
             }
 
-            const response = await fetch('/.netlify/functions/booking', {
+            const response = await fetch('/api/booking', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

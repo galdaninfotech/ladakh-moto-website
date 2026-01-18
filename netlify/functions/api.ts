@@ -67,7 +67,8 @@ export const handler: Handler = async (event) => {
       throw new Error('No request body');
     }
 
-    const { name, email, message, recaptchaToken, honeypot } = JSON.parse(event.body);
+    const body = JSON.parse(event.body);
+    const { honeypot, recaptchaToken } = body;
 
     // Check honeypot
     if (honeypot) {
@@ -81,16 +82,34 @@ export const handler: Handler = async (event) => {
       };
     }
 
-    // Verify required fields
-    if (!name || !email || !message || !recaptchaToken) {
-      return {
-        statusCode: 400,
-        headers,
-        body: JSON.stringify({
-          success: false,
-          message: 'All fields are required'
-        })
-      };
+    // Determine request type
+    const isBooking = body.tourName !== undefined;
+    
+    // Validate required fields
+    if (isBooking) {
+        const { tourName, tourDate, travelMode, email, phone } = body;
+        if (!tourName || !tourDate || !travelMode || !email || !phone || !recaptchaToken) {
+            return {
+                statusCode: 400,
+                headers,
+                body: JSON.stringify({
+                    success: false,
+                    message: 'All required fields must be filled!'
+                })
+            };
+        }
+    } else {
+        const { name, email, message } = body;
+        if (!name || !email || !message || !recaptchaToken) {
+            return {
+                statusCode: 400,
+                headers,
+                body: JSON.stringify({
+                    success: false,
+                    message: 'All fields are required'
+                })
+            };
+        }
     }
 
     // Verify reCAPTCHA
@@ -107,20 +126,45 @@ export const handler: Handler = async (event) => {
     }
 
     try {
-      const emailResponse = await sendEmail({
-        from: 'Contact Form <contact-form@ladakhmoto.com>',
-        to: 'info@ladakhmoto.com',
-        replyTo: `${name} <${email}>`,
-        subject: `Message from ${name} <${email}>`,
-        text: message,
-      });
+      let emailResponse;
+      let successMessage;
+
+      if (isBooking) {
+        const { tourName, tourDate, travelMode, noOfPerson, email, phone } = body;
+        emailResponse = await sendEmail({
+            from: 'Booking Form <booking@ladakhmoto.com>',
+            to: 'info@ladakhmoto.com',
+            replyTo: email,
+            subject: `New Booking Request - ${email}`,
+            html: `
+              <h2>New Booking Request</h2>
+              <p><strong>Tour Name:</strong> ${tourName}</p>
+              <p><strong>Tour Date:</strong> ${tourDate}</p>
+              <p><strong>Travel Mode:</strong> ${travelMode}</p>
+              <p><strong>Number of Persons:</strong> ${noOfPerson}</p>
+              <p><strong>Email:</strong> ${email}</p>
+              <p><strong>Phone Number:</strong> ${phone}</p>
+            `,
+        });
+        successMessage = '👍 Booking request sent successfully! We will send you confirmation shortly.';
+      } else {
+        const { name, email, message } = body;
+        emailResponse = await sendEmail({
+            from: 'Contact Form <contact-form@ladakhmoto.com>',
+            to: 'info@ladakhmoto.com',
+            replyTo: `${name} <${email}>`,
+            subject: `Message from ${name} <${email}>`,
+            text: message,
+        });
+        successMessage = '👍 Message sent successfully! We will get back to you shortly.';
+      }
 
       return {
         statusCode: 200,
         headers,
         body: JSON.stringify({
           success: true,
-          message: '👍 Message sent successfully! We will get back to you shortly.',
+          message: successMessage,
           data: emailResponse
         })
       };
