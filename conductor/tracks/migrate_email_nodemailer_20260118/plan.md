@@ -6,8 +6,8 @@
 - [x] Task: Conductor - User Manual Verification 'Setup and Configuration' (Protocol in workflow.md)
 
 ## Phase 2: Migration
-- [ ] Task: Refactor the Contact Email API route/function to use the new Nodemailer utility.
-- [ ] Task: Refactor the Booking Email API route/function to use the new Nodemailer utility.
+- [x] Task: Refactor the Contact Email API route/function to use the new Nodemailer utility. 4bc68d5
+- [~] Task: Refactor the Booking Email API route/function to use the new Nodemailer utility.
 - [ ] Task: Conductor - User Manual Verification 'Migration' (Protocol in workflow.md)
 
 ## Phase 3: Cleanup and Finalization
