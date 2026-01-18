@@ -1,16 +1,17 @@
 import { Handler } from '@netlify/functions';
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 import fetch from 'node-fetch';
 
 // Check if required environment variables are set
-const RESEND_API_KEY = process.env.RESEND_API_KEY;
+const SMTP_HOST = process.env.SMTP_HOST;
+const SMTP_PORT = process.env.SMTP_PORT;
+const SMTP_USER = process.env.SMTP_USER;
+const SMTP_PASS = process.env.SMTP_PASS;
 const VITE_RECAPTCHA_SECRET_KEY = process.env.VITE_RECAPTCHA_SECRET_KEY;
 
-if (!RESEND_API_KEY || !VITE_RECAPTCHA_SECRET_KEY) {
+if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS || !VITE_RECAPTCHA_SECRET_KEY) {
   console.error('Missing required environment variables');
 }
-
-const resend = new Resend(RESEND_API_KEY);
 
 async function verifyRecaptcha(token: string): Promise<boolean> {
   try {
@@ -101,10 +102,21 @@ export const handler: Handler = async (event) => {
     }
 
     try {
-      const emailResponse = await resend.emails.send({
+      const port = parseInt(SMTP_PORT || '587', 10);
+      const transporter = nodemailer.createTransport({
+        host: SMTP_HOST,
+        port: port,
+        secure: port === 465,
+        auth: {
+          user: SMTP_USER,
+          pass: SMTP_PASS,
+        },
+      });
+
+      const emailResponse = await transporter.sendMail({
         from: 'Booking Form <booking@ladakhmoto.com>',
         to: 'info@ladakhmoto.com',
-        reply_to: email,
+        replyTo: email,
         subject: `New Booking Request - ${email}`,
         html: `
           <h2>New Booking Request</h2>
@@ -128,7 +140,7 @@ export const handler: Handler = async (event) => {
       };
 
     } catch (error) {
-      console.error('Email sending error:', error);
+      console.error('SMTP error:', error);
       return {
         statusCode: 500,
         headers,

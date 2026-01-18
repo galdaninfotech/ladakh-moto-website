@@ -1,7 +1,5 @@
 import { RequestHandler } from '@builder.io/qwik-city';
-import { Resend } from 'resend';
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+import { sendEmail } from '../../../utils/email';
 
 async function validateRecaptcha(token: string): Promise<boolean> {
     try {
@@ -76,10 +74,10 @@ export const onPost: RequestHandler = async ({ parseBody, json }) => {
             return;
         }
 
-        const emailResponse = await resend.emails.send({
+        const emailResponse = await sendEmail({
             from: 'Booking Form <booking@ladakhmoto.com>',
             to: 'info@ladakhmoto.com',
-            reply_to: email,
+            replyTo: email,
             subject: `New Booking Request - ${email}`,
             html: `
                 <h2>New Booking Request</h2>
