@@ -46,10 +46,10 @@ export default component$(() => {
                             <td>₹ 20,500/- PP</td>
                         </tr>
                         <tr>
-                            <td class="flex items-center justify-end" colSpan={3}><strong><span class="animated-arrow">👉</span> Solo rider private room upgrade: extra Rs 4500</strong></td>
+                            <td class="flex items-center justify-end" colSpan={3}><strong><span class="animated-arrow">👉</span> Solo rider private room upgrade: extra Rs 6000</strong></td>
                         </tr>
                         <tr>
-                            <td class="flex items-center justify-end" colSpan={3}><strong><span class="animated-arrow">👉</span> Bike (Himalayan 452) upgrade: extra Rs 8000</strong></td>
+                            <td class="flex items-center justify-end" colSpan={3}><strong><span class="animated-arrow">👉</span> Bike (Himalayan 452) upgrade: extra Rs 9000</strong></td>
                         </tr>
                     </tbody>
                 </table>
