@@ -119,7 +119,7 @@ export default component$(() => {
                                     <span style="color: teal; text-align: center; font-size: 14px; font-weight: 700;">₹ 19,500/- </span>per person
 
                                     <div class="btn-wrap">
-                                        <a class="button-text width-6" href="/downloads/bike-tours/ladakh-with-umling-la.pdf" download="Ladakh With Umling La" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
+                                        <a class="button-text width-6" href="/downloads/bike-tours/leh-ladakh-with-umling-la.pdf" download="Ladakh With Umling La" type="application/octet-stream" target="_blank" aria-label="Download PDF" title="Download PDF">Download PDF<i class="fas fa-angle-double-right"></i></a>
                                         <a href="/bike-tours/ladakh-with-umling-la" class="button-text width-6" aria-label="More Details" title="More Details">More Details<i class="fas fa-book-reader"></i></a>
                                     </div>
                                 </div>
